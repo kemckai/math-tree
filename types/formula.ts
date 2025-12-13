@@ -1,4 +1,5 @@
-ixport interface Example {
+export interface Example {
+  
   problem: string;
   solution: string;
   steps?: string[];
@@ -19,6 +20,13 @@ export interface Formula {
   topic: string;
 }
 
+export interface TopicExample {
+  title: string;
+  description: string;
+  solution?: string;
+  steps?: string[];
+}
+
 export interface Topic {
   id: string;
   name: string;
@@ -26,6 +34,12 @@ export interface Topic {
   children?: Topic[];
   formulas?: string[];
   description?: string;
+  examples?: TopicExample[];
+  graphics?: {
+    type: 'diagram' | 'chart' | 'illustration' | 'graph';
+    description: string;
+    latex?: string;
+  }[];
 }
 
 export interface FormulaMetadata {

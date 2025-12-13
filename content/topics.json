@@ -19,7 +19,32 @@
             "multiplication",
             "division"
           ],
-          "description": "Arithmetic is the foundation of all mathematics, dealing with basic operations: addition, subtraction, multiplication, and division. Used in everyday life for counting, measuring, calculating change, and solving practical problems. Key insight: These four operations form the building blocks for all higher mathematics."
+          "description": "Arithmetic is the foundation of all mathematics, dealing with basic operations: addition, subtraction, multiplication, and division. Used in everyday life for counting, measuring, calculating change, and solving practical problems. Key insight: These four operations form the building blocks for all higher mathematics.",
+          "examples": [
+            {
+              "title": "Adding Numbers",
+              "description": "15 + 27: Align vertically, add column by column = 42",
+              "solution": "42",
+              "steps": [
+                "Align: 15 and 27",
+                "Ones: 5+7=12, write 2, carry 1",
+                "Tens: 1+2+1=4",
+                "Result: 42"
+              ]
+            },
+            {
+              "title": "Multiplying",
+              "description": "6 \u00d7 8 = 48 (6 groups of 8 objects)",
+              "solution": "48"
+            }
+          ],
+          "graphics": [
+            {
+              "type": "illustration",
+              "description": "Visual: combining groups of objects to show addition",
+              "latex": null
+            }
+          ]
         },
         {
           "id": "fractions",
@@ -30,7 +55,32 @@
             "fraction-multiplication",
             "fraction-division"
           ],
-          "description": "Fractions represent parts of a whole, written as a/b where a is the numerator and b is the denominator. Used for measurements, ratios, probabilities, and dividing quantities. Key insight: Fractions allow precise representation of values between integers, essential for accurate calculations."
+          "description": "Fractions represent parts of a whole, written as a/b where a is the numerator and b is the denominator. Used for measurements, ratios, probabilities, and dividing quantities. Key insight: Fractions allow precise representation of values between integers, essential for accurate calculations.",
+          "examples": [
+            {
+              "title": "Adding Fractions",
+              "description": "1/3 + 1/4: Common denominator 12, so 4/12 + 3/12 = 7/12",
+              "solution": "7/12",
+              "steps": [
+                "LCM(3,4) = 12",
+                "Convert: 1/3=4/12, 1/4=3/12",
+                "Add: 4+3=7",
+                "Result: 7/12"
+              ]
+            },
+            {
+              "title": "Multiplying Fractions",
+              "description": "(2/3) \u00d7 (3/4) = 6/12 = 1/2",
+              "solution": "1/2"
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Pie charts showing 1/3 and 1/4 portions of a circle",
+              "latex": null
+            }
+          ]
         },
         {
           "id": "percentages",
@@ -40,7 +90,51 @@
             "percentage-calculation",
             "percentage-change"
           ],
-          "description": "Percentages express parts per hundred, making comparisons and calculations easier. Used in finance (interest rates, discounts), statistics (growth rates), and everyday situations (tips, taxes). Key insight: Percentages normalize different scales, allowing easy comparison of proportions."
+          "description": "Percentages express parts per hundred, making comparisons and calculations easier. Used in finance (interest rates, discounts), statistics (growth rates), and everyday situations (tips, taxes). Key insight: Percentages normalize different scales, allowing easy comparison of proportions.",
+          "examples": [
+            {
+              "title": "Calculating Percentage",
+              "description": "25% of 80 = 0.25 \u00d7 80 = 20",
+              "solution": "20",
+              "steps": [
+                "Convert: 25% = 0.25",
+                "Multiply: 0.25 \u00d7 80",
+                "Result: 20"
+              ]
+            },
+            {
+              "title": "Percentage Change",
+              "description": "Price $50 \u2192 $60: Increase = (60-50)/50 \u00d7 100 = 20%",
+              "solution": "20%"
+            }
+          ],
+          "graphics": [
+            {
+              "type": "chart",
+              "description": "Bar chart showing percentage relationships",
+              "latex": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Arithmetic Operations",
+          "description": "Basic operations: 15 + 27 = 42, 6 \u00d7 8 = 48, 100 \u00f7 4 = 25",
+          "solution": "Foundation of all math",
+          "steps": [
+            "Addition: combining quantities",
+            "Subtraction: taking away",
+            "Multiplication: repeated addition",
+            "Division: sharing equally"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "illustration",
+          "description": "Visual representation of basic arithmetic operations",
+          "latex": null
         }
       ]
     },
@@ -58,7 +152,26 @@
             "exponent-rules",
             "scientific-notation"
           ],
-          "description": "Exponents represent repeated multiplication (a\u207f means multiply a by itself n times). Used for scientific notation, compound interest, population growth, and exponential functions. Key insight: Exponents grow extremely fast, making them powerful for modeling growth and decay."
+          "description": "Exponents represent repeated multiplication (a\u207f means multiply a by itself n times). Used for scientific notation, compound interest, population growth, and exponential functions. Key insight: Exponents grow extremely fast, making them powerful for modeling growth and decay.",
+          "examples": [
+            {
+              "title": "Multiplying Powers",
+              "description": "2\u00b3 \u00d7 2\u2074 = 2\u2077 = 128 (add exponents when same base)",
+              "solution": "128",
+              "steps": [
+                "Same base: 2\u00b3 \u00d7 2\u2074",
+                "Add exponents: 3+4=7",
+                "Calculate: 2\u2077=128"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Exponential growth: y = 2^x",
+              "latex": "y = 2^x"
+            }
+          ]
         },
         {
           "id": "order-of-operations",
@@ -67,7 +180,45 @@
           "formulas": [
             "pemdas"
           ],
-          "description": "Order of operations (PEMDAS/BODMAS) determines the sequence for evaluating mathematical expressions. Essential for getting correct answers in multi-step calculations. Key insight: Without agreed-upon order, the same expression could yield different results."
+          "description": "Order of operations (PEMDAS/BODMAS) determines the sequence for evaluating mathematical expressions. Essential for getting correct answers in multi-step calculations. Key insight: Without agreed-upon order, the same expression could yield different results.",
+          "examples": [
+            {
+              "title": "PEMDAS",
+              "description": "3 + 4 \u00d7 2: Multiply first (8), then add (11)",
+              "solution": "11",
+              "steps": [
+                "PEMDAS order",
+                "Multiply: 4\u00d72=8",
+                "Add: 3+8=11"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Flowchart: Parentheses \u2192 Exponents \u2192 Multiply/Divide \u2192 Add/Subtract",
+              "latex": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Exponent Rules",
+          "description": "2\u00b3 \u00d7 2\u2074 = 2\u2077 = 128. When multiplying same base, add exponents",
+          "solution": "128",
+          "steps": [
+            "Same base: 2\u00b3 \u00d7 2\u2074",
+            "Add exponents: 3+4=7",
+            "Calculate: 2\u2077=128"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "graph",
+          "description": "Exponential growth showing y = 2^x",
+          "latex": "y = 2^x"
         }
       ]
     },
@@ -86,7 +237,27 @@
             "point-slope-form",
             "standard-form"
           ],
-          "description": "Linear equations describe relationships with constant rates of change, forming straight lines when graphed. Used in economics (supply/demand), physics (motion), and optimization. Key insight: Linear relationships are the simplest and most predictable mathematical models."
+          "description": "Linear equations describe relationships with constant rates of change, forming straight lines when graphed. Used in economics (supply/demand), physics (motion), and optimization. Key insight: Linear relationships are the simplest and most predictable mathematical models.",
+          "examples": [
+            {
+              "title": "Graphing y = 2x + 3",
+              "description": "Slope = 2, y-intercept = 3. Plot (0,3), use slope 2/1",
+              "solution": "Line through (0,3) with slope 2",
+              "steps": [
+                "m=2, b=3",
+                "Plot (0,3)",
+                "Rise 2, run 1",
+                "Draw line"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Graph of y = 2x + 3 showing slope and intercept",
+              "latex": "y = 2x + 3"
+            }
+          ]
         },
         {
           "id": "quadratics",
@@ -97,7 +268,27 @@
             "factoring",
             "completing-the-square"
           ],
-          "description": "Quadratic equations involve squared terms (ax\u00b2 + bx + c = 0) and form parabolas when graphed. Used in projectile motion, optimization problems, and engineering design. Key insight: Many real-world problems that involve maximums or minimums are quadratic."
+          "description": "Quadratic equations involve squared terms (ax\u00b2 + bx + c = 0) and form parabolas when graphed. Used in projectile motion, optimization problems, and engineering design. Key insight: Many real-world problems that involve maximums or minimums are quadratic.",
+          "examples": [
+            {
+              "title": "Solving x\u00b2 - 5x + 6 = 0",
+              "description": "Quadratic formula: x = (5 \u00b1 1)/2, so x = 3 or x = 2",
+              "solution": "x = 2 or 3",
+              "steps": [
+                "a=1, b=-5, c=6",
+                "Discriminant: 25-24=1",
+                "x = (5 \u00b1 1)/2",
+                "Solutions: 2, 3"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Parabola y = x\u00b2 - 5x + 6 with roots at x=2, x=3",
+              "latex": "y = x^2 - 5x + 6"
+            }
+          ]
         },
         {
           "id": "systems",
@@ -107,7 +298,47 @@
             "system-substitution",
             "system-elimination"
           ],
-          "description": "Systems of equations solve multiple equations simultaneously to find common solutions. Used in chemistry (balancing equations), economics (equilibrium), and engineering (circuit analysis). Key insight: Systems allow modeling complex relationships with multiple variables."
+          "description": "Systems of equations solve multiple equations simultaneously to find common solutions. Used in chemistry (balancing equations), economics (equilibrium), and engineering (circuit analysis). Key insight: Systems allow modeling complex relationships with multiple variables.",
+          "examples": [
+            {
+              "title": "System by Substitution",
+              "description": "y = 2x + 1, 3x + y = 10. Substitute: 3x + (2x+1) = 10, so x = 1.8, y = 4.6",
+              "solution": "x = 1.8, y = 4.6",
+              "steps": [
+                "Substitute y",
+                "3x + 2x + 1 = 10",
+                "5x = 9",
+                "x = 1.8, y = 4.6"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Two lines intersecting at solution point",
+              "latex": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Linear Equations",
+          "description": "Graph y = 2x + 3: slope 2, y-intercept 3. Forms straight line",
+          "solution": "Line with slope 2",
+          "steps": [
+            "Identify slope and intercept",
+            "Plot y-intercept",
+            "Use slope to find more points",
+            "Draw line"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "graph",
+          "description": "Graph of linear equation showing slope and intercept",
+          "latex": "y = 2x + 3"
         }
       ]
     },
@@ -126,7 +357,26 @@
             "pythagorean-theorem",
             "triangle-perimeter"
           ],
-          "description": "Triangles are three-sided polygons, the simplest closed shapes. Used in construction, navigation, trigonometry, and computer graphics. Key insight: Triangles are rigid structures and form the basis for all polygonal shapes."
+          "description": "Triangles are three-sided polygons, the simplest closed shapes. Used in construction, navigation, trigonometry, and computer graphics. Key insight: Triangles are rigid structures and form the basis for all polygonal shapes.",
+          "examples": [
+            {
+              "title": "Pythagorean Theorem",
+              "description": "Right triangle: legs 3, 4. Hypotenuse = \u221a(9+16) = 5",
+              "solution": "5",
+              "steps": [
+                "c\u00b2 = a\u00b2 + b\u00b2",
+                "c\u00b2 = 9 + 16 = 25",
+                "c = 5"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Right triangle with squares on each side showing a\u00b2 + b\u00b2 = c\u00b2",
+              "latex": "a^2 + b^2 = c^2"
+            }
+          ]
         },
         {
           "id": "circles",
@@ -136,7 +386,26 @@
             "circle-area",
             "circle-circumference"
           ],
-          "description": "Circles are perfectly round shapes with constant radius from a center point. Used in engineering (wheels, gears), physics (orbital motion), and design. Key insight: The circle maximizes area for a given perimeter, making it nature's most efficient shape."
+          "description": "Circles are perfectly round shapes with constant radius from a center point. Used in engineering (wheels, gears), physics (orbital motion), and design. Key insight: The circle maximizes area for a given perimeter, making it nature's most efficient shape.",
+          "examples": [
+            {
+              "title": "Circle Area",
+              "description": "Radius 5: Area = \u03c0 \u00d7 25 = 25\u03c0 \u2248 78.5",
+              "solution": "25\u03c0",
+              "steps": [
+                "A = \u03c0r\u00b2",
+                "A = \u03c0 \u00d7 5\u00b2",
+                "A = 25\u03c0"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Circle showing radius, diameter, area formula",
+              "latex": "A = \\pi r^2"
+            }
+          ]
         },
         {
           "id": "trigonometry",
@@ -147,7 +416,46 @@
             "unit-circle",
             "trig-identities"
           ],
-          "description": "Trigonometry studies relationships between angles and sides of triangles. Used in navigation, engineering, physics (waves, oscillations), and computer graphics. Key insight: Trigonometric functions model periodic phenomena found throughout nature."
+          "description": "Trigonometry studies relationships between angles and sides of triangles. Used in navigation, engineering, physics (waves, oscillations), and computer graphics. Key insight: Trigonometric functions model periodic phenomena found throughout nature.",
+          "examples": [
+            {
+              "title": "SOH-CAH-TOA",
+              "description": "Triangle: opp=3, adj=4, hyp=5. sin=3/5, cos=4/5, tan=3/4",
+              "solution": "sin=0.6, cos=0.8, tan=0.75",
+              "steps": [
+                "Identify sides",
+                "sin = opp/hyp = 3/5",
+                "cos = adj/hyp = 4/5",
+                "tan = opp/adj = 3/4"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Right triangle labeled: opposite, adjacent, hypotenuse",
+              "latex": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Pythagorean Theorem",
+          "description": "Right triangle with legs 3 and 4: hypotenuse = \u221a(9+16) = 5",
+          "solution": "5",
+          "steps": [
+            "Apply: c\u00b2 = a\u00b2 + b\u00b2",
+            "c\u00b2 = 9 + 16 = 25",
+            "c = 5"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagram",
+          "description": "Right triangle with squares demonstrating a\u00b2 + b\u00b2 = c\u00b2",
+          "latex": "a^2 + b^2 = c^2"
         }
       ]
     },
@@ -166,7 +474,26 @@
             "natural-logarithm",
             "change-of-base"
           ],
-          "description": "Logarithms are the inverse of exponents, answering \"what power gives this number?\" Used in measuring earthquakes (Richter scale), sound (decibels), and solving exponential equations. Key insight: Logarithms compress large ranges into manageable scales."
+          "description": "Logarithms are the inverse of exponents, answering \"what power gives this number?\" Used in measuring earthquakes (Richter scale), sound (decibels), and solving exponential equations. Key insight: Logarithms compress large ranges into manageable scales.",
+          "examples": [
+            {
+              "title": "Log Properties",
+              "description": "log(ab) = log(a) + log(b). Example: log(6) = log(2) + log(3)",
+              "solution": "log(2) + log(3)",
+              "steps": [
+                "Product rule",
+                "log(2\u00d73) = log(2) + log(3)",
+                "log(6) = log(2) + log(3)"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Logarithmic function curve y = log(x)",
+              "latex": "y = \\log(x)"
+            }
+          ]
         },
         {
           "id": "sequences",
@@ -177,7 +504,27 @@
             "geometric-sequence",
             "arithmetic-series"
           ],
-          "description": "Sequences are ordered lists of numbers following patterns. Used in computer science (algorithms), finance (compound interest), and modeling growth. Key insight: Many natural phenomena follow predictable sequences that can be described mathematically."
+          "description": "Sequences are ordered lists of numbers following patterns. Used in computer science (algorithms), finance (compound interest), and modeling growth. Key insight: Many natural phenomena follow predictable sequences that can be described mathematically.",
+          "examples": [
+            {
+              "title": "Arithmetic Sequence",
+              "description": "Sequence: 2, 5, 8, 11... Common difference d=3, nth term: a_n = 3n - 1",
+              "solution": "a_n = 3n - 1",
+              "steps": [
+                "a\u2081 = 2, d = 3",
+                "Formula: a_n = a\u2081 + d(n-1)",
+                "a_n = 2 + 3(n-1)",
+                "a_n = 3n - 1"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Linear sequence points showing arithmetic progression",
+              "latex": null
+            }
+          ]
         },
         {
           "id": "polynomials",
@@ -187,7 +534,46 @@
             "polynomial-division",
             "rational-roots"
           ],
-          "description": "Polynomials are expressions with multiple terms involving powers of variables. Used in curve fitting, approximation, and solving complex equations. Key insight: Polynomials can approximate almost any smooth function, making them versatile tools."
+          "description": "Polynomials are expressions with multiple terms involving powers of variables. Used in curve fitting, approximation, and solving complex equations. Key insight: Polynomials can approximate almost any smooth function, making them versatile tools.",
+          "examples": [
+            {
+              "title": "Polynomial Division",
+              "description": "Divide x\u00b3 + 2x\u00b2 - x - 2 by (x+1): Use synthetic division",
+              "solution": "x\u00b2 + x - 2",
+              "steps": [
+                "Set up synthetic division",
+                "Bring down coefficient",
+                "Multiply and add",
+                "Result: x\u00b2 + x - 2"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Synthetic division setup showing coefficients",
+              "latex": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Logarithm Properties",
+          "description": "log(ab) = log(a) + log(b). Example: log(6) = log(2) + log(3)",
+          "solution": "log(2) + log(3)",
+          "steps": [
+            "Product rule",
+            "log(2\u00d73) = log(2) + log(3)",
+            "log(6) = log(2) + log(3)"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "graph",
+          "description": "Logarithmic function curve showing slow growth",
+          "latex": "y = \\log(x)"
         }
       ]
     },
@@ -206,7 +592,26 @@
             "limit-rules",
             "lhopitals-rule"
           ],
-          "description": "Limits describe the behavior of functions as they approach specific values. Foundation of calculus, used to define derivatives and integrals. Key insight: Limits allow precise definition of instantaneous rates of change and accumulated quantities."
+          "description": "Limits describe the behavior of functions as they approach specific values. Foundation of calculus, used to define derivatives and integrals. Key insight: Limits allow precise definition of instantaneous rates of change and accumulated quantities.",
+          "examples": [
+            {
+              "title": "Limit Definition",
+              "description": "lim(x\u21922) (x\u00b2-4)/(x-2) = lim(x\u21922) (x+2) = 4",
+              "solution": "4",
+              "steps": [
+                "Factor: (x-2)(x+2)/(x-2)",
+                "Cancel: x+2",
+                "Substitute: 2+2=4"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Graph showing function approaching limit as x\u21922",
+              "latex": "\\lim_{x \\to 2} \\frac{x^2-4}{x-2} = 4"
+            }
+          ]
         },
         {
           "id": "derivatives",
@@ -218,7 +623,26 @@
             "quotient-rule",
             "chain-rule"
           ],
-          "description": "Derivatives measure instantaneous rates of change, representing slopes of tangent lines. Used in optimization, physics (velocity, acceleration), and economics (marginal analysis). Key insight: The derivative reveals how a quantity changes moment by moment."
+          "description": "Derivatives measure instantaneous rates of change, representing slopes of tangent lines. Used in optimization, physics (velocity, acceleration), and economics (marginal analysis). Key insight: The derivative reveals how a quantity changes moment by moment.",
+          "examples": [
+            {
+              "title": "Power Rule",
+              "description": "d/dx(x\u2075) = 5x\u2074 (multiply by exponent, decrease by 1)",
+              "solution": "5x\u2074",
+              "steps": [
+                "Power rule: d/dx(x\u207f) = nx\u207f\u207b\u00b9",
+                "n = 5",
+                "5x\u2075\u207b\u00b9 = 5x\u2074"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Graph of x\u2075 and its derivative 5x\u2074",
+              "latex": "\\frac{d}{dx}(x^5) = 5x^4"
+            }
+          ]
         },
         {
           "id": "integrals",
@@ -229,7 +653,46 @@
             "basic-integrals",
             "u-substitution"
           ],
-          "description": "Integrals calculate accumulated quantities, representing areas under curves. Used in physics (work, energy), probability, and finding total change. Key insight: Integration is the reverse of differentiation, connecting rates to totals."
+          "description": "Integrals calculate accumulated quantities, representing areas under curves. Used in physics (work, energy), probability, and finding total change. Key insight: Integration is the reverse of differentiation, connecting rates to totals.",
+          "examples": [
+            {
+              "title": "Basic Integral",
+              "description": "\u222bx\u00b2 dx = x\u00b3/3 + C (reverse of power rule)",
+              "solution": "x\u00b3/3 + C",
+              "steps": [
+                "Reverse power rule",
+                "Increase exponent: 2\u21923",
+                "Divide by new exponent: 1/3",
+                "Add constant C"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Area under curve x\u00b2 showing integration",
+              "latex": "\\int x^2 dx = \\frac{x^3}{3} + C"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Derivative Power Rule",
+          "description": "d/dx(x\u2075) = 5x\u2074. Multiply by exponent, decrease exponent by 1",
+          "solution": "5x\u2074",
+          "steps": [
+            "Power rule: d/dx(x\u207f) = nx\u207f\u207b\u00b9",
+            "n = 5",
+            "5x\u2075\u207b\u00b9 = 5x\u2074"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "graph",
+          "description": "Graph of x\u2075 and its derivative 5x\u2074",
+          "latex": "\\frac{d}{dx}(x^5) = 5x^4"
         }
       ]
     },
@@ -248,7 +711,27 @@
             "partial-fractions",
             "trigonometric-substitution"
           ],
-          "description": "Advanced integration methods solve complex integrals that basic techniques cannot handle. Used in engineering, physics, and solving differential equations. Key insight: Different techniques work for different function types, requiring strategic problem-solving."
+          "description": "Advanced integration methods solve complex integrals that basic techniques cannot handle. Used in engineering, physics, and solving differential equations. Key insight: Different techniques work for different function types, requiring strategic problem-solving.",
+          "examples": [
+            {
+              "title": "Integration by Parts",
+              "description": "\u222bx e^x dx: u=x, dv=e^x dx. Result: x e^x - e^x + C",
+              "solution": "e^x(x-1) + C",
+              "steps": [
+                "u = x, dv = e^x dx",
+                "du = dx, v = e^x",
+                "\u222bu dv = uv - \u222bv du",
+                "x e^x - e^x + C"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Integration by parts formula visualization",
+              "latex": "\\int u dv = uv - \\int v du"
+            }
+          ]
         },
         {
           "id": "series",
@@ -259,7 +742,46 @@
             "maclaurin-series",
             "convergence-tests"
           ],
-          "description": "Series are sums of sequences, used to approximate functions and solve problems. Used in signal processing, numerical methods, and representing functions as infinite sums. Key insight: Many functions can be expressed as infinite series, enabling powerful approximations."
+          "description": "Series are sums of sequences, used to approximate functions and solve problems. Used in signal processing, numerical methods, and representing functions as infinite sums. Key insight: Many functions can be expressed as infinite series, enabling powerful approximations.",
+          "examples": [
+            {
+              "title": "Arithmetic Series Sum",
+              "description": "Sum of 1+2+3+...+100: S = 100/2(1+100) = 5050",
+              "solution": "5050",
+              "steps": [
+                "S_n = n/2(a\u2081 + a_n)",
+                "S = 100/2(1 + 100)",
+                "S = 50 \u00d7 101",
+                "S = 5050"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Visual representation of series sum",
+              "latex": "S_n = \\frac{n}{2}(a_1 + a_n)"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Integration by Parts",
+          "description": "\u222bx e^x dx = x e^x - e^x + C. Use u=x, dv=e^x dx",
+          "solution": "e^x(x-1) + C",
+          "steps": [
+            "u = x, dv = e^x dx",
+            "du = dx, v = e^x",
+            "\u222bu dv = uv - \u222bv du"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagram",
+          "description": "Integration by parts formula visualization",
+          "latex": "\\int u dv = uv - \\int v du"
         }
       ]
     },
@@ -278,7 +800,26 @@
             "cross-product",
             "vector-magnitude"
           ],
-          "description": "Vectors represent quantities with both magnitude and direction. Used in physics (force, velocity), computer graphics, and engineering. Key insight: Vectors allow mathematical description of directional quantities in multiple dimensions."
+          "description": "Vectors represent quantities with both magnitude and direction. Used in physics (force, velocity), computer graphics, and engineering. Key insight: Vectors allow mathematical description of directional quantities in multiple dimensions.",
+          "examples": [
+            {
+              "title": "Dot Product",
+              "description": "a = (3,4), b = (1,2). a\u00b7b = 3\u00d71 + 4\u00d72 = 11",
+              "solution": "11",
+              "steps": [
+                "a\u00b7b = a_x b_x + a_y b_y",
+                "a\u00b7b = 3\u00d71 + 4\u00d72",
+                "a\u00b7b = 11"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Two vectors showing dot product as projection",
+              "latex": "\\mathbf{a} \\cdot \\mathbf{b} = |\\mathbf{a}||\\mathbf{b}|\\cos\\theta"
+            }
+          ]
         },
         {
           "id": "partial-derivatives",
@@ -289,7 +830,25 @@
             "chain-rule-multivariable",
             "gradient"
           ],
-          "description": "Partial derivatives measure how multivariable functions change with respect to one variable while others are held constant. Used in optimization, thermodynamics, and machine learning. Key insight: Partial derivatives reveal how complex systems respond to individual variable changes."
+          "description": "Partial derivatives measure how multivariable functions change with respect to one variable while others are held constant. Used in optimization, thermodynamics, and machine learning. Key insight: Partial derivatives reveal how complex systems respond to individual variable changes.",
+          "examples": [
+            {
+              "title": "Partial Derivative",
+              "description": "f(x,y) = x\u00b2y. \u2202f/\u2202x = 2xy (treat y constant), \u2202f/\u2202y = x\u00b2 (treat x constant)",
+              "solution": "\u2202f/\u2202x = 2xy, \u2202f/\u2202y = x\u00b2",
+              "steps": [
+                "\u2202f/\u2202x: treat y constant, derivative = 2xy",
+                "\u2202f/\u2202y: treat x constant, derivative = x\u00b2"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "3D surface showing partial derivatives as slopes",
+              "latex": "\\frac{\\partial f}{\\partial x}, \\frac{\\partial f}{\\partial y}"
+            }
+          ]
         },
         {
           "id": "multiple-integrals",
@@ -300,7 +859,44 @@
             "triple-integral",
             "change-of-variables"
           ],
-          "description": "Multiple integrals calculate volumes, masses, and other quantities in higher dimensions. Used in physics (center of mass), probability, and engineering. Key insight: Multiple integration extends single-variable integration to multidimensional spaces."
+          "description": "Multiple integrals calculate volumes, masses, and other quantities in higher dimensions. Used in physics (center of mass), probability, and engineering. Key insight: Multiple integration extends single-variable integration to multidimensional spaces.",
+          "examples": [
+            {
+              "title": "Double Integral",
+              "description": "\u222b\u222b f(x,y) dA over rectangle [0,2]\u00d7[0,1]. Integrate inner then outer",
+              "solution": "Depends on f",
+              "steps": [
+                "Set up: \u222b[0 to 2] \u222b[0 to 1] f(x,y) dy dx",
+                "Integrate inner",
+                "Integrate outer"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "3D volume under surface showing double integral",
+              "latex": "\\iint f(x,y) dA"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Partial Derivatives",
+          "description": "f(x,y) = x\u00b2y. \u2202f/\u2202x = 2xy (treat y constant), \u2202f/\u2202y = x\u00b2 (treat x constant)",
+          "solution": "\u2202f/\u2202x = 2xy, \u2202f/\u2202y = x\u00b2",
+          "steps": [
+            "\u2202f/\u2202x: treat y as constant",
+            "\u2202f/\u2202y: treat x as constant"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "graph",
+          "description": "3D surface showing partial derivatives as slopes",
+          "latex": "\\frac{\\partial f}{\\partial x}, \\frac{\\partial f}{\\partial y}"
         }
       ]
     },
@@ -324,7 +920,26 @@
             "percent-of-number",
             "kfc-fraction-division"
           ],
-          "description": "Mental math techniques enable quick calculations without calculators, improving number sense and problem-solving speed. Used in everyday situations, competitive mathematics, and developing mathematical intuition. Key insight: Understanding number patterns makes mental calculation faster and more accurate."
+          "description": "Mental math techniques enable quick calculations without calculators, improving number sense and problem-solving speed. Used in everyday situations, competitive mathematics, and developing mathematical intuition. Key insight: Understanding number patterns makes mental calculation faster and more accurate.",
+          "examples": [
+            {
+              "title": "Multiply by 11",
+              "description": "23 \u00d7 11: Add digits (2+3=5), insert: 253",
+              "solution": "253",
+              "steps": [
+                "Add digits: 2+3=5",
+                "Insert between: 2,5,3",
+                "Result: 253"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "illustration",
+              "description": "Visual method for multiplying by 11",
+              "latex": null
+            }
+          ]
         },
         {
           "id": "algebra-tricks",
@@ -335,7 +950,26 @@
             "difference-of-squares",
             "quadratic-discriminant"
           ],
-          "description": "Algebra shortcuts simplify complex manipulations and reveal patterns in equations. Used to solve problems faster, check work, and develop deeper understanding. Key insight: Recognizing patterns and using clever techniques can dramatically simplify algebraic work."
+          "description": "Algebra shortcuts simplify complex manipulations and reveal patterns in equations. Used to solve problems faster, check work, and develop deeper understanding. Key insight: Recognizing patterns and using clever techniques can dramatically simplify algebraic work.",
+          "examples": [
+            {
+              "title": "Difference of Squares",
+              "description": "x\u00b2 - y\u00b2 = (x+y)(x-y). Example: 25-16 = (5+4)(5-4) = 9",
+              "solution": "9",
+              "steps": [
+                "Recognize pattern",
+                "Factor",
+                "Calculate"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Geometric proof: square with smaller square removed",
+              "latex": "a^2 - b^2 = (a+b)(a-b)"
+            }
+          ]
         },
         {
           "id": "calculus-tricks",
@@ -346,7 +980,26 @@
             "integral-patterns",
             "limit-shortcuts"
           ],
-          "description": "Calculus shortcuts use memorized patterns and recognition to solve problems quickly. Used in exams, real-world applications, and building mathematical fluency. Key insight: Familiarity with common derivatives and integrals enables rapid problem-solving."
+          "description": "Calculus shortcuts use memorized patterns and recognition to solve problems quickly. Used in exams, real-world applications, and building mathematical fluency. Key insight: Familiarity with common derivatives and integrals enables rapid problem-solving.",
+          "examples": [
+            {
+              "title": "Derivative Shortcuts",
+              "description": "d/dx(e^x) = e^x, d/dx(ln x) = 1/x. Memorize common derivatives",
+              "solution": "Common derivatives",
+              "steps": [
+                "Memorize basics",
+                "Apply chain rule",
+                "Use shortcuts"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "chart",
+              "description": "Table of common derivatives",
+              "latex": null
+            }
+          ]
         },
         {
           "id": "trig-tricks",
@@ -355,7 +1008,26 @@
           "formulas": [
             "trig-quick-values"
           ],
-          "description": "Trigonometric shortcuts use special triangles and memorized values for quick calculations. Used in exams, engineering, and developing number sense. Key insight: Special angles create patterns that make trigonometric calculations much easier."
+          "description": "Trigonometric shortcuts use special triangles and memorized values for quick calculations. Used in exams, engineering, and developing number sense. Key insight: Special angles create patterns that make trigonometric calculations much easier.",
+          "examples": [
+            {
+              "title": "Trig Quick Values",
+              "description": "sin(30\u00b0)=1/2, sin(45\u00b0)=\u221a2/2, sin(60\u00b0)=\u221a3/2. Memorize unit circle",
+              "solution": "Common angles",
+              "steps": [
+                "Unit circle",
+                "30\u00b0, 45\u00b0, 60\u00b0",
+                "Use symmetry"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Unit circle showing key angles and values",
+              "latex": null
+            }
+          ]
         },
         {
           "id": "log-tricks",
@@ -364,7 +1036,45 @@
           "formulas": [
             "log-quick-conversions"
           ],
-          "description": "Logarithm shortcuts use properties and patterns for rapid calculations. Used in solving exponential equations and working with logarithmic scales. Key insight: Understanding log properties and common values speeds up logarithmic work."
+          "description": "Logarithm shortcuts use properties and patterns for rapid calculations. Used in solving exponential equations and working with logarithmic scales. Key insight: Understanding log properties and common values speeds up logarithmic work.",
+          "examples": [
+            {
+              "title": "Log Quick Conversions",
+              "description": "log(1000) = 3, log(0.01) = -2. Recognize powers of 10",
+              "solution": "3 and -2",
+              "steps": [
+                "Powers of 10",
+                "log(10\u207f) = n",
+                "Apply"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "chart",
+              "description": "Logarithm values for powers of 10",
+              "latex": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Multiply by 11",
+          "description": "23 \u00d7 11: Add digits (2+3=5), insert in middle: 253",
+          "solution": "253",
+          "steps": [
+            "Add digits: 2+3=5",
+            "Insert between: 2,5,3",
+            "Result: 253"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "illustration",
+          "description": "Visual method for mental math tricks",
+          "latex": null
         }
       ]
     },
@@ -391,7 +1101,26 @@
             "boltzmann-entropy",
             "navier-stokes"
           ],
-          "description": "Physics equations describe the fundamental laws governing matter, energy, space, and time. Used in engineering, technology development, and understanding the universe. Key insight: These equations represent the mathematical language of physical reality."
+          "description": "Physics equations describe the fundamental laws governing matter, energy, space, and time. Used in engineering, technology development, and understanding the universe. Key insight: These equations represent the mathematical language of physical reality.",
+          "examples": [
+            {
+              "title": "Einstein E=mc\u00b2",
+              "description": "Mass-energy: 1 kg = 9\u00d710\u00b9\u2076 J",
+              "solution": "9\u00d710\u00b9\u2076 J",
+              "steps": [
+                "E = mc\u00b2",
+                "E = 1 \u00d7 (3\u00d710\u2078)\u00b2",
+                "E = 9\u00d710\u00b9\u2076 J"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Mass-energy equivalence",
+              "latex": "E = mc^2"
+            }
+          ]
         },
         {
           "id": "mathematics-equations",
@@ -401,7 +1130,26 @@
             "euler-identity",
             "fermat-last-theorem"
           ],
-          "description": "Mathematical equations express profound relationships between abstract concepts. Used in pure mathematics, theoretical physics, and advancing human knowledge. Key insight: Mathematical beauty often reveals deep truths about structure and pattern."
+          "description": "Mathematical equations express profound relationships between abstract concepts. Used in pure mathematics, theoretical physics, and advancing human knowledge. Key insight: Mathematical beauty often reveals deep truths about structure and pattern.",
+          "examples": [
+            {
+              "title": "Euler's Identity",
+              "description": "e^(i\u03c0) + 1 = 0. Most beautiful equation",
+              "solution": "0",
+              "steps": [
+                "e^(ix) = cos(x) + i sin(x)",
+                "At x=\u03c0: e^(i\u03c0) = -1",
+                "e^(i\u03c0) + 1 = 0"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Complex plane showing e^(i\u03c0)",
+              "latex": "e^{i\\pi} + 1 = 0"
+            }
+          ]
         },
         {
           "id": "finance-equations",
@@ -410,7 +1158,45 @@
           "formulas": [
             "black-scholes"
           ],
-          "description": "Financial equations model economic systems, risk, and value. Used in banking, investment, and economic policy. Key insight: Mathematical models enable quantitative analysis of financial systems and decision-making."
+          "description": "Financial equations model economic systems, risk, and value. Used in banking, investment, and economic policy. Key insight: Mathematical models enable quantitative analysis of financial systems and decision-making.",
+          "examples": [
+            {
+              "title": "Black-Scholes",
+              "description": "Option pricing model combining stock price, strike, time, volatility",
+              "solution": "Option price",
+              "steps": [
+                "Input parameters",
+                "Calculate d\u2081, d\u2082",
+                "Apply formula"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Option price vs stock price payoff",
+              "latex": null
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Einstein E=mc\u00b2",
+          "description": "Mass-energy equivalence. 1 kg matter = 9\u00d710\u00b9\u2076 J of energy",
+          "solution": "9\u00d710\u00b9\u2076 J",
+          "steps": [
+            "E = mc\u00b2",
+            "E = 1 \u00d7 (3\u00d710\u2078)\u00b2",
+            "E = 9\u00d710\u00b9\u2076 J"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagram",
+          "description": "Mass-energy equivalence relationship",
+          "latex": "E = mc^2"
         }
       ]
     },
@@ -433,7 +1219,27 @@
             "hodge-conjecture",
             "poincare-conjecture"
           ],
-          "description": "The Millennium Prize Problems are seven of the most important unsolved problems in mathematics, each worth $1 million. These problems represent the frontiers of mathematical knowledge. Key insight: Solving any of these would advance mathematics significantly and answer fundamental questions."
+          "description": "The Millennium Prize Problems are seven of the most important unsolved problems in mathematics, each worth $1 million. These problems represent the frontiers of mathematical knowledge. Key insight: Solving any of these would advance mathematics significantly and answer fundamental questions.",
+          "examples": [
+            {
+              "title": "P vs NP",
+              "description": "Can easy-to-verify problems be solved quickly? Most important CS problem",
+              "solution": "Unknown",
+              "steps": [
+                "P: solvable quickly",
+                "NP: verifiable quickly",
+                "Is P = NP?",
+                "Most believe P \u2260 NP"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Venn diagram: P and NP problem classes",
+              "latex": null
+            }
+          ]
         },
         {
           "id": "number-theory-problems",
@@ -445,7 +1251,47 @@
             "collatz-conjecture",
             "abc-conjecture"
           ],
-          "description": "Number theory problems explore the deep properties and patterns of integers. These unsolved problems connect to cryptography, computer science, and pure mathematics. Key insight: Simple questions about numbers often lead to profound mathematical insights."
+          "description": "Number theory problems explore the deep properties and patterns of integers. These unsolved problems connect to cryptography, computer science, and pure mathematics. Key insight: Simple questions about numbers often lead to profound mathematical insights.",
+          "examples": [
+            {
+              "title": "Riemann Hypothesis",
+              "description": "All non-trivial zeros of \u03b6(s) have real part 1/2. $1M prize",
+              "solution": "Unproven",
+              "steps": [
+                "Zeta function",
+                "Find zeros",
+                "Hypothesis: all on line",
+                "Not proven"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Critical line showing Riemann zeta zeros",
+              "latex": "\\zeta(s) = 0, \\text{Re}(s) = \\frac{1}{2}"
+            }
+          ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "P vs NP Problem",
+          "description": "Can problems with easy-to-verify solutions be solved quickly? $1M prize",
+          "solution": "Unknown",
+          "steps": [
+            "P: solvable in polynomial time",
+            "NP: verifiable in polynomial time",
+            "Is P = NP?",
+            "Most believe P \u2260 NP"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagram",
+          "description": "Venn diagram showing P and NP problem classes",
+          "latex": null
         }
       ]
     },
@@ -465,6 +1311,25 @@
             "power-law",
             "series-resistance",
             "parallel-resistance"
+          ],
+          "examples": [
+            {
+              "title": "Ohm's Law",
+              "description": "Circuit: V=12V, R=4\u03a9. Current I = V/R = 12/4 = 3A",
+              "solution": "3A",
+              "steps": [
+                "I = V/R",
+                "I = 12/4",
+                "I = 3A"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Simple circuit: voltage source and resistor",
+              "latex": "V = IR"
+            }
           ]
         },
         {
@@ -476,6 +1341,25 @@
             "kirchhoff-voltage",
             "kirchhoff-current",
             "voltage-divider"
+          ],
+          "examples": [
+            {
+              "title": "Kirchhoff's Laws",
+              "description": "KVL: \u03a3V = 0 around loop. KCL: \u03a3I = 0 at node",
+              "solution": "Conservation laws",
+              "steps": [
+                "KVL: energy conservation",
+                "KCL: charge conservation",
+                "Solve system"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Circuit showing loops and nodes for analysis",
+              "latex": null
+            }
           ]
         },
         {
@@ -487,6 +1371,25 @@
             "capacitor-charging",
             "inductor-energy",
             "rc-time-constant"
+          ],
+          "examples": [
+            {
+              "title": "RC Circuit",
+              "description": "RC time constant \u03c4 = RC. At t=\u03c4, capacitor charges to 63.2%",
+              "solution": "\u03c4 = RC",
+              "steps": [
+                "\u03c4 = RC",
+                "At t=\u03c4: V = V\u2080(1 - 1/e)",
+                "V \u2248 0.632V\u2080"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Capacitor charging curve showing exponential approach",
+              "latex": "V(t) = V_0(1 - e^{-t/RC})"
+            }
           ]
         },
         {
@@ -497,6 +1400,25 @@
           "formulas": [
             "diode-voltage",
             "transistor-gain"
+          ],
+          "examples": [
+            {
+              "title": "Diode Voltage",
+              "description": "Silicon diode forward voltage \u2248 0.7V. Below this, current is very small",
+              "solution": "0.7V",
+              "steps": [
+                "Forward bias",
+                "Voltage drop \u2248 0.7V",
+                "Current flows"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Diode I-V characteristic curve",
+              "latex": null
+            }
           ]
         },
         {
@@ -509,6 +1431,25 @@
             "impedance-inductor",
             "resonant-frequency",
             "transformer-ratio"
+          ],
+          "examples": [
+            {
+              "title": "Capacitor Impedance",
+              "description": "Capacitor 1\u03bcF at 1kHz: X_C = 1/(2\u03c0fC) = 159\u03a9",
+              "solution": "159\u03a9",
+              "steps": [
+                "X_C = 1/(\u03c9C)",
+                "\u03c9 = 2\u03c0f = 6283 rad/s",
+                "X_C = 1/(6283\u00d710\u207b\u2076) = 159\u03a9"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Impedance vs frequency for capacitor",
+              "latex": "X_C = \\frac{1}{2\\pi f C}"
+            }
           ]
         },
         {
@@ -519,6 +1460,25 @@
           "formulas": [
             "logic-gates",
             "binary-arithmetic"
+          ],
+          "examples": [
+            {
+              "title": "Logic Gates",
+              "description": "AND gate: Output = 1 only when both inputs = 1",
+              "solution": "A AND B",
+              "steps": [
+                "AND: both must be 1",
+                "OR: either can be 1",
+                "NOT: inverts input"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Logic gate symbols and truth tables",
+              "latex": null
+            }
           ]
         },
         {
@@ -528,6 +1488,25 @@
           "description": "Operational amplifiers and analog signal processing. Used in audio, instrumentation, and control systems. Key insight: Analog circuits process continuous signals with high precision and flexibility.",
           "formulas": [
             "op-amp-gain"
+          ],
+          "examples": [
+            {
+              "title": "Op-Amp Gain",
+              "description": "Inverting amplifier: Gain = -R\u2082/R\u2081. If R\u2082=10k\u03a9, R\u2081=1k\u03a9, gain = -10",
+              "solution": "-10",
+              "steps": [
+                "Gain = -R\u2082/R\u2081",
+                "Gain = -10k/1k",
+                "Gain = -10"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Operational amplifier inverting configuration",
+              "latex": "G = -\\frac{R_2}{R_1}"
+            }
           ]
         },
         {
@@ -538,7 +1517,45 @@
           "formulas": [
             "decibel",
             "bandwidth"
+          ],
+          "examples": [
+            {
+              "title": "Filter Response",
+              "description": "Low-pass filter: Passes frequencies below cutoff f_c = 1/(2\u03c0RC)",
+              "solution": "f_c = 1/(2\u03c0RC)",
+              "steps": [
+                "RC low-pass filter",
+                "Cutoff frequency f_c",
+                "f_c = 1/(2\u03c0RC)"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Frequency response showing passband and stopband",
+              "latex": "f_c = \\frac{1}{2\\pi RC}"
+            }
           ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Ohm's Law",
+          "description": "Circuit: V=12V, R=4\u03a9. Current I = V/R = 12/4 = 3A",
+          "solution": "3A",
+          "steps": [
+            "I = V/R",
+            "I = 12/4",
+            "I = 3A"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagram",
+          "description": "Simple circuit diagram with voltage source and resistor",
+          "latex": "V = IR"
         }
       ]
     },
@@ -558,6 +1575,25 @@
             "work-energy",
             "momentum",
             "kinematics-velocity"
+          ],
+          "examples": [
+            {
+              "title": "Newton's Second Law",
+              "description": "5kg object, 4 m/s\u00b2 acceleration: F = ma = 5 \u00d7 4 = 20N",
+              "solution": "20N",
+              "steps": [
+                "F = ma",
+                "F = 5 \u00d7 4",
+                "F = 20N"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Free body diagram showing F = ma",
+              "latex": "F = ma"
+            }
           ]
         },
         {
@@ -569,6 +1605,25 @@
             "moment-torque",
             "stress-strain",
             "beam-bending"
+          ],
+          "examples": [
+            {
+              "title": "Force Balance",
+              "description": "Beam supported at ends: \u03a3F = 0, \u03a3M = 0 for equilibrium",
+              "solution": "Balanced",
+              "steps": [
+                "Sum forces = 0",
+                "Sum moments = 0",
+                "Equilibrium"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Free body diagram showing forces and moments",
+              "latex": "\\Sigma F = 0, \\Sigma M = 0"
+            }
           ]
         },
         {
@@ -582,6 +1637,25 @@
             "continuity-equation",
             "viscosity",
             "reynolds-number"
+          ],
+          "examples": [
+            {
+              "title": "Bernoulli Principle",
+              "description": "Fluid speed increases, pressure decreases. P + \u00bd\u03c1v\u00b2 + \u03c1gh = constant",
+              "solution": "Constant",
+              "steps": [
+                "Conservation of energy",
+                "Speed \u2191, pressure \u2193",
+                "Total constant"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Venturi tube showing pressure and velocity changes",
+              "latex": "P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\text{constant}"
+            }
           ]
         },
         {
@@ -594,6 +1668,25 @@
             "thermodynamics-first-law",
             "carnot-efficiency",
             "heat-transfer-conduction"
+          ],
+          "examples": [
+            {
+              "title": "Ideal Gas Law",
+              "description": "PV = nRT. At STP: n=1mol, V = 22.4L",
+              "solution": "22.4L",
+              "steps": [
+                "PV = nRT",
+                "V = nRT/P",
+                "V = 22.4L"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "PV diagram showing ideal gas isotherms",
+              "latex": "PV = nRT"
+            }
           ]
         },
         {
@@ -604,6 +1697,26 @@
           "formulas": [
             "angular-kinematics",
             "power-mechanical"
+          ],
+          "examples": [
+            {
+              "title": "Kinematic Equations",
+              "description": "v\u2080=10 m/s, a=2 m/s\u00b2. After 3s: v = 16 m/s, x = 39 m",
+              "solution": "v=16 m/s, x=39 m",
+              "steps": [
+                "v = v\u2080 + at",
+                "v = 10 + 6 = 16",
+                "x = v\u2080t + \u00bdat\u00b2",
+                "x = 39"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Position-time and velocity-time graphs",
+              "latex": "v = v_0 + at, x = v_0t + \\frac{1}{2}at^2"
+            }
           ]
         },
         {
@@ -613,7 +1726,45 @@
           "description": "Design of mechanical systems: gears, transmissions, and power systems. Essential for creating functional machines and mechanisms. Key insight: Proper design balances forces, motion, and material properties.",
           "formulas": [
             "gear-ratio"
+          ],
+          "examples": [
+            {
+              "title": "Gear Ratio",
+              "description": "Gear 1: 20 teeth, Gear 2: 40 teeth. Ratio = 2:1 (speed reduction)",
+              "solution": "2:1",
+              "steps": [
+                "Ratio = N\u2082/N\u2081",
+                "Ratio = 40/20",
+                "Ratio = 2:1"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Gear train showing teeth and rotation",
+              "latex": "\\text{Ratio} = \\frac{N_2}{N_1}"
+            }
           ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Newton's Second Law",
+          "description": "5kg object, 4 m/s\u00b2 acceleration: F = ma = 5 \u00d7 4 = 20N",
+          "solution": "20N",
+          "steps": [
+            "F = ma",
+            "F = 5 \u00d7 4",
+            "F = 20N"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagram",
+          "description": "Free body diagram showing force, mass, acceleration",
+          "latex": "F = ma"
         }
       ]
     },
@@ -632,6 +1783,25 @@
             "big-o-notation",
             "recursion",
             "dynamic-programming"
+          ],
+          "examples": [
+            {
+              "title": "Big-O Notation",
+              "description": "Linear search: O(n). Binary search: O(log n). Much faster for large n",
+              "solution": "O(n) vs O(log n)",
+              "steps": [
+                "Linear: n comparisons",
+                "Binary: log\u2082(n) comparisons",
+                "Binary faster"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Complexity comparison: O(1), O(log n), O(n), O(n\u00b2)",
+              "latex": null
+            }
           ]
         },
         {
@@ -644,6 +1814,26 @@
             "hash-table",
             "binary-tree-traversal",
             "memory-allocation"
+          ],
+          "examples": [
+            {
+              "title": "Hash Table",
+              "description": "Insert/search: O(1) average. Hash function maps key to index",
+              "solution": "O(1)",
+              "steps": [
+                "Hash function",
+                "Map to index",
+                "Direct access",
+                "O(1) average"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Hash table showing buckets and collisions",
+              "latex": null
+            }
           ]
         },
         {
@@ -655,6 +1845,26 @@
             "binary-search",
             "quicksort",
             "merge-sort"
+          ],
+          "examples": [
+            {
+              "title": "Binary Search",
+              "description": "Search sorted array of 1000: O(log n) = ~10 comparisons",
+              "solution": "~10 comparisons",
+              "steps": [
+                "Compare middle",
+                "Eliminate half",
+                "Repeat",
+                "O(log n)"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Binary search tree showing search path",
+              "latex": null
+            }
           ]
         },
         {
@@ -665,6 +1875,26 @@
           "formulas": [
             "graph-algorithms",
             "dijkstra-algorithm"
+          ],
+          "examples": [
+            {
+              "title": "Dijkstra's Algorithm",
+              "description": "Find shortest path from node A. Greedy: always choose closest unvisited",
+              "solution": "Shortest paths",
+              "steps": [
+                "Start at source",
+                "Mark visited",
+                "Choose closest",
+                "Repeat"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Weighted graph showing shortest path tree",
+              "latex": null
+            }
           ]
         },
         {
@@ -677,6 +1907,25 @@
             "interrupt-latency",
             "state-machine",
             "uart-baud-rate"
+          ],
+          "examples": [
+            {
+              "title": "Microcontroller Timing",
+              "description": "8MHz clock, 1 instruction/cycle: 8 MIPS",
+              "solution": "8 MIPS",
+              "steps": [
+                "Clock = 8MHz",
+                "1 instruction/cycle",
+                "8M instructions/sec"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Timing diagram showing clock cycles",
+              "latex": null
+            }
           ]
         },
         {
@@ -686,7 +1935,46 @@
           "description": "Bitwise operations and hardware-level programming. Direct manipulation of bits and memory. Used in embedded systems, device drivers, and performance-critical code. Key insight: Low-level operations enable precise control and maximum efficiency.",
           "formulas": [
             "bitwise-operations"
+          ],
+          "examples": [
+            {
+              "title": "Bitwise Operations",
+              "description": "AND: 0b1010 & 0b1100 = 0b1000. OR: 0b1010 | 0b1100 = 0b1110",
+              "solution": "AND=8, OR=14",
+              "steps": [
+                "AND: both 1 \u2192 1",
+                "OR: either 1 \u2192 1",
+                "XOR: different \u2192 1"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Bitwise operation truth tables",
+              "latex": null
+            }
           ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Binary Search",
+          "description": "Search sorted array of 1000: O(log n) = ~10 comparisons maximum",
+          "solution": "~10 comparisons",
+          "steps": [
+            "Compare middle element",
+            "Eliminate half",
+            "Repeat",
+            "O(log n) complexity"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagram",
+          "description": "Binary search tree showing search path",
+          "latex": null
         }
       ]
     },
@@ -705,6 +1993,26 @@
             "pid-controller",
             "closed-loop-gain",
             "steady-state-error"
+          ],
+          "examples": [
+            {
+              "title": "PID Controller",
+              "description": "u = K_p e + K_i \u222be dt + K_d de/dt. Tune K_p, K_i, K_d",
+              "solution": "Tuned",
+              "steps": [
+                "P: current error",
+                "I: accumulated error",
+                "D: error rate",
+                "Combine"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Step response showing PID effect",
+              "latex": "u(t) = K_p e(t) + K_i \\int e(t)dt + K_d \\frac{de}{dt}"
+            }
           ]
         },
         {
@@ -716,6 +2024,25 @@
             "transfer-function",
             "bode-plot",
             "phase-margin"
+          ],
+          "examples": [
+            {
+              "title": "Transfer Function",
+              "description": "G(s) = Y(s)/U(s). Output/input in Laplace domain",
+              "solution": "G(s)",
+              "steps": [
+                "Laplace transform",
+                "G(s) = output/input",
+                "Poles determine stability"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Bode plot showing frequency response",
+              "latex": "G(s) = \\frac{Y(s)}{U(s)}"
+            }
           ]
         },
         {
@@ -728,6 +2055,25 @@
             "nyquist-criterion",
             "root-locus",
             "lyapunov-stability"
+          ],
+          "examples": [
+            {
+              "title": "Routh-Hurwitz",
+              "description": "Check polynomial: All coefficients positive, Routh table first column positive = stable",
+              "solution": "Stable",
+              "steps": [
+                "Form Routh table",
+                "Check first column",
+                "All positive = stable"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Root locus plot showing stability region",
+              "latex": null
+            }
           ]
         },
         {
@@ -738,6 +2084,26 @@
           "formulas": [
             "lead-lag-compensator",
             "state-space"
+          ],
+          "examples": [
+            {
+              "title": "Lead-Lag Compensator",
+              "description": "Improves response. Lead: increases phase margin. Lag: reduces error",
+              "solution": "Compensated",
+              "steps": [
+                "Design lead",
+                "Add lag if needed",
+                "Tune",
+                "Verify"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Bode plot: uncompensated vs compensated",
+              "latex": null
+            }
           ]
         },
         {
@@ -747,6 +2113,26 @@
           "description": "Industrial automation: PLCs, SCADA, and automated processes. Enables efficient, reliable, and safe operation of complex systems. Used in manufacturing, power plants, and process industries. Key insight: Automation combines control theory with practical implementation.",
           "formulas": [
             "automation-systems"
+          ],
+          "examples": [
+            {
+              "title": "State Machine",
+              "description": "States: Idle \u2192 Running \u2192 Paused \u2192 Stopped. Transitions on events",
+              "solution": "State transitions",
+              "steps": [
+                "Define states",
+                "Define transitions",
+                "Implement",
+                "Handle events"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "State diagram showing states and transitions",
+              "latex": null
+            }
           ]
         },
         {
@@ -756,7 +2142,47 @@
           "description": "Digital and discrete-time control systems. Modern controllers are digital, requiring discrete-time analysis. Used in computer-controlled systems, embedded controllers, and modern automation. Key insight: Digital control enables precise, flexible, and cost-effective automation.",
           "formulas": [
             "z-transform"
+          ],
+          "examples": [
+            {
+              "title": "Z-Transform",
+              "description": "Discrete-time Laplace. z = e^(sT) where T is sampling period",
+              "solution": "Z-domain",
+              "steps": [
+                "Sample signal",
+                "Apply z-transform",
+                "Analyze",
+                "Design"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Z-plane showing unit circle and stability",
+              "latex": "z = e^{sT}"
+            }
           ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "PID Controller",
+          "description": "u = K_p e + K_i \u222be dt + K_d de/dt. Tune K_p, K_i, K_d for optimal response",
+          "solution": "Tuned control",
+          "steps": [
+            "P: current error",
+            "I: accumulated error",
+            "D: error rate",
+            "Combine terms"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "graph",
+          "description": "Step response showing PID control effect",
+          "latex": "u(t) = K_p e(t) + K_i \\int e(t)dt + K_d \\frac{de}{dt}"
         }
       ]
     },
@@ -778,6 +2204,25 @@
             "momentum-conservation",
             "projectile-motion",
             "simple-harmonic-motion"
+          ],
+          "examples": [
+            {
+              "title": "Projectile Motion",
+              "description": "Ball launched at 30 m/s, 45\u00b0: Range = 30\u00b2sin(90\u00b0)/9.8 = 91.8 m",
+              "solution": "91.8 m",
+              "steps": [
+                "R = v\u2080\u00b2sin(2\u03b8)/g",
+                "R = 900\u00d71/9.8",
+                "R = 91.8 m"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Parabolic trajectory showing range and height",
+              "latex": "R = \\frac{v_0^2 \\sin(2\\theta)}{g}"
+            }
           ]
         },
         {
@@ -791,6 +2236,25 @@
             "magnetic-force",
             "capacitance",
             "faradays-law"
+          ],
+          "examples": [
+            {
+              "title": "Coulomb's Law",
+              "description": "Two 1\u03bcC charges 0.1m apart: F = kq\u2081q\u2082/r\u00b2 = 0.9 N",
+              "solution": "0.9 N",
+              "steps": [
+                "F = kq\u2081q\u2082/r\u00b2",
+                "F = 8.99\u00d710\u2079 \u00d7 10\u207b\u00b9\u00b2 / 0.01",
+                "F = 0.9 N"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Two point charges with force vectors",
+              "latex": "F = k\\frac{q_1 q_2}{r^2}"
+            }
           ]
         },
         {
@@ -803,6 +2267,25 @@
             "doppler-effect",
             "snells-law",
             "lens-equation"
+          ],
+          "examples": [
+            {
+              "title": "Wave Equation",
+              "description": "Sound: f=440 Hz, \u03bb=0.78 m. Speed v = f\u03bb = 343 m/s",
+              "solution": "343 m/s",
+              "steps": [
+                "v = f\u03bb",
+                "v = 440 \u00d7 0.78",
+                "v = 343 m/s"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Wave diagram showing wavelength, frequency, amplitude",
+              "latex": "v = f\\lambda"
+            }
           ]
         },
         {
@@ -814,6 +2297,25 @@
             "thermodynamics-first-law-physics",
             "entropy",
             "blackbody-radiation"
+          ],
+          "examples": [
+            {
+              "title": "First Law",
+              "description": "Gas receives 500J heat, does 200J work: \u0394U = 500 - 200 = 300J",
+              "solution": "300J",
+              "steps": [
+                "\u0394U = Q - W",
+                "\u0394U = 500 - 200",
+                "\u0394U = 300J"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Energy flow: heat in, work out, internal energy change",
+              "latex": "\\Delta U = Q - W"
+            }
           ]
         },
         {
@@ -825,6 +2327,25 @@
             "schrodinger-equation-physics",
             "relativistic-energy",
             "time-dilation"
+          ],
+          "examples": [
+            {
+              "title": "Time Dilation",
+              "description": "Muon at 0.99c: lifetime increases from 2.2\u03bcs to 15.6\u03bcs",
+              "solution": "15.6 \u03bcs",
+              "steps": [
+                "\u03b3 = 1/\u221a(1-0.99\u00b2) = 7.09",
+                "\u0394t = \u03b3\u0394t\u2080",
+                "\u0394t = 7.09 \u00d7 2.2 = 15.6 \u03bcs"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Light clock diagram showing time dilation",
+              "latex": "\\Delta t = \\gamma \\Delta t_0"
+            }
           ]
         },
         {
@@ -835,7 +2356,45 @@
           "formulas": [
             "nuclear-binding-energy",
             "radioactive-decay"
+          ],
+          "examples": [
+            {
+              "title": "Radioactive Decay",
+              "description": "Carbon-14 half-life 5730 years. After 11,460 years, 25% remains",
+              "solution": "25%",
+              "steps": [
+                "11,460 = 2 half-lives",
+                "After 1: 50%",
+                "After 2: 25%"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Exponential decay curve showing half-life",
+              "latex": "N(t) = N_0 e^{-\\lambda t}"
+            }
           ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Projectile Motion",
+          "description": "Ball launched at 30 m/s, 45\u00b0: Range = 30\u00b2sin(90\u00b0)/9.8 = 91.8 m",
+          "solution": "91.8 m",
+          "steps": [
+            "R = v\u2080\u00b2sin(2\u03b8)/g",
+            "R = 900\u00d71/9.8",
+            "R = 91.8 m"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagram",
+          "description": "Parabolic trajectory showing range and maximum height",
+          "latex": "R = \\frac{v_0^2 \\sin(2\\theta)}{g}"
         }
       ]
     },
@@ -856,6 +2415,25 @@
             "orbital-velocity",
             "tidal-forces",
             "roche-limit"
+          ],
+          "examples": [
+            {
+              "title": "Kepler's Third Law",
+              "description": "Mars: a=1.52 AU. Period T\u00b2 = (1.52)\u00b3 = 3.51, so T = 1.88 years",
+              "solution": "1.88 years",
+              "steps": [
+                "T\u00b2 \u221d a\u00b3",
+                "T\u00b2 = (1.52)\u00b3 = 3.51",
+                "T = \u221a3.51 = 1.88"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Elliptical orbit showing semi-major axis and period",
+              "latex": "T^2 = \\frac{4\\pi^2}{GM}a^3"
+            }
           ]
         },
         {
@@ -869,6 +2447,25 @@
             "main-sequence-lifetime",
             "eddington-luminosity",
             "jeans-mass"
+          ],
+          "examples": [
+            {
+              "title": "Stellar Luminosity",
+              "description": "Star: 2\u00d7 Sun radius, 1.5\u00d7 Sun temp. Luminosity = 2\u00b2 \u00d7 1.5\u2074 = 20.25\u00d7 solar",
+              "solution": "20.25\u00d7",
+              "steps": [
+                "L \u221d R\u00b2T\u2074",
+                "L = 4 \u00d7 5.0625",
+                "L = 20.25\u00d7"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Hertzsprung-Russell diagram showing stellar properties",
+              "latex": "L = 4\\pi R^2 \\sigma T^4"
+            }
           ]
         },
         {
@@ -882,6 +2479,25 @@
             "transit-method",
             "angular-resolution",
             "standard-candles"
+          ],
+          "examples": [
+            {
+              "title": "Parallax Distance",
+              "description": "Star with parallax 0.1 arcsec: distance = 1/0.1 = 10 parsecs",
+              "solution": "10 pc",
+              "steps": [
+                "d = 1/p",
+                "d = 1/0.1",
+                "d = 10 pc"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Parallax triangle showing Earth's orbit and star",
+              "latex": "d = \\frac{1}{p}"
+            }
           ]
         },
         {
@@ -894,6 +2510,25 @@
             "redshift",
             "dark-matter",
             "cosmic-microwave-background"
+          ],
+          "examples": [
+            {
+              "title": "Hubble's Law",
+              "description": "Galaxy 100 Mpc away: velocity = 70 \u00d7 100 = 7000 km/s",
+              "solution": "7000 km/s",
+              "steps": [
+                "v = H\u2080d",
+                "v = 70 \u00d7 100",
+                "v = 7000 km/s"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "graph",
+              "description": "Hubble diagram: velocity vs distance showing expansion",
+              "latex": "v = H_0 d"
+            }
           ]
         },
         {
@@ -903,6 +2538,25 @@
           "description": "Planets, exoplanets, and planetary systems. Studies planetary formation, atmospheres, and habitability. Used to find exoplanets, understand planet formation, and search for life. Key insight: Planetary properties depend on distance from star, composition, and atmospheric effects.",
           "formulas": [
             "planetary-temperature"
+          ],
+          "examples": [
+            {
+              "title": "Planetary Temperature",
+              "description": "Planet distance affects temperature. Closer = hotter, farther = colder",
+              "solution": "T \u221d 1/\u221ad",
+              "steps": [
+                "Equilibrium: incoming = outgoing",
+                "T\u2074 \u221d 1/d\u00b2",
+                "T \u221d 1/\u221ad"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Solar system showing habitable zone and temperatures",
+              "latex": null
+            }
           ]
         },
         {
@@ -912,7 +2566,45 @@
           "description": "Extreme gravity, black holes, and relativistic effects. Black holes are regions where gravity is so strong nothing can escape. Used to understand extreme physics, test general relativity, and study galaxy centers. Key insight: Black holes reveal where general relativity and quantum mechanics meet.",
           "formulas": [
             "schwarzschild-radius"
+          ],
+          "examples": [
+            {
+              "title": "Schwarzschild Radius",
+              "description": "Sun mass: R_s = 2GM/c\u00b2 = 2.95 km (if collapsed to black hole)",
+              "solution": "2.95 km",
+              "steps": [
+                "R_s = 2GM/c\u00b2",
+                "R_s = 2 \u00d7 6.67\u00d710\u207b\u00b9\u00b9 \u00d7 2\u00d710\u00b3\u2070 / 9\u00d710\u00b9\u2076",
+                "R_s = 2.95 km"
+              ]
+            }
+          ],
+          "graphics": [
+            {
+              "type": "diagram",
+              "description": "Event horizon diagram showing Schwarzschild radius",
+              "latex": "R_s = \\frac{2GM}{c^2}"
+            }
           ]
+        }
+      ],
+      "examples": [
+        {
+          "title": "Kepler's Third Law",
+          "description": "Mars: semi-major axis 1.52 AU. Period T\u00b2 = (1.52)\u00b3, so T = 1.88 years",
+          "solution": "1.88 years",
+          "steps": [
+            "T\u00b2 \u221d a\u00b3",
+            "T\u00b2 = (1.52)\u00b3 = 3.51",
+            "T = \u221a3.51 = 1.88"
+          ]
+        }
+      ],
+      "graphics": [
+        {
+          "type": "diagram",
+          "description": "Elliptical orbit showing semi-major axis and period relationship",
+          "latex": "T^2 = \\frac{4\\pi^2}{GM}a^3"
         }
       ]
     }
