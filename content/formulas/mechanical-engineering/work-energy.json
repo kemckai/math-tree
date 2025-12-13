@@ -1,0 +1,37 @@
+{
+  "id": "work-energy",
+  "name": "Work and Energy",
+  "latex": "W = Fd, \\quad KE = \\frac{1}{2}mv^2, \\quad PE = mgh",
+  "explanation": "Work (W) is force times distance in the direction of motion. Kinetic energy (KE) is energy of motion, proportional to mass and velocity squared. Potential energy (PE) is stored energy due to position (height). The work-energy theorem states that work equals change in kinetic energy. These concepts are fundamental for analyzing mechanical systems, efficiency, and energy conservation.",
+  "examples": [
+    {
+      "problem": "A 100N force moves an object 5m. How much work is done?",
+      "solution": "500J",
+      "steps": [
+        "W = Fd",
+        "W = 100 × 5 = 500J"
+      ]
+    },
+    {
+      "problem": "A 2kg object moves at 10 m/s. What is its kinetic energy?",
+      "solution": "100J",
+      "steps": [
+        "KE = ½mv²",
+        "KE = ½ × 2 × 10² = 1 × 100 = 100J"
+      ]
+    },
+    {
+      "problem": "A 5kg object is lifted 3m. What is its potential energy?",
+      "solution": "147J (assuming g = 9.8 m/s²)",
+      "steps": [
+        "PE = mgh",
+        "PE = 5 × 9.8 × 3 = 147J"
+      ]
+    }
+  ],
+  "prerequisites": ["newtons-second-law"],
+  "related": ["newtons-second-law", "power-mechanical"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "dynamics", "energy", "work"],
+  "topic": "mechanical-engineering"
+}

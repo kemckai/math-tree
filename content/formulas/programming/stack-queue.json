@@ -1,0 +1,35 @@
+{
+  "id": "stack-queue",
+  "name": "Stack and Queue Operations",
+  "latex": "\\text{Stack: LIFO (Last In First Out)}, \\quad \\text{Queue: FIFO (First In First Out)}",
+  "explanation": "Stacks and queues are fundamental linear data structures. Stack: push (add top), pop (remove top) - LIFO order. Queue: enqueue (add rear), dequeue (remove front) - FIFO order. Both have O(1) operations. Stacks used for function calls, expression evaluation, undo operations. Queues used for task scheduling, BFS, and buffering. Essential for many algorithms and system design.",
+  "examples": [
+    {
+      "problem": "Push 1, 2, 3 onto stack, then pop twice. What remains?",
+      "solution": "[1]",
+      "steps": [
+        "Push 1: stack = [1]",
+        "Push 2: stack = [1, 2]",
+        "Push 3: stack = [1, 2, 3]",
+        "Pop: removes 3, stack = [1, 2]",
+        "Pop: removes 2, stack = [1]"
+      ]
+    },
+    {
+      "problem": "Enqueue 1, 2, 3 into queue, then dequeue twice. What remains?",
+      "solution": "[3]",
+      "steps": [
+        "Enqueue 1: queue = [1]",
+        "Enqueue 2: queue = [1, 2]",
+        "Enqueue 3: queue = [1, 2, 3]",
+        "Dequeue: removes 1, queue = [2, 3]",
+        "Dequeue: removes 2, queue = [3]"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["data-structures", "tree-traversal"],
+  "level": "basic-math",
+  "tags": ["programming", "data-structures", "stack", "queue"],
+  "topic": "programming"
+}

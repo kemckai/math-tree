@@ -1,0 +1,33 @@
+{
+  "id": "magnetic-force",
+  "name": "Magnetic Force on Moving Charge",
+  "latex": "F = q\\mathbf{v} \\times \\mathbf{B}, \\quad F = qvB\\sin\\theta",
+  "explanation": "A moving charge experiences a magnetic force perpendicular to both velocity and magnetic field. Force magnitude: F = qvB sin θ, where θ is angle between v and B. Force direction given by right-hand rule. This explains how magnets work, particle accelerators, and electromagnetic devices. Magnetic force does no work (always perpendicular to motion).",
+  "examples": [
+    {
+      "problem": "Electron (q = -1.6×10⁻¹⁹ C) moves at 10⁶ m/s perpendicular to 0.5T magnetic field. What is force?",
+      "solution": "8 × 10⁻¹⁴ N",
+      "steps": [
+        "F = qvB sin θ",
+        "θ = 90°, so sin 90° = 1",
+        "F = (1.6×10⁻¹⁹) × (10⁶) × 0.5 × 1",
+        "F = 8 × 10⁻¹⁴ N"
+      ]
+    },
+    {
+      "problem": "Why does magnetic force cause circular motion?",
+      "solution": "Force is always perpendicular to velocity, changing direction but not speed",
+      "steps": [
+        "Magnetic force: F = q(v × B)",
+        "Force ⊥ velocity (cross product)",
+        "Changes direction, not magnitude of velocity",
+        "Results in circular (or helical) motion"
+      ]
+    }
+  ],
+  "prerequisites": ["electric-field"],
+  "related": ["electric-field", "lorentz-force"],
+  "level": "algebra-2",
+  "tags": ["physics", "electromagnetism", "magnetism", "forces"],
+  "topic": "physics"
+}

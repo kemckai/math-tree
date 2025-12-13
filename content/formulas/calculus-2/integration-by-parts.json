@@ -1,0 +1,37 @@
+{
+  "id": "integration-by-parts",
+  "name": "Integration by Parts",
+  "latex": "\\int u dv = uv - \\int v du",
+  "explanation": "Integration by parts is the integration counterpart to the product rule. It's useful for integrals of products where u-substitution doesn't work. The formula comes from the product rule: d(uv) = u dv + v du, rearranged. Choose u and dv strategically - typically, let u be the part that simplifies when differentiated (like ln x or polynomials).",
+  "examples": [
+    {
+      "problem": "Find ∫ x e^x dx",
+      "solution": "e^x(x - 1) + C",
+      "steps": [
+        "Let u = x, dv = e^x dx",
+        "Then du = dx, v = e^x",
+        "∫ u dv = uv - ∫ v du",
+        "= x e^x - ∫ e^x dx",
+        "= x e^x - e^x + C",
+        "= e^x(x - 1) + C"
+      ]
+    },
+    {
+      "problem": "Find ∫ x ln(x) dx",
+      "solution": "x²(2 ln(x) - 1)/4 + C",
+      "steps": [
+        "Let u = ln(x), dv = x dx",
+        "du = 1/x dx, v = x²/2",
+        "∫ x ln(x) dx = (x²/2)ln(x) - ∫ (x²/2)(1/x) dx",
+        "= (x²/2)ln(x) - (1/2)∫ x dx",
+        "= (x²/2)ln(x) - x²/4 + C",
+        "= x²(2 ln(x) - 1)/4 + C"
+      ]
+    }
+  ],
+  "prerequisites": ["basic-integrals", "product-rule"],
+  "related": ["partial-fractions", "trigonometric-substitution"],
+  "level": "calculus-2",
+  "tags": ["integration", "by-parts", "advanced"],
+  "topic": "integration-techniques"
+}

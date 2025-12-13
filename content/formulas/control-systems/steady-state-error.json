@@ -1,0 +1,33 @@
+{
+  "id": "steady-state-error",
+  "name": "Steady-State Error",
+  "latex": "e_{ss} = \\lim_{s \\to 0} sE(s) = \\lim_{s \\to 0} \\frac{sR(s)}{1 + G(s)H(s)}",
+  "explanation": "Steady-state error is the difference between desired and actual output after transients die out. Depends on system type (number of integrators) and input type (step, ramp, parabola). Type 0 systems have finite error for step inputs. Type 1 systems have zero error for step, finite for ramp. Type 2 systems have zero error for step and ramp. Integral control increases system type, eliminating steady-state error.",
+  "examples": [
+    {
+      "problem": "Type 0 system with step input. What is steady-state error?",
+      "solution": "Finite error (not zero)",
+      "steps": [
+        "Type 0: no integrators in forward path",
+        "Step input: R(s) = 1/s",
+        "e_ss = 1/(1 + K_p) where K_p is position constant",
+        "Error exists unless K_p is infinite"
+      ]
+    },
+    {
+      "problem": "How to eliminate steady-state error?",
+      "solution": "Add integral control (increases system type)",
+      "steps": [
+        "Integral term integrates error",
+        "Increases system type by 1",
+        "Type 1: zero error for step inputs",
+        "This is why PID controllers include integral term"
+      ]
+    }
+  ],
+  "prerequisites": ["closed-loop-gain"],
+  "related": ["pid-controller", "system-performance"],
+  "level": "calculus-2",
+  "tags": ["control-systems", "steady-state", "error-analysis", "performance"],
+  "topic": "control-systems"
+}

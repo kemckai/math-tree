@@ -1,0 +1,31 @@
+{
+  "id": "coulombs-law",
+  "name": "Coulomb's Law",
+  "latex": "F = k\\frac{q_1 q_2}{r^2}, \\quad k = 8.99 \\times 10^9 \\text{ N⋅m²/C²}",
+  "explanation": "Coulomb's law describes the electrostatic force between two point charges. Force is proportional to product of charges and inversely proportional to square of distance. Like charges repel, opposite charges attract. This is the electric equivalent of Newton's law of gravitation. Fundamental to understanding electricity, electric fields, and electromagnetic interactions.",
+  "examples": [
+    {
+      "problem": "Two 1μC charges are 0.1m apart. What is the force?",
+      "solution": "0.9 N (repulsive)",
+      "steps": [
+        "F = kq₁q₂/r²",
+        "F = (8.99×10⁹) × (10⁻⁶) × (10⁻⁶) / (0.1)²",
+        "F = 8.99×10⁻³ / 0.01 = 0.899 N ≈ 0.9 N"
+      ]
+    },
+    {
+      "problem": "How does force change if distance doubles?",
+      "solution": "Force becomes 1/4 (inverse square law)",
+      "steps": [
+        "F ∝ 1/r²",
+        "If r → 2r, then F → F/4",
+        "Force decreases by factor of 4"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["electric-field", "gauss-law"],
+  "level": "algebra-1",
+  "tags": ["physics", "electromagnetism", "electricity", "coulomb"],
+  "topic": "physics"
+}

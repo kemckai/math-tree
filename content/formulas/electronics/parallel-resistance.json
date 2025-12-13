@@ -1,0 +1,31 @@
+{
+  "id": "parallel-resistance",
+  "name": "Parallel Resistance",
+  "latex": "\\frac{1}{R_{total}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\frac{1}{R_3} + ...",
+  "explanation": "In a parallel circuit, resistors are connected across the same two points, so voltage is the same across all components, but current divides. The reciprocal of total resistance equals the sum of reciprocals of individual resistances. For two resistors: R_total = (R₁ × R₂)/(R₁ + R₂). Parallel resistance always decreases total resistance - adding resistors in parallel provides more paths for current, reducing overall resistance.",
+  "examples": [
+    {
+      "problem": "Two 10Ω resistors are in parallel. What is the total resistance?",
+      "solution": "5Ω",
+      "steps": [
+        "1/R_total = 1/10 + 1/10 = 2/10 = 1/5",
+        "R_total = 5Ω",
+        "Or: R_total = (10 × 10)/(10 + 10) = 100/20 = 5Ω"
+      ]
+    },
+    {
+      "problem": "Three resistors (6Ω, 12Ω, 4Ω) are in parallel. Find total resistance.",
+      "solution": "2Ω",
+      "steps": [
+        "1/R_total = 1/6 + 1/12 + 1/4",
+        "1/R_total = 2/12 + 1/12 + 3/12 = 6/12 = 1/2",
+        "R_total = 2Ω"
+      ]
+    }
+  ],
+  "prerequisites": ["ohms-law"],
+  "related": ["series-resistance", "current-divider"],
+  "level": "basic-math",
+  "tags": ["electronics", "circuits", "resistance", "parallel"],
+  "topic": "electronics"
+}

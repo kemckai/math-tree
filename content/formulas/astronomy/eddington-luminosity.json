@@ -1,0 +1,31 @@
+{
+  "id": "eddington-luminosity",
+  "name": "Eddington Luminosity",
+  "latex": "L_{Edd} = \\frac{4\\pi G M m_p c}{\\sigma_T} \\approx 3.3 \\times 10^4 \\frac{M}{M_\\odot} L_\\odot",
+  "explanation": "Eddington luminosity is maximum luminosity object can have before radiation pressure overcomes gravity. Above this limit, radiation pushes matter away faster than gravity can pull it in. Determines maximum brightness of accreting objects (black holes, neutron stars). Used to understand active galactic nuclei and X-ray binaries.",
+  "examples": [
+    {
+      "problem": "What is Eddington luminosity for 10 solar mass black hole?",
+      "solution": "3.3 × 10⁵ solar luminosities",
+      "steps": [
+        "L_Edd = 3.3×10⁴ × (M/M_☉) L_☉",
+        "L_Edd = 3.3×10⁴ × 10 = 3.3×10⁵ L_☉"
+      ]
+    },
+    {
+      "problem": "Why can't objects exceed Eddington luminosity?",
+      "solution": "Radiation pressure would blow away accreting matter",
+      "steps": [
+        "Above L_Edd: radiation pressure > gravity",
+        "Matter pushed away faster than it falls in",
+        "Accretion stops",
+        "Luminosity cannot increase further"
+      ]
+    }
+  ],
+  "prerequisites": ["stellar-luminosity", "gravitational-force"],
+  "related": ["stellar-luminosity", "black-holes"],
+  "level": "calculus-2",
+  "tags": ["astronomy", "black-holes", "luminosity", "accretion"],
+  "topic": "astronomy"
+}

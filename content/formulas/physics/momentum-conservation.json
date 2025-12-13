@@ -1,0 +1,33 @@
+{
+  "id": "momentum-conservation",
+  "name": "Conservation of Momentum",
+  "latex": "\\mathbf{p} = m\\mathbf{v}, \\quad \\sum \\mathbf{p}_{before} = \\sum \\mathbf{p}_{after}",
+  "explanation": "Momentum is conserved in isolated systems (no external forces). Momentum p = mv (mass times velocity). In collisions, total momentum before equals total momentum after. This principle explains collisions, explosions, and rocket propulsion. Used in analyzing impacts, particle interactions, and any system where objects interact. Essential for understanding dynamics and collisions.",
+  "examples": [
+    {
+      "problem": "2kg object at 5 m/s collides with 3kg object at rest. They stick together. What is final velocity?",
+      "solution": "2 m/s",
+      "steps": [
+        "Initial momentum: p₁ = 2 × 5 = 10 kg⋅m/s, p₂ = 0",
+        "Total: 10 kg⋅m/s",
+        "Final: (2 + 3) × v = 10",
+        "v = 10/5 = 2 m/s"
+      ]
+    },
+    {
+      "problem": "Why is momentum conserved but not always kinetic energy?",
+      "solution": "Momentum is always conserved, KE depends on collision type",
+      "steps": [
+        "Momentum: always conserved (vector quantity)",
+        "Elastic collision: KE conserved",
+        "Inelastic collision: KE not conserved (converted to heat, sound, etc.)",
+        "Perfectly inelastic: maximum KE loss"
+      ]
+    }
+  ],
+  "prerequisites": ["newtons-second-law-physics"],
+  "related": ["energy-conservation", "collisions"],
+  "level": "algebra-1",
+  "tags": ["physics", "mechanics", "momentum", "collisions"],
+  "topic": "physics"
+}

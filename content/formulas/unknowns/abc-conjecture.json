@@ -1,0 +1,36 @@
+{
+  "id": "abc-conjecture",
+  "name": "ABC Conjecture",
+  "latex": "\\text{For } a + b = c \\text{ with } \\gcd(a,b,c) = 1, \\text{ then } c < \\text{rad}(abc)^k \\text{ for some } k > 1",
+  "explanation": "The ABC Conjecture (proposed by Oesterlé and Masser in 1985) connects number theory and Diophantine equations. It relates the size of numbers a, b, c (where a + b = c) to the product of their distinct prime factors. If proven, it would solve many famous problems including Fermat's Last Theorem (in a simpler way) and provide bounds on solutions to many Diophantine equations. In 2012, Shinichi Mochizuki claimed a proof, but it's written in a new mathematical framework that few can understand, and the proof remains controversial.",
+  "examples": [
+    {
+      "problem": "What would proving ABC Conjecture solve?",
+      "solution": "It would provide simpler proofs of Fermat's Last Theorem and many other Diophantine problems",
+      "steps": [
+        "Fermat's Last Theorem: aⁿ + bⁿ = cⁿ has no solutions",
+        "ABC Conjecture would give a unified approach",
+        "Would solve many related problems in number theory",
+        "Provides bounds on solutions to polynomial equations",
+        "Connects additive and multiplicative number theory"
+      ]
+    },
+    {
+      "problem": "What is the status of Mochizuki's proof?",
+      "solution": "Controversial - uses new mathematical framework that few understand, not widely accepted",
+      "steps": [
+        "Mochizuki published 500+ page proof in 2012",
+        "Uses 'Inter-universal Teichmüller theory'",
+        "Very few mathematicians can understand it",
+        "Some claim it's correct, others find gaps",
+        "Status remains uncertain after over a decade"
+      ]
+    }
+  ],
+  "prerequisites": ["factoring"],
+  "related": ["fermat-last-theorem"],
+  "level": "calculus-3",
+  "tags": ["unknowns", "number-theory", "diophantine-equations", "abc"],
+  "topic": "unknowns",
+  "proof": "Status: CONTROVERSIAL. Mochizuki's 2012 proof uses novel techniques that are difficult to verify. The mathematical community remains divided on whether the proof is correct."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "fraction-multiplication",
+  "name": "Multiplying Fractions",
+  "latex": "\\frac{a}{b} \\times \\frac{c}{d} = \\frac{ac}{bd}",
+  "explanation": "To multiply fractions, multiply the numerators together and multiply the denominators together. Unlike addition, you don't need a common denominator. You can simplify before multiplying by canceling common factors between numerators and denominators.",
+  "examples": [
+    {
+      "problem": "Multiply 2/3 × 3/4",
+      "solution": "1/2",
+      "steps": [
+        "Multiply numerators: 2 × 3 = 6",
+        "Multiply denominators: 3 × 4 = 12",
+        "Result: 6/12",
+        "Simplify: 6/12 = 1/2",
+        "Or cancel first: (2/3) × (3/4) = 2/4 = 1/2"
+      ]
+    },
+    {
+      "problem": "Calculate 5/6 × 2/5",
+      "solution": "1/3",
+      "steps": [
+        "Cancel common factors:",
+        "(5/6) × (2/5) = (5 × 2)/(6 × 5)",
+        "Cancel 5: = 2/6",
+        "Simplify: 2/6 = 1/3"
+      ]
+    }
+  ],
+  "prerequisites": ["multiplication"],
+  "related": ["fraction-addition", "fraction-division"],
+  "level": "basic-math",
+  "tags": ["fractions", "arithmetic", "multiplication"],
+  "topic": "fractions"
+}

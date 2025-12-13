@@ -1,0 +1,29 @@
+{
+  "id": "momentum",
+  "name": "Linear and Angular Momentum",
+  "latex": "p = mv, \\quad L = I\\omega, \\quad F = \\frac{\\Delta p}{\\Delta t}",
+  "explanation": "Linear momentum (p = mv) and angular momentum (L = Iω) are conserved quantities. Force equals rate of change of momentum. Momentum conservation is fundamental for analyzing collisions, impacts, and dynamic systems. Used in vehicle crash analysis, machinery dynamics, and understanding motion.",
+  "examples": [
+    {
+      "problem": "A 5kg object moves at 10 m/s. What is momentum?",
+      "solution": "50 kg⋅m/s",
+      "steps": [
+        "p = mv",
+        "p = 5 × 10 = 50 kg⋅m/s"
+      ]
+    },
+    {
+      "problem": "Momentum changes from 20 to 50 kg⋅m/s in 0.1s. What force?",
+      "solution": "300 N",
+      "steps": [
+        "F = Δp/Δt",
+        "F = (50 - 20) / 0.1 = 30 / 0.1 = 300 N"
+      ]
+    }
+  ],
+  "prerequisites": ["newtons-second-law"],
+  "related": ["newtons-second-law", "collisions"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "dynamics", "momentum", "conservation"],
+  "topic": "mechanical-engineering"
+}

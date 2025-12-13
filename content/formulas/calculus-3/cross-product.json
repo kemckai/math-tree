@@ -1,0 +1,32 @@
+{
+  "id": "cross-product",
+  "name": "Cross Product (Vector Product)",
+  "latex": "\\vec{a} \\times \\vec{b} = |\\vec{a}||\\vec{b}|\\sin\\theta \\hat{n}",
+  "explanation": "The cross product of two vectors is a vector perpendicular to both, with magnitude equal to the area of the parallelogram they span. The direction follows the right-hand rule. In component form, it's calculated using a determinant. The cross product is useful for finding normal vectors, areas, and volumes.",
+  "examples": [
+    {
+      "problem": "Find the cross product of (1, 0, 0) and (0, 1, 0)",
+      "solution": "(0, 0, 1)",
+      "steps": [
+        "Using determinant method:",
+        "i(0·0 - 0·1) - j(1·0 - 0·0) + k(1·1 - 0·0)",
+        "= 0i - 0j + 1k",
+        "= (0, 0, 1)"
+      ]
+    },
+    {
+      "problem": "Find the area of parallelogram with sides (3, 1) and (1, 2)",
+      "solution": "5 square units",
+      "steps": [
+        "In 3D: a = (3, 1, 0), b = (1, 2, 0)",
+        "Cross product magnitude = area",
+        "|a × b| = |(0, 0, 3·2 - 1·1)| = |(0, 0, 5)| = 5"
+      ]
+    }
+  ],
+  "prerequisites": ["dot-product"],
+  "related": ["dot-product", "vector-magnitude"],
+  "level": "calculus-3",
+  "tags": ["vectors", "cross-product", "multivariable"],
+  "topic": "vectors"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "triangle-area",
+  "name": "Area of a Triangle",
+  "latex": "A = \\frac{1}{2}bh",
+  "explanation": "The area of a triangle is half the product of its base and height. The height must be perpendicular to the base. This formula works for all triangles. For right triangles, the two legs can serve as base and height. For other triangles, you may need to drop a perpendicular from a vertex to the base to find the height.",
+  "examples": [
+    {
+      "problem": "Find the area of a triangle with base 8 cm and height 5 cm",
+      "solution": "20 cm²",
+      "steps": [
+        "A = (1/2) × base × height",
+        "A = (1/2) × 8 × 5",
+        "A = (1/2) × 40 = 20 cm²"
+      ]
+    },
+    {
+      "problem": "A right triangle has legs of 6 and 8. Find its area",
+      "solution": "24 square units",
+      "steps": [
+        "In a right triangle, the legs are perpendicular:",
+        "A = (1/2) × 6 × 8",
+        "A = (1/2) × 48 = 24 square units"
+      ]
+    }
+  ],
+  "prerequisites": ["multiplication", "division"],
+  "related": ["pythagorean-theorem", "triangle-perimeter"],
+  "level": "geometry",
+  "tags": ["triangle", "area", "geometry"],
+  "topic": "triangles"
+}

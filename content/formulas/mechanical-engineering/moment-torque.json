@@ -1,0 +1,29 @@
+{
+  "id": "moment-torque",
+  "name": "Moment and Torque",
+  "latex": "M = Fd, \\quad \\tau = rF\\sin\\theta",
+  "explanation": "A moment (or torque τ) is the tendency of a force to cause rotation about a point or axis. Moment equals force times perpendicular distance (M = Fd). For rotational motion, torque = radius × force × sin(angle). Moments are essential for analyzing beams, designing structures, and understanding rotational dynamics. The unit is newton-meters (N⋅m).",
+  "examples": [
+    {
+      "problem": "A 50N force is applied 2m from a pivot. What is the moment?",
+      "solution": "100 N⋅m",
+      "steps": [
+        "M = Fd",
+        "M = 50 × 2 = 100 N⋅m"
+      ]
+    },
+    {
+      "problem": "A wrench applies 100N at 0.3m perpendicular to a bolt. What torque?",
+      "solution": "30 N⋅m",
+      "steps": [
+        "τ = rF (perpendicular, so sin 90° = 1)",
+        "τ = 0.3 × 100 = 30 N⋅m"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["equilibrium", "beam-bending"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "statics", "moments", "torque"],
+  "topic": "mechanical-engineering"
+}

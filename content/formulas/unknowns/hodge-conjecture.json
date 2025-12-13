@@ -1,0 +1,25 @@
+{
+  "id": "hodge-conjecture",
+  "name": "Hodge Conjecture",
+  "latex": "\\text{Every Hodge class on a projective algebraic variety is a linear combination of algebraic cycles}",
+  "explanation": "This Millennium Prize Problem connects topology, algebraic geometry, and analysis. It asks whether certain topological features of algebraic varieties (geometric objects defined by polynomial equations) can be described using algebraic equations. The conjecture would unify different mathematical perspectives on the same objects. Despite being stated in 1950, it remains unsolved and is considered one of the most difficult problems in algebraic geometry.",
+  "examples": [
+    {
+      "problem": "Why is the Hodge Conjecture important?",
+      "solution": "It would unify topology and algebraic geometry, providing a bridge between continuous and discrete mathematics",
+      "steps": [
+        "Connects geometric intuition with algebraic methods",
+        "Would provide tools to classify algebraic varieties",
+        "Has implications for physics (string theory uses these concepts)",
+        "Unifies different mathematical perspectives",
+        "Would advance our understanding of geometric structures"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": [],
+  "level": "calculus-3",
+  "tags": ["unknowns", "millennium-prize", "algebraic-geometry", "topology"],
+  "topic": "unknowns",
+  "proof": "Status: UNSOLVED. This is one of the seven Millennium Prize Problems. The conjecture is known to be true in some special cases, but the general case remains open after over 70 years."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "slope-intercept-form",
+  "name": "Slope-Intercept Form",
+  "latex": "y = mx + b",
+  "explanation": "The slope-intercept form is a linear equation where m represents the slope (rate of change) and b represents the y-intercept (where the line crosses the y-axis). The slope tells us how steep the line is: positive slopes go up from left to right, negative slopes go down. This form makes it easy to graph lines and understand their behavior.",
+  "examples": [
+    {
+      "problem": "Graph the line y = 2x + 3",
+      "solution": "Line with slope 2, y-intercept at (0, 3)",
+      "steps": [
+        "Identify: m = 2 (slope), b = 3 (y-intercept)",
+        "Plot the y-intercept: (0, 3)",
+        "Use slope: rise/run = 2/1, so from (0,3), go up 2, right 1 to (1,5)",
+        "Draw the line through these points"
+      ]
+    },
+    {
+      "problem": "Find the equation of a line with slope -3 and y-intercept 5",
+      "solution": "y = -3x + 5",
+      "steps": [
+        "m = -3, b = 5",
+        "Substitute into y = mx + b:",
+        "y = -3x + 5"
+      ]
+    }
+  ],
+  "prerequisites": ["pemdas"],
+  "related": ["point-slope-form", "standard-form"],
+  "level": "algebra-1",
+  "tags": ["linear-equations", "slope", "graphing"],
+  "topic": "linear-equations"
+}

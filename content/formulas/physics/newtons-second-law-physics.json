@@ -1,0 +1,30 @@
+{
+  "id": "newtons-second-law-physics",
+  "name": "Newton's Second Law",
+  "latex": "\\mathbf{F} = m\\mathbf{a}, \\quad F_{net} = ma",
+  "explanation": "Newton's Second Law states that the net force on an object equals its mass times acceleration. This fundamental law governs all motion. Force is measured in newtons (N), mass in kilograms (kg), acceleration in m/s². This law explains how forces cause motion and is the foundation of classical mechanics. Used to analyze motion, calculate forces, and understand dynamics.",
+  "examples": [
+    {
+      "problem": "A 5kg object accelerates at 4 m/s². What is the net force?",
+      "solution": "20 N",
+      "steps": [
+        "F = ma",
+        "F = 5 × 4 = 20 N"
+      ]
+    },
+    {
+      "problem": "A 100N force acts on a 25kg mass. What is acceleration?",
+      "solution": "4 m/s²",
+      "steps": [
+        "F = ma",
+        "100 = 25 × a",
+        "a = 4 m/s²"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["kinematic-equations", "friction"],
+  "level": "algebra-1",
+  "tags": ["physics", "mechanics", "forces", "dynamics"],
+  "topic": "physics"
+}

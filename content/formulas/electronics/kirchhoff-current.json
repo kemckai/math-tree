@@ -1,0 +1,23 @@
+{
+  "id": "kirchhoff-current",
+  "name": "Kirchhoff's Current Law (KCL)",
+  "latex": "\\sum I_{in} = \\sum I_{out} \\text{ at any node}",
+  "explanation": "Kirchhoff's Current Law states that the sum of currents entering a node equals the sum of currents leaving that node. This is based on conservation of charge - charge cannot accumulate or disappear at a point. Current flowing into a junction must equal current flowing out. KCL is essential for analyzing parallel circuits and complex networks, working together with KVL to solve circuit problems.",
+  "examples": [
+    {
+      "problem": "At a node, 2A enters and currents of 0.5A, 0.8A, and I_x leave. Find I_x.",
+      "solution": "0.7A",
+      "steps": [
+        "KCL: I_in = I_out",
+        "2 = 0.5 + 0.8 + I_x",
+        "2 = 1.3 + I_x",
+        "I_x = 0.7A"
+      ]
+    }
+  ],
+  "prerequisites": ["ohms-law"],
+  "related": ["kirchhoff-voltage", "nodal-analysis"],
+  "level": "algebra-1",
+  "tags": ["electronics", "circuit-analysis", "kirchhoff", "laws"],
+  "topic": "electronics"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "logarithm-properties",
+  "name": "Logarithm Properties",
+  "latex": "\\log(ab) = \\log a + \\log b, \\quad \\log(\\frac{a}{b}) = \\log a - \\log b, \\quad \\log(a^n) = n\\log a",
+  "explanation": "Logarithms have three fundamental properties that mirror the properties of exponents. The product rule: log of a product equals sum of logs. The quotient rule: log of a quotient equals difference of logs. The power rule: log of a power equals exponent times log. These properties are essential for solving logarithmic equations and simplifying expressions.",
+  "examples": [
+    {
+      "problem": "Simplify: log(2) + log(3)",
+      "solution": "log(6)",
+      "steps": [
+        "Using product rule: log(2) + log(3) = log(2 × 3)",
+        "= log(6)"
+      ]
+    },
+    {
+      "problem": "Simplify: log(8) - log(2)",
+      "solution": "log(4)",
+      "steps": [
+        "Using quotient rule: log(8) - log(2) = log(8/2)",
+        "= log(4)"
+      ]
+    },
+    {
+      "problem": "Simplify: 3 log(5)",
+      "solution": "log(125)",
+      "steps": [
+        "Using power rule: 3 log(5) = log(5³)",
+        "= log(125)"
+      ]
+    }
+  ],
+  "prerequisites": ["exponent-rules"],
+  "related": ["natural-logarithm", "change-of-base"],
+  "level": "algebra-2",
+  "tags": ["logarithms", "properties", "algebra"],
+  "topic": "logarithms"
+}

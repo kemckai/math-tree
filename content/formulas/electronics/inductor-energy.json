@@ -1,0 +1,32 @@
+{
+  "id": "inductor-energy",
+  "name": "Inductor Energy Storage",
+  "latex": "E = \\frac{1}{2}LI^2",
+  "explanation": "Inductors store energy in a magnetic field. The energy stored equals half the inductance times the square of current. Inductors oppose changes in current - they resist current increases and maintain current when the source is removed. Used in filters, transformers, power supplies, and radio circuits. The inductance L is measured in henries (H).",
+  "examples": [
+    {
+      "problem": "A 10mH inductor carries 2A. How much energy is stored?",
+      "solution": "20mJ",
+      "steps": [
+        "E = ½LI²",
+        "E = ½ × 0.01 × 2²",
+        "E = ½ × 0.01 × 4 = 0.02J = 20mJ"
+      ]
+    },
+    {
+      "problem": "An inductor stores 50mJ with 1A current. What is its inductance?",
+      "solution": "100mH",
+      "steps": [
+        "E = ½LI²",
+        "0.05 = ½ × L × 1²",
+        "0.05 = 0.5L",
+        "L = 0.1H = 100mH"
+      ]
+    }
+  ],
+  "prerequisites": ["exponent-rules"],
+  "related": ["capacitor-energy", "rl-circuits"],
+  "level": "algebra-2",
+  "tags": ["electronics", "inductors", "energy", "magnetic-fields"],
+  "topic": "electronics"
+}

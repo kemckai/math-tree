@@ -1,0 +1,33 @@
+{
+  "id": "root-locus",
+  "name": "Root Locus Method",
+  "latex": "1 + KG(s)H(s) = 0, \\quad \\text{Plot roots as } K \\text{ varies}",
+  "explanation": "Root locus plots how closed-loop poles move in the complex plane as gain K varies from 0 to ∞. Shows how system stability and response change with controller gain. Poles in left half-plane = stable, right half-plane = unstable. Used to design controllers by choosing appropriate gain values. Provides insight into system behavior and helps tune PID controllers.",
+  "examples": [
+    {
+      "problem": "What does root locus show?",
+      "solution": "How closed-loop poles move as controller gain changes",
+      "steps": [
+        "Characteristic equation: 1 + KG(s)H(s) = 0",
+        "As K increases, poles move along locus",
+        "Poles in left half-plane = stable",
+        "Poles crossing imaginary axis = stability boundary"
+      ]
+    },
+    {
+      "problem": "Why is root locus useful?",
+      "solution": "Visual tool for controller design and gain selection",
+      "steps": [
+        "Shows stability regions",
+        "Indicates damping and natural frequency",
+        "Helps choose gain for desired response",
+        "Predicts system behavior"
+      ]
+    }
+  ],
+  "prerequisites": ["closed-loop-gain"],
+  "related": ["closed-loop-gain", "pole-placement"],
+  "level": "calculus-2",
+  "tags": ["control-systems", "root-locus", "stability", "controller-design"],
+  "topic": "control-systems"
+}

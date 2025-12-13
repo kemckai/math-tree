@@ -1,0 +1,38 @@
+{
+  "id": "percent-of-number",
+  "name": "Quick Percentage Calculations",
+  "latex": "x\\% \\text{ of } y = \\frac{x \\times y}{100}",
+  "explanation": "Quick mental percentage tricks: 10% = divide by 10, 5% = half of 10%, 20% = double 10%, 25% = divide by 4, 50% = divide by 2, 75% = 3/4. For other percentages, break them into combinations of these or use the 1% trick: find 1% first, then multiply.",
+  "examples": [
+    {
+      "problem": "Find 15% of 80",
+      "solution": "12",
+      "steps": [
+        "10% of 80 = 8",
+        "5% of 80 = 4 (half of 10%)",
+        "15% = 10% + 5% = 8 + 4 = 12"
+      ]
+    },
+    {
+      "problem": "Find 25% of 240",
+      "solution": "60",
+      "steps": [
+        "25% = 1/4, so divide by 4:",
+        "240 ÷ 4 = 60"
+      ]
+    },
+    {
+      "problem": "Find 17% of 200",
+      "solution": "34",
+      "steps": [
+        "Find 1%: 200 ÷ 100 = 2",
+        "Multiply: 17 × 2 = 34"
+      ]
+    }
+  ],
+  "prerequisites": ["percentage-calculation"],
+  "related": ["percentage-calculation", "multiply-by-9"],
+  "level": "basic-math",
+  "tags": ["tricks", "mental-math", "percentages", "shortcuts"],
+  "topic": "tricks"
+}

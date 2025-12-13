@@ -1,0 +1,29 @@
+{
+  "id": "series-resistance",
+  "name": "Series Resistance",
+  "latex": "R_{total} = R_1 + R_2 + R_3 + ...",
+  "explanation": "In a series circuit, resistors are connected end-to-end, so current flows through each one sequentially. The total resistance is simply the sum of all individual resistances. In series circuits, current is the same through all components, but voltage divides across them. This is the simplest way to combine resistors and increases total resistance.",
+  "examples": [
+    {
+      "problem": "Three resistors (10Ω, 20Ω, 30Ω) are in series. What is the total resistance?",
+      "solution": "60Ω",
+      "steps": [
+        "R_total = R₁ + R₂ + R₃",
+        "R_total = 10 + 20 + 30 = 60Ω"
+      ]
+    },
+    {
+      "problem": "A 12V battery is connected to two 6Ω resistors in series. What current flows?",
+      "solution": "1A",
+      "steps": [
+        "R_total = 6 + 6 = 12Ω",
+        "V = IR, so I = V/R = 12/12 = 1A"
+      ]
+    }
+  ],
+  "prerequisites": ["ohms-law"],
+  "related": ["parallel-resistance", "voltage-divider"],
+  "level": "basic-math",
+  "tags": ["electronics", "circuits", "resistance", "series"],
+  "topic": "electronics"
+}

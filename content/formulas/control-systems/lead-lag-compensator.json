@@ -1,0 +1,33 @@
+{
+  "id": "lead-lag-compensator",
+  "name": "Lead-Lag Compensator",
+  "latex": "G_c(s) = K\\frac{s + z}{s + p}, \\quad \\text{Lead: } z < p, \\quad \\text{Lag: } z > p",
+  "explanation": "Compensators improve system performance. Lead compensator (z < p) increases phase margin, improves transient response, speeds up system. Lag compensator (z > p) improves steady-state accuracy, reduces steady-state error. Used when simple PID tuning isn't sufficient. Lead-lag combines both effects. Essential for advanced control system design.",
+  "examples": [
+    {
+      "problem": "Lead compensator: G_c(s) = (s + 1)/(s + 10). What does it do?",
+      "solution": "Increases phase margin, speeds up response",
+      "steps": [
+        "z = 1, p = 10, so z < p (lead)",
+        "Adds positive phase (phase lead)",
+        "Increases bandwidth (faster response)",
+        "Improves stability margins"
+      ]
+    },
+    {
+      "problem": "Lag compensator: G_c(s) = (s + 10)/(s + 1). What does it do?",
+      "solution": "Reduces steady-state error, improves low-frequency response",
+      "steps": [
+        "z = 10, p = 1, so z > p (lag)",
+        "Increases gain at low frequencies",
+        "Reduces steady-state error",
+        "Doesn't significantly affect high-frequency behavior"
+      ]
+    }
+  ],
+  "prerequisites": ["bode-plot", "phase-margin"],
+  "related": ["bode-plot", "controller-design"],
+  "level": "calculus-2",
+  "tags": ["control-systems", "compensators", "controller-design", "frequency-domain"],
+  "topic": "control-systems"
+}

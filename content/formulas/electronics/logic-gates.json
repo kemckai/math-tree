@@ -1,0 +1,29 @@
+{
+  "id": "logic-gates",
+  "name": "Digital Logic Gates",
+  "latex": "\\text{AND: } Y = A \\cdot B, \\quad \\text{OR: } Y = A + B, \\quad \\text{NOT: } Y = \\bar{A}",
+  "explanation": "Logic gates are the fundamental building blocks of digital electronics, performing Boolean operations on binary inputs (0 or 1). AND gate outputs 1 only when all inputs are 1. OR gate outputs 1 when any input is 1. NOT gate inverts the input. These gates, combined with NAND, NOR, XOR, and XNOR, can implement any digital function. All modern computers, microprocessors, and digital systems are built from combinations of these gates.",
+  "examples": [
+    {
+      "problem": "What is the output of an AND gate with inputs A=1, B=0?",
+      "solution": "0",
+      "steps": [
+        "AND: Y = A · B",
+        "Y = 1 · 0 = 0"
+      ]
+    },
+    {
+      "problem": "What is the output of an OR gate with inputs A=0, B=1?",
+      "solution": "1",
+      "steps": [
+        "OR: Y = A + B",
+        "Y = 0 + 1 = 1"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["binary-arithmetic", "flip-flops"],
+  "level": "basic-math",
+  "tags": ["electronics", "digital", "logic", "gates"],
+  "topic": "electronics"
+}

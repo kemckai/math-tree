@@ -1,0 +1,39 @@
+{
+  "id": "phase-margin",
+  "name": "Phase Margin and Gain Margin",
+  "latex": "PM = 180° + \\angle G(j\\omega_c), \\quad GM = -20\\log_{10}|G(j\\omega_p)|",
+  "explanation": "Stability margins measure how close a system is to instability. Phase margin (PM) is 180° plus phase at crossover frequency (where gain = 1). Gain margin (GM) is negative gain in dB at phase crossover (where phase = -180°). Larger margins = more stable. Typical design: PM > 45°, GM > 6 dB. These margins ensure robustness to uncertainties and disturbances.",
+  "examples": [
+    {
+      "problem": "At crossover frequency, phase is -120°. What is phase margin?",
+      "solution": "60°",
+      "steps": [
+        "PM = 180° + phase",
+        "PM = 180° + (-120°) = 60°"
+      ]
+    },
+    {
+      "problem": "At phase crossover, gain is 0.5. What is gain margin?",
+      "solution": "6 dB",
+      "steps": [
+        "GM = -20log₁₀|G|",
+        "GM = -20log₁₀(0.5) = -20 × (-0.301) = 6.02 dB"
+      ]
+    },
+    {
+      "problem": "Why are stability margins important?",
+      "solution": "Ensure system remains stable despite uncertainties and disturbances",
+      "steps": [
+        "Real systems have model errors",
+        "Components vary with temperature, age",
+        "Margins provide safety buffer",
+        "Prevent instability from small changes"
+      ]
+    }
+  ],
+  "prerequisites": ["bode-plot"],
+  "related": ["bode-plot", "system-stability"],
+  "level": "calculus-2",
+  "tags": ["control-systems", "stability-margins", "robustness", "design"],
+  "topic": "control-systems"
+}

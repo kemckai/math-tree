@@ -1,0 +1,31 @@
+{
+  "id": "op-amp-gain",
+  "name": "Operational Amplifier Gain",
+  "latex": "A_v = -\\frac{R_f}{R_{in}} \\text{ (inverting)}, \\quad A_v = 1 + \\frac{R_f}{R_{in}} \\text{ (non-inverting)}",
+  "explanation": "Operational amplifiers (op-amps) are high-gain differential amplifiers, fundamental building blocks of analog electronics. In inverting configuration, gain is -R_f/R_in (negative means signal inversion). In non-inverting configuration, gain is 1 + R_f/R_in. Op-amps are used in amplifiers, filters, comparators, oscillators, and mathematical operations (addition, integration, differentiation). They're versatile, precise, and essential for signal processing.",
+  "examples": [
+    {
+      "problem": "An inverting op-amp has R_in = 1kΩ and R_f = 10kΩ. What is the gain?",
+      "solution": "-10",
+      "steps": [
+        "A_v = -R_f/R_in",
+        "A_v = -10000/1000 = -10"
+      ]
+    },
+    {
+      "problem": "A non-inverting op-amp needs gain of 5. If R_in = 2kΩ, what is R_f?",
+      "solution": "8kΩ",
+      "steps": [
+        "A_v = 1 + R_f/R_in",
+        "5 = 1 + R_f/2000",
+        "4 = R_f/2000",
+        "R_f = 8000Ω = 8kΩ"
+      ]
+    }
+  ],
+  "prerequisites": ["transistor-gain"],
+  "related": ["op-amp-applications", "feedback-circuits"],
+  "level": "algebra-1",
+  "tags": ["electronics", "amplifiers", "op-amps", "analog"],
+  "topic": "electronics"
+}

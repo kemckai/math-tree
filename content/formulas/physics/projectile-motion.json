@@ -1,0 +1,31 @@
+{
+  "id": "projectile-motion",
+  "name": "Projectile Motion",
+  "latex": "x = v_0\\cos\\theta \\cdot t, \\quad y = v_0\\sin\\theta \\cdot t - \\frac{1}{2}gt^2, \\quad R = \\frac{v_0^2\\sin(2\\theta)}{g}",
+  "explanation": "Projectile motion combines horizontal (constant velocity) and vertical (constant acceleration) motion. Horizontal: x = v₀cos θ × t. Vertical: y = v₀sin θ × t - ½gt². Range (maximum horizontal distance): R = v₀²sin(2θ)/g. Maximum range at 45° angle. Used in ballistics, sports, and understanding two-dimensional motion.",
+  "examples": [
+    {
+      "problem": "Projectile launched at 30 m/s, 45° angle. What is range? (g = 9.8 m/s²)",
+      "solution": "91.8 m",
+      "steps": [
+        "R = v₀²sin(2θ)/g",
+        "R = 30² × sin(90°)/9.8",
+        "R = 900 × 1 / 9.8 = 91.8 m"
+      ]
+    },
+    {
+      "problem": "What angle gives maximum range?",
+      "solution": "45°",
+      "steps": [
+        "R = v₀²sin(2θ)/g",
+        "Maximum when sin(2θ) = 1",
+        "2θ = 90°, so θ = 45°"
+      ]
+    }
+  ],
+  "prerequisites": ["kinematic-equations"],
+  "related": ["kinematic-equations", "two-dimensional-motion"],
+  "level": "algebra-1",
+  "tags": ["physics", "mechanics", "projectiles", "motion"],
+  "topic": "physics"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "unit-circle",
+  "name": "Unit Circle",
+  "latex": "x^2 + y^2 = 1, \\quad \\cos \\theta = x, \\quad \\sin \\theta = y",
+  "explanation": "The unit circle is a circle with radius 1 centered at the origin. It's fundamental to trigonometry because any point on the unit circle has coordinates (cos θ, sin θ), where θ is the angle from the positive x-axis. This connects trigonometric functions to coordinates and makes it easy to find exact values for common angles.",
+  "examples": [
+    {
+      "problem": "Find cos(0°) and sin(0°)",
+      "solution": "cos(0°) = 1, sin(0°) = 0",
+      "steps": [
+        "At 0°, the point on the unit circle is (1, 0)",
+        "cos(0°) = x-coordinate = 1",
+        "sin(0°) = y-coordinate = 0"
+      ]
+    },
+    {
+      "problem": "Find cos(90°) and sin(90°)",
+      "solution": "cos(90°) = 0, sin(90°) = 1",
+      "steps": [
+        "At 90°, the point on the unit circle is (0, 1)",
+        "cos(90°) = x-coordinate = 0",
+        "sin(90°) = y-coordinate = 1"
+      ]
+    },
+    {
+      "problem": "Find cos(45°) and sin(45°)",
+      "solution": "cos(45°) = sin(45°) = √2/2",
+      "steps": [
+        "At 45°, the point is (√2/2, √2/2)",
+        "cos(45°) = sin(45°) = √2/2 ≈ 0.707"
+      ]
+    }
+  ],
+  "prerequisites": ["soh-cah-toa", "pythagorean-theorem"],
+  "related": ["soh-cah-toa", "trig-identities"],
+  "level": "geometry",
+  "tags": ["trigonometry", "unit-circle", "coordinates"],
+  "topic": "trigonometry"
+}

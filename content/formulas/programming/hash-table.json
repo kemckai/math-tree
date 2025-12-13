@@ -1,0 +1,33 @@
+{
+  "id": "hash-table",
+  "name": "Hash Table Operations",
+  "latex": "\\text{Insert/Search/Delete: } O(1) \\text{ average}, O(n) \\text{ worst}",
+  "explanation": "Hash tables store key-value pairs using a hash function to map keys to array indices. Provides O(1) average-case performance for insert, search, and delete operations. Hash function should distribute keys uniformly. Collision handling (chaining or open addressing) needed when multiple keys hash to same index. Used in databases, caches, and when fast lookups are critical.",
+  "examples": [
+    {
+      "problem": "Hash function h(x) = x mod 10. Insert keys [15, 23, 7, 31]",
+      "solution": "Indices: [5, 3, 7, 1]",
+      "steps": [
+        "15 mod 10 = 5 → store at index 5",
+        "23 mod 10 = 3 → store at index 3",
+        "7 mod 10 = 7 → store at index 7",
+        "31 mod 10 = 1 → store at index 1"
+      ]
+    },
+    {
+      "problem": "Why is hash table lookup O(1) on average?",
+      "solution": "Hash function directly computes array index, no searching needed",
+      "steps": [
+        "Compute hash(key) → get index",
+        "Access array[index] → O(1) operation",
+        "Average case: no collisions, direct access",
+        "Worst case: many collisions, O(n) if all keys hash to same index"
+      ]
+    }
+  ],
+  "prerequisites": ["big-o-notation"],
+  "related": ["big-o-notation", "data-structures"],
+  "level": "algebra-1",
+  "tags": ["programming", "data-structures", "hash-tables", "algorithms"],
+  "topic": "programming"
+}

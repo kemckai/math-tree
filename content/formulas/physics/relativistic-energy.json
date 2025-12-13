@@ -1,0 +1,39 @@
+{
+  "id": "relativistic-energy",
+  "name": "Relativistic Energy",
+  "latex": "E = \\gamma mc^2, \\quad \\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}, \\quad E^2 = (pc)^2 + (mc^2)^2",
+  "explanation": "Relativistic energy accounts for effects at high speeds. Total energy E = γmc² where γ is Lorentz factor. At rest: E = mc² (Einstein's famous equation). Full equation: E² = (pc)² + (mc²)². As speed approaches light speed, energy approaches infinity. Explains why nothing can exceed light speed and how mass and energy are equivalent.",
+  "examples": [
+    {
+      "problem": "Particle moves at 0.8c. What is γ?",
+      "solution": "1.67",
+      "steps": [
+        "γ = 1/√(1 - v²/c²)",
+        "γ = 1/√(1 - 0.64) = 1/√0.36 = 1/0.6 = 1.67"
+      ]
+    },
+    {
+      "problem": "What is total energy if rest mass energy is 1 MeV?",
+      "solution": "1.67 MeV",
+      "steps": [
+        "E = γmc²",
+        "E = 1.67 × 1 = 1.67 MeV"
+      ]
+    },
+    {
+      "problem": "Why can't anything exceed light speed?",
+      "solution": "Energy required approaches infinity as v → c",
+      "steps": [
+        "As v → c, γ → ∞",
+        "E = γmc² → ∞",
+        "Infinite energy required",
+        "Impossible to achieve"
+      ]
+    }
+  ],
+  "prerequisites": ["einstein-mass-energy"],
+  "related": ["einstein-mass-energy", "special-relativity"],
+  "level": "calculus-2",
+  "tags": ["physics", "relativity", "energy", "einstein"],
+  "topic": "physics"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "quadratic-formula",
+  "name": "Quadratic Formula",
+  "latex": "x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}",
+  "explanation": "The quadratic formula solves any quadratic equation of the form ax² + bx + c = 0. The ± symbol means there are typically two solutions. The expression under the square root (b² - 4ac) is called the discriminant. If it's positive, there are two real solutions; if zero, one solution; if negative, two complex solutions.",
+  "examples": [
+    {
+      "problem": "Solve x² - 5x + 6 = 0",
+      "solution": "x = 2 or x = 3",
+      "steps": [
+        "Identify: a = 1, b = -5, c = 6",
+        "Substitute into formula:",
+        "x = (-(-5) ± √((-5)² - 4(1)(6))) / (2(1))",
+        "x = (5 ± √(25 - 24)) / 2",
+        "x = (5 ± √1) / 2",
+        "x = (5 ± 1) / 2",
+        "x = 6/2 = 3 or x = 4/2 = 2"
+      ]
+    },
+    {
+      "problem": "Solve 2x² + 3x - 2 = 0",
+      "solution": "x = 1/2 or x = -2",
+      "steps": [
+        "a = 2, b = 3, c = -2",
+        "x = (-3 ± √(9 - 4(2)(-2))) / (2(2))",
+        "x = (-3 ± √(9 + 16)) / 4",
+        "x = (-3 ± √25) / 4",
+        "x = (-3 ± 5) / 4",
+        "x = 2/4 = 1/2 or x = -8/4 = -2"
+      ]
+    }
+  ],
+  "prerequisites": ["pemdas", "exponent-rules"],
+  "related": ["factoring", "completing-the-square"],
+  "level": "algebra-1",
+  "tags": ["quadratic", "equations", "roots"],
+  "topic": "quadratics"
+}

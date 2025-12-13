@@ -1,0 +1,32 @@
+{
+  "id": "faradays-law",
+  "name": "Faraday's Law of Induction",
+  "latex": "\\mathcal{E} = -\\frac{d\\Phi_B}{dt}, \\quad \\Phi_B = BA\\cos\\theta",
+  "explanation": "Faraday's law: changing magnetic flux induces electromotive force (EMF). EMF = -dΦ_B/dt where Φ_B is magnetic flux. Flux Φ_B = BA cos θ (B = field, A = area, θ = angle). Negative sign (Lenz's law) means induced current opposes change. This explains generators, transformers, and electromagnetic induction. Fundamental to electricity generation.",
+  "examples": [
+    {
+      "problem": "Magnetic field changes from 0.5T to 1.5T in 0.1s through 0.02 m² loop. What is induced EMF?",
+      "solution": "0.2 V",
+      "steps": [
+        "ΔΦ = B₂A - B₁A = (1.5 - 0.5) × 0.02 = 0.02 Wb",
+        "EMF = -ΔΦ/Δt = -0.02/0.1 = -0.2 V",
+        "Magnitude: 0.2 V"
+      ]
+    },
+    {
+      "problem": "Why does moving a magnet near a coil generate electricity?",
+      "solution": "Changing magnetic flux induces EMF (Faraday's law)",
+      "steps": [
+        "Moving magnet changes B field through coil",
+        "Changing flux: dΦ/dt ≠ 0",
+        "Faraday's law: EMF = -dΦ/dt",
+        "Induced EMF drives current"
+      ]
+    }
+  ],
+  "prerequisites": ["magnetic-force"],
+  "related": ["magnetic-force", "electromagnetic-induction"],
+  "level": "calculus-1",
+  "tags": ["physics", "electromagnetism", "induction", "faraday"],
+  "topic": "physics"
+}

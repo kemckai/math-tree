@@ -1,0 +1,33 @@
+{
+  "id": "dynamic-programming",
+  "name": "Dynamic Programming",
+  "latex": "\\text{Break problem into subproblems, store results, reuse solutions}",
+  "explanation": "Dynamic programming solves complex problems by breaking them into overlapping subproblems, solving each once, and storing results for reuse. Avoids redundant calculations. Two approaches: top-down (memoization) and bottom-up (tabulation). Used for optimization problems like shortest paths, knapsack, and sequence alignment. Key insight: Optimal substructure and overlapping subproblems enable efficient solutions.",
+  "examples": [
+    {
+      "problem": "Fibonacci: F(n) = F(n-1) + F(n-2). Calculate F(10) efficiently.",
+      "solution": "55 (using DP instead of recursion)",
+      "steps": [
+        "Naive recursion: O(2ⁿ) - recalculates same values",
+        "DP approach: Build table bottom-up",
+        "F(0)=0, F(1)=1, F(2)=1, F(3)=2, ... F(10)=55",
+        "Time: O(n), Space: O(n) or O(1) with optimization"
+      ]
+    },
+    {
+      "problem": "Why is DP faster than naive recursion for Fibonacci?",
+      "solution": "DP stores results, avoids recalculating F(k) multiple times",
+      "steps": [
+        "Naive: F(5) calculated multiple times in recursion tree",
+        "DP: Calculate each F(k) once, store result",
+        "Reuse stored values instead of recalculating",
+        "Transforms O(2ⁿ) to O(n) time complexity"
+      ]
+    }
+  ],
+  "prerequisites": ["big-o-notation"],
+  "related": ["big-o-notation", "recursion"],
+  "level": "algebra-2",
+  "tags": ["programming", "algorithms", "dynamic-programming", "optimization"],
+  "topic": "programming"
+}

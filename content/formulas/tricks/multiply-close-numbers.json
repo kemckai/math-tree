@@ -1,0 +1,39 @@
+{
+  "id": "multiply-close-numbers",
+  "name": "Multiply Numbers Close Together",
+  "latex": "a \\times b = (a + b)^2/4 - (a - b)^2/4",
+  "explanation": "For numbers close to each other, use the square trick: if both numbers are close to the same value n, calculate n² and adjust. Or use the formula: (a+b)²/4 - (a-b)²/4. For numbers equidistant from a square number, it's even easier: (n+k)(n-k) = n² - k².",
+  "examples": [
+    {
+      "problem": "Calculate 23 × 27",
+      "solution": "621",
+      "steps": [
+        "Both are 2 away from 25",
+        "Use: (25 - 2)(25 + 2) = 25² - 2²",
+        "= 625 - 4 = 621"
+      ]
+    },
+    {
+      "problem": "Calculate 48 × 52",
+      "solution": "2496",
+      "steps": [
+        "Both are 2 away from 50",
+        "Use: (50 - 2)(50 + 2) = 50² - 2²",
+        "= 2500 - 4 = 2496"
+      ]
+    },
+    {
+      "problem": "Calculate 19 × 21",
+      "solution": "399",
+      "steps": [
+        "Both are 1 away from 20",
+        "Use: 20² - 1² = 400 - 1 = 399"
+      ]
+    }
+  ],
+  "prerequisites": ["multiplication", "exponent-rules"],
+  "related": ["square-ending-in-5", "difference-of-squares"],
+  "level": "basic-math",
+  "tags": ["tricks", "mental-math", "multiplication", "shortcuts"],
+  "topic": "tricks"
+}

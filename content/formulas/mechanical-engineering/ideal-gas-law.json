@@ -1,0 +1,33 @@
+{
+  "id": "ideal-gas-law",
+  "name": "Ideal Gas Law",
+  "latex": "PV = nRT, \\quad PV = mRT",
+  "explanation": "The ideal gas law relates pressure (P), volume (V), temperature (T), and amount of gas. PV = nRT (n = moles) or PV = mRT (m = mass, R = specific gas constant). This is fundamental to thermodynamics, used in analyzing engines, compressors, and gas systems. Assumes gases behave ideally (no intermolecular forces, point particles).",
+  "examples": [
+    {
+      "problem": "A gas at 100 kPa and 300K occupies 0.5 m³. If temperature increases to 400K at constant pressure, what is new volume?",
+      "solution": "0.667 m³",
+      "steps": [
+        "PV = nRT, so V/T = constant (constant P and n)",
+        "V₁/T₁ = V₂/T₂",
+        "0.5/300 = V₂/400",
+        "V₂ = 0.5 × 400/300 = 0.667 m³"
+      ]
+    },
+    {
+      "problem": "Air (R = 287 J/kg⋅K) at 200 kPa, 0.1 m³, 300K. What is the mass?",
+      "solution": "0.232 kg",
+      "steps": [
+        "PV = mRT",
+        "200,000 × 0.1 = m × 287 × 300",
+        "20,000 = 86,100m",
+        "m = 0.232 kg"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["thermodynamics-first-law", "heat-transfer"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "thermodynamics", "gas-laws", "pressure"],
+  "topic": "mechanical-engineering"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "main-sequence-lifetime",
+  "name": "Stellar Main Sequence Lifetime",
+  "latex": "t_{MS} \\approx 10^{10} \\text{ years} \\times \\left(\\frac{M}{M_\\odot}\\right)^{-2.5}",
+  "explanation": "Main sequence lifetime is how long a star fuses hydrogen. More massive stars burn fuel faster despite having more fuel. Lifetime ∝ M/L, and L ∝ M³.⁵, so lifetime ∝ M⁻².⁵. Massive stars live millions of years, low-mass stars live trillions. Determines stellar evolution and galaxy composition.",
+  "examples": [
+    {
+      "problem": "Sun's main sequence lifetime is 10 billion years. What is lifetime for 10 solar mass star?",
+      "solution": "31.6 million years",
+      "steps": [
+        "t ∝ M⁻².⁵",
+        "t/t_sun = (M/M_sun)⁻².⁵",
+        "t/10¹⁰ = (10)⁻².⁵ = 0.00316",
+        "t = 3.16×10⁷ years = 31.6 million years"
+      ]
+    },
+    {
+      "problem": "Why do massive stars die young?",
+      "solution": "Higher luminosity means faster fuel consumption, despite more fuel",
+      "steps": [
+        "Luminosity L ∝ M³.⁵ (very strong dependence)",
+        "Fuel ∝ M (proportional to mass)",
+        "Lifetime = Fuel / Consumption rate",
+        "t ∝ M / M³.⁵ = M⁻².⁵ (inverse relationship)"
+      ]
+    }
+  ],
+  "prerequisites": ["stellar-luminosity"],
+  "related": ["stellar-luminosity", "stellar-evolution"],
+  "level": "algebra-2",
+  "tags": ["astronomy", "stars", "stellar-evolution", "main-sequence"],
+  "topic": "astronomy"
+}

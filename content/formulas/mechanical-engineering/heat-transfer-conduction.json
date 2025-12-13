@@ -1,0 +1,22 @@
+{
+  "id": "heat-transfer-conduction",
+  "name": "Heat Transfer by Conduction",
+  "latex": "q = -kA\\frac{\\Delta T}{L}, \\quad Q = \\frac{kA\\Delta T}{L}t",
+  "explanation": "Conduction heat transfer rate (q) is proportional to thermal conductivity (k), area (A), and temperature difference (ΔT), and inversely proportional to thickness (L). The negative sign indicates heat flows from hot to cold. Total heat transferred (Q) equals rate times time. Used in insulation design, heat exchangers, and thermal analysis.",
+  "examples": [
+    {
+      "problem": "A wall (k = 0.5 W/m⋅K, A = 10 m², L = 0.2 m) has 20°C temperature difference. What is heat transfer rate?",
+      "solution": "500 W",
+      "steps": [
+        "q = kAΔT/L",
+        "q = 0.5 × 10 × 20 / 0.2",
+        "q = 100 / 0.2 = 500 W"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["heat-transfer-convection", "thermal-resistance"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "heat-transfer", "conduction", "thermal"],
+  "topic": "mechanical-engineering"
+}

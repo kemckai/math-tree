@@ -1,0 +1,39 @@
+{
+  "id": "division",
+  "name": "Division",
+  "latex": "a \\div b = \\frac{a}{b} = c",
+  "explanation": "Division is the inverse operation of multiplication. When we divide a by b, we're asking 'how many times does b fit into a?' or 'what number multiplied by b gives us a?'. Division by zero is undefined. Division is neither commutative nor associative. The result is called the quotient.",
+  "examples": [
+    {
+      "problem": "Divide 48 by 6",
+      "solution": "8",
+      "steps": [
+        "48 ÷ 6 = ?",
+        "We ask: what number times 6 equals 48?",
+        "6 × 8 = 48",
+        "Therefore, 48 ÷ 6 = 8"
+      ]
+    },
+    {
+      "problem": "Calculate 156 ÷ 12",
+      "solution": "13",
+      "steps": [
+        "Long division:",
+        "   13",
+        "12)156",
+        "  -12",
+        "  ---",
+        "   36",
+        "  -36",
+        "  ---",
+        "    0",
+        "Answer: 13"
+      ]
+    }
+  ],
+  "prerequisites": ["multiplication"],
+  "related": ["multiplication", "fraction-addition"],
+  "level": "basic-math",
+  "tags": ["arithmetic", "basic", "division"],
+  "topic": "arithmetic"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "sum-of-consecutive",
+  "name": "Sum of Consecutive Numbers",
+  "latex": "1 + 2 + 3 + ... + n = \\frac{n(n+1)}{2}",
+  "explanation": "The sum of consecutive integers from 1 to n equals n(n+1)/2. This is the famous formula Gauss discovered as a child. For any range, find the average of first and last, then multiply by the count. This trick makes summing long sequences instant.",
+  "examples": [
+    {
+      "problem": "Find 1 + 2 + 3 + ... + 100",
+      "solution": "5050",
+      "steps": [
+        "Using formula: n = 100",
+        "Sum = 100(100 + 1)/2",
+        "= 100 × 101 / 2",
+        "= 10100 / 2 = 5050"
+      ]
+    },
+    {
+      "problem": "Find 10 + 11 + 12 + ... + 50",
+      "solution": "1230",
+      "steps": [
+        "Count: 50 - 10 + 1 = 41 numbers",
+        "Average: (10 + 50)/2 = 30",
+        "Sum: 30 × 41 = 1230"
+      ]
+    }
+  ],
+  "prerequisites": ["addition", "multiplication"],
+  "related": ["arithmetic-series"],
+  "level": "basic-math",
+  "tags": ["tricks", "sums", "sequences", "shortcuts"],
+  "topic": "tricks"
+}

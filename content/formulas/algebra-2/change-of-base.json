@@ -1,0 +1,32 @@
+{
+  "id": "change-of-base",
+  "name": "Change of Base Formula",
+  "latex": "\\log_b a = \\frac{\\log_c a}{\\log_c b} = \\frac{\\ln a}{\\ln b}",
+  "explanation": "The change of base formula allows you to convert a logarithm from one base to another. This is useful because calculators typically only have buttons for base 10 (log) and base e (ln). The formula states that log base b of a equals the log of a divided by the log of b, in any common base (usually 10 or e).",
+  "examples": [
+    {
+      "problem": "Evaluate log₂(8) using change of base",
+      "solution": "3",
+      "steps": [
+        "log₂(8) = ln(8)/ln(2)",
+        "= 2.079/0.693",
+        "≈ 3",
+        "Or: log₂(8) = log₁₀(8)/log₁₀(2) = 0.903/0.301 ≈ 3"
+      ]
+    },
+    {
+      "problem": "Evaluate log₅(25) using natural log",
+      "solution": "2",
+      "steps": [
+        "log₅(25) = ln(25)/ln(5)",
+        "= 3.219/1.609",
+        "≈ 2"
+      ]
+    }
+  ],
+  "prerequisites": ["logarithm-properties"],
+  "related": ["logarithm-properties", "natural-logarithm"],
+  "level": "algebra-2",
+  "tags": ["logarithms", "change-of-base", "calculators"],
+  "topic": "logarithms"
+}

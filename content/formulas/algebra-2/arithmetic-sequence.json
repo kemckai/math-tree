@@ -1,0 +1,32 @@
+{
+  "id": "arithmetic-sequence",
+  "name": "Arithmetic Sequence",
+  "latex": "a_n = a_1 + (n - 1)d",
+  "explanation": "An arithmetic sequence is a sequence where each term after the first is obtained by adding a constant difference d. The nth term formula uses the first term a₁ and the common difference d. Arithmetic sequences model linear growth patterns, like counting by 2s, 5s, or any constant increment.",
+  "examples": [
+    {
+      "problem": "Find the 10th term of the sequence 3, 7, 11, 15, ...",
+      "solution": "39",
+      "steps": [
+        "First term: a₁ = 3",
+        "Common difference: d = 7 - 3 = 4",
+        "a₁₀ = 3 + (10 - 1)(4)",
+        "= 3 + 9(4) = 3 + 36 = 39"
+      ]
+    },
+    {
+      "problem": "Find the 20th term of 5, 2, -1, -4, ...",
+      "solution": "-52",
+      "steps": [
+        "a₁ = 5, d = 2 - 5 = -3",
+        "a₂₀ = 5 + (20 - 1)(-3)",
+        "= 5 + 19(-3) = 5 - 57 = -52"
+      ]
+    }
+  ],
+  "prerequisites": ["addition", "multiplication"],
+  "related": ["geometric-sequence", "arithmetic-series"],
+  "level": "algebra-2",
+  "tags": ["sequences", "arithmetic", "patterns"],
+  "topic": "sequences"
+}

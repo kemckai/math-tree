@@ -1,0 +1,31 @@
+{
+  "id": "entropy",
+  "name": "Entropy and Second Law",
+  "latex": "\\Delta S = \\frac{Q}{T}, \\quad S = k_B \\ln W",
+  "explanation": "Entropy (S) measures disorder or randomness. Second law: entropy of isolated system always increases. ΔS = Q/T for reversible processes. Boltzmann: S = k_B ln W (W = number of microstates). Entropy explains why processes are irreversible, why heat flows from hot to cold, and the arrow of time. Fundamental to understanding thermodynamics and statistical mechanics.",
+  "examples": [
+    {
+      "problem": "1000J heat flows into system at 300K. What is entropy change?",
+      "solution": "3.33 J/K",
+      "steps": [
+        "ΔS = Q/T",
+        "ΔS = 1000 / 300 = 3.33 J/K"
+      ]
+    },
+    {
+      "problem": "Why does entropy always increase?",
+      "solution": "Systems naturally evolve toward more probable (disordered) states",
+      "steps": [
+        "More microstates = higher probability",
+        "Entropy measures number of microstates",
+        "Systems evolve toward maximum entropy",
+        "This is the second law of thermodynamics"
+      ]
+    }
+  ],
+  "prerequisites": ["thermodynamics-first-law-physics"],
+  "related": ["thermodynamics-first-law-physics", "heat-engines"],
+  "level": "calculus-2",
+  "tags": ["physics", "thermodynamics", "entropy", "second-law"],
+  "topic": "physics"
+}

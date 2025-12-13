@@ -1,0 +1,26 @@
+{
+  "id": "heisenberg-uncertainty",
+  "name": "Heisenberg Uncertainty Principle",
+  "latex": "\\Delta x \\Delta p \\geq \\frac{\\hbar}{2}",
+  "explanation": "Werner Heisenberg's 1927 principle states that you cannot simultaneously know both the position (Δx) and momentum (Δp) of a particle with perfect precision. The more precisely you know one, the less precisely you can know the other. ℏ = h/(2π) is the reduced Planck constant. This isn't a limitation of measurement—it's a fundamental property of nature. This principle revolutionized our understanding of reality and has profound philosophical implications.",
+  "examples": [
+    {
+      "problem": "If an electron's position is measured to within 1 nm, what is the minimum uncertainty in its momentum?",
+      "solution": "5.27 × 10⁻²⁶ kg⋅m/s",
+      "steps": [
+        "Δx Δp ≥ ℏ/2",
+        "Δx = 1 × 10⁻⁹ m",
+        "ℏ = 1.055 × 10⁻³⁴ J⋅s",
+        "Δp ≥ ℏ/(2Δx)",
+        "Δp ≥ (1.055 × 10⁻³⁴) / (2 × 10⁻⁹)",
+        "Δp ≥ 5.27 × 10⁻²⁶ kg⋅m/s"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["schrodinger-equation", "planck-energy"],
+  "level": "calculus-3",
+  "tags": ["famous-equations", "physics", "quantum-mechanics", "heisenberg"],
+  "topic": "famous-equations",
+  "proof": "Heisenberg derived this from the mathematical properties of Fourier transforms and the wave nature of particles. The uncertainty comes from the non-commutativity of position and momentum operators in quantum mechanics: [x̂, p̂] = iℏ."
+}

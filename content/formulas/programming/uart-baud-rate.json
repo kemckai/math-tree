@@ -1,0 +1,31 @@
+{
+  "id": "uart-baud-rate",
+  "name": "UART Baud Rate Calculation",
+  "latex": "\\text{Baud Rate} = \\frac{\\text{Clock Frequency}}{\\text{Prescaler} \\times 16}, \\quad \\text{Bit Time} = \\frac{1}{\\text{Baud Rate}}",
+  "explanation": "UART (Universal Asynchronous Receiver-Transmitter) is a serial communication protocol. Baud rate determines data transmission speed (bits per second). Must match between transmitter and receiver. Bit time = 1/baud rate. Used in embedded systems for communication between microcontrollers, sensors, and computers. Essential for serial communication, debugging, and data logging.",
+  "examples": [
+    {
+      "problem": "UART configured for 9600 baud. What is bit time?",
+      "solution": "104.17 microseconds",
+      "steps": [
+        "Bit time = 1 / baud rate",
+        "Bit time = 1 / 9600 = 0.00010417 s",
+        "Bit time = 104.17 μs"
+      ]
+    },
+    {
+      "problem": "16 MHz clock, prescaler = 8. What baud rate?",
+      "solution": "125,000 baud",
+      "steps": [
+        "Baud rate = Clock / (Prescaler × 16)",
+        "Baud rate = 16,000,000 / (8 × 16)",
+        "Baud rate = 16,000,000 / 128 = 125,000 baud"
+      ]
+    }
+  ],
+  "prerequisites": ["microcontroller-timing"],
+  "related": ["microcontroller-timing", "serial-communication"],
+  "level": "algebra-1",
+  "tags": ["programming", "embedded-systems", "uart", "communication"],
+  "topic": "programming"
+}

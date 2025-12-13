@@ -1,0 +1,39 @@
+{
+  "id": "natural-logarithm",
+  "name": "Natural Logarithm",
+  "latex": "\\ln x = \\log_e x",
+  "explanation": "The natural logarithm, denoted ln, is the logarithm with base e (Euler's number, approximately 2.71828). It's called 'natural' because it arises naturally in calculus and many real-world applications. The natural logarithm has the same properties as other logarithms, and ln(e) = 1, ln(1) = 0.",
+  "examples": [
+    {
+      "problem": "Simplify: ln(e³)",
+      "solution": "3",
+      "steps": [
+        "Using power rule: ln(e³) = 3 ln(e)",
+        "Since ln(e) = 1:",
+        "= 3(1) = 3"
+      ]
+    },
+    {
+      "problem": "Solve: ln(x) = 2",
+      "solution": "x = e² ≈ 7.389",
+      "steps": [
+        "Rewrite in exponential form:",
+        "x = e²",
+        "x ≈ 7.389"
+      ]
+    },
+    {
+      "problem": "Simplify: ln(1)",
+      "solution": "0",
+      "steps": [
+        "By definition, ln(1) = 0",
+        "This is because e⁰ = 1"
+      ]
+    }
+  ],
+  "prerequisites": ["logarithm-properties"],
+  "related": ["logarithm-properties", "change-of-base"],
+  "level": "algebra-2",
+  "tags": ["logarithms", "natural-log", "e"],
+  "topic": "logarithms"
+}

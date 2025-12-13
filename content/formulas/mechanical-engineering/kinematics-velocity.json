@@ -1,0 +1,29 @@
+{
+  "id": "kinematics-velocity",
+  "name": "Kinematic Equations",
+  "latex": "v = v_0 + at, \\quad x = v_0t + \\frac{1}{2}at^2, \\quad v^2 = v_0^2 + 2ax",
+  "explanation": "Kinematic equations describe motion with constant acceleration. v = v₀ + at (velocity), x = v₀t + ½at² (position), v² = v₀² + 2ax (velocity-position relation). These are fundamental for analyzing motion of machines, vehicles, and mechanisms. Used in robotics, vehicle dynamics, and mechanism design.",
+  "examples": [
+    {
+      "problem": "A car starts from rest and accelerates at 2 m/s² for 5 seconds. What is final velocity?",
+      "solution": "10 m/s",
+      "steps": [
+        "v = v₀ + at",
+        "v = 0 + 2 × 5 = 10 m/s"
+      ]
+    },
+    {
+      "problem": "How far did the car travel?",
+      "solution": "25 m",
+      "steps": [
+        "x = v₀t + ½at²",
+        "x = 0 + ½ × 2 × 5² = 25 m"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["newtons-second-law", "angular-kinematics"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "kinematics", "motion", "dynamics"],
+  "topic": "mechanical-engineering"
+}

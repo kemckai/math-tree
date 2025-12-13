@@ -1,0 +1,24 @@
+{
+  "id": "resonant-frequency",
+  "name": "LC Resonant Frequency",
+  "latex": "f_0 = \\frac{1}{2\\pi\\sqrt{LC}}",
+  "explanation": "An LC circuit (inductor and capacitor) resonates at a specific frequency where capacitive and inductive reactances cancel. At resonance, the circuit has minimum impedance and maximum current. This is fundamental to radio tuning, filters, oscillators, and frequency selection. The resonant frequency depends only on L and C values, not resistance.",
+  "examples": [
+    {
+      "problem": "What is the resonant frequency of a 10μH inductor and 100pF capacitor?",
+      "solution": "5.03MHz",
+      "steps": [
+        "f₀ = 1/(2π√LC)",
+        "f₀ = 1/(2π√(10×10⁻⁶ × 100×10⁻¹²))",
+        "f₀ = 1/(2π√(10⁻¹⁵))",
+        "f₀ = 1/(2π × 3.16×10⁻⁸)",
+        "f₀ ≈ 5.03×10⁶ Hz = 5.03MHz"
+      ]
+    }
+  ],
+  "prerequisites": ["impedance-capacitor", "impedance-inductor"],
+  "related": ["bandwidth", "q-factor"],
+  "level": "algebra-2",
+  "tags": ["electronics", "resonance", "lc-circuits", "frequency"],
+  "topic": "electronics"
+}

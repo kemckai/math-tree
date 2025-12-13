@@ -1,0 +1,24 @@
+{
+  "id": "fermat-last-theorem",
+  "name": "Fermat's Last Theorem",
+  "latex": "x^n + y^n = z^n \\text{ has no integer solutions for } n > 2",
+  "explanation": "Pierre de Fermat's 1637 conjecture stated that no three positive integers a, b, and c satisfy aⁿ + bⁿ = cⁿ for any integer n > 2. Fermat claimed to have a proof but never wrote it down. This problem stumped mathematicians for 358 years until Andrew Wiles proved it in 1994 using advanced techniques from algebraic geometry and number theory. The proof is over 100 pages long and uses mathematics that didn't exist in Fermat's time.",
+  "examples": [
+    {
+      "problem": "Why is n = 2 special?",
+      "solution": "For n = 2, there are infinitely many solutions (Pythagorean triples like 3² + 4² = 5²)",
+      "steps": [
+        "For n = 2: 3² + 4² = 9 + 16 = 25 = 5² ✓",
+        "For n = 2: 5² + 12² = 25 + 144 = 169 = 13² ✓",
+        "For n = 3: No integer solutions exist",
+        "For n > 2: No integer solutions exist (proven by Wiles)"
+      ]
+    }
+  ],
+  "prerequisites": ["pythagorean-theorem"],
+  "related": ["pythagorean-theorem"],
+  "level": "algebra-2",
+  "tags": ["famous-equations", "mathematics", "number-theory", "fermat"],
+  "topic": "famous-equations",
+  "proof": "Wiles proved this by showing that if a solution existed, it would create an elliptic curve with properties that contradict the Taniyama-Shimura conjecture (now theorem), which he also proved. The proof required techniques from modular forms, Galois representations, and algebraic geometry."
+}

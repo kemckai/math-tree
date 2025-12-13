@@ -1,0 +1,25 @@
+{
+  "id": "dijkstra-algorithm",
+  "name": "Dijkstra's Shortest Path",
+  "latex": "\\text{Time: } O((V + E) \\log V) \\text{ with priority queue}",
+  "explanation": "Dijkstra's algorithm finds shortest paths from a source to all other vertices in a weighted graph with non-negative edges. Uses a priority queue to always process the closest unvisited vertex. Essential for routing, GPS navigation, and network optimization. Guarantees optimal solution for non-negative weights. Time complexity depends on data structure: O(V²) with array, O((V+E)log V) with heap.",
+  "examples": [
+    {
+      "problem": "Find shortest path from A to D in weighted graph: A-B(3), A-C(1), B-D(2), C-D(4)",
+      "solution": "A → C → D, distance = 5",
+      "steps": [
+        "Start: distances A=0, others=∞",
+        "Process A: update B=3, C=1",
+        "Process C (closest): update D=1+4=5",
+        "Process B: update D=min(5, 3+2)=5",
+        "Process D: done",
+        "Shortest: A→C→D = 5"
+      ]
+    }
+  ],
+  "prerequisites": ["graph-algorithms"],
+  "related": ["graph-algorithms", "shortest-path"],
+  "level": "calculus-2",
+  "tags": ["programming", "algorithms", "graphs", "shortest-path"],
+  "topic": "programming"
+}

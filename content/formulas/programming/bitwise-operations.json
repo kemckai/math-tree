@@ -1,0 +1,41 @@
+{
+  "id": "bitwise-operations",
+  "name": "Bitwise Operations",
+  "latex": "\\text{AND: } \\&, \\quad \\text{OR: } |, \\quad \\text{XOR: } \\wedge, \\quad \\text{NOT: } \\sim, \\quad \\text{Shift: } <<, >>",
+  "explanation": "Bitwise operations work on individual bits. AND (&) sets bit if both are 1. OR (|) sets bit if either is 1. XOR (^) sets bit if exactly one is 1. NOT (~) flips all bits. Left shift (<<) multiplies by 2, right shift (>>) divides by 2. Used in embedded systems, graphics, cryptography, and low-level optimization. Essential for efficient memory usage and hardware control.",
+  "examples": [
+    {
+      "problem": "Calculate 5 & 3 (bitwise AND)",
+      "solution": "1",
+      "steps": [
+        "5 = 101₂, 3 = 011₂",
+        "101 & 011 = 001₂",
+        "Result: 1"
+      ]
+    },
+    {
+      "problem": "Calculate 5 << 2 (left shift)",
+      "solution": "20",
+      "steps": [
+        "5 = 101₂",
+        "Left shift by 2: 10100₂",
+        "10100₂ = 20₁₀",
+        "Equivalent to 5 × 2² = 20"
+      ]
+    },
+    {
+      "problem": "Check if bit 2 is set: value & (1 << 2)",
+      "solution": "Non-zero if bit 2 is set, zero otherwise",
+      "steps": [
+        "1 << 2 = 100₂ (bit mask for bit 2)",
+        "value & mask extracts bit 2",
+        "If result ≠ 0, bit is set"
+      ]
+    }
+  ],
+  "prerequisites": ["binary-arithmetic"],
+  "related": ["binary-arithmetic", "embedded-systems"],
+  "level": "basic-math",
+  "tags": ["programming", "bitwise", "low-level", "embedded-systems"],
+  "topic": "programming"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "reynolds-number",
+  "name": "Reynolds Number",
+  "latex": "Re = \\frac{\\rho vD}{\\mu} = \\frac{vD}{\\nu}",
+  "explanation": "Reynolds number (Re) is a dimensionless parameter that predicts flow regime. Re = ρvD/μ (density × velocity × diameter / viscosity). Re < 2300: laminar flow (smooth, orderly). Re > 4000: turbulent flow (chaotic, mixed). Between: transitional. Essential for pipe design, predicting drag, and understanding fluid behavior. Determines friction factors and heat transfer coefficients.",
+  "examples": [
+    {
+      "problem": "Water (ρ = 1000 kg/m³, μ = 0.001 Pa⋅s) flows at 2 m/s in 0.1m pipe. What is Re?",
+      "solution": "200,000 (turbulent)",
+      "steps": [
+        "Re = ρvD/μ",
+        "Re = 1000 × 2 × 0.1 / 0.001",
+        "Re = 200 / 0.001 = 200,000",
+        "Re > 4000, so flow is turbulent"
+      ]
+    }
+  ],
+  "prerequisites": ["viscosity", "continuity-equation"],
+  "related": ["viscosity", "fluid-flow"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "fluid-mechanics", "reynolds", "flow-regime"],
+  "topic": "mechanical-engineering"
+}

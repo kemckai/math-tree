@@ -1,0 +1,26 @@
+{
+  "id": "partial-fractions",
+  "name": "Partial Fractions",
+  "latex": "\\frac{P(x)}{Q(x)} = \\sum \\frac{A_i}{(x - r_i)} + \\sum \\frac{B_j x + C_j}{(x^2 + p_j x + q_j)}",
+  "explanation": "Partial fraction decomposition breaks down rational functions (fractions with polynomials) into simpler fractions that are easier to integrate. This technique is essential for integrating rational functions. The method involves expressing the fraction as a sum of simpler fractions with unknown coefficients, then solving for those coefficients.",
+  "examples": [
+    {
+      "problem": "Decompose 1/(x² - 1) into partial fractions",
+      "solution": "1/(2(x-1)) - 1/(2(x+1))",
+      "steps": [
+        "Factor denominator: x² - 1 = (x-1)(x+1)",
+        "Set up: 1/(x²-1) = A/(x-1) + B/(x+1)",
+        "Multiply both sides by (x²-1):",
+        "1 = A(x+1) + B(x-1)",
+        "Let x = 1: 1 = 2A, so A = 1/2",
+        "Let x = -1: 1 = -2B, so B = -1/2",
+        "Result: 1/(2(x-1)) - 1/(2(x+1))"
+      ]
+    }
+  ],
+  "prerequisites": ["basic-integrals", "factoring"],
+  "related": ["integration-by-parts", "trigonometric-substitution"],
+  "level": "calculus-2",
+  "tags": ["integration", "partial-fractions", "rational"],
+  "topic": "integration-techniques"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "impedance-inductor",
+  "name": "Inductive Reactance",
+  "latex": "X_L = 2\\pi fL",
+  "explanation": "In AC circuits, inductors oppose current flow with reactance (X_L), which increases with frequency. Unlike capacitors, inductors pass DC easily but oppose AC, with stronger opposition at higher frequencies. This frequency-dependent behavior makes inductors useful for filtering, impedance matching, and frequency selection. The unit is ohms (Ω).",
+  "examples": [
+    {
+      "problem": "What is the reactance of a 10mH inductor at 1kHz?",
+      "solution": "62.8Ω",
+      "steps": [
+        "X_L = 2πfL",
+        "X_L = 2π × 1000 × 0.01",
+        "X_L = 62.8Ω"
+      ]
+    },
+    {
+      "problem": "At what frequency does a 1mH inductor have 100Ω reactance?",
+      "solution": "15.9kHz",
+      "steps": [
+        "X_L = 2πfL",
+        "100 = 2π × f × 0.001",
+        "f = 100/(2π × 0.001)",
+        "f ≈ 15900Hz = 15.9kHz"
+      ]
+    }
+  ],
+  "prerequisites": ["inductor-energy"],
+  "related": ["impedance-capacitor", "ac-circuits"],
+  "level": "algebra-2",
+  "tags": ["electronics", "ac-circuits", "impedance", "inductors"],
+  "topic": "electronics"
+}

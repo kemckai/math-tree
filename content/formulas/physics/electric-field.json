@@ -1,0 +1,30 @@
+{
+  "id": "electric-field",
+  "name": "Electric Field",
+  "latex": "E = \\frac{F}{q}, \\quad E = k\\frac{Q}{r^2} \\text{ (point charge)}",
+  "explanation": "Electric field (E) is force per unit charge, measured in N/C or V/m. Represents the force a charge would experience at a point. For a point charge Q: E = kQ/r². Electric fields explain how charges interact at a distance. Used in understanding capacitors, circuits, and electromagnetic phenomena. Field lines show direction and strength of electric field.",
+  "examples": [
+    {
+      "problem": "A 5μC charge creates an electric field. What is field strength 0.2m away?",
+      "solution": "1.12 × 10⁶ N/C",
+      "steps": [
+        "E = kQ/r²",
+        "E = (8.99×10⁹) × (5×10⁻⁶) / (0.2)²",
+        "E = 4.495×10⁴ / 0.04 = 1.12×10⁶ N/C"
+      ]
+    },
+    {
+      "problem": "A 2nC charge experiences 0.5N force. What is electric field?",
+      "solution": "2.5 × 10⁸ N/C",
+      "steps": [
+        "E = F/q",
+        "E = 0.5 / (2×10⁻⁹) = 2.5×10⁸ N/C"
+      ]
+    }
+  ],
+  "prerequisites": ["coulombs-law"],
+  "related": ["coulombs-law", "electric-potential"],
+  "level": "algebra-1",
+  "tags": ["physics", "electromagnetism", "electric-field", "electricity"],
+  "topic": "physics"
+}

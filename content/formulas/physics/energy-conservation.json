@@ -1,0 +1,33 @@
+{
+  "id": "energy-conservation",
+  "name": "Conservation of Energy",
+  "latex": "E_{total} = KE + PE = \\text{constant}, \\quad KE = \\frac{1}{2}mv^2, \\quad PE = mgh",
+  "explanation": "Energy is conserved in isolated systems - it can change form but total energy remains constant. Kinetic energy (KE) is energy of motion, proportional to mass and velocity squared. Potential energy (PE) is stored energy due to position. This principle is fundamental to physics, explaining motion, transformations, and system behavior. Used in analyzing collisions, oscillations, and energy transformations.",
+  "examples": [
+    {
+      "problem": "A 2kg object falls from 10m height. What is its speed at ground? (g = 9.8 m/s²)",
+      "solution": "14 m/s",
+      "steps": [
+        "Initial: PE = mgh = 2 × 9.8 × 10 = 196 J, KE = 0",
+        "Final: PE = 0, KE = 196 J",
+        "KE = ½mv², so 196 = ½ × 2 × v²",
+        "v² = 196, v = 14 m/s"
+      ]
+    },
+    {
+      "problem": "Why is energy conservation powerful?",
+      "solution": "Allows solving problems without knowing forces or paths",
+      "steps": [
+        "Don't need to calculate forces at each point",
+        "Only need initial and final states",
+        "Works for any path between states",
+        "Simplifies complex problems"
+      ]
+    }
+  ],
+  "prerequisites": ["newtons-second-law-physics"],
+  "related": ["work-energy-theorem", "momentum-conservation"],
+  "level": "algebra-1",
+  "tags": ["physics", "mechanics", "energy", "conservation"],
+  "topic": "physics"
+}

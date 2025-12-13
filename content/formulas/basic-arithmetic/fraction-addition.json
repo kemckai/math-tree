@@ -1,0 +1,33 @@
+{
+  "id": "fraction-addition",
+  "name": "Adding Fractions",
+  "latex": "\\frac{a}{b} + \\frac{c}{d} = \\frac{ad + bc}{bd}",
+  "explanation": "To add fractions, they must have a common denominator. If the denominators are different, find the least common multiple (LCM) of the denominators and convert both fractions to equivalent fractions with that denominator. Then add the numerators and keep the common denominator. If the denominators are the same, simply add the numerators.",
+  "examples": [
+    {
+      "problem": "Add 1/3 + 1/4",
+      "solution": "7/12",
+      "steps": [
+        "Find LCM of 3 and 4: LCM = 12",
+        "Convert 1/3: (1 × 4)/(3 × 4) = 4/12",
+        "Convert 1/4: (1 × 3)/(4 × 3) = 3/12",
+        "Add: 4/12 + 3/12 = 7/12"
+      ]
+    },
+    {
+      "problem": "Calculate 2/5 + 3/10",
+      "solution": "7/10",
+      "steps": [
+        "LCM of 5 and 10 is 10",
+        "2/5 = (2 × 2)/(5 × 2) = 4/10",
+        "3/10 stays the same",
+        "4/10 + 3/10 = 7/10"
+      ]
+    }
+  ],
+  "prerequisites": ["addition", "multiplication"],
+  "related": ["fraction-multiplication", "fraction-division"],
+  "level": "basic-math",
+  "tags": ["fractions", "arithmetic", "addition"],
+  "topic": "fractions"
+}

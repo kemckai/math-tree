@@ -1,0 +1,32 @@
+{
+  "id": "convergence-tests",
+  "name": "Series Convergence Tests",
+  "latex": "\\text{Ratio Test: } \\lim |a_{n+1}/a_n|, \\quad \\text{Root Test: } \\lim \\sqrt[n]{|a_n|}",
+  "explanation": "Convergence tests determine whether an infinite series converges (has a finite sum) or diverges. The ratio test compares consecutive terms: if the limit is < 1, series converges; if > 1, diverges; if = 1, test is inconclusive. The root test examines the nth root of terms. Other important tests include the integral test, comparison test, and alternating series test.",
+  "examples": [
+    {
+      "problem": "Test Σ n!/nⁿ for convergence",
+      "solution": "Converges by ratio test",
+      "steps": [
+        "Ratio test: lim |a_{n+1}/a_n|",
+        "= lim |(n+1)!/(n+1)^{n+1} · nⁿ/n!|",
+        "= lim (n/(n+1))ⁿ = 1/e < 1",
+        "Since limit < 1, series converges"
+      ]
+    },
+    {
+      "problem": "Test Σ 1/n² for convergence",
+      "solution": "Converges (p-series with p > 1)",
+      "steps": [
+        "This is a p-series with p = 2",
+        "p-series Σ 1/n^p converges if p > 1",
+        "Since 2 > 1, the series converges"
+      ]
+    }
+  ],
+  "prerequisites": ["taylor-series", "limit-definition"],
+  "related": ["taylor-series", "maclaurin-series"],
+  "level": "calculus-2",
+  "tags": ["series", "convergence", "tests"],
+  "topic": "series"
+}

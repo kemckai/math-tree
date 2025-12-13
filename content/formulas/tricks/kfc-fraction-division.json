@@ -1,0 +1,44 @@
+{
+  "id": "kfc-fraction-division",
+  "name": "KFC: Keep, Flip, Change (Dividing Fractions)",
+  "latex": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}",
+  "explanation": "KFC stands for Keep, Flip, Change - a mnemonic for dividing fractions. Keep the first fraction, Flip the second fraction (take its reciprocal), and Change division to multiplication. This trick transforms division into multiplication, making fraction division much easier. It works because dividing by a number is the same as multiplying by its reciprocal.",
+  "examples": [
+    {
+      "problem": "Calculate 2/3 ÷ 4/5",
+      "solution": "5/6",
+      "steps": [
+        "Keep: 2/3 stays the same",
+        "Flip: 4/5 becomes 5/4",
+        "Change: ÷ becomes ×",
+        "Result: 2/3 × 5/4 = (2 × 5)/(3 × 4) = 10/12 = 5/6"
+      ]
+    },
+    {
+      "problem": "Calculate 7/8 ÷ 1/2",
+      "solution": "7/4 or 1¾",
+      "steps": [
+        "Keep: 7/8",
+        "Flip: 1/2 becomes 2/1",
+        "Change: ÷ becomes ×",
+        "Result: 7/8 × 2/1 = (7 × 2)/(8 × 1) = 14/8 = 7/4"
+      ]
+    },
+    {
+      "problem": "Calculate 3 ÷ 1/4",
+      "solution": "12",
+      "steps": [
+        "Write 3 as 3/1",
+        "Keep: 3/1",
+        "Flip: 1/4 becomes 4/1",
+        "Change: ÷ becomes ×",
+        "Result: 3/1 × 4/1 = 12/1 = 12"
+      ]
+    }
+  ],
+  "prerequisites": ["fraction-division", "pemdas"],
+  "related": ["fraction-division", "pemdas", "fraction-multiplication"],
+  "level": "basic-math",
+  "tags": ["tricks", "fractions", "division", "mnemonic", "shortcuts"],
+  "topic": "tricks"
+}

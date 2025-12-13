@@ -1,0 +1,32 @@
+{
+  "id": "partial-derivative",
+  "name": "Partial Derivatives",
+  "latex": "\\frac{\\partial f}{\\partial x} = \\lim_{h \\to 0} \\frac{f(x+h,y) - f(x,y)}{h}",
+  "explanation": "A partial derivative measures how a multivariable function changes with respect to one variable while holding others constant. The notation ∂f/∂x means 'partial derivative of f with respect to x'. To compute it, treat all other variables as constants and differentiate normally. Partial derivatives are fundamental to multivariable calculus.",
+  "examples": [
+    {
+      "problem": "Find ∂f/∂x and ∂f/∂y for f(x,y) = x²y + 3xy²",
+      "solution": "∂f/∂x = 2xy + 3y², ∂f/∂y = x² + 6xy",
+      "steps": [
+        "For ∂f/∂x, treat y as constant:",
+        "∂f/∂x = 2xy + 3y²",
+        "For ∂f/∂y, treat x as constant:",
+        "∂f/∂y = x² + 6xy"
+      ]
+    },
+    {
+      "problem": "Find ∂z/∂x for z = sin(xy)",
+      "solution": "y cos(xy)",
+      "steps": [
+        "Treat y as constant, use chain rule:",
+        "∂z/∂x = cos(xy) · y",
+        "= y cos(xy)"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule", "chain-rule"],
+  "related": ["chain-rule-multivariable", "gradient"],
+  "level": "calculus-3",
+  "tags": ["multivariable", "partial-derivatives", "calculus"],
+  "topic": "partial-derivatives"
+}

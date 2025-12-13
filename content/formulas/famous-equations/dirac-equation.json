@@ -1,0 +1,25 @@
+{
+  "id": "dirac-equation",
+  "name": "Dirac Equation",
+  "latex": "(i\\gamma^\\mu \\partial_\\mu - m)\\psi = 0",
+  "explanation": "Paul Dirac's 1928 equation unified quantum mechanics with special relativity and predicted the existence of antimatter. The equation describes the behavior of fermions (like electrons) at relativistic speeds. The gamma matrices (γ^μ) are 4×4 matrices, and ψ is a four-component spinor wavefunction. This equation correctly predicted the electron's magnetic moment and led to the discovery of the positron (antielectron) in 1932.",
+  "examples": [
+    {
+      "problem": "What did the Dirac equation predict that was later discovered?",
+      "solution": "Antimatter (specifically the positron)",
+      "steps": [
+        "Dirac's equation had both positive and negative energy solutions",
+        "The negative energy solutions were initially puzzling",
+        "Dirac interpreted them as describing antiparticles",
+        "The positron (antielectron) was discovered in 1932",
+        "This validated Dirac's theoretical prediction"
+      ]
+    }
+  ],
+  "prerequisites": ["schrodinger-equation"],
+  "related": ["schrodinger-equation", "einstein-mass-energy"],
+  "level": "calculus-3",
+  "tags": ["famous-equations", "physics", "quantum-mechanics", "dirac", "relativity"],
+  "topic": "famous-equations",
+  "proof": "Dirac sought a first-order differential equation (unlike the second-order Klein-Gordon equation) that was Lorentz covariant. He factorized the relativistic energy-momentum relation E² = p²c² + m²c⁴ using gamma matrices, leading to the Dirac equation."
+}

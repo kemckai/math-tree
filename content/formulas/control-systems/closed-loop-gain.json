@@ -1,0 +1,33 @@
+{
+  "id": "closed-loop-gain",
+  "name": "Closed-Loop Transfer Function",
+  "latex": "T(s) = \\frac{G(s)}{1 + G(s)H(s)}",
+  "explanation": "Closed-loop systems use feedback to control output. T(s) is the overall system transfer function where G(s) is the plant (system being controlled) and H(s) is the feedback path. The denominator 1 + G(s)H(s) determines stability. Feedback reduces sensitivity to disturbances and improves accuracy. Most control systems use closed-loop feedback for better performance.",
+  "examples": [
+    {
+      "problem": "Plant G(s) = 10/s, feedback H(s) = 1. What is closed-loop transfer function?",
+      "solution": "T(s) = 10/(s + 10)",
+      "steps": [
+        "T(s) = G(s) / (1 + G(s)H(s))",
+        "T(s) = (10/s) / (1 + 10/s × 1)",
+        "T(s) = (10/s) / ((s + 10)/s)",
+        "T(s) = 10/(s + 10)"
+      ]
+    },
+    {
+      "problem": "Why is closed-loop better than open-loop?",
+      "solution": "Feedback compensates for disturbances and model errors",
+      "steps": [
+        "Open-loop: no feedback, errors accumulate",
+        "Closed-loop: measures output, corrects errors",
+        "Reduces sensitivity to disturbances",
+        "Improves accuracy and stability"
+      ]
+    }
+  ],
+  "prerequisites": ["transfer-function"],
+  "related": ["transfer-function", "system-stability"],
+  "level": "calculus-2",
+  "tags": ["control-systems", "feedback", "closed-loop", "stability"],
+  "topic": "control-systems"
+}

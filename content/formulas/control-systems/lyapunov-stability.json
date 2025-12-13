@@ -1,0 +1,33 @@
+{
+  "id": "lyapunov-stability",
+  "name": "Lyapunov Stability Theory",
+  "latex": "V(x) > 0, \\quad \\dot{V}(x) < 0 \\text{ for stability}",
+  "explanation": "Lyapunov's method proves stability by finding a positive definite function V(x) (Lyapunov function) whose derivative is negative definite. If such a function exists, the system is stable. Works for nonlinear systems and doesn't require solving differential equations. Powerful method for proving stability of complex systems, including nonlinear and time-varying systems.",
+  "examples": [
+    {
+      "problem": "What is a Lyapunov function?",
+      "solution": "A positive definite function that decreases along system trajectories",
+      "steps": [
+        "V(x) > 0 for all x ≠ 0 (positive definite)",
+        "V(0) = 0",
+        "dV/dt < 0 (decreases along trajectories)",
+        "If such V exists, system is stable"
+      ]
+    },
+    {
+      "problem": "Why is Lyapunov method powerful?",
+      "solution": "Works for nonlinear systems, doesn't require solving equations",
+      "steps": [
+        "Linear methods (Routh-Hurwitz) only work for linear systems",
+        "Lyapunov works for nonlinear systems",
+        "Don't need to find solutions, just prove function exists",
+        "Used in advanced control theory"
+      ]
+    }
+  ],
+  "prerequisites": ["state-space"],
+  "related": ["state-space", "nonlinear-control"],
+  "level": "calculus-3",
+  "tags": ["control-systems", "stability", "lyapunov", "nonlinear"],
+  "topic": "control-systems"
+}

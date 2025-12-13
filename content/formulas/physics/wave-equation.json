@@ -1,0 +1,30 @@
+{
+  "id": "wave-equation",
+  "name": "Wave Equation",
+  "latex": "v = f\\lambda, \\quad v = \\frac{\\lambda}{T}",
+  "explanation": "Wave speed equals frequency times wavelength (v = fλ). Frequency (f) is cycles per second (Hz), wavelength (λ) is distance between peaks, period (T) is time for one cycle. This fundamental relationship applies to all waves: sound, light, water waves, and electromagnetic waves. Essential for understanding wave behavior, interference, and resonance.",
+  "examples": [
+    {
+      "problem": "Sound wave has frequency 440 Hz and wavelength 0.78 m. What is speed?",
+      "solution": "343 m/s",
+      "steps": [
+        "v = fλ",
+        "v = 440 × 0.78 = 343.2 m/s ≈ 343 m/s"
+      ]
+    },
+    {
+      "problem": "Light has wavelength 500 nm. What is frequency? (c = 3×10⁸ m/s)",
+      "solution": "6 × 10¹⁴ Hz",
+      "steps": [
+        "v = fλ, so f = v/λ",
+        "f = (3×10⁸) / (500×10⁻⁹)",
+        "f = 3×10⁸ / 5×10⁻⁷ = 6×10¹⁴ Hz"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["doppler-effect", "wave-interference"],
+  "level": "algebra-1",
+  "tags": ["physics", "waves", "optics", "sound"],
+  "topic": "physics"
+}

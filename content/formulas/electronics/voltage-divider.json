@@ -1,0 +1,33 @@
+{
+  "id": "voltage-divider",
+  "name": "Voltage Divider",
+  "latex": "V_{out} = V_{in} \\times \\frac{R_2}{R_1 + R_2}",
+  "explanation": "A voltage divider uses two resistors in series to produce a fraction of the input voltage. This is one of the most common and useful circuits in electronics, used for level shifting, sensor interfacing, and creating reference voltages. The output voltage is proportional to the ratio of the bottom resistor to the total resistance. Voltage dividers are simple but essential building blocks.",
+  "examples": [
+    {
+      "problem": "A voltage divider uses R₁ = 3kΩ and R₂ = 2kΩ with 10V input. What is V_out?",
+      "solution": "4V",
+      "steps": [
+        "V_out = V_in × R₂/(R₁ + R₂)",
+        "V_out = 10 × 2000/(3000 + 2000)",
+        "V_out = 10 × 2000/5000 = 10 × 0.4 = 4V"
+      ]
+    },
+    {
+      "problem": "You need 3V from a 9V battery. If R₁ = 4kΩ, what should R₂ be?",
+      "solution": "2kΩ",
+      "steps": [
+        "3 = 9 × R₂/(4000 + R₂)",
+        "3(4000 + R₂) = 9R₂",
+        "12000 + 3R₂ = 9R₂",
+        "12000 = 6R₂",
+        "R₂ = 2000Ω = 2kΩ"
+      ]
+    }
+  ],
+  "prerequisites": ["series-resistance", "ohms-law"],
+  "related": ["series-resistance", "current-divider"],
+  "level": "algebra-1",
+  "tags": ["electronics", "circuits", "voltage", "dividers"],
+  "topic": "electronics"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "diode-voltage",
+  "name": "Diode Forward Voltage",
+  "latex": "V_{forward} \\approx 0.7V \\text{ (silicon), } 0.3V \\text{ (germanium)}",
+  "explanation": "Diodes are semiconductor devices that allow current to flow in only one direction. When forward-biased (positive voltage on anode), a silicon diode has approximately 0.7V drop across it. When reverse-biased, it blocks current (except for tiny leakage). Diodes are used for rectification (converting AC to DC), protection, voltage regulation, and signal processing. LEDs are special diodes that emit light when forward-biased.",
+  "examples": [
+    {
+      "problem": "A 5V source powers a circuit through a silicon diode. What voltage reaches the circuit?",
+      "solution": "4.3V",
+      "steps": [
+        "Diode forward voltage drop ≈ 0.7V",
+        "V_circuit = 5V - 0.7V = 4.3V"
+      ]
+    },
+    {
+      "problem": "An LED with 2V forward voltage is powered by 9V through a 350Ω resistor. What current flows?",
+      "solution": "20mA",
+      "steps": [
+        "V_resistor = 9V - 2V = 7V",
+        "I = V/R = 7/350 = 0.02A = 20mA"
+      ]
+    }
+  ],
+  "prerequisites": ["ohms-law"],
+  "related": ["transistor-basics", "rectifier-circuits"],
+  "level": "algebra-1",
+  "tags": ["electronics", "semiconductors", "diodes", "components"],
+  "topic": "electronics"
+}

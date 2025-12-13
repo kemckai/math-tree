@@ -1,0 +1,33 @@
+{
+  "id": "nuclear-binding-energy",
+  "name": "Nuclear Binding Energy",
+  "latex": "E_{binding} = \\Delta m c^2, \\quad \\Delta m = Zm_p + Nm_n - m_{nucleus}",
+  "explanation": "Binding energy is the energy holding nucleus together. Mass defect (Δm) is difference between sum of individual nucleon masses and actual nucleus mass. Binding energy E = Δmc². Larger binding energy per nucleon = more stable nucleus. Peak stability around iron (Fe). Nuclear reactions release energy when moving toward more stable nuclei (fusion or fission).",
+  "examples": [
+    {
+      "problem": "Why does nuclear fusion release energy?",
+      "solution": "Product nuclei have higher binding energy per nucleon",
+      "steps": [
+        "Light nuclei (H, He) have low binding energy",
+        "Fusing creates heavier, more stable nuclei",
+        "Mass defect converted to energy (E = mc²)",
+        "Sun fuses H → He, releasing energy"
+      ]
+    },
+    {
+      "problem": "Why does fission of heavy nuclei release energy?",
+      "solution": "Splitting heavy nuclei creates products closer to iron (peak stability)",
+      "steps": [
+        "Heavy nuclei (U, Pu) are less stable",
+        "Fission products are closer to iron",
+        "Higher binding energy per nucleon in products",
+        "Mass defect released as energy"
+      ]
+    }
+  ],
+  "prerequisites": ["einstein-mass-energy"],
+  "related": ["einstein-mass-energy", "nuclear-physics"],
+  "level": "calculus-2",
+  "tags": ["physics", "nuclear-physics", "binding-energy", "fusion-fission"],
+  "topic": "physics"
+}

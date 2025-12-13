@@ -1,0 +1,24 @@
+{
+  "id": "quicksort",
+  "name": "Quicksort Algorithm",
+  "latex": "\\text{Average: } O(n \\log n), \\quad \\text{Worst: } O(n^2)",
+  "explanation": "Quicksort is a divide-and-conquer sorting algorithm. Pick a pivot, partition array into elements less than and greater than pivot, then recursively sort subarrays. Average case is O(n log n) - very efficient. Worst case O(n²) occurs with bad pivot choice. In practice, one of the fastest general-purpose sorting algorithms. Used extensively in programming languages and libraries.",
+  "examples": [
+    {
+      "problem": "Sort [3, 6, 1, 8, 2, 5] using quicksort",
+      "solution": "[1, 2, 3, 5, 6, 8]",
+      "steps": [
+        "Pick pivot: 3 (first element)",
+        "Partition: [1, 2] < 3 < [6, 8, 5]",
+        "Recursively sort [1, 2] → [1, 2]",
+        "Recursively sort [6, 8, 5] → [5, 6, 8]",
+        "Combine: [1, 2] + [3] + [5, 6, 8] = [1, 2, 3, 5, 6, 8]"
+      ]
+    }
+  ],
+  "prerequisites": ["big-o-notation"],
+  "related": ["big-o-notation", "merge-sort"],
+  "level": "algebra-2",
+  "tags": ["programming", "algorithms", "sorting", "quicksort"],
+  "topic": "programming"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "blackbody-radiation",
+  "name": "Blackbody Radiation",
+  "latex": "E = hf, \\quad \\lambda_{max} = \\frac{b}{T}, \\quad b = 2.898 \\times 10^{-3} \\text{ m⋅K}",
+  "explanation": "Blackbody is a perfect absorber/emitter of radiation. Wien's law: peak wavelength λ_max = b/T (b = Wien's constant). Hotter objects emit shorter wavelengths (bluer). Planck's law: E = hf (energy of photon). This explains why hot objects glow (red → yellow → white → blue as temperature increases). Fundamental to understanding thermal radiation, stars, and quantum mechanics.",
+  "examples": [
+    {
+      "problem": "Sun's surface temperature is 5800K. What is peak wavelength?",
+      "solution": "500 nm (green light)",
+      "steps": [
+        "λ_max = b/T",
+        "λ_max = (2.898×10⁻³) / 5800",
+        "λ_max = 5×10⁻⁷ m = 500 nm"
+      ]
+    },
+    {
+      "problem": "Why do hot objects glow?",
+      "solution": "Thermal motion creates electromagnetic radiation",
+      "steps": [
+        "Hot objects have vibrating atoms/molecules",
+        "Accelerating charges emit radiation",
+        "Temperature determines peak wavelength",
+        "Visible glow starts around 800K (red)"
+      ]
+    }
+  ],
+  "prerequisites": ["planck-energy"],
+  "related": ["planck-energy", "quantum-mechanics"],
+  "level": "algebra-2",
+  "tags": ["physics", "thermodynamics", "radiation", "quantum"],
+  "topic": "physics"
+}

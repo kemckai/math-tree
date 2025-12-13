@@ -1,0 +1,25 @@
+{
+  "id": "trigonometric-substitution",
+  "name": "Trigonometric Substitution",
+  "latex": "\\text{For } \\sqrt{a^2 - x^2}, \\text{ use } x = a\\sin\\theta",
+  "explanation": "Trigonometric substitution uses trigonometric identities to simplify integrals containing square roots of quadratic expressions. Common substitutions: for √(a² - x²), use x = a sin θ; for √(a² + x²), use x = a tan θ; for √(x² - a²), use x = a sec θ. This technique leverages the Pythagorean identity to eliminate square roots.",
+  "examples": [
+    {
+      "problem": "Find ∫ dx/√(1 - x²)",
+      "solution": "arcsin(x) + C",
+      "steps": [
+        "Let x = sin(θ), then dx = cos(θ) dθ",
+        "√(1 - x²) = √(1 - sin²θ) = cos(θ)",
+        "∫ dx/√(1 - x²) = ∫ cos(θ) dθ/cos(θ)",
+        "= ∫ dθ = θ + C",
+        "Since x = sin(θ), θ = arcsin(x)",
+        "= arcsin(x) + C"
+      ]
+    }
+  ],
+  "prerequisites": ["u-substitution", "soh-cah-toa"],
+  "related": ["integration-by-parts", "partial-fractions"],
+  "level": "calculus-2",
+  "tags": ["integration", "trig-substitution", "advanced"],
+  "topic": "integration-techniques"
+}

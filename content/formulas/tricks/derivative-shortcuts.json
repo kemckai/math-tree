@@ -1,0 +1,40 @@
+{
+  "id": "derivative-shortcuts",
+  "name": "Derivative Shortcuts & Patterns",
+  "latex": "\\frac{d}{dx}[e^x] = e^x, \\quad \\frac{d}{dx}[\\ln x] = \\frac{1}{x}, \\quad \\frac{d}{dx}[\\sin x] = \\cos x",
+  "explanation": "Memorizing common derivative patterns saves time: e^x stays e^x, ln(x) becomes 1/x, sin becomes cos, cos becomes -sin. For polynomials, use the power rule mentally: bring down exponent, reduce by 1. Recognizing these patterns eliminates the need to derive from first principles each time.",
+  "examples": [
+    {
+      "problem": "Quick derivative: d/dx(5x³)",
+      "solution": "15x²",
+      "steps": [
+        "Bring down 3, multiply by 5: 3 × 5 = 15",
+        "Reduce exponent: 3 - 1 = 2",
+        "Result: 15x²"
+      ]
+    },
+    {
+      "problem": "Quick derivative: d/dx(e^x + sin x)",
+      "solution": "e^x + cos x",
+      "steps": [
+        "e^x derivative = e^x",
+        "sin x derivative = cos x",
+        "Sum: e^x + cos x"
+      ]
+    },
+    {
+      "problem": "Quick derivative: d/dx(ln x + x²)",
+      "solution": "1/x + 2x",
+      "steps": [
+        "ln x derivative = 1/x",
+        "x² derivative = 2x",
+        "Sum: 1/x + 2x"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": ["derivative-power-rule", "chain-rule"],
+  "level": "calculus-1",
+  "tags": ["tricks", "derivatives", "patterns", "shortcuts"],
+  "topic": "tricks"
+}

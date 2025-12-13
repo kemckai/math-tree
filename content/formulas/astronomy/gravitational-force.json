@@ -1,0 +1,32 @@
+{
+  "id": "gravitational-force",
+  "name": "Newton's Law of Universal Gravitation",
+  "latex": "F = G\\frac{m_1 m_2}{r^2}, \\quad G = 6.674 \\times 10^{-11} \\text{ N⋅m²/kg²}",
+  "explanation": "Every mass attracts every other mass with force proportional to product of masses and inversely proportional to square of distance. This universal law explains orbits, tides, and gravitational interactions throughout the universe. Gravity is the weakest fundamental force but dominates on large scales. Used to calculate orbital velocities, escape velocities, and gravitational fields.",
+  "examples": [
+    {
+      "problem": "Earth (5.97×10²⁴ kg) and Moon (7.35×10²² kg) are 3.84×10⁸ m apart. What is gravitational force?",
+      "solution": "1.98 × 10²⁰ N",
+      "steps": [
+        "F = Gm₁m₂/r²",
+        "F = (6.674×10⁻¹¹) × (5.97×10²⁴) × (7.35×10²²) / (3.84×10⁸)²",
+        "F = 2.93×10³⁶ / 1.47×10¹⁷ = 1.98×10²⁰ N"
+      ]
+    },
+    {
+      "problem": "Why is gravity weak but dominates on large scales?",
+      "solution": "Gravity is always attractive and has infinite range, so large masses create strong fields",
+      "steps": [
+        "Gravity never cancels (always attractive)",
+        "Acts over infinite distance",
+        "Large masses (planets, stars) create significant fields",
+        "Other forces (electromagnetic) often cancel out"
+      ]
+    }
+  ],
+  "prerequisites": ["newtons-second-law-physics"],
+  "related": ["keplers-laws", "orbital-velocity"],
+  "level": "algebra-1",
+  "tags": ["astronomy", "gravity", "newton", "forces"],
+  "topic": "astronomy"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "foil-method",
+  "name": "FOIL Method for Binomials",
+  "latex": "(a+b)(c+d) = ac + ad + bc + bd",
+  "explanation": "FOIL stands for First, Outer, Inner, Last - a mnemonic for multiplying two binomials. Multiply the First terms, then Outer terms, then Inner terms, then Last terms, and add them all together. This is faster than using the distributive property twice and helps avoid missing terms.",
+  "examples": [
+    {
+      "problem": "Expand (x + 3)(x + 5)",
+      "solution": "x² + 8x + 15",
+      "steps": [
+        "First: x × x = x²",
+        "Outer: x × 5 = 5x",
+        "Inner: 3 × x = 3x",
+        "Last: 3 × 5 = 15",
+        "Combine: x² + 5x + 3x + 15 = x² + 8x + 15"
+      ]
+    },
+    {
+      "problem": "Expand (2x - 1)(x + 4)",
+      "solution": "2x² + 7x - 4",
+      "steps": [
+        "First: 2x × x = 2x²",
+        "Outer: 2x × 4 = 8x",
+        "Inner: -1 × x = -x",
+        "Last: -1 × 4 = -4",
+        "Combine: 2x² + 8x - x - 4 = 2x² + 7x - 4"
+      ]
+    }
+  ],
+  "prerequisites": ["multiplication", "factoring"],
+  "related": ["factoring", "quadratic-formula"],
+  "level": "algebra-1",
+  "tags": ["tricks", "foil", "binomials", "shortcuts"],
+  "topic": "tricks"
+}

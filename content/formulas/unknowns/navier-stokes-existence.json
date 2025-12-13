@@ -1,0 +1,25 @@
+{
+  "id": "navier-stokes-existence",
+  "name": "Navier-Stokes Existence and Smoothness",
+  "latex": "\\text{Prove that smooth solutions exist for all time, or show they can develop singularities}",
+  "explanation": "This Millennium Prize Problem asks whether the Navier-Stokes equations (which describe fluid flow) always have smooth solutions that exist for all time, or whether solutions can develop singularities (points where they become infinite or undefined). This is crucial for understanding turbulence, weather prediction, and fluid dynamics. Despite being used in engineering for over 150 years, we don't know if the equations are mathematically well-posed in three dimensions.",
+  "examples": [
+    {
+      "problem": "Why is this problem important?",
+      "solution": "Understanding whether solutions break down affects weather forecasting, aircraft design, and our fundamental understanding of fluid flow",
+      "steps": [
+        "If solutions can develop singularities, our models might fail",
+        "Weather prediction relies on numerical solutions",
+        "Aircraft design uses these equations",
+        "Understanding turbulence depends on this",
+        "Would validate or challenge current engineering practices"
+      ]
+    }
+  ],
+  "prerequisites": ["navier-stokes"],
+  "related": ["navier-stokes"],
+  "level": "calculus-3",
+  "tags": ["unknowns", "millennium-prize", "physics", "fluid-dynamics"],
+  "topic": "unknowns",
+  "proof": "Status: UNSOLVED. This is one of the seven Millennium Prize Problems. In two dimensions, smooth solutions are known to exist. In three dimensions, the problem remains open despite decades of research."
+}

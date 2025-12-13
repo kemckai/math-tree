@@ -1,0 +1,23 @@
+{
+  "id": "kirchhoff-voltage",
+  "name": "Kirchhoff's Voltage Law (KVL)",
+  "latex": "\\sum V = 0 \\text{ around any closed loop}",
+  "explanation": "Kirchhoff's Voltage Law states that the sum of all voltages around any closed loop in a circuit equals zero. This means the sum of voltage drops equals the sum of voltage rises. KVL is based on conservation of energy - you can't gain or lose energy by going around a loop. This law is essential for analyzing complex circuits and is used with Ohm's Law to solve for unknown voltages and currents.",
+  "examples": [
+    {
+      "problem": "In a loop with a 12V battery and two resistors with 3V and 5V drops, what is the remaining voltage?",
+      "solution": "4V drop across another component",
+      "steps": [
+        "KVL: Sum of voltages = 0",
+        "12V (rise) - 3V (drop) - 5V (drop) - V_unknown = 0",
+        "12 - 3 - 5 = V_unknown",
+        "V_unknown = 4V"
+      ]
+    }
+  ],
+  "prerequisites": ["ohms-law"],
+  "related": ["kirchhoff-current", "mesh-analysis"],
+  "level": "algebra-1",
+  "tags": ["electronics", "circuit-analysis", "kirchhoff", "laws"],
+  "topic": "electronics"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "time-dilation",
+  "name": "Time Dilation",
+  "latex": "\\Delta t = \\gamma\\Delta t_0, \\quad \\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}",
+  "explanation": "Time dilation: moving clocks run slower. Time interval in moving frame (Δt) equals proper time (Δt₀) times Lorentz factor γ. This is a real effect, not an illusion - confirmed by experiments with atomic clocks and particle accelerators. Explains why muons reach Earth's surface (they live longer in our frame). Fundamental to special relativity.",
+  "examples": [
+    {
+      "problem": "Muon lifetime is 2.2μs in rest frame. If moving at 0.99c, what is lifetime in lab frame?",
+      "solution": "15.6 μs",
+      "steps": [
+        "γ = 1/√(1 - 0.99²) = 1/√(1 - 0.9801) = 1/√0.0199 = 7.09",
+        "Δt = γΔt₀ = 7.09 × 2.2 = 15.6 μs"
+      ]
+    },
+    {
+      "problem": "Why do GPS satellites need relativity corrections?",
+      "solution": "Time runs faster in weaker gravity, slower due to orbital speed",
+      "steps": [
+        "General relativity: time runs faster at higher altitude",
+        "Special relativity: time runs slower due to speed",
+        "Net effect: GPS clocks run faster",
+        "Must correct for accurate positioning"
+      ]
+    }
+  ],
+  "prerequisites": ["relativistic-energy"],
+  "related": ["relativistic-energy", "length-contraction"],
+  "level": "calculus-2",
+  "tags": ["physics", "relativity", "time-dilation", "special-relativity"],
+  "topic": "physics"
+}

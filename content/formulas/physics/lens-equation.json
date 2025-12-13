@@ -1,0 +1,30 @@
+{
+  "id": "lens-equation",
+  "name": "Thin Lens Equation",
+  "latex": "\\frac{1}{f} = \\frac{1}{d_o} + \\frac{1}{d_i}, \\quad M = -\\frac{d_i}{d_o}",
+  "explanation": "The thin lens equation relates object distance (d_o), image distance (d_i), and focal length (f). Magnification (M) is negative for real images (inverted), positive for virtual images (upright). Used to design lenses, understand cameras, microscopes, and telescopes. Explains how lenses form images and how optical instruments work.",
+  "examples": [
+    {
+      "problem": "Object 30cm from lens, image 60cm on other side. What is focal length?",
+      "solution": "20 cm",
+      "steps": [
+        "1/f = 1/d_o + 1/d_i",
+        "1/f = 1/30 + 1/60 = 2/60 + 1/60 = 3/60",
+        "f = 60/3 = 20 cm"
+      ]
+    },
+    {
+      "problem": "What is magnification?",
+      "solution": "-2 (inverted, 2× larger)",
+      "steps": [
+        "M = -d_i/d_o",
+        "M = -60/30 = -2"
+      ]
+    }
+  ],
+  "prerequisites": ["snells-law"],
+  "related": ["snells-law", "mirror-equation"],
+  "level": "algebra-1",
+  "tags": ["physics", "optics", "lenses", "imaging"],
+  "topic": "physics"
+}

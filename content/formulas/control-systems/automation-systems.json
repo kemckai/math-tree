@@ -1,0 +1,34 @@
+{
+  "id": "automation-systems",
+  "name": "Automation System Architecture",
+  "latex": "\\text{PLC: Input} \\rightarrow \\text{Logic} \\rightarrow \\text{Output}, \\quad \\text{SCADA: Monitor} \\rightarrow \\text{Control} \\rightarrow \\text{Data}",
+  "explanation": "Automation systems control processes automatically. PLCs (Programmable Logic Controllers) execute control logic based on inputs. SCADA (Supervisory Control and Data Acquisition) monitors and controls industrial processes. Automation reduces human error, increases efficiency, and enables 24/7 operation. Used in manufacturing, power plants, and process industries. Combines sensors, controllers, and actuators.",
+  "examples": [
+    {
+      "problem": "What are components of an automation system?",
+      "solution": "Sensors (input), controller (processing), actuators (output), HMI (interface)",
+      "steps": [
+        "Sensors: measure process variables (temperature, pressure, etc.)",
+        "Controller: executes control logic (PLC, microcontroller)",
+        "Actuators: affect process (valves, motors, heaters)",
+        "HMI: human-machine interface for monitoring/control"
+      ]
+    },
+    {
+      "problem": "Why use automation?",
+      "solution": "Consistency, efficiency, safety, 24/7 operation, data collection",
+      "steps": [
+        "Eliminates human error and variability",
+        "Operates continuously without breaks",
+        "Improves safety (removes humans from dangerous processes)",
+        "Collects data for optimization",
+        "Increases productivity"
+      ]
+    }
+  ],
+  "prerequisites": ["pid-controller"],
+  "related": ["pid-controller", "feedback-control"],
+  "level": "algebra-1",
+  "tags": ["control-systems", "automation", "plc", "industrial-control"],
+  "topic": "control-systems"
+}

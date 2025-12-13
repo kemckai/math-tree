@@ -1,0 +1,30 @@
+{
+  "id": "quadratic-discriminant",
+  "name": "Quick Check: Discriminant Trick",
+  "latex": "\\Delta = b^2 - 4ac",
+  "explanation": "Before solving a quadratic, check the discriminant (b² - 4ac) to quickly determine the nature of solutions: If positive, two real solutions; if zero, one solution; if negative, two complex solutions. This saves time by telling you what to expect before calculating. Also, if it's a perfect square, the solutions will be rational.",
+  "examples": [
+    {
+      "problem": "Quick check: How many real solutions does x² - 5x + 6 = 0 have?",
+      "solution": "Two real solutions",
+      "steps": [
+        "Discriminant: Δ = (-5)² - 4(1)(6) = 25 - 24 = 1",
+        "Since Δ > 0, there are two real solutions",
+        "Since Δ = 1 (perfect square), solutions are rational"
+      ]
+    },
+    {
+      "problem": "Check: x² + 2x + 5 = 0",
+      "solution": "Two complex solutions",
+      "steps": [
+        "Δ = 2² - 4(1)(5) = 4 - 20 = -16",
+        "Since Δ < 0, there are two complex (non-real) solutions"
+      ]
+    }
+  ],
+  "prerequisites": ["quadratic-formula"],
+  "related": ["quadratic-formula", "factoring"],
+  "level": "algebra-1",
+  "tags": ["tricks", "quadratic", "discriminant", "shortcuts"],
+  "topic": "tricks"
+}

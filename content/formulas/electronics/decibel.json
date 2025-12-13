@@ -1,0 +1,31 @@
+{
+  "id": "decibel",
+  "name": "Decibel (dB) Scale",
+  "latex": "dB = 20\\log_{10}\\left(\\frac{V_{out}}{V_{in}}\\right) \\text{ (voltage)}, \\quad dB = 10\\log_{10}\\left(\\frac{P_{out}}{P_{in}}\\right) \\text{ (power)}",
+  "explanation": "Decibels are a logarithmic scale for expressing ratios, making it easier to work with large ranges of values. For voltage/current: dB = 20log₁₀(V_out/V_in). For power: dB = 10log₁₀(P_out/P_in). Common values: +3dB = 2× power, +6dB = 2× voltage, +20dB = 10× voltage. Decibels are used extensively in audio, RF, signal processing, and filter design.",
+  "examples": [
+    {
+      "problem": "An amplifier increases voltage from 1V to 10V. What is the gain in dB?",
+      "solution": "20dB",
+      "steps": [
+        "dB = 20log₁₀(10/1)",
+        "dB = 20log₁₀(10) = 20 × 1 = 20dB"
+      ]
+    },
+    {
+      "problem": "A filter has -6dB gain. If input is 2V, what is output?",
+      "solution": "1V",
+      "steps": [
+        "-6 = 20log₁₀(V_out/2)",
+        "log₁₀(V_out/2) = -0.3",
+        "V_out/2 = 10^(-0.3) ≈ 0.5",
+        "V_out = 1V"
+      ]
+    }
+  ],
+  "prerequisites": ["logarithm-properties"],
+  "related": ["frequency-response", "filter-design"],
+  "level": "algebra-2",
+  "tags": ["electronics", "signal-processing", "decibels", "measurement"],
+  "topic": "electronics"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "goldbach-conjecture",
+  "name": "Goldbach Conjecture",
+  "latex": "\\text{Every even integer greater than 2 can be expressed as the sum of two primes}",
+  "explanation": "Christian Goldbach's 1742 conjecture is one of the oldest unsolved problems in number theory. It states that every even number greater than 2 is the sum of two prime numbers. For example: 4 = 2 + 2, 6 = 3 + 3, 8 = 3 + 5, 10 = 3 + 7 = 5 + 5. The conjecture has been verified for all even numbers up to 4 × 10¹⁸, but no general proof exists. It's a simple statement about prime numbers that has resisted solution for nearly 300 years.",
+  "examples": [
+    {
+      "problem": "Express 20 as the sum of two primes",
+      "solution": "20 = 3 + 17 = 7 + 13",
+      "steps": [
+        "Find pairs of primes that sum to 20",
+        "3 + 17 = 20 ✓",
+        "7 + 13 = 20 ✓",
+        "11 + 9 = 20, but 9 is not prime",
+        "The conjecture says at least one such pair exists"
+      ]
+    },
+    {
+      "problem": "What is the current status?",
+      "solution": "Verified up to 4 × 10¹⁸, but unproven in general",
+      "steps": [
+        "Computers have checked billions of even numbers",
+        "All checked numbers satisfy the conjecture",
+        "But this doesn't constitute a proof",
+        "The weak Goldbach conjecture (for odd numbers ≥ 7) was proven in 2013",
+        "The strong conjecture (for even numbers) remains open"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["riemann-hypothesis"],
+  "level": "algebra-1",
+  "tags": ["unknowns", "number-theory", "primes", "goldbach"],
+  "topic": "unknowns",
+  "proof": "Status: UNSOLVED. Despite being verified for trillions of cases, no general proof exists. The problem is deceptively simple but connects to deep questions about the distribution of prime numbers."
+}

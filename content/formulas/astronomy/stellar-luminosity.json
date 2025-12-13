@@ -1,0 +1,32 @@
+{
+  "id": "stellar-luminosity",
+  "name": "Stellar Luminosity",
+  "latex": "L = 4\\pi R^2 \\sigma T^4, \\quad L = 4\\pi d^2 F",
+  "explanation": "Luminosity (L) is total power radiated by a star. Stefan-Boltzmann law: L = 4πR²σT⁴ where R is radius, T is surface temperature, σ is Stefan-Boltzmann constant. Also: L = 4πd²F where d is distance and F is flux (observed brightness). Luminosity determines stellar classification and evolution. Used to understand stellar structure and measure distances.",
+  "examples": [
+    {
+      "problem": "Star has radius 2× Sun's radius and temperature 1.5× Sun's temperature. What is luminosity relative to Sun?",
+      "solution": "20.25× solar luminosity",
+      "steps": [
+        "L ∝ R²T⁴",
+        "L/L_sun = (R/R_sun)² × (T/T_sun)⁴",
+        "L/L_sun = 2² × 1.5⁴ = 4 × 5.0625 = 20.25"
+      ]
+    },
+    {
+      "problem": "Why are large, hot stars so luminous?",
+      "solution": "Luminosity depends on both size (R²) and temperature (T⁴), so both factors multiply",
+      "steps": [
+        "L = 4πR²σT⁴",
+        "Larger radius: more surface area (R²)",
+        "Hotter: much more power per area (T⁴)",
+        "Combined effect is dramatic"
+      ]
+    }
+  ],
+  "prerequisites": ["blackbody-radiation"],
+  "related": ["blackbody-radiation", "stellar-magnitude"],
+  "level": "algebra-2",
+  "tags": ["astronomy", "stars", "luminosity", "stellar-physics"],
+  "topic": "astronomy"
+}

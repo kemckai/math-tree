@@ -1,0 +1,33 @@
+{
+  "id": "taylor-series",
+  "name": "Taylor Series",
+  "latex": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(a)}{n!}(x-a)^n",
+  "explanation": "A Taylor series represents a function as an infinite sum of terms calculated from the function's derivatives at a single point. The series uses the function's value and all its derivatives at point a. When a = 0, it's called a Maclaurin series. Taylor series are powerful tools for approximating functions and solving differential equations.",
+  "examples": [
+    {
+      "problem": "Find the Taylor series for e^x centered at 0",
+      "solution": "e^x = 1 + x + x²/2! + x³/3! + ...",
+      "steps": [
+        "All derivatives of e^x are e^x",
+        "At x = 0: f(0) = f'(0) = f''(0) = ... = 1",
+        "Taylor series:",
+        "e^x = 1 + x/1! + x²/2! + x³/3! + ...",
+        "= Σ(n=0 to ∞) xⁿ/n!"
+      ]
+    },
+    {
+      "problem": "Find the Taylor series for sin(x) at 0",
+      "solution": "sin(x) = x - x³/3! + x⁵/5! - x⁷/7! + ...",
+      "steps": [
+        "Derivatives cycle: sin, cos, -sin, -cos, ...",
+        "At 0: sin(0)=0, cos(0)=1, -sin(0)=0, -cos(0)=-1, ...",
+        "sin(x) = x - x³/3! + x⁵/5! - x⁷/7! + ..."
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule", "arithmetic-series"],
+  "related": ["maclaurin-series", "convergence-tests"],
+  "level": "calculus-2",
+  "tags": ["series", "taylor", "approximation"],
+  "topic": "series"
+}

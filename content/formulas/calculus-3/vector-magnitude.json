@@ -1,0 +1,31 @@
+{
+  "id": "vector-magnitude",
+  "name": "Vector Magnitude (Length)",
+  "latex": "|\\vec{v}| = \\sqrt{v_x^2 + v_y^2 + v_z^2}",
+  "explanation": "The magnitude (or length) of a vector is found using the Pythagorean theorem extended to multiple dimensions. For a 2D vector, it's the square root of the sum of squared components. For 3D, add the z-component squared. The magnitude represents the vector's size or length, regardless of direction.",
+  "examples": [
+    {
+      "problem": "Find the magnitude of vector (3, 4)",
+      "solution": "5",
+      "steps": [
+        "|v| = √(v_x² + v_y²)",
+        "= √(3² + 4²)",
+        "= √(9 + 16) = √25 = 5"
+      ]
+    },
+    {
+      "problem": "Find the magnitude of (1, 2, 2)",
+      "solution": "3",
+      "steps": [
+        "|v| = √(1² + 2² + 2²)",
+        "= √(1 + 4 + 4)",
+        "= √9 = 3"
+      ]
+    }
+  ],
+  "prerequisites": ["pythagorean-theorem"],
+  "related": ["dot-product", "cross-product"],
+  "level": "calculus-3",
+  "tags": ["vectors", "magnitude", "length"],
+  "topic": "vectors"
+}

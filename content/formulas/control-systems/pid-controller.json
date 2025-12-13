@@ -1,0 +1,32 @@
+{
+  "id": "pid-controller",
+  "name": "PID Controller",
+  "latex": "u(t) = K_p e(t) + K_i \\int_0^t e(\\tau) d\\tau + K_d \\frac{de(t)}{dt}",
+  "explanation": "PID (Proportional-Integral-Derivative) controllers are the most common feedback controllers. P term responds to current error (proportional to error). I term eliminates steady-state error (integrates past errors). D term reduces overshoot and oscillations (responds to error rate). Used in temperature control, motor speed control, robotics, and automation. Tuning the three gains (K_p, K_i, K_d) determines system performance.",
+  "examples": [
+    {
+      "problem": "Temperature controller: error = 5°C, K_p = 2, K_i = 0.5, K_d = 1, error rate = -1°C/s. What is control output?",
+      "solution": "u = 10 + 2.5t - 1 = 9 + 2.5t (simplified, assuming integral term)",
+      "steps": [
+        "P term: K_p × e = 2 × 5 = 10",
+        "I term: K_i × ∫e dt (accumulates over time)",
+        "D term: K_d × de/dt = 1 × (-1) = -1",
+        "u = 10 + I_term - 1"
+      ]
+    },
+    {
+      "problem": "What does each PID term do?",
+      "solution": "P: immediate response, I: eliminates offset, D: reduces overshoot",
+      "steps": [
+        "Proportional: Fast response to current error",
+        "Integral: Eliminates steady-state error (accumulates small errors)",
+        "Derivative: Dampens oscillations (predicts future error)"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": ["feedback-control", "system-stability"],
+  "level": "calculus-1",
+  "tags": ["control-systems", "pid", "feedback", "automation"],
+  "topic": "control-systems"
+}

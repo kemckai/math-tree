@@ -1,0 +1,35 @@
+{
+  "id": "state-machine",
+  "name": "Finite State Machine (FSM)",
+  "latex": "\\text{State: } S, \\quad \\text{Transition: } \\delta(S, Input) \\rightarrow S'",
+  "explanation": "Finite State Machines model systems with discrete states and transitions. System is in one state at a time, transitions occur based on inputs. Used in embedded systems, protocol design, and control systems. Essential for managing complex behavior with clear logic. States represent system modes, transitions represent events. Used in traffic lights, vending machines, and communication protocols.",
+  "examples": [
+    {
+      "problem": "Traffic light FSM: Red → (timer) → Green → (timer) → Yellow → (timer) → Red",
+      "solution": "3 states, 3 transitions forming a cycle",
+      "steps": [
+        "State 1: Red (wait for timer)",
+        "Transition: timer expires → State 2: Green",
+        "State 2: Green (wait for timer)",
+        "Transition: timer expires → State 3: Yellow",
+        "State 3: Yellow (wait for timer)",
+        "Transition: timer expires → State 1: Red (cycle repeats)"
+      ]
+    },
+    {
+      "problem": "Why use state machines in embedded systems?",
+      "solution": "Clear logic, predictable behavior, easy to debug and maintain",
+      "steps": [
+        "Each state has well-defined behavior",
+        "Transitions are explicit and testable",
+        "Easier to reason about system behavior",
+        "Prevents invalid state transitions"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["embedded-systems", "control-systems"],
+  "level": "algebra-1",
+  "tags": ["programming", "embedded-systems", "state-machines", "control"],
+  "topic": "programming"
+}

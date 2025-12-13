@@ -1,0 +1,35 @@
+{
+  "id": "routh-hurwitz",
+  "name": "Routh-Hurwitz Stability Criterion",
+  "latex": "\\text{System stable if all coefficients in Routh table first column are positive}",
+  "explanation": "The Routh-Hurwitz criterion determines system stability without finding roots. Construct a Routh table from the characteristic equation coefficients. System is stable if all elements in the first column are positive. If any are negative or zero, system is unstable. This is a powerful algebraic method for stability analysis without solving for poles.",
+  "examples": [
+    {
+      "problem": "Characteristic equation: s³ + 3s² + 2s + 1 = 0. Is system stable?",
+      "solution": "Yes, all first column elements positive",
+      "steps": [
+        "Routh table:",
+        "Row 1: 1, 2",
+        "Row 2: 3, 1",
+        "Row 3: (3×2 - 1×1)/3 = 5/3",
+        "Row 4: 1",
+        "First column: [1, 3, 5/3, 1] - all positive, stable"
+      ]
+    },
+    {
+      "problem": "Why use Routh-Hurwitz instead of finding roots?",
+      "solution": "Faster, no need to solve polynomial, works for high-order systems",
+      "steps": [
+        "Finding roots of high-order polynomials is difficult",
+        "Routh table is simple arithmetic",
+        "Can determine stability quickly",
+        "Useful for controller design"
+      ]
+    }
+  ],
+  "prerequisites": ["closed-loop-gain"],
+  "related": ["system-stability", "pole-placement"],
+  "level": "algebra-2",
+  "tags": ["control-systems", "stability", "routh-hurwitz", "analysis"],
+  "topic": "control-systems"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "planetary-temperature",
+  "name": "Planetary Equilibrium Temperature",
+  "latex": "T = \\left(\\frac{(1-A)L_\\odot}{16\\pi\\sigma d^2}\\right)^{1/4}",
+  "explanation": "Equilibrium temperature is temperature planet reaches when incoming solar radiation equals outgoing thermal radiation. Depends on stellar luminosity (L), distance (d), and albedo (A - reflectivity). Used to determine habitable zones and understand planetary climates. Planets closer to star or with lower albedo are hotter.",
+  "examples": [
+    {
+      "problem": "Why is Venus so hot despite being farther from Sun than Mercury?",
+      "solution": "Venus has very low albedo and thick atmosphere (greenhouse effect)",
+      "steps": [
+        "Venus albedo A ≈ 0.76 (very reflective clouds)",
+        "But thick CO₂ atmosphere traps heat",
+        "Greenhouse effect raises temperature far above equilibrium",
+        "Surface temperature ~470°C (hotter than Mercury)"
+      ]
+    },
+    {
+      "problem": "What determines habitable zone?",
+      "solution": "Distance range where equilibrium temperature allows liquid water",
+      "steps": [
+        "Too close: too hot, water boils",
+        "Too far: too cold, water freezes",
+        "Habitable zone: ~0.7-1.5 AU for Sun-like star",
+        "Also depends on atmosphere and greenhouse effect"
+      ]
+    }
+  ],
+  "prerequisites": ["blackbody-radiation"],
+  "related": ["blackbody-radiation", "habitable-zone"],
+  "level": "algebra-2",
+  "tags": ["astronomy", "planetary-science", "temperature", "habitable-zone"],
+  "topic": "astronomy"
+}

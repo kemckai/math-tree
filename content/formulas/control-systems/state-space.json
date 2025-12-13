@@ -1,0 +1,32 @@
+{
+  "id": "state-space",
+  "name": "State-Space Representation",
+  "latex": "\\dot{x} = Ax + Bu, \\quad y = Cx + Du",
+  "explanation": "State-space representation describes systems using state variables (x), inputs (u), and outputs (y). Matrix A describes system dynamics, B is input matrix, C is output matrix, D is feedforward. More general than transfer functions - handles multiple inputs/outputs, time-varying systems, and nonlinear systems (linearized). Used in modern control theory, optimal control, and state feedback design.",
+  "examples": [
+    {
+      "problem": "What are advantages of state-space over transfer functions?",
+      "solution": "Handles MIMO systems, time-varying, initial conditions, modern control methods",
+      "steps": [
+        "Transfer functions: SISO (single input/output) only",
+        "State-space: MIMO (multiple inputs/outputs)",
+        "Can represent time-varying systems",
+        "Enables optimal control and state feedback"
+      ]
+    },
+    {
+      "problem": "State-space: x' = -2x + u, y = x. What is transfer function?",
+      "solution": "G(s) = 1/(s + 2)",
+      "steps": [
+        "A = -2, B = 1, C = 1, D = 0",
+        "G(s) = C(sI - A)⁻¹B + D",
+        "G(s) = 1 × (s + 2)⁻¹ × 1 = 1/(s + 2)"
+      ]
+    }
+  ],
+  "prerequisites": ["transfer-function"],
+  "related": ["transfer-function", "optimal-control"],
+  "level": "calculus-3",
+  "tags": ["control-systems", "state-space", "modern-control", "mimo"],
+  "topic": "control-systems"
+}

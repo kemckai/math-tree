@@ -1,0 +1,25 @@
+{
+  "id": "change-of-variables",
+  "name": "Change of Variables in Multiple Integrals",
+  "latex": "\\iint_D f(x,y) dA = \\iint_{D'} f(x(u,v), y(u,v)) |J| dA'",
+  "explanation": "Change of variables (like polar, cylindrical, or spherical coordinates) simplifies multiple integrals by transforming the region and function. The Jacobian determinant |J| accounts for how the transformation stretches or compresses area/volume. Common changes include rectangular to polar (x=r cos θ, y=r sin θ) or to cylindrical/spherical coordinates.",
+  "examples": [
+    {
+      "problem": "Evaluate ∫∫ e^(x²+y²) dA over unit circle using polar coordinates",
+      "solution": "π(e - 1)",
+      "steps": [
+        "Change to polar: x = r cos θ, y = r sin θ",
+        "Jacobian: |J| = r",
+        "Region: 0 ≤ r ≤ 1, 0 ≤ θ ≤ 2π",
+        "∫₀^(2π) ∫₀¹ e^(r²) r dr dθ",
+        "= 2π ∫₀¹ r e^(r²) dr",
+        "= π(e - 1)"
+      ]
+    }
+  ],
+  "prerequisites": ["double-integral"],
+  "related": ["double-integral", "triple-integral"],
+  "level": "calculus-3",
+  "tags": ["multivariable", "integration", "coordinates"],
+  "topic": "multiple-integrals"
+}

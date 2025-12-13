@@ -1,0 +1,22 @@
+{
+  "id": "beam-bending",
+  "name": "Beam Bending Stress",
+  "latex": "\\sigma = \\frac{Mc}{I}",
+  "explanation": "Bending stress in a beam is proportional to the moment (M) and distance from neutral axis (c), and inversely proportional to the area moment of inertia (I). This formula is essential for designing beams, analyzing structural failures, and determining required beam sizes. The maximum stress occurs at the outer fibers (maximum c).",
+  "examples": [
+    {
+      "problem": "A beam with I = 0.001 m⁴ experiences 10,000 N⋅m moment. If c = 0.1m, what is stress?",
+      "solution": "1 MPa",
+      "steps": [
+        "σ = Mc/I",
+        "σ = (10,000 × 0.1) / 0.001",
+        "σ = 1,000 / 0.001 = 1,000,000 Pa = 1 MPa"
+      ]
+    }
+  ],
+  "prerequisites": ["stress-strain", "moment-torque"],
+  "related": ["stress-strain", "moment-torque"],
+  "level": "algebra-2",
+  "tags": ["mechanical-engineering", "mechanics-of-materials", "beams", "bending"],
+  "topic": "mechanical-engineering"
+}

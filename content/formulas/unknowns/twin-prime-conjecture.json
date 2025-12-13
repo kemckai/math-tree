@@ -1,0 +1,36 @@
+{
+  "id": "twin-prime-conjecture",
+  "name": "Twin Prime Conjecture",
+  "latex": "\\text{There are infinitely many pairs of primes } (p, p+2)",
+  "explanation": "The Twin Prime Conjecture asks whether there are infinitely many pairs of prime numbers that differ by 2, such as (3, 5), (5, 7), (11, 13), (17, 19). While it seems obvious that such pairs should continue forever, no one has proven it. In 2013, Yitang Zhang proved there are infinitely many prime pairs with gap ≤ 70,000,000 (later reduced to 246). This was a major breakthrough, but the original conjecture (gap = 2) remains open.",
+  "examples": [
+    {
+      "problem": "List the first few twin prime pairs",
+      "solution": "(3, 5), (5, 7), (11, 13), (17, 19), (29, 31), (41, 43), (59, 61), (71, 73)",
+      "steps": [
+        "Find pairs of primes that differ by 2",
+        "(3, 5): both prime, difference = 2 ✓",
+        "(5, 7): both prime, difference = 2 ✓",
+        "(11, 13): both prime, difference = 2 ✓",
+        "The conjecture says there are infinitely many such pairs"
+      ]
+    },
+    {
+      "problem": "What was Zhang's breakthrough?",
+      "solution": "Proved there are infinitely many prime pairs with gap ≤ 246 (originally 70 million)",
+      "steps": [
+        "Before 2013: No one knew if bounded gaps existed",
+        "Zhang proved gap ≤ 70,000,000",
+        "Polymath Project reduced this to 246",
+        "This was the first progress in 150+ years",
+        "But gap = 2 (twin primes) remains unproven"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["goldbach-conjecture", "riemann-hypothesis"],
+  "level": "algebra-1",
+  "tags": ["unknowns", "number-theory", "primes", "twin-primes"],
+  "topic": "unknowns",
+  "proof": "Status: UNSOLVED. Zhang's 2013 result was a major breakthrough, proving bounded gaps exist. However, proving the gap can be exactly 2 (twin primes) remains an open problem."
+}

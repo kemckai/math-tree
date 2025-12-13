@@ -1,0 +1,29 @@
+{
+  "id": "kinematic-equations",
+  "name": "Kinematic Equations",
+  "latex": "v = v_0 + at, \\quad x = v_0t + \\frac{1}{2}at^2, \\quad v^2 = v_0^2 + 2ax",
+  "explanation": "Kinematic equations describe motion with constant acceleration. v = v₀ + at (final velocity), x = v₀t + ½at² (displacement), v² = v₀² + 2ax (velocity-displacement relation). These fundamental equations govern all motion under constant acceleration, from falling objects to projectiles. Essential for understanding motion in one and two dimensions.",
+  "examples": [
+    {
+      "problem": "A ball is dropped from rest. After 3 seconds, what is its velocity? (g = 9.8 m/s²)",
+      "solution": "29.4 m/s downward",
+      "steps": [
+        "v = v₀ + at",
+        "v = 0 + 9.8 × 3 = 29.4 m/s"
+      ]
+    },
+    {
+      "problem": "How far did the ball fall?",
+      "solution": "44.1 m",
+      "steps": [
+        "x = v₀t + ½at²",
+        "x = 0 + ½ × 9.8 × 3² = 44.1 m"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["newtons-second-law", "projectile-motion"],
+  "level": "algebra-1",
+  "tags": ["physics", "mechanics", "kinematics", "motion"],
+  "topic": "physics"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "poincare-conjecture",
+  "name": "Poincaré Conjecture (SOLVED)",
+  "latex": "\\text{Every simply connected, closed 3-manifold is homeomorphic to the 3-sphere}",
+  "explanation": "Henri Poincaré's 1904 conjecture was one of the most famous problems in topology. It asks whether a 3-dimensional space with no holes (simply connected) that is finite and has no boundary must be equivalent to a 3-sphere. This was one of the seven Millennium Prize Problems. In 2002-2003, Grigori Perelman proved it using Ricci flow, but declined the $1 million prize. This was the first Millennium Prize Problem to be solved.",
+  "examples": [
+    {
+      "problem": "What did Perelman prove?",
+      "solution": "That any 3-dimensional space without holes that is finite and closed must be topologically equivalent to a 3-sphere",
+      "steps": [
+        "Poincaré asked: How do you tell if a 3D space is a sphere?",
+        "In 2D, a circle is the only simply connected closed surface",
+        "In 3D, the answer was unknown for 100 years",
+        "Perelman used Ricci flow to prove it's the 3-sphere",
+        "This solved a century-old problem"
+      ]
+    },
+    {
+      "problem": "Why did Perelman decline the prize?",
+      "solution": "He declined both the Fields Medal and Millennium Prize, saying the proof was more important than recognition",
+      "steps": [
+        "Perelman proved the conjecture in 2002-2003",
+        "Awarded Fields Medal in 2006 (declined)",
+        "Awarded Millennium Prize in 2010 (declined)",
+        "He said 'I'm not interested in money or fame'",
+        "His proof revolutionized geometric analysis"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": [],
+  "level": "calculus-3",
+  "tags": ["unknowns", "millennium-prize", "topology", "solved", "poincare"],
+  "topic": "unknowns",
+  "proof": "Status: SOLVED (2003) by Grigori Perelman using Ricci flow. Perelman declined the $1 million Millennium Prize. The proof is considered one of the greatest mathematical achievements of the 21st century."
+}

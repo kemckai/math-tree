@@ -1,0 +1,25 @@
+{
+  "id": "birch-swinnerton-dyer",
+  "name": "Birch and Swinnerton-Dyer Conjecture",
+  "latex": "\\text{The rank of an elliptic curve's group of rational points equals the order of vanishing of its L-function at } s=1",
+  "explanation": "This Millennium Prize Problem connects number theory and geometry. It relates the number of rational solutions to an elliptic curve equation to the behavior of an associated L-function. Elliptic curves are crucial in cryptography (used in Bitcoin and secure communications) and number theory. Proving this would give us powerful tools to find all rational points on elliptic curves and advance our understanding of Diophantine equations.",
+  "examples": [
+    {
+      "problem": "Why are elliptic curves important?",
+      "solution": "They're used in cryptography (Bitcoin, secure communications) and are fundamental objects in number theory",
+      "steps": [
+        "Elliptic curve cryptography secures many internet transactions",
+        "Bitcoin uses elliptic curves for digital signatures",
+        "Understanding rational points helps solve Diophantine equations",
+        "Connects algebra, geometry, and analysis",
+        "Many number theory problems reduce to elliptic curves"
+      ]
+    }
+  ],
+  "prerequisites": ["factoring"],
+  "related": ["fermat-last-theorem"],
+  "level": "calculus-3",
+  "tags": ["unknowns", "millennium-prize", "number-theory", "elliptic-curves"],
+  "topic": "unknowns",
+  "proof": "Status: UNSOLVED. This is one of the seven Millennium Prize Problems. Partial results exist, and the conjecture has been verified computationally for many curves, but a general proof remains elusive."
+}

@@ -1,0 +1,31 @@
+{
+  "id": "bode-plot",
+  "name": "Bode Plot (Frequency Response)",
+  "latex": "|G(j\\omega)|_{dB} = 20\\log_{10}|G(j\\omega)|, \\quad \\angle G(j\\omega) = \\arg(G(j\\omega))",
+  "explanation": "Bode plots show system frequency response: magnitude (gain) and phase vs frequency. Magnitude in decibels: 20log₁₀|G(jω)|. Phase in degrees. Used to analyze stability margins (gain margin, phase margin), design controllers, and understand system behavior. Essential for control system design and stability analysis. Shows how system responds to different input frequencies.",
+  "examples": [
+    {
+      "problem": "System has gain of 10 at frequency ω. What is gain in dB?",
+      "solution": "20 dB",
+      "steps": [
+        "Gain_dB = 20log₁₀(10)",
+        "Gain_dB = 20 × 1 = 20 dB"
+      ]
+    },
+    {
+      "problem": "What do gain margin and phase margin indicate?",
+      "solution": "Stability margins - how close system is to instability",
+      "steps": [
+        "Gain margin: how much gain can increase before instability",
+        "Phase margin: how much phase lag before instability",
+        "Larger margins = more stable system",
+        "Typical: gain margin > 6dB, phase margin > 45°"
+      ]
+    }
+  ],
+  "prerequisites": ["transfer-function", "decibel"],
+  "related": ["transfer-function", "nyquist-criterion"],
+  "level": "calculus-2",
+  "tags": ["control-systems", "frequency-response", "bode-plot", "stability"],
+  "topic": "control-systems"
+}

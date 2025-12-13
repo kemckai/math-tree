@@ -1,0 +1,33 @@
+{
+  "id": "transit-method",
+  "name": "Exoplanet Transit Method",
+  "latex": "\\frac{\\Delta F}{F} = \\left(\\frac{R_p}{R_\\star}\\right)^2, \\quad R_p = R_\\star\\sqrt{\\frac{\\Delta F}{F}}",
+  "explanation": "Transit method detects exoplanets when they pass in front of star, causing small brightness dip. Fractional brightness decrease equals (R_p/R_⋆)². Used by Kepler and TESS missions to find thousands of exoplanets. Provides planet radius and orbital period. Combined with Doppler shift, gives planet mass and density.",
+  "examples": [
+    {
+      "problem": "Star dims by 1% during transit. Star radius is 1 solar radius. What is planet radius?",
+      "solution": "0.1 solar radii (Jupiter-sized)",
+      "steps": [
+        "ΔF/F = (R_p/R_⋆)²",
+        "0.01 = (R_p/R_⋆)²",
+        "R_p/R_⋆ = √0.01 = 0.1",
+        "R_p = 0.1 R_⋆ ≈ Jupiter size"
+      ]
+    },
+    {
+      "problem": "Why is transit method so successful?",
+      "solution": "Can detect many planets simultaneously and works for distant stars",
+      "steps": [
+        "Monitors thousands of stars simultaneously",
+        "Detects planets by brightness dips",
+        "Works for planets with edge-on orbits",
+        "Kepler found 2600+ confirmed exoplanets"
+      ]
+    }
+  ],
+  "prerequisites": ["stellar-magnitude"],
+  "related": ["doppler-shift-astronomy", "exoplanets"],
+  "level": "algebra-1",
+  "tags": ["astronomy", "exoplanets", "transit", "detection"],
+  "topic": "astronomy"
+}

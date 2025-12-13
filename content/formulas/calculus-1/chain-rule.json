@@ -1,0 +1,34 @@
+{
+  "id": "chain-rule",
+  "name": "Chain Rule for Derivatives",
+  "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)",
+  "explanation": "The chain rule finds the derivative of composite functions (functions within functions). If y = f(g(x)), then dy/dx = f'(g(x)) · g'(x). In words: derivative of the outer function (evaluated at the inner function) times the derivative of the inner function. This is essential for differentiating functions like sin(x²) or (x² + 1)³.",
+  "examples": [
+    {
+      "problem": "Find the derivative of f(x) = (x² + 1)³",
+      "solution": "f'(x) = 6x(x² + 1)²",
+      "steps": [
+        "Outer function: u³, Inner function: u = x² + 1",
+        "Derivative of outer: 3u²",
+        "Derivative of inner: 2x",
+        "Chain rule: f'(x) = 3(x² + 1)² · 2x",
+        "= 6x(x² + 1)²"
+      ]
+    },
+    {
+      "problem": "Differentiate g(x) = sin(x²)",
+      "solution": "g'(x) = 2x cos(x²)",
+      "steps": [
+        "Outer: sin(u), Inner: u = x²",
+        "Derivative of outer: cos(u)",
+        "Derivative of inner: 2x",
+        "g'(x) = cos(x²) · 2x = 2x cos(x²)"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": ["derivative-power-rule", "product-rule", "quotient-rule"],
+  "level": "calculus-1",
+  "tags": ["derivatives", "chain-rule", "composite"],
+  "topic": "derivatives"
+}

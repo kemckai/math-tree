@@ -1,0 +1,31 @@
+{
+  "id": "radioactive-decay",
+  "name": "Radioactive Decay",
+  "latex": "N(t) = N_0 e^{-\\lambda t}, \\quad T_{1/2} = \\frac{\\ln 2}{\\lambda}",
+  "explanation": "Radioactive decay follows exponential law: N(t) = N₀e^(-λt) where λ is decay constant. Half-life (T₁/₂) is time for half of atoms to decay: T₁/₂ = ln(2)/λ. Each radioactive isotope has characteristic half-life. Used in radiometric dating, medical imaging, and understanding nuclear processes. Decay is random but statistically predictable.",
+  "examples": [
+    {
+      "problem": "Carbon-14 has half-life 5730 years. What fraction remains after 11,460 years?",
+      "solution": "1/4 (25%)",
+      "steps": [
+        "11,460 years = 2 half-lives",
+        "After 1 half-life: 50% remains",
+        "After 2 half-lives: 25% remains"
+      ]
+    },
+    {
+      "problem": "What is decay constant?",
+      "solution": "λ = ln(2) / T₁/₂ = 0.693 / 5730 = 1.21 × 10⁻⁴ per year",
+      "steps": [
+        "λ = ln(2) / T₁/₂",
+        "λ = 0.693 / 5730",
+        "λ = 1.21 × 10⁻⁴ year⁻¹"
+      ]
+    }
+  ],
+  "prerequisites": ["exponent-rules"],
+  "related": ["nuclear-binding-energy", "half-life"],
+  "level": "calculus-1",
+  "tags": ["physics", "nuclear-physics", "radioactivity", "decay"],
+  "topic": "physics"
+}

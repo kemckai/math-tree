@@ -1,0 +1,24 @@
+{
+  "id": "schrodinger-equation",
+  "name": "Schrödinger Equation",
+  "latex": "i\\hbar\\frac{\\partial}{\\partial t}\\psi(\\mathbf{r},t) = \\hat{H}\\psi(\\mathbf{r},t)",
+  "explanation": "Erwin Schrödinger's 1926 wave equation is the fundamental equation of quantum mechanics. It describes how the quantum state of a physical system changes over time. The equation relates the time evolution of the wavefunction ψ to the Hamiltonian operator Ĥ, which represents the total energy of the system. This equation revolutionized physics by providing a mathematical framework for atomic and subatomic behavior, explaining electron orbitals, chemical bonding, and quantum phenomena.",
+  "examples": [
+    {
+      "problem": "For a free particle, the time-independent Schrödinger equation becomes -ℏ²/(2m) ∇²ψ = Eψ. What does this describe?",
+      "solution": "A particle with constant energy E moving freely in space",
+      "steps": [
+        "The Hamiltonian for a free particle is Ĥ = -ℏ²/(2m)∇²",
+        "The equation -ℏ²/(2m)∇²ψ = Eψ is an eigenvalue equation",
+        "Solutions are plane waves: ψ = e^(ik·r)",
+        "This describes a particle with momentum p = ℏk"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": ["dirac-equation", "heisenberg-uncertainty"],
+  "level": "calculus-3",
+  "tags": ["famous-equations", "physics", "quantum-mechanics", "schrodinger"],
+  "topic": "famous-equations",
+  "proof": "Schrödinger derived this equation by seeking a wave equation that would reproduce the known energy levels of the hydrogen atom. He started with the classical wave equation and incorporated de Broglie's hypothesis that particles have wave-like properties with wavelength λ = h/p."
+}

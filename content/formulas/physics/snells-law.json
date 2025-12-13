@@ -1,0 +1,33 @@
+{
+  "id": "snells-law",
+  "name": "Snell's Law (Refraction)",
+  "latex": "n_1\\sin\\theta_1 = n_2\\sin\\theta_2",
+  "explanation": "Snell's law describes how light bends (refracts) when passing between media with different indices of refraction. n₁sin θ₁ = n₂sin θ₂, where n is refractive index and θ is angle from normal. Light bends toward normal when entering denser medium (higher n). Explains lenses, prisms, mirages, and optical phenomena. Essential for optics and understanding how light behaves.",
+  "examples": [
+    {
+      "problem": "Light enters water (n = 1.33) from air (n = 1) at 30° angle. What is refracted angle?",
+      "solution": "22.1°",
+      "steps": [
+        "n₁sin θ₁ = n₂sin θ₂",
+        "1 × sin 30° = 1.33 × sin θ₂",
+        "0.5 = 1.33 sin θ₂",
+        "sin θ₂ = 0.376, θ₂ = 22.1°"
+      ]
+    },
+    {
+      "problem": "Why does light bend when entering water?",
+      "solution": "Light slows down in denser medium, causing refraction",
+      "steps": [
+        "Refractive index n = c/v (speed ratio)",
+        "Higher n = slower speed in medium",
+        "Wavefront bends at interface",
+        "Results in change in direction"
+      ]
+    }
+  ],
+  "prerequisites": ["wave-equation"],
+  "related": ["wave-equation", "lens-equation"],
+  "level": "algebra-1",
+  "tags": ["physics", "optics", "refraction", "light"],
+  "topic": "physics"
+}

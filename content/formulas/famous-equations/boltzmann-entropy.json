@@ -1,0 +1,26 @@
+{
+  "id": "boltzmann-entropy",
+  "name": "Boltzmann Entropy Formula",
+  "latex": "S = k_B \\ln W",
+  "explanation": "Ludwig Boltzmann's 1877 equation relates entropy (S) to the number of microstates (W) available to a system. k_B is Boltzmann's constant (1.381 × 10⁻²³ J/K). This equation connects the microscopic world (statistical mechanics) to the macroscopic world (thermodynamics). It explains why entropy increases—systems naturally evolve toward states with more possible arrangements. This formula is engraved on Boltzmann's tombstone, reflecting its importance.",
+  "examples": [
+    {
+      "problem": "A system has 10²³ possible microstates. What is its entropy?",
+      "solution": "7.64 × 10⁻²³ J/K",
+      "steps": [
+        "S = k_B ln W",
+        "k_B = 1.381 × 10⁻²³ J/K",
+        "W = 10²³",
+        "ln(10²³) = 23 × ln(10) ≈ 23 × 2.303 ≈ 52.97",
+        "S = (1.381 × 10⁻²³) × 52.97",
+        "S ≈ 7.32 × 10⁻²² J/K"
+      ]
+    }
+  ],
+  "prerequisites": ["logarithm-properties"],
+  "related": ["planck-energy"],
+  "level": "calculus-2",
+  "tags": ["famous-equations", "physics", "thermodynamics", "boltzmann", "entropy"],
+  "topic": "famous-equations",
+  "proof": "Boltzmann derived this by considering the probability distribution of particles in different energy states. The logarithm ensures that entropy is extensive (additive for independent systems) and connects to the thermodynamic definition of entropy: dS = dQ/T."
+}

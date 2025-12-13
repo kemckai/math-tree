@@ -1,0 +1,31 @@
+{
+  "id": "circle-circumference",
+  "name": "Circumference of a Circle",
+  "latex": "C = 2\\pi r = \\pi d",
+  "explanation": "The circumference (perimeter) of a circle is 2π times the radius, or π times the diameter. This formula shows that circumference is directly proportional to radius—doubling the radius doubles the circumference. The constant π (pi) is approximately 3.14159 and represents the ratio of circumference to diameter for any circle.",
+  "examples": [
+    {
+      "problem": "Find the circumference of a circle with radius 7 cm",
+      "solution": "14π cm or approximately 43.98 cm",
+      "steps": [
+        "C = 2πr",
+        "C = 2π(7) = 14π cm",
+        "Using π ≈ 3.14159: C ≈ 43.98 cm"
+      ]
+    },
+    {
+      "problem": "A circle has diameter 10. Find its circumference",
+      "solution": "10π units or approximately 31.42 units",
+      "steps": [
+        "C = πd",
+        "C = π(10) = 10π",
+        "C ≈ 31.42 units"
+      ]
+    }
+  ],
+  "prerequisites": ["multiplication"],
+  "related": ["circle-area"],
+  "level": "geometry",
+  "tags": ["circle", "circumference", "geometry"],
+  "topic": "circles"
+}

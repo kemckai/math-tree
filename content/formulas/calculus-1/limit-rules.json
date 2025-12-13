@@ -1,0 +1,32 @@
+{
+  "id": "limit-rules",
+  "name": "Limit Rules",
+  "latex": "\\lim(f + g) = \\lim f + \\lim g, \\quad \\lim(fg) = (\\lim f)(\\lim g), \\quad \\lim(f/g) = (\\lim f)/(\\lim g)",
+  "explanation": "Limits follow algebraic rules that make them easier to compute. The limit of a sum is the sum of limits, the limit of a product is the product of limits, and the limit of a quotient is the quotient of limits (if denominator limit is nonzero). These properties allow us to break complex limits into simpler parts.",
+  "examples": [
+    {
+      "problem": "Find lim(x→3) (x² + 2x - 1)",
+      "solution": "14",
+      "steps": [
+        "Using limit rules:",
+        "lim(x²) + lim(2x) - lim(1)",
+        "= 3² + 2(3) - 1",
+        "= 9 + 6 - 1 = 14"
+      ]
+    },
+    {
+      "problem": "Find lim(x→2) (x² - 4)/(x + 2)",
+      "solution": "0",
+      "steps": [
+        "lim(x² - 4) = 4 - 4 = 0",
+        "lim(x + 2) = 2 + 2 = 4",
+        "lim(f/g) = 0/4 = 0"
+      ]
+    }
+  ],
+  "prerequisites": ["limit-definition"],
+  "related": ["limit-definition", "lhopitals-rule"],
+  "level": "calculus-1",
+  "tags": ["limits", "rules", "properties"],
+  "topic": "limits"
+}

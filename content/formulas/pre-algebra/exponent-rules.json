@@ -1,0 +1,37 @@
+{
+  "id": "exponent-rules",
+  "name": "Exponent Rules",
+  "latex": "a^m \\times a^n = a^{m+n}, \\quad \\frac{a^m}{a^n} = a^{m-n}, \\quad (a^m)^n = a^{mn}, \\quad a^0 = 1",
+  "explanation": "Exponents represent repeated multiplication. When multiplying powers with the same base, add the exponents. When dividing, subtract the exponents. When raising a power to a power, multiply the exponents. Any number (except 0) raised to the 0 power equals 1. These rules simplify working with exponential expressions.",
+  "examples": [
+    {
+      "problem": "Simplify x^3 × x^5",
+      "solution": "x^8",
+      "steps": [
+        "Same base, add exponents:",
+        "x^3 × x^5 = x^(3+5) = x^8"
+      ]
+    },
+    {
+      "problem": "Simplify (2^3)^4",
+      "solution": "2^12",
+      "steps": [
+        "Power to a power, multiply exponents:",
+        "(2^3)^4 = 2^(3×4) = 2^12"
+      ]
+    },
+    {
+      "problem": "Simplify y^7 ÷ y^3",
+      "solution": "y^4",
+      "steps": [
+        "Same base, subtract exponents:",
+        "y^7 ÷ y^3 = y^(7-3) = y^4"
+      ]
+    }
+  ],
+  "prerequisites": ["multiplication", "division"],
+  "related": ["scientific-notation"],
+  "level": "pre-algebra",
+  "tags": ["exponents", "algebra", "rules"],
+  "topic": "exponents"
+}

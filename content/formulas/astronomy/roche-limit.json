@@ -1,0 +1,33 @@
+{
+  "id": "roche-limit",
+  "name": "Roche Limit",
+  "latex": "d_{Roche} = 2.456 R_p \\left(\\frac{\\rho_p}{\\rho_s}\\right)^{1/3}",
+  "explanation": "Roche limit is minimum distance a satellite can orbit before tidal forces tear it apart. Depends on planet radius (R_p), planet density (ρ_p), and satellite density (ρ_s). Inside Roche limit, tidal forces exceed satellite's self-gravity. Explains why Saturn's rings exist and why some moons are stable. Used to understand planetary ring systems.",
+  "examples": [
+    {
+      "problem": "Why do Saturn's rings exist?",
+      "solution": "Rings are inside Roche limit - moon was torn apart by tidal forces",
+      "steps": [
+        "Moon orbited too close to Saturn",
+        "Entered Roche limit",
+        "Tidal forces exceeded moon's self-gravity",
+        "Moon was torn apart, forming rings"
+      ]
+    },
+    {
+      "problem": "Why doesn't Moon break apart?",
+      "solution": "Moon is far enough from Earth to be outside Roche limit",
+      "steps": [
+        "Moon's distance > Earth's Roche limit",
+        "Tidal forces < Moon's self-gravity",
+        "Moon remains intact",
+        "But tidal forces cause geological activity"
+      ]
+    }
+  ],
+  "prerequisites": ["tidal-forces"],
+  "related": ["tidal-forces", "planetary-rings"],
+  "level": "calculus-1",
+  "tags": ["astronomy", "tidal-forces", "planetary-science", "rings"],
+  "topic": "astronomy"
+}

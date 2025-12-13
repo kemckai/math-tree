@@ -1,0 +1,23 @@
+{
+  "id": "bernoulli-principle",
+  "name": "Bernoulli's Principle",
+  "latex": "P + \\frac{1}{2}\\rho v^2 + \\rho gh = \\text{constant}",
+  "explanation": "Bernoulli's principle states that in a flowing fluid, the sum of pressure, kinetic energy per volume, and potential energy per volume remains constant. This explains how aircraft wings generate lift, how venturis work, and fluid flow behavior. As velocity increases, pressure decreases (and vice versa). Essential for fluid mechanics, aerodynamics, and hydraulic systems.",
+  "examples": [
+    {
+      "problem": "Water flows through a pipe. At point 1: P₁ = 100 kPa, v₁ = 2 m/s. At point 2: v₂ = 4 m/s (same height). Find P₂.",
+      "solution": "94 kPa (assuming ρ = 1000 kg/m³)",
+      "steps": [
+        "P₁ + ½ρv₁² = P₂ + ½ρv₂² (same height, so ρgh cancels)",
+        "100,000 + ½(1000)(2)² = P₂ + ½(1000)(4)²",
+        "100,000 + 2000 = P₂ + 8000",
+        "P₂ = 102,000 - 8000 = 94,000 Pa = 94 kPa"
+      ]
+    }
+  ],
+  "prerequisites": ["work-energy"],
+  "related": ["fluid-flow", "pressure-drop"],
+  "level": "algebra-2",
+  "tags": ["mechanical-engineering", "fluid-mechanics", "bernoulli", "pressure"],
+  "topic": "mechanical-engineering"
+}

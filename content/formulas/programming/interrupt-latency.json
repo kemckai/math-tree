@@ -1,0 +1,31 @@
+{
+  "id": "interrupt-latency",
+  "name": "Interrupt Latency",
+  "latex": "\\text{Latency} = \\text{Context Switch Time} + \\text{ISR Execution Time}",
+  "explanation": "Interrupt latency is the time from interrupt request to interrupt service routine (ISR) execution. Critical for real-time systems where timely response is essential. Latency includes: interrupt recognition, context saving, ISR execution, and context restoration. Minimizing latency is crucial for embedded systems, robotics, and safety-critical applications. Lower latency enables faster response to external events.",
+  "examples": [
+    {
+      "problem": "Interrupt recognized in 2μs, context save 1μs, ISR 5μs, context restore 1μs. What is latency?",
+      "solution": "9μs",
+      "steps": [
+        "Latency = recognition + save + ISR + restore",
+        "Latency = 2 + 1 + 5 + 1 = 9μs"
+      ]
+    },
+    {
+      "problem": "Why is low interrupt latency important?",
+      "solution": "Enables real-time response to critical events",
+      "steps": [
+        "Safety systems need immediate response",
+        "Motor control requires precise timing",
+        "Communication protocols have timing constraints",
+        "Low latency ensures system meets deadlines"
+      ]
+    }
+  ],
+  "prerequisites": ["microcontroller-timing"],
+  "related": ["microcontroller-timing", "real-time-systems"],
+  "level": "algebra-1",
+  "tags": ["programming", "embedded-systems", "interrupts", "real-time"],
+  "topic": "programming"
+}

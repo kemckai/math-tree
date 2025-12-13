@@ -1,0 +1,25 @@
+{
+  "id": "black-scholes",
+  "name": "Black-Scholes Equation",
+  "latex": "\\frac{\\partial V}{\\partial t} + \\frac{1}{2}\\sigma^2 S^2 \\frac{\\partial^2 V}{\\partial S^2} + rS\\frac{\\partial V}{\\partial S} - rV = 0",
+  "explanation": "Fischer Black and Myron Scholes's 1973 equation revolutionized finance by providing a method to price options (financial derivatives). This partial differential equation calculates the theoretical value of European-style options. It led to the creation of the options market and won Scholes and Robert Merton the 1997 Nobel Prize in Economics. The equation uses the stock price (S), volatility (σ), risk-free rate (r), and time (t) to determine option value (V).",
+  "examples": [
+    {
+      "problem": "What did the Black-Scholes equation enable?",
+      "solution": "Accurate pricing of financial options, leading to the modern derivatives market",
+      "steps": [
+        "Before Black-Scholes, options were difficult to price accurately",
+        "The equation provides a mathematical framework for option valuation",
+        "This enabled the creation of liquid options markets",
+        "It's used by traders, banks, and financial institutions worldwide",
+        "Led to the development of complex financial instruments"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": [],
+  "level": "calculus-3",
+  "tags": ["famous-equations", "finance", "economics", "black-scholes"],
+  "topic": "famous-equations",
+  "proof": "Derived using stochastic calculus (Itô's lemma) and the principle of no-arbitrage. The equation assumes stock prices follow geometric Brownian motion and constructs a risk-free portfolio to eliminate uncertainty."
+}

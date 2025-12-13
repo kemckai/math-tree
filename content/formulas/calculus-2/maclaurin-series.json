@@ -1,0 +1,33 @@
+{
+  "id": "maclaurin-series",
+  "name": "Maclaurin Series",
+  "latex": "f(x) = \\sum_{n=0}^{\\infty} \\frac{f^{(n)}(0)}{n!}x^n",
+  "explanation": "A Maclaurin series is a special case of a Taylor series centered at 0. It represents a function as an infinite sum using the function's derivatives evaluated at 0. Many common functions have well-known Maclaurin series expansions, such as e^x, sin(x), cos(x), and 1/(1-x). These series are fundamental in calculus and mathematical analysis.",
+  "examples": [
+    {
+      "problem": "Find the Maclaurin series for 1/(1-x)",
+      "solution": "1 + x + x² + x³ + ... = Σ xⁿ",
+      "steps": [
+        "f(x) = 1/(1-x) = (1-x)⁻¹",
+        "f'(x) = (1-x)⁻², f''(x) = 2(1-x)⁻³, ...",
+        "At x = 0: f(0) = 1, f'(0) = 1, f''(0) = 2, ...",
+        "Maclaurin series: 1 + x + x² + x³ + ...",
+        "= Σ(n=0 to ∞) xⁿ, for |x| < 1"
+      ]
+    },
+    {
+      "problem": "Find the Maclaurin series for cos(x)",
+      "solution": "cos(x) = 1 - x²/2! + x⁴/4! - x⁶/6! + ...",
+      "steps": [
+        "Derivatives: cos, -sin, -cos, sin, cos, ...",
+        "At 0: cos(0)=1, -sin(0)=0, -cos(0)=-1, sin(0)=0, ...",
+        "cos(x) = 1 - x²/2! + x⁴/4! - x⁶/6! + ..."
+      ]
+    }
+  ],
+  "prerequisites": ["taylor-series"],
+  "related": ["taylor-series", "convergence-tests"],
+  "level": "calculus-2",
+  "tags": ["series", "maclaurin", "approximation"],
+  "topic": "series"
+}

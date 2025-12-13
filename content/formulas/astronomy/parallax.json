@@ -1,0 +1,31 @@
+{
+  "id": "parallax",
+  "name": "Stellar Parallax",
+  "latex": "d = \\frac{1}{p}, \\quad p = \\frac{1}{2}\\theta",
+  "explanation": "Parallax is apparent shift of nearby stars against distant background as Earth orbits Sun. Parallax angle (p) measured in arcseconds. Distance d = 1/p parsecs. This is fundamental method for measuring stellar distances. Works for stars within ~1000 parsecs. Used to calibrate other distance measurement techniques.",
+  "examples": [
+    {
+      "problem": "Star has parallax 0.1 arcseconds. What is distance?",
+      "solution": "10 parsecs",
+      "steps": [
+        "d = 1/p",
+        "d = 1/0.1 = 10 parsecs"
+      ]
+    },
+    {
+      "problem": "Why is parallax limited to nearby stars?",
+      "solution": "Parallax angles become too small to measure accurately for distant stars",
+      "steps": [
+        "Parallax decreases with distance",
+        "At 1000 pc, parallax ≈ 0.001 arcseconds",
+        "Current telescopes can measure ~0.01 arcseconds",
+        "Beyond ~1000 pc, parallax too small"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["distance-measurements", "stellar-magnitude"],
+  "level": "algebra-1",
+  "tags": ["astronomy", "distance-measurements", "parallax", "triangulation"],
+  "topic": "astronomy"
+}

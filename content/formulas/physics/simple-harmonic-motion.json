@@ -1,0 +1,28 @@
+{
+  "id": "simple-harmonic-motion",
+  "name": "Simple Harmonic Motion",
+  "latex": "x(t) = A\\cos(\\omega t + \\phi), \\quad \\omega = \\sqrt{\\frac{k}{m}}, \\quad T = \\frac{2\\pi}{\\omega}",
+  "explanation": "Simple harmonic motion is periodic oscillation (like mass-spring or pendulum). Position: x(t) = A cos(ωt + φ) where A is amplitude, ω is angular frequency, φ is phase. Angular frequency ω = √(k/m) for spring. Period T = 2π/ω. Used in understanding oscillations, waves, and periodic phenomena. Many systems approximate SHM for small displacements.",
+  "examples": [
+    {
+      "problem": "Mass-spring: k = 100 N/m, m = 1 kg. What is period?",
+      "solution": "0.628 s",
+      "steps": [
+        "ω = √(k/m) = √(100/1) = 10 rad/s",
+        "T = 2π/ω = 2π/10 = 0.628 s"
+      ]
+    },
+    {
+      "problem": "What is frequency?",
+      "solution": "1.59 Hz",
+      "steps": [
+        "f = 1/T = 1/0.628 = 1.59 Hz"
+      ]
+    }
+  ],
+  "prerequisites": ["kinematic-equations"],
+  "related": ["wave-equation", "oscillations"],
+  "level": "calculus-1",
+  "tags": ["physics", "mechanics", "oscillations", "shm"],
+  "topic": "physics"
+}

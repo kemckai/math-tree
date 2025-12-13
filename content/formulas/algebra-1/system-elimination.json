@@ -1,0 +1,39 @@
+{
+  "id": "system-elimination",
+  "name": "Solving Systems by Elimination",
+  "latex": "\\text{Add or subtract equations to eliminate a variable}",
+  "explanation": "The elimination method (also called addition method) solves systems by adding or subtracting equations to eliminate one variable. Multiply one or both equations by constants so that when added or subtracted, one variable cancels out. This is often easier than substitution when both equations are in standard form.",
+  "examples": [
+    {
+      "problem": "Solve: 2x + 3y = 7 and 3x - 3y = 3",
+      "solution": "x = 2, y = 1",
+      "steps": [
+        "Add the equations (y terms cancel):",
+        "(2x + 3y) + (3x - 3y) = 7 + 3",
+        "5x = 10",
+        "x = 2",
+        "Substitute into first equation:",
+        "2(2) + 3y = 7",
+        "4 + 3y = 7",
+        "3y = 3, so y = 1"
+      ]
+    },
+    {
+      "problem": "Solve: 3x + 2y = 8 and 2x + 5y = 9",
+      "solution": "x = 2, y = 1",
+      "steps": [
+        "Multiply first by 2: 6x + 4y = 16",
+        "Multiply second by -3: -6x - 15y = -27",
+        "Add: -11y = -11",
+        "y = 1",
+        "Substitute: 3x + 2(1) = 8",
+        "3x = 6, x = 2"
+      ]
+    }
+  ],
+  "prerequisites": ["slope-intercept-form"],
+  "related": ["system-substitution"],
+  "level": "algebra-1",
+  "tags": ["systems", "elimination", "equations"],
+  "topic": "systems"
+}

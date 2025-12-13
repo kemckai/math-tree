@@ -1,0 +1,30 @@
+{
+  "id": "newtons-second-law",
+  "name": "Newton's Second Law of Motion",
+  "latex": "F = ma",
+  "explanation": "Newton's Second Law states that force equals mass times acceleration. This fundamental equation governs all mechanical motion. Force (F) is measured in newtons (N), mass (m) in kilograms (kg), and acceleration (a) in m/s². This law is the foundation of dynamics and is used to analyze motion, design mechanisms, and calculate forces in mechanical systems.",
+  "examples": [
+    {
+      "problem": "A 10kg object accelerates at 5 m/s². What force is applied?",
+      "solution": "50N",
+      "steps": [
+        "F = ma",
+        "F = 10 × 5 = 50N"
+      ]
+    },
+    {
+      "problem": "A 200N force accelerates a 50kg mass. What is the acceleration?",
+      "solution": "4 m/s²",
+      "steps": [
+        "F = ma",
+        "200 = 50 × a",
+        "a = 200/50 = 4 m/s²"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["work-energy", "momentum"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "dynamics", "forces", "fundamentals"],
+  "topic": "mechanical-engineering"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "euler-identity",
+  "name": "Euler's Identity",
+  "latex": "e^{i\\pi} + 1 = 0",
+  "explanation": "Leonhard Euler's beautiful equation connects five fundamental mathematical constants: e (base of natural logarithms), i (imaginary unit), π (pi), 1, and 0. This equation is considered one of the most elegant in mathematics because it unifies algebra, geometry, trigonometry, and complex analysis. It's a special case of Euler's formula: e^(ix) = cos(x) + i sin(x), when x = π.",
+  "examples": [
+    {
+      "problem": "Show that e^(iπ) = -1",
+      "solution": "Using Euler's formula: e^(iπ) = cos(π) + i sin(π) = -1 + 0i = -1",
+      "steps": [
+        "Euler's formula: e^(ix) = cos(x) + i sin(x)",
+        "Substitute x = π:",
+        "e^(iπ) = cos(π) + i sin(π)",
+        "cos(π) = -1, sin(π) = 0",
+        "Therefore: e^(iπ) = -1",
+        "Adding 1: e^(iπ) + 1 = 0"
+      ]
+    },
+    {
+      "problem": "What is e^(iπ/2)?",
+      "solution": "i",
+      "steps": [
+        "e^(iπ/2) = cos(π/2) + i sin(π/2)",
+        "cos(π/2) = 0, sin(π/2) = 1",
+        "e^(iπ/2) = 0 + i(1) = i"
+      ]
+    }
+  ],
+  "prerequisites": ["logarithm-properties"],
+  "related": ["log-quick-conversions"],
+  "level": "calculus-2",
+  "tags": ["famous-equations", "mathematics", "euler", "complex-numbers"],
+  "topic": "famous-equations",
+  "proof": "Euler's formula e^(ix) = cos(x) + i sin(x) can be derived from Taylor series expansions: e^(ix) = Σ(ix)^n/n! = cos(x) + i sin(x). Setting x = π gives e^(iπ) = -1."
+}

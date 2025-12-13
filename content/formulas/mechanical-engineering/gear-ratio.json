@@ -1,0 +1,29 @@
+{
+  "id": "gear-ratio",
+  "name": "Gear Ratio",
+  "latex": "GR = \\frac{N_2}{N_1} = \\frac{\\omega_1}{\\omega_2} = \\frac{\\tau_2}{\\tau_1}",
+  "explanation": "Gear ratio (GR) equals the ratio of teeth (N₂/N₁), inverse ratio of angular velocities, and direct ratio of torques. Gears transmit power and change speed/torque. Larger gear ratio means more torque but less speed. Essential for designing gearboxes, transmissions, and power transmission systems. Power is conserved (ideally).",
+  "examples": [
+    {
+      "problem": "Gear 1 (20 teeth) drives Gear 2 (60 teeth). What is gear ratio?",
+      "solution": "3:1",
+      "steps": [
+        "GR = N₂/N₁ = 60/20 = 3",
+        "Gear 2 rotates 3× slower but with 3× more torque"
+      ]
+    },
+    {
+      "problem": "If input rotates at 1000 RPM with 3:1 ratio, what is output speed?",
+      "solution": "333.3 RPM",
+      "steps": [
+        "ω₂ = ω₁/GR",
+        "ω₂ = 1000/3 = 333.3 RPM"
+      ]
+    }
+  ],
+  "prerequisites": ["angular-kinematics", "moment-torque"],
+  "related": ["angular-kinematics", "power-mechanical"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "machine-design", "gears", "transmission"],
+  "topic": "mechanical-engineering"
+}

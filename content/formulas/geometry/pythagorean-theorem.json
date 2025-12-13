@@ -1,0 +1,31 @@
+{
+  "id": "pythagorean-theorem",
+  "name": "Pythagorean Theorem",
+  "latex": "a^2 + b^2 = c^2",
+  "explanation": "In a right triangle, the square of the hypotenuse (the side opposite the right angle) equals the sum of squares of the other two sides. This fundamental theorem connects geometry and algebra. It only applies to right triangles. The theorem is named after the ancient Greek mathematician Pythagoras.",
+  "examples": [
+    {
+      "problem": "A right triangle has legs of 3 and 4. Find the hypotenuse",
+      "solution": "5",
+      "steps": [
+        "a = 3, b = 4, find c",
+        "c² = a² + b² = 3² + 4² = 9 + 16 = 25",
+        "c = √25 = 5"
+      ]
+    },
+    {
+      "problem": "A right triangle has hypotenuse 13 and one leg 5. Find the other leg",
+      "solution": "12",
+      "steps": [
+        "c = 13, a = 5, find b",
+        "b² = c² - a² = 13² - 5² = 169 - 25 = 144",
+        "b = √144 = 12"
+      ]
+    }
+  ],
+  "prerequisites": ["exponent-rules"],
+  "related": ["triangle-area", "soh-cah-toa"],
+  "level": "geometry",
+  "tags": ["right-triangle", "geometry", "theorem"],
+  "topic": "triangles"
+}

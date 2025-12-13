@@ -1,0 +1,27 @@
+{
+  "id": "planck-energy",
+  "name": "Planck's Energy Equation",
+  "latex": "E = h\\nu = \\frac{hc}{\\lambda}",
+  "explanation": "Max Planck's 1900 equation relates the energy of a photon to its frequency (ν) or wavelength (λ). h is Planck's constant (6.626 × 10⁻³⁴ J⋅s), c is the speed of light. This equation marked the birth of quantum mechanics, showing that energy is quantized in discrete packets called quanta. It explains the photoelectric effect, atomic spectra, and the foundation of quantum theory.",
+  "examples": [
+    {
+      "problem": "Calculate the energy of a photon with wavelength 500 nm (green light)",
+      "solution": "3.97 × 10⁻¹⁹ J or 2.48 eV",
+      "steps": [
+        "E = hc/λ",
+        "h = 6.626 × 10⁻³⁴ J⋅s",
+        "c = 3 × 10⁸ m/s",
+        "λ = 500 × 10⁻⁹ m = 5 × 10⁻⁷ m",
+        "E = (6.626 × 10⁻³⁴ × 3 × 10⁸) / (5 × 10⁻⁷)",
+        "E = 1.988 × 10⁻²⁵ / 5 × 10⁻⁷",
+        "E = 3.97 × 10⁻¹⁹ J"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["einstein-mass-energy", "schrodinger-equation"],
+  "level": "algebra-2",
+  "tags": ["famous-equations", "physics", "quantum-mechanics", "planck"],
+  "topic": "famous-equations",
+  "proof": "Planck derived this to explain blackbody radiation. Classical physics predicted infinite energy at high frequencies (ultraviolet catastrophe). Planck assumed energy was quantized in units of hν, which solved the problem and matched experimental data."
+}

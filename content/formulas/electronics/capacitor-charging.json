@@ -1,0 +1,31 @@
+{
+  "id": "capacitor-charging",
+  "name": "Capacitor Charging",
+  "latex": "V(t) = V_0(1 - e^{-t/RC})",
+  "explanation": "Capacitors store electrical energy in an electric field. When charging through a resistor, voltage increases exponentially toward the supply voltage. The time constant τ = RC determines how fast charging occurs - after one time constant, voltage reaches 63.2% of final value. After 5 time constants, it's essentially fully charged. Capacitors are used for filtering, timing, energy storage, and coupling signals.",
+  "examples": [
+    {
+      "problem": "A 10μF capacitor charges through a 1kΩ resistor from 0V to 12V. What is the time constant?",
+      "solution": "10ms",
+      "steps": [
+        "τ = RC",
+        "τ = 1000 × 10×10⁻⁶ = 0.01s = 10ms"
+      ]
+    },
+    {
+      "problem": "After one time constant, what percentage of final voltage is reached?",
+      "solution": "63.2%",
+      "steps": [
+        "V(t) = V₀(1 - e^(-t/RC))",
+        "At t = τ: V = V₀(1 - e^(-1))",
+        "V = V₀(1 - 0.368) = V₀ × 0.632",
+        "So 63.2% of final voltage"
+      ]
+    }
+  ],
+  "prerequisites": ["exponent-rules"],
+  "related": ["capacitor-discharging", "rc-time-constant"],
+  "level": "calculus-1",
+  "tags": ["electronics", "capacitors", "transients", "rc-circuits"],
+  "topic": "electronics"
+}

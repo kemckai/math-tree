@@ -1,0 +1,24 @@
+{
+  "id": "chain-rule-multivariable",
+  "name": "Chain Rule for Multivariable Functions",
+  "latex": "\\frac{dz}{dt} = \\frac{\\partial z}{\\partial x}\\frac{dx}{dt} + \\frac{\\partial z}{\\partial y}\\frac{dy}{dt}",
+  "explanation": "The multivariable chain rule extends the chain rule to functions of multiple variables. If z = f(x,y) and x and y are functions of t, then dz/dt equals the sum of partial derivatives times the derivatives of the intermediate variables. This is essential for related rates problems and parametric curves in higher dimensions.",
+  "examples": [
+    {
+      "problem": "If z = x²y, x = t², y = t³, find dz/dt",
+      "solution": "dz/dt = 7t⁶",
+      "steps": [
+        "∂z/∂x = 2xy, ∂z/∂y = x²",
+        "dx/dt = 2t, dy/dt = 3t²",
+        "dz/dt = (2xy)(2t) + (x²)(3t²)",
+        "= 2(t²)(t³)(2t) + (t²)²(3t²)",
+        "= 4t⁶ + 3t⁶ = 7t⁶"
+      ]
+    }
+  ],
+  "prerequisites": ["partial-derivative", "chain-rule"],
+  "related": ["partial-derivative", "gradient"],
+  "level": "calculus-3",
+  "tags": ["multivariable", "chain-rule", "calculus"],
+  "topic": "partial-derivatives"
+}

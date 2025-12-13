@@ -1,0 +1,40 @@
+{
+  "id": "big-o-notation",
+  "name": "Big O Notation (Time Complexity)",
+  "latex": "O(1), O(\\log n), O(n), O(n \\log n), O(n^2), O(2^n)",
+  "explanation": "Big O notation describes how algorithm runtime or space requirements grow with input size. O(1) = constant time (fastest), O(log n) = logarithmic (very fast), O(n) = linear, O(n log n) = linearithmic, O(n²) = quadratic (slow), O(2ⁿ) = exponential (very slow). This is essential for choosing efficient algorithms and understanding performance trade-offs. Understanding complexity helps write scalable code.",
+  "examples": [
+    {
+      "problem": "What is the time complexity of accessing an array element by index?",
+      "solution": "O(1) - constant time",
+      "steps": [
+        "Array access is direct: arr[i]",
+        "Takes same time regardless of array size",
+        "This is O(1) - constant time"
+      ]
+    },
+    {
+      "problem": "What is the time complexity of binary search?",
+      "solution": "O(log n) - logarithmic time",
+      "steps": [
+        "Binary search halves search space each step",
+        "For n elements, needs log₂(n) steps",
+        "This is O(log n) - logarithmic time"
+      ]
+    },
+    {
+      "problem": "What is the time complexity of bubble sort?",
+      "solution": "O(n²) - quadratic time",
+      "steps": [
+        "Bubble sort compares all pairs: n × n comparisons",
+        "For n elements, needs approximately n² operations",
+        "This is O(n²) - quadratic time"
+      ]
+    }
+  ],
+  "prerequisites": ["logarithm-properties"],
+  "related": ["algorithm-analysis", "data-structures"],
+  "level": "algebra-2",
+  "tags": ["programming", "algorithms", "complexity", "big-o"],
+  "topic": "programming"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "difference-of-squares",
+  "name": "Difference of Squares Pattern",
+  "latex": "a^2 - b^2 = (a+b)(a-b)",
+  "explanation": "The difference of two perfect squares always factors as the sum times the difference. This is incredibly useful for mental math and factoring. Recognizing this pattern can instantly simplify calculations and factorizations without trial and error.",
+  "examples": [
+    {
+      "problem": "Factor x² - 16",
+      "solution": "(x + 4)(x - 4)",
+      "steps": [
+        "Recognize: x² - 16 = x² - 4²",
+        "Apply pattern: (x + 4)(x - 4)",
+        "Verify: (x + 4)(x - 4) = x² - 4x + 4x - 16 = x² - 16 ✓"
+      ]
+    },
+    {
+      "problem": "Calculate 99² - 1² mentally",
+      "solution": "9800",
+      "steps": [
+        "99² - 1² = (99 + 1)(99 - 1)",
+        "= 100 × 98",
+        "= 9800"
+      ]
+    },
+    {
+      "problem": "Factor 25x² - 9",
+      "solution": "(5x + 3)(5x - 3)",
+      "steps": [
+        "25x² - 9 = (5x)² - 3²",
+        "= (5x + 3)(5x - 3)"
+      ]
+    }
+  ],
+  "prerequisites": ["factoring", "exponent-rules"],
+  "related": ["factoring", "foil-method"],
+  "level": "algebra-1",
+  "tags": ["tricks", "factoring", "patterns", "shortcuts"],
+  "topic": "tricks"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "angular-kinematics",
+  "name": "Angular Kinematics",
+  "latex": "\\omega = \\omega_0 + \\alpha t, \\quad \\theta = \\omega_0 t + \\frac{1}{2}\\alpha t^2, \\quad v = r\\omega",
+  "explanation": "Angular kinematics describes rotational motion. Angular velocity (ω) changes with angular acceleration (α). Angular position (θ) relates to angular velocity and acceleration. Linear velocity equals radius times angular velocity (v = rω). Essential for analyzing rotating machinery, gears, motors, and any rotational system.",
+  "examples": [
+    {
+      "problem": "A wheel accelerates from rest at 2 rad/s² for 3 seconds. What is final angular velocity?",
+      "solution": "6 rad/s",
+      "steps": [
+        "ω = ω₀ + αt",
+        "ω = 0 + 2 × 3 = 6 rad/s"
+      ]
+    },
+    {
+      "problem": "A point 0.5m from center rotates at 10 rad/s. What is linear velocity?",
+      "solution": "5 m/s",
+      "steps": [
+        "v = rω",
+        "v = 0.5 × 10 = 5 m/s"
+      ]
+    }
+  ],
+  "prerequisites": ["kinematics-velocity"],
+  "related": ["kinematics-velocity", "moment-torque"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "kinematics", "rotation", "angular"],
+  "topic": "mechanical-engineering"
+}

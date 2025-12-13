@@ -1,0 +1,46 @@
+{
+  "id": "multiply-by-11",
+  "name": "Multiply Any Number by 11",
+  "latex": "\\text{For } ab \\times 11: \\text{ add digits, insert sum in middle}",
+  "explanation": "To multiply a two-digit number by 11, add the two digits together and place the sum between them. If the sum is 10 or greater, carry the 1 to the left digit. For larger numbers, work from right to left, adding adjacent digits. This trick works because 11 = 10 + 1, so multiplying by 11 is like multiplying by 10 and adding the original number.",
+  "examples": [
+    {
+      "problem": "Calculate 23 × 11",
+      "solution": "253",
+      "steps": [
+        "Add the digits: 2 + 3 = 5",
+        "Place 5 between 2 and 3: 2_5_3",
+        "Result: 253"
+      ]
+    },
+    {
+      "problem": "Calculate 47 × 11",
+      "solution": "517",
+      "steps": [
+        "Add the digits: 4 + 7 = 11",
+        "Since sum is 10+, carry the 1:",
+        "Left digit becomes 4 + 1 = 5",
+        "Middle digit is 1 (ones place of 11)",
+        "Right digit stays 7",
+        "Result: 517"
+      ]
+    },
+    {
+      "problem": "Calculate 123 × 11",
+      "solution": "1353",
+      "steps": [
+        "Work from right to left:",
+        "Rightmost: 3",
+        "Middle: 2 + 3 = 5",
+        "Next: 1 + 2 = 3",
+        "Leftmost: 1",
+        "Result: 1353"
+      ]
+    }
+  ],
+  "prerequisites": ["addition", "multiplication"],
+  "related": ["multiply-by-5", "multiply-by-9"],
+  "level": "basic-math",
+  "tags": ["tricks", "mental-math", "multiplication", "shortcuts"],
+  "topic": "tricks"
+}

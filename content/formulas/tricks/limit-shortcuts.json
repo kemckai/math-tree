@@ -1,0 +1,31 @@
+{
+  "id": "limit-shortcuts",
+  "name": "Common Limit Patterns",
+  "latex": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1, \\quad \\lim_{x \\to \\infty} \\frac{1}{x} = 0",
+  "explanation": "Memorize common limit results: sin(x)/x → 1 as x→0, (1-cos x)/x → 0 as x→0, (e^x - 1)/x → 1 as x→0, 1/x → 0 as x→∞, x/e^x → 0 as x→∞. Recognizing these patterns lets you evaluate limits instantly without L'Hôpital's rule or lengthy calculations.",
+  "examples": [
+    {
+      "problem": "Find lim(x→0) sin(3x)/x",
+      "solution": "3",
+      "steps": [
+        "Use pattern: lim(x→0) sin(ax)/x = a",
+        "Here a = 3, so limit = 3"
+      ]
+    },
+    {
+      "problem": "Find lim(x→∞) (2x + 1)/x",
+      "solution": "2",
+      "steps": [
+        "Divide numerator and denominator by x:",
+        "(2 + 1/x)/(1)",
+        "As x→∞, 1/x → 0",
+        "Limit = 2"
+      ]
+    }
+  ],
+  "prerequisites": ["limit-definition"],
+  "related": ["limit-definition", "lhopitals-rule"],
+  "level": "calculus-1",
+  "tags": ["tricks", "limits", "patterns", "shortcuts"],
+  "topic": "tricks"
+}

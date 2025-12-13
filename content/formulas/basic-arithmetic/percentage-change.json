@@ -1,0 +1,33 @@
+{
+  "id": "percentage-change",
+  "name": "Percentage Change",
+  "latex": "\\text{Percentage Change} = \\frac{\\text{New Value} - \\text{Old Value}}{\\text{Old Value}} \\times 100\\%",
+  "explanation": "Percentage change measures how much a value has increased or decreased relative to its original value. A positive percentage indicates an increase, while a negative percentage indicates a decrease. This formula is commonly used in economics, statistics, and everyday situations like price changes or population growth.",
+  "examples": [
+    {
+      "problem": "A shirt originally costs $40 and is now $50. What is the percentage increase?",
+      "solution": "25% increase",
+      "steps": [
+        "Old Value = $40, New Value = $50",
+        "Change = 50 - 40 = 10",
+        "Percentage Change = (10/40) × 100 = 25%",
+        "Since it's positive, it's a 25% increase"
+      ]
+    },
+    {
+      "problem": "A stock price dropped from $100 to $75. What is the percentage decrease?",
+      "solution": "25% decrease",
+      "steps": [
+        "Old Value = $100, New Value = $75",
+        "Change = 75 - 100 = -25",
+        "Percentage Change = (-25/100) × 100 = -25%",
+        "This is a 25% decrease"
+      ]
+    }
+  ],
+  "prerequisites": ["percentage-calculation"],
+  "related": ["percentage-calculation"],
+  "level": "basic-math",
+  "tags": ["percentages", "change", "ratios"],
+  "topic": "percentages"
+}

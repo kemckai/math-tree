@@ -1,0 +1,30 @@
+{
+  "id": "carnot-efficiency",
+  "name": "Carnot Efficiency",
+  "latex": "\\eta = 1 - \\frac{T_C}{T_H}",
+  "explanation": "Carnot efficiency is the maximum possible efficiency for a heat engine operating between two temperatures. It depends only on the hot (T_H) and cold (T_C) reservoir temperatures (in Kelvin). No real engine can exceed this efficiency. This sets the theoretical limit for all heat engines, including steam turbines, internal combustion engines, and power plants.",
+  "examples": [
+    {
+      "problem": "A heat engine operates between 500K and 300K. What is maximum efficiency?",
+      "solution": "40%",
+      "steps": [
+        "η = 1 - T_C/T_H",
+        "η = 1 - 300/500 = 1 - 0.6 = 0.4 = 40%"
+      ]
+    },
+    {
+      "problem": "A Carnot engine is 50% efficient with cold reservoir at 300K. What is T_H?",
+      "solution": "600K",
+      "steps": [
+        "0.5 = 1 - 300/T_H",
+        "300/T_H = 0.5",
+        "T_H = 600K"
+      ]
+    }
+  ],
+  "prerequisites": ["thermodynamics-first-law"],
+  "related": ["thermodynamics-first-law", "heat-engines"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "thermodynamics", "efficiency", "engines"],
+  "topic": "mechanical-engineering"
+}

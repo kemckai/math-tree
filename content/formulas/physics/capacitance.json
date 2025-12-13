@@ -1,0 +1,29 @@
+{
+  "id": "capacitance",
+  "name": "Capacitance",
+  "latex": "C = \\frac{Q}{V}, \\quad C = \\frac{\\epsilon_0 A}{d} \\text{ (parallel plate)}, \\quad U = \\frac{1}{2}CV^2",
+  "explanation": "Capacitance (C) measures ability to store charge. C = Q/V (charge per voltage). For parallel plates: C = ε₀A/d (area A, separation d). Energy stored: U = ½CV². Capacitors store electrical energy, filter signals, and are essential in circuits. Used in timing circuits, power supplies, and signal processing.",
+  "examples": [
+    {
+      "problem": "Capacitor stores 10μC at 5V. What is capacitance?",
+      "solution": "2 μF",
+      "steps": [
+        "C = Q/V",
+        "C = 10×10⁻⁶ / 5 = 2×10⁻⁶ F = 2 μF"
+      ]
+    },
+    {
+      "problem": "What energy is stored?",
+      "solution": "25 μJ",
+      "steps": [
+        "U = ½CV²",
+        "U = ½ × 2×10⁻⁶ × 5² = 25×10⁻⁶ J = 25 μJ"
+      ]
+    }
+  ],
+  "prerequisites": ["electric-field"],
+  "related": ["electric-field", "rc-circuits"],
+  "level": "algebra-1",
+  "tags": ["physics", "electromagnetism", "capacitance", "electricity"],
+  "topic": "physics"
+}

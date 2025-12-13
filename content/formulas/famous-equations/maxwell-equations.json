@@ -1,0 +1,25 @@
+{
+  "id": "maxwell-equations",
+  "name": "Maxwell's Equations",
+  "latex": "\\begin{aligned} \\nabla \\cdot \\mathbf{E} &= \\frac{\\rho}{\\epsilon_0} \\\\ \\nabla \\cdot \\mathbf{B} &= 0 \\\\ \\nabla \\times \\mathbf{E} &= -\\frac{\\partial \\mathbf{B}}{\\partial t} \\\\ \\nabla \\times \\mathbf{B} &= \\mu_0\\mathbf{J} + \\mu_0\\epsilon_0\\frac{\\partial \\mathbf{E}}{\\partial t} \\end{aligned}",
+  "explanation": "James Clerk Maxwell's four equations (1861-1862) unified electricity, magnetism, and light into a single theory of electromagnetism. These equations describe how electric and magnetic fields are generated and interact. The fourth equation predicted electromagnetic waves traveling at the speed of light, leading to the discovery that light itself is an electromagnetic wave. These equations are fundamental to all modern electronics, radio, and telecommunications.",
+  "examples": [
+    {
+      "problem": "What did Maxwell's equations predict that was later confirmed?",
+      "solution": "Electromagnetic waves (including visible light, radio waves, etc.)",
+      "steps": [
+        "Maxwell combined the equations and found wave solutions",
+        "The wave speed was c = 1/√(μ₀ε₀)",
+        "This matched the known speed of light",
+        "Maxwell concluded light is an electromagnetic wave",
+        "This was later confirmed by Hertz's experiments"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": ["einstein-mass-energy"],
+  "level": "calculus-3",
+  "tags": ["famous-equations", "physics", "electromagnetism", "maxwell"],
+  "topic": "famous-equations",
+  "proof": "Maxwell unified Gauss's law, Gauss's law for magnetism, Faraday's law of induction, and Ampère's law with the addition of the displacement current term (ε₀∂E/∂t) to make the equations consistent and predict electromagnetic waves."
+}

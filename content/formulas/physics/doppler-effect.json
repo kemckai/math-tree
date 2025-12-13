@@ -1,0 +1,31 @@
+{
+  "id": "doppler-effect",
+  "name": "Doppler Effect",
+  "latex": "f' = f\\frac{v \\pm v_o}{v \\mp v_s}",
+  "explanation": "Doppler effect is the change in frequency when source and observer move relative to each other. Moving toward each other: frequency increases (blue shift). Moving apart: frequency decreases (red shift). Used in radar, medical ultrasound, astronomy (measuring star speeds), and understanding wave behavior. Explains why sirens sound different when approaching vs. receding.",
+  "examples": [
+    {
+      "problem": "Ambulance (500 Hz) approaches at 30 m/s. Observer stationary. What frequency? (v_sound = 343 m/s)",
+      "solution": "544 Hz",
+      "steps": [
+        "f' = f × v/(v - v_s) (source moving toward observer)",
+        "f' = 500 × 343/(343 - 30)",
+        "f' = 500 × 343/313 = 544 Hz"
+      ]
+    },
+    {
+      "problem": "After passing, what frequency?",
+      "solution": "464 Hz",
+      "steps": [
+        "f' = f × v/(v + v_s) (source moving away)",
+        "f' = 500 × 343/(343 + 30)",
+        "f' = 500 × 343/373 = 464 Hz"
+      ]
+    }
+  ],
+  "prerequisites": ["wave-equation"],
+  "related": ["wave-equation", "relativity"],
+  "level": "algebra-1",
+  "tags": ["physics", "waves", "doppler", "sound"],
+  "topic": "physics"
+}

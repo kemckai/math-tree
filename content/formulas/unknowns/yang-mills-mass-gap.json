@@ -1,0 +1,25 @@
+{
+  "id": "yang-mills-mass-gap",
+  "name": "Yang-Mills Existence and Mass Gap",
+  "latex": "\\text{Prove that Yang-Mills theory exists and has a mass gap } \\Delta > 0",
+  "explanation": "This Millennium Prize Problem asks to prove that quantum Yang-Mills theory (which describes the strong nuclear force) exists mathematically and predicts that particles have a minimum mass (mass gap). This is crucial for understanding how quarks and gluons bind together to form protons and neutrons. The problem requires proving the existence of solutions to certain partial differential equations in four dimensions. Solving this would advance our understanding of particle physics and quantum field theory.",
+  "examples": [
+    {
+      "problem": "Why is the mass gap important?",
+      "solution": "It explains why we never see isolated quarks - they're always bound together in particles with mass",
+      "steps": [
+        "Quarks have fractional charge but are never observed alone",
+        "The mass gap explains why quarks are confined",
+        "Protons and neutrons have mass because of this gap",
+        "Without a mass gap, the theory would predict massless particles we don't observe",
+        "This is fundamental to the Standard Model of particle physics"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": ["maxwell-equations"],
+  "level": "calculus-3",
+  "tags": ["unknowns", "millennium-prize", "physics", "quantum-field-theory"],
+  "topic": "unknowns",
+  "proof": "Status: UNSOLVED. This is one of the seven Millennium Prize Problems. The problem requires proving existence of solutions to nonlinear partial differential equations in four-dimensional spacetime, which is extremely challenging mathematically."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "u-substitution",
+  "name": "U-Substitution (Integration by Substitution)",
+  "latex": "\\int f(g(x))g'(x) dx = \\int f(u) du \\text{ where } u = g(x)",
+  "explanation": "U-substitution is the integration counterpart to the chain rule. It simplifies integrals by substituting u for part of the integrand, making the integral easier to evaluate. The key is recognizing when the integrand contains a function and its derivative. After integrating with respect to u, substitute back to x.",
+  "examples": [
+    {
+      "problem": "Find ∫ 2x(x² + 1)³ dx",
+      "solution": "(x² + 1)⁴/4 + C",
+      "steps": [
+        "Let u = x² + 1, then du = 2x dx",
+        "Substitute: ∫ u³ du",
+        "Integrate: u⁴/4 + C",
+        "Substitute back: (x² + 1)⁴/4 + C"
+      ]
+    },
+    {
+      "problem": "Find ∫ cos(x) sin²(x) dx",
+      "solution": "sin³(x)/3 + C",
+      "steps": [
+        "Let u = sin(x), then du = cos(x) dx",
+        "∫ u² du = u³/3 + C",
+        "= sin³(x)/3 + C"
+      ]
+    }
+  ],
+  "prerequisites": ["basic-integrals", "chain-rule"],
+  "related": ["basic-integrals", "fundamental-theorem"],
+  "level": "calculus-1",
+  "tags": ["integration", "substitution", "u-sub"],
+  "topic": "integrals"
+}

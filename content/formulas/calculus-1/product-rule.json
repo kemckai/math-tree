@@ -1,0 +1,34 @@
+{
+  "id": "product-rule",
+  "name": "Product Rule for Derivatives",
+  "latex": "\\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)",
+  "explanation": "The product rule finds the derivative of a product of two functions. Unlike multiplication of constants, the derivative of a product is NOT the product of derivatives. Instead, it's the first function times the derivative of the second, plus the second function times the derivative of the first. This is essential for differentiating polynomials and other products.",
+  "examples": [
+    {
+      "problem": "Find the derivative of f(x) = x² · sin(x)",
+      "solution": "f'(x) = 2x sin(x) + x² cos(x)",
+      "steps": [
+        "f(x) = x², g(x) = sin(x)",
+        "f'(x) = 2x, g'(x) = cos(x)",
+        "Product rule: f'(x) = f'(x)g(x) + f(x)g'(x)",
+        "= 2x · sin(x) + x² · cos(x)"
+      ]
+    },
+    {
+      "problem": "Differentiate h(x) = (3x + 1)(x² - 2)",
+      "solution": "h'(x) = 9x² + 2x - 6",
+      "steps": [
+        "f(x) = 3x + 1, g(x) = x² - 2",
+        "f'(x) = 3, g'(x) = 2x",
+        "h'(x) = 3(x² - 2) + (3x + 1)(2x)",
+        "= 3x² - 6 + 6x² + 2x",
+        "= 9x² + 2x - 6"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": ["derivative-power-rule", "quotient-rule", "chain-rule"],
+  "level": "calculus-1",
+  "tags": ["derivatives", "product-rule", "calculus"],
+  "topic": "derivatives"
+}

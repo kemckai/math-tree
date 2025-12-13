@@ -1,0 +1,32 @@
+{
+  "id": "schwarzschild-radius",
+  "name": "Schwarzschild Radius (Event Horizon)",
+  "latex": "R_s = \\frac{2GM}{c^2}",
+  "explanation": "Schwarzschild radius is distance from black hole center where escape velocity equals light speed. Inside this radius (event horizon), nothing can escape, not even light. R_s = 2GM/c². Determines black hole size. Used to understand black holes, gravitational collapse, and extreme gravity. Fundamental to general relativity.",
+  "examples": [
+    {
+      "problem": "What is Schwarzschild radius for Sun? (M = 2×10³⁰ kg)",
+      "solution": "2.95 km",
+      "steps": [
+        "R_s = 2GM/c²",
+        "R_s = 2 × (6.674×10⁻¹¹) × (2×10³⁰) / (3×10⁸)²",
+        "R_s = 2.67×10²⁰ / 9×10¹⁶ = 2.95×10³ m = 2.95 km"
+      ]
+    },
+    {
+      "problem": "Why don't we see black holes directly?",
+      "solution": "Light cannot escape event horizon, so black holes are invisible",
+      "steps": [
+        "Inside event horizon: escape velocity > c",
+        "Light cannot escape",
+        "Black holes visible only by effects on nearby matter",
+        "Accretion disks, gravitational lensing reveal them"
+      ]
+    }
+  ],
+  "prerequisites": ["orbital-velocity", "relativistic-energy"],
+  "related": ["orbital-velocity", "black-holes"],
+  "level": "calculus-2",
+  "tags": ["astronomy", "black-holes", "relativity", "event-horizon"],
+  "topic": "astronomy"
+}

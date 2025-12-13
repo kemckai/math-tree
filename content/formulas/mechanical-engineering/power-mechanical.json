@@ -1,0 +1,29 @@
+{
+  "id": "power-mechanical",
+  "name": "Mechanical Power",
+  "latex": "P = Fv, \\quad P = \\tau\\omega, \\quad P = \\frac{W}{t}",
+  "explanation": "Mechanical power is the rate of doing work. For linear motion: P = Fv (force times velocity). For rotational motion: P = τω (torque times angular velocity). Power can also be work divided by time. Power is measured in watts (W) and is essential for sizing motors, analyzing efficiency, and designing power transmission systems.",
+  "examples": [
+    {
+      "problem": "A 100N force moves at 5 m/s. What is power?",
+      "solution": "500 W",
+      "steps": [
+        "P = Fv",
+        "P = 100 × 5 = 500 W"
+      ]
+    },
+    {
+      "problem": "A motor produces 50 N⋅m torque at 100 rad/s. What is power?",
+      "solution": "5 kW",
+      "steps": [
+        "P = τω",
+        "P = 50 × 100 = 5000 W = 5 kW"
+      ]
+    }
+  ],
+  "prerequisites": ["work-energy", "moment-torque"],
+  "related": ["work-energy", "efficiency"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "power", "mechanics", "energy"],
+  "topic": "mechanical-engineering"
+}

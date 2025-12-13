@@ -1,0 +1,32 @@
+{
+  "id": "newton-laws",
+  "name": "Newton's Laws of Motion",
+  "latex": "\\begin{aligned} \\mathbf{F} &= m\\mathbf{a} \\\\ \\mathbf{F}_{12} &= -\\mathbf{F}_{21} \\\\ \\text{An object at rest stays at rest} \\end{aligned}",
+  "explanation": "Isaac Newton's three laws (1687) form the foundation of classical mechanics. First Law: Objects maintain constant velocity unless acted upon by a force. Second Law: F = ma (force equals mass times acceleration). Third Law: For every action, there's an equal and opposite reaction. These laws describe motion from falling apples to orbiting planets and enabled the Industrial Revolution and space exploration.",
+  "examples": [
+    {
+      "problem": "A 10 kg object accelerates at 5 m/s². What force is applied?",
+      "solution": "50 N",
+      "steps": [
+        "F = ma",
+        "F = 10 kg × 5 m/s²",
+        "F = 50 N"
+      ]
+    },
+    {
+      "problem": "When you push a wall with 100 N of force, what happens?",
+      "solution": "The wall pushes back with 100 N (Newton's Third Law)",
+      "steps": [
+        "Your force on wall: 100 N forward",
+        "Wall's force on you: 100 N backward",
+        "These forces are equal and opposite"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["newton-gravitation"],
+  "level": "algebra-1",
+  "tags": ["famous-equations", "physics", "mechanics", "newton"],
+  "topic": "famous-equations",
+  "proof": "Newton synthesized Galileo's work on falling bodies and Kepler's planetary laws. The laws are empirical (based on observation) and form the axiomatic foundation of classical mechanics."
+}

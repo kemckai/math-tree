@@ -1,0 +1,29 @@
+{
+  "id": "bandwidth",
+  "name": "Bandwidth and Q Factor",
+  "latex": "BW = \\frac{f_0}{Q}, \\quad Q = \\frac{f_0}{BW}",
+  "explanation": "Bandwidth (BW) is the range of frequencies a circuit passes, typically measured between -3dB points (half-power points). The quality factor (Q) measures how selective a resonant circuit is - higher Q means narrower bandwidth and better frequency selectivity. Q = f₀/BW, where f₀ is the resonant frequency. High Q circuits are used in radio tuning, filters, and oscillators where frequency selectivity is important.",
+  "examples": [
+    {
+      "problem": "A resonant circuit has f₀ = 1MHz and Q = 100. What is the bandwidth?",
+      "solution": "10kHz",
+      "steps": [
+        "BW = f₀/Q",
+        "BW = 1×10⁶ / 100 = 10,000Hz = 10kHz"
+      ]
+    },
+    {
+      "problem": "A filter has 100kHz center frequency and 5kHz bandwidth. What is Q?",
+      "solution": "20",
+      "steps": [
+        "Q = f₀/BW",
+        "Q = 100,000 / 5,000 = 20"
+      ]
+    }
+  ],
+  "prerequisites": ["resonant-frequency", "decibel"],
+  "related": ["resonant-frequency", "filter-design"],
+  "level": "algebra-2",
+  "tags": ["electronics", "filters", "bandwidth", "frequency-response"],
+  "topic": "electronics"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "power-law",
+  "name": "Electrical Power",
+  "latex": "P = VI = I^2R = \\frac{V^2}{R}",
+  "explanation": "Electrical power (P) measures the rate at which energy is consumed or produced in a circuit, measured in watts (W). Power can be calculated three ways: P = VI (voltage times current), P = I²R (current squared times resistance), or P = V²/R (voltage squared divided by resistance). These formulas are equivalent and derived from Ohm's Law. Power determines component ratings, energy consumption, and heat generation in circuits.",
+  "examples": [
+    {
+      "problem": "A 12V device draws 2A. How much power does it consume?",
+      "solution": "24W",
+      "steps": [
+        "P = VI",
+        "P = 12 × 2 = 24W"
+      ]
+    },
+    {
+      "problem": "A 100Ω resistor has 5V across it. What power is dissipated?",
+      "solution": "0.25W",
+      "steps": [
+        "P = V²/R",
+        "P = 5²/100 = 25/100 = 0.25W"
+      ]
+    },
+    {
+      "problem": "A 0.5A current flows through a 20Ω resistor. What power is dissipated?",
+      "solution": "5W",
+      "steps": [
+        "P = I²R",
+        "P = 0.5² × 20 = 0.25 × 20 = 5W"
+      ]
+    }
+  ],
+  "prerequisites": ["ohms-law"],
+  "related": ["ohms-law", "energy-consumption"],
+  "level": "basic-math",
+  "tags": ["electronics", "fundamentals", "power", "circuits"],
+  "topic": "electronics"
+}

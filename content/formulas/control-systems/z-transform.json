@@ -1,0 +1,33 @@
+{
+  "id": "z-transform",
+  "name": "Z-Transform (Digital Control)",
+  "latex": "X(z) = \\sum_{n=0}^{\\infty} x(n)z^{-n}",
+  "explanation": "Z-transform is the discrete-time equivalent of Laplace transform. Used for analyzing digital control systems and discrete-time signals. z = e^(sT) where T is sampling period. Enables analysis of digital filters, discrete controllers, and sampled-data systems. Essential for digital control system design, where continuous signals are sampled and processed digitally.",
+  "examples": [
+    {
+      "problem": "Why use z-transform for digital control?",
+      "solution": "Analyzes discrete-time systems, enables digital controller design",
+      "steps": [
+        "Digital controllers work with sampled data",
+        "Z-transform handles discrete sequences",
+        "Enables stability analysis of digital systems",
+        "Essential for designing digital filters and controllers"
+      ]
+    },
+    {
+      "problem": "What is the relationship between s and z?",
+      "solution": "z = e^(sT) where T is sampling period",
+      "steps": [
+        "s-plane (continuous) maps to z-plane (discrete)",
+        "Left half s-plane maps to unit circle interior",
+        "Stability: poles must be inside unit circle",
+        "Sampling period T affects mapping"
+      ]
+    }
+  ],
+  "prerequisites": ["transfer-function"],
+  "related": ["transfer-function", "digital-control"],
+  "level": "calculus-3",
+  "tags": ["control-systems", "digital-control", "z-transform", "discrete-time"],
+  "topic": "control-systems"
+}

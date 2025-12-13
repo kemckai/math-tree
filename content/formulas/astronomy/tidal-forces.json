@@ -1,0 +1,33 @@
+{
+  "id": "tidal-forces",
+  "name": "Tidal Forces",
+  "latex": "F_{tidal} = \\frac{2GMmR}{d^3}, \\quad \\Delta g = \\frac{2GMR}{d^3}",
+  "explanation": "Tidal forces arise from gravitational gradient - difference in gravitational pull across an object. Tidal force ∝ 1/d³ (stronger than gravitational force's 1/d²). Causes ocean tides, tidal locking, and can tear apart objects (Roche limit). Explains why Moon always shows same face to Earth and why some moons are geologically active.",
+  "examples": [
+    {
+      "problem": "Why are tides stronger when Moon is closer?",
+      "solution": "Tidal force ∝ 1/d³, so small distance change causes large force change",
+      "steps": [
+        "Tidal force F_tidal ∝ 1/d³",
+        "Gravitational force F_grav ∝ 1/d²",
+        "Tidal force decreases faster with distance",
+        "Perigee (closest) = stronger tides"
+      ]
+    },
+    {
+      "problem": "What causes two high tides per day?",
+      "solution": "Tidal bulge on both near and far sides of Earth",
+      "steps": [
+        "Near side: Moon pulls water toward it",
+        "Far side: Moon pulls Earth away from water",
+        "Both sides experience high tide",
+        "Earth rotates, so two high tides per rotation"
+      ]
+    }
+  ],
+  "prerequisites": ["gravitational-force"],
+  "related": ["gravitational-force", "orbital-mechanics"],
+  "level": "calculus-1",
+  "tags": ["astronomy", "tides", "gravity", "planetary-science"],
+  "topic": "astronomy"
+}

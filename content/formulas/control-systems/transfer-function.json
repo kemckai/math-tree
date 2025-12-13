@@ -1,0 +1,32 @@
+{
+  "id": "transfer-function",
+  "name": "Transfer Function",
+  "latex": "G(s) = \\frac{Y(s)}{X(s)} = \\frac{\\text{Output}}{\\text{Input}}",
+  "explanation": "Transfer functions describe system behavior in the frequency domain (Laplace domain). G(s) = Y(s)/X(s) where s is the complex frequency variable. Represents how a system responds to inputs. Used to analyze stability, design controllers, and predict system response. Transfer functions enable powerful mathematical analysis of dynamic systems using algebra instead of differential equations.",
+  "examples": [
+    {
+      "problem": "System: 2y'' + 3y' + y = x. What is transfer function?",
+      "solution": "G(s) = 1/(2s² + 3s + 1)",
+      "steps": [
+        "Take Laplace transform: 2s²Y + 3sY + Y = X",
+        "Factor: Y(2s² + 3s + 1) = X",
+        "G(s) = Y/X = 1/(2s² + 3s + 1)"
+      ]
+    },
+    {
+      "problem": "Why use transfer functions?",
+      "solution": "Convert differential equations to algebra, easier analysis",
+      "steps": [
+        "Differential equations are hard to solve",
+        "Laplace transform converts to algebraic equations",
+        "Can analyze stability, frequency response easily",
+        "Enables systematic controller design"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": ["system-stability", "bode-plot"],
+  "level": "calculus-2",
+  "tags": ["control-systems", "transfer-functions", "frequency-domain", "analysis"],
+  "topic": "control-systems"
+}

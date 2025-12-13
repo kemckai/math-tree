@@ -1,0 +1,21 @@
+{
+  "id": "viscosity",
+  "name": "Viscosity and Shear Stress",
+  "latex": "\\tau = \\mu\\frac{dv}{dy}, \\quad F = \\mu A\\frac{v}{L}",
+  "explanation": "Viscosity (μ) measures a fluid's resistance to flow. Shear stress (τ) in a fluid equals viscosity times velocity gradient. This determines friction in fluid flow, lubrication, and drag forces. Dynamic viscosity is measured in Pa⋅s. Essential for analyzing fluid flow, designing lubrication systems, and understanding drag.",
+  "examples": [
+    {
+      "problem": "Oil (μ = 0.1 Pa⋅s) between plates: velocity gradient = 100 s⁻¹. What is shear stress?",
+      "solution": "10 Pa",
+      "steps": [
+        "τ = μ(dv/dy)",
+        "τ = 0.1 × 100 = 10 Pa"
+      ]
+    }
+  ],
+  "prerequisites": ["pressure-force"],
+  "related": ["fluid-flow", "pressure-force"],
+  "level": "calculus-1",
+  "tags": ["mechanical-engineering", "fluid-mechanics", "viscosity", "flow"],
+  "topic": "mechanical-engineering"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "binary-arithmetic",
+  "name": "Binary Number System",
+  "latex": "\\text{Binary uses base 2: } 1011_2 = 1\\times2^3 + 0\\times2^2 + 1\\times2^1 + 1\\times2^0 = 11_{10}",
+  "explanation": "Binary is the number system used by all digital electronics, using only 0 and 1. Each position represents a power of 2. Digital circuits process binary data because transistors can easily represent two states (on/off, high/low). Understanding binary is essential for programming, digital design, and understanding how computers work. Hexadecimal (base 16) is commonly used as a shorthand for binary.",
+  "examples": [
+    {
+      "problem": "Convert binary 1010 to decimal",
+      "solution": "10",
+      "steps": [
+        "1010₂ = 1×2³ + 0×2² + 1×2¹ + 0×2⁰",
+        "= 8 + 0 + 2 + 0 = 10₁₀"
+      ]
+    },
+    {
+      "problem": "Convert decimal 15 to binary",
+      "solution": "1111",
+      "steps": [
+        "15 = 8 + 4 + 2 + 1",
+        "= 2³ + 2² + 2¹ + 2⁰",
+        "= 1111₂"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["logic-gates", "hexadecimal"],
+  "level": "basic-math",
+  "tags": ["electronics", "digital", "binary", "number-systems"],
+  "topic": "electronics"
+}

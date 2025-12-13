@@ -1,0 +1,39 @@
+{
+  "id": "ohms-law",
+  "name": "Ohm's Law",
+  "latex": "V = IR",
+  "explanation": "Ohm's Law is the fundamental relationship in electronics, stating that voltage (V) equals current (I) times resistance (R). This simple equation governs how electrical circuits behave. Voltage is the electrical pressure that pushes current through a circuit, measured in volts (V). Current is the flow of electric charge, measured in amperes (A). Resistance opposes current flow, measured in ohms (Ω). Understanding this relationship is essential for analyzing any electrical circuit.",
+  "examples": [
+    {
+      "problem": "A circuit has a 12V battery and a 4Ω resistor. What current flows?",
+      "solution": "3A",
+      "steps": [
+        "V = IR",
+        "12 = I × 4",
+        "I = 12/4 = 3A"
+      ]
+    },
+    {
+      "problem": "A 2A current flows through a 10Ω resistor. What is the voltage?",
+      "solution": "20V",
+      "steps": [
+        "V = IR",
+        "V = 2 × 10 = 20V"
+      ]
+    },
+    {
+      "problem": "A 9V battery produces 0.5A current. What is the resistance?",
+      "solution": "18Ω",
+      "steps": [
+        "V = IR",
+        "9 = 0.5 × R",
+        "R = 9/0.5 = 18Ω"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["power-law", "kirchhoff-voltage"],
+  "level": "basic-math",
+  "tags": ["electronics", "fundamentals", "ohms-law", "circuits"],
+  "topic": "electronics"
+}

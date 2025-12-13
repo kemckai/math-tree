@@ -1,0 +1,36 @@
+{
+  "id": "graph-algorithms",
+  "name": "Graph Algorithms (BFS/DFS)",
+  "latex": "\\text{BFS: } O(V + E), \\quad \\text{DFS: } O(V + E)",
+  "explanation": "Graphs represent relationships between entities. BFS (Breadth-First Search) explores level by level using a queue, finds shortest paths in unweighted graphs. DFS (Depth-First Search) explores as deep as possible using recursion/stack, useful for pathfinding and cycle detection. Both have O(V + E) time complexity where V = vertices, E = edges. Used in social networks, routing, and dependency resolution.",
+  "examples": [
+    {
+      "problem": "BFS starting from node A in graph A-B, A-C, B-D",
+      "solution": "Visit order: A, B, C, D",
+      "steps": [
+        "Start: queue = [A], visited = {A}",
+        "Dequeue A, add neighbors B, C: queue = [B, C]",
+        "Dequeue B, add neighbor D: queue = [C, D]",
+        "Dequeue C: queue = [D]",
+        "Dequeue D: queue = []",
+        "Order: A → B → C → D (level by level)"
+      ]
+    },
+    {
+      "problem": "DFS starting from A (same graph)",
+      "solution": "Visit order: A, B, D, C (or A, C, B, D depending on order)",
+      "steps": [
+        "Start at A, mark visited",
+        "Go to B (first neighbor), mark visited",
+        "Go to D (neighbor of B), mark visited",
+        "Backtrack to B, then A",
+        "Go to C (unvisited neighbor of A), mark visited"
+      ]
+    }
+  ],
+  "prerequisites": ["stack-queue"],
+  "related": ["stack-queue", "shortest-path"],
+  "level": "algebra-2",
+  "tags": ["programming", "algorithms", "graphs", "bfs-dfs"],
+  "topic": "programming"
+}

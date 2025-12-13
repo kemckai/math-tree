@@ -1,0 +1,31 @@
+{
+  "id": "continuity-equation",
+  "name": "Continuity Equation (Fluid Flow)",
+  "latex": "A_1v_1 = A_2v_2, \\quad \\dot{m} = \\rho Av",
+  "explanation": "The continuity equation states that for incompressible flow, the product of cross-sectional area and velocity is constant (A₁v₁ = A₂v₂). Mass flow rate (ṁ) equals density times area times velocity. This means fluid speeds up in narrow sections and slows in wide sections. Essential for pipe design, nozzles, and understanding fluid behavior.",
+  "examples": [
+    {
+      "problem": "Water flows through a pipe: A₁ = 0.1 m², v₁ = 2 m/s. If A₂ = 0.05 m², what is v₂?",
+      "solution": "4 m/s",
+      "steps": [
+        "A₁v₁ = A₂v₂",
+        "0.1 × 2 = 0.05 × v₂",
+        "0.2 = 0.05v₂",
+        "v₂ = 4 m/s"
+      ]
+    },
+    {
+      "problem": "What is mass flow rate if ρ = 1000 kg/m³, A = 0.02 m², v = 3 m/s?",
+      "solution": "60 kg/s",
+      "steps": [
+        "ṁ = ρAv",
+        "ṁ = 1000 × 0.02 × 3 = 60 kg/s"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["bernoulli-principle", "fluid-flow"],
+  "level": "algebra-1",
+  "tags": ["mechanical-engineering", "fluid-mechanics", "flow", "continuity"],
+  "topic": "mechanical-engineering"
+}

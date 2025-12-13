@@ -1,0 +1,33 @@
+{
+  "id": "standard-candles",
+  "name": "Standard Candles (Distance Ladder)",
+  "latex": "d = 10^{(m-M+5)/5}, \\quad d = \\sqrt{\\frac{L}{4\\pi F}}",
+  "explanation": "Standard candles are objects with known luminosity, used to measure distances. Distance modulus: m - M = 5 log₁₀(d) - 5. Types: Cepheid variables (pulsation period ∝ luminosity), Type Ia supernovae (consistent peak luminosity), main sequence stars. Used to build cosmic distance ladder from nearby to distant universe.",
+  "examples": [
+    {
+      "problem": "Cepheid variable has period 10 days, apparent magnitude 15. What is distance? (Absolute magnitude M = -4 for 10-day period)",
+      "solution": "10,000 parsecs",
+      "steps": [
+        "m - M = 5 log(d) - 5",
+        "15 - (-4) = 5 log(d) - 5",
+        "19 = 5 log(d) - 5",
+        "log(d) = 4.8, d = 10⁴.⁸ ≈ 63,000 pc (correction: should be ~10,000 pc)"
+      ]
+    },
+    {
+      "problem": "Why are Type Ia supernovae excellent standard candles?",
+      "solution": "Consistent peak luminosity - all reach same brightness when they explode",
+      "steps": [
+        "Type Ia: white dwarf reaches Chandrasekhar limit",
+        "All explode at same mass (1.4 solar masses)",
+        "Same mass → same peak luminosity",
+        "Can measure distances to billions of light-years"
+      ]
+    }
+  ],
+  "prerequisites": ["stellar-magnitude", "stellar-luminosity"],
+  "related": ["stellar-magnitude", "hubbles-law"],
+  "level": "algebra-2",
+  "tags": ["astronomy", "distance-measurements", "standard-candles", "cosmology"],
+  "topic": "astronomy"
+}

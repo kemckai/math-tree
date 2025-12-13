@@ -1,0 +1,30 @@
+{
+  "id": "transistor-gain",
+  "name": "Transistor Current Gain (β)",
+  "latex": "\\beta = \\frac{I_C}{I_B}, \\quad I_C = \\beta I_B",
+  "explanation": "Transistors are three-terminal semiconductor devices that amplify signals and act as switches. In a bipolar junction transistor (BJT), a small base current (I_B) controls a much larger collector current (I_C). The current gain β (beta or h_FE) typically ranges from 50 to 300. Transistors are the fundamental building blocks of modern electronics, used in amplifiers, switches, oscillators, and digital logic. They revolutionized electronics by enabling miniaturization and low-power operation.",
+  "examples": [
+    {
+      "problem": "A transistor with β = 100 has 10μA base current. What is the collector current?",
+      "solution": "1mA",
+      "steps": [
+        "I_C = β × I_B",
+        "I_C = 100 × 10×10⁻⁶",
+        "I_C = 0.001A = 1mA"
+      ]
+    },
+    {
+      "problem": "A transistor amplifies 50μA base current to 5mA collector current. What is β?",
+      "solution": "100",
+      "steps": [
+        "β = I_C / I_B",
+        "β = 0.005 / 0.00005 = 100"
+      ]
+    }
+  ],
+  "prerequisites": ["diode-voltage"],
+  "related": ["transistor-switch", "amplifier-circuits"],
+  "level": "algebra-1",
+  "tags": ["electronics", "semiconductors", "transistors", "amplification"],
+  "topic": "electronics"
+}

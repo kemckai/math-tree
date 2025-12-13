@@ -1,0 +1,33 @@
+{
+  "id": "rational-roots",
+  "name": "Rational Root Theorem",
+  "latex": "\\text{If } \\frac{p}{q} \\text{ is a root of } a_n x^n + ... + a_0, \\text{ then } p \\text{ divides } a_0 \\text{ and } q \\text{ divides } a_n",
+  "explanation": "The Rational Root Theorem helps find possible rational roots of a polynomial. If p/q (in lowest terms) is a root, then p must divide the constant term and q must divide the leading coefficient. This narrows down candidates to test, making it easier to factor polynomials and find zeros.",
+  "examples": [
+    {
+      "problem": "Find possible rational roots of 2x³ - 5x² + x - 1",
+      "solution": "±1, ±1/2",
+      "steps": [
+        "Constant term: -1, factors: ±1",
+        "Leading coefficient: 2, factors: ±1, ±2",
+        "Possible roots: ±1/1, ±1/2",
+        "= ±1, ±1/2"
+      ]
+    },
+    {
+      "problem": "Test if x = 1/2 is a root of 2x³ - 5x² + x - 1",
+      "solution": "Yes, it is a root",
+      "steps": [
+        "Substitute: 2(1/2)³ - 5(1/2)² + (1/2) - 1",
+        "= 2(1/8) - 5(1/4) + 1/2 - 1",
+        "= 1/4 - 5/4 + 2/4 - 4/4 = 0",
+        "Yes, x = 1/2 is a root"
+      ]
+    }
+  ],
+  "prerequisites": ["polynomial-division", "factoring"],
+  "related": ["polynomial-division"],
+  "level": "algebra-2",
+  "tags": ["polynomials", "roots", "theorem"],
+  "topic": "polynomials"
+}

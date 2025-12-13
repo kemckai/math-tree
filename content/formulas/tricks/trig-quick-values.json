@@ -1,0 +1,40 @@
+{
+  "id": "trig-quick-values",
+  "name": "Quick Trig Values for Common Angles",
+  "latex": "\\sin 30° = \\frac{1}{2}, \\quad \\cos 30° = \\frac{\\sqrt{3}}{2}, \\quad \\tan 45° = 1",
+  "explanation": "Memorize the special right triangles: 30-60-90 triangle has sides in ratio 1:√3:2, and 45-45-90 triangle has sides 1:1:√2. From these, you can instantly recall: sin 30° = 1/2, cos 30° = √3/2, sin 45° = cos 45° = √2/2, sin 60° = √3/2, cos 60° = 1/2. This saves time on exams and problem-solving.",
+  "examples": [
+    {
+      "problem": "Find sin 30°",
+      "solution": "1/2",
+      "steps": [
+        "30-60-90 triangle: sides 1, √3, 2",
+        "sin = opposite/hypotenuse",
+        "sin 30° = 1/2"
+      ]
+    },
+    {
+      "problem": "Find cos 45°",
+      "solution": "√2/2",
+      "steps": [
+        "45-45-90 triangle: sides 1, 1, √2",
+        "cos = adjacent/hypotenuse",
+        "cos 45° = 1/√2 = √2/2"
+      ]
+    },
+    {
+      "problem": "Find tan 60°",
+      "solution": "√3",
+      "steps": [
+        "30-60-90 triangle: sides 1, √3, 2",
+        "tan = opposite/adjacent",
+        "tan 60° = √3/1 = √3"
+      ]
+    }
+  ],
+  "prerequisites": ["soh-cah-toa"],
+  "related": ["soh-cah-toa", "unit-circle"],
+  "level": "geometry",
+  "tags": ["tricks", "trigonometry", "memorization", "shortcuts"],
+  "topic": "tricks"
+}

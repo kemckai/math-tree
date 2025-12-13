@@ -1,0 +1,37 @@
+{
+  "id": "log-quick-conversions",
+  "name": "Quick Logarithm Conversions",
+  "latex": "\\log_b a = \\frac{\\ln a}{\\ln b}, \\quad \\log(10^n) = n, \\quad \\ln(e^n) = n",
+  "explanation": "Quick log conversions: log₁₀(10ⁿ) = n, ln(eⁿ) = n. For base conversions, remember log_b(a) = ln(a)/ln(b). Powers of 10 and e are especially easy: log(100) = 2, log(1000) = 3, ln(e²) = 2. This makes many log calculations instant.",
+  "examples": [
+    {
+      "problem": "Find log(1000)",
+      "solution": "3",
+      "steps": [
+        "1000 = 10³",
+        "log(10³) = 3"
+      ]
+    },
+    {
+      "problem": "Find ln(e⁵)",
+      "solution": "5",
+      "steps": [
+        "ln(e⁵) = 5",
+        "The natural log and e cancel"
+      ]
+    },
+    {
+      "problem": "Find log₂(8)",
+      "solution": "3",
+      "steps": [
+        "8 = 2³",
+        "log₂(2³) = 3"
+      ]
+    }
+  ],
+  "prerequisites": ["logarithm-properties"],
+  "related": ["logarithm-properties", "change-of-base"],
+  "level": "algebra-2",
+  "tags": ["tricks", "logarithms", "conversions", "shortcuts"],
+  "topic": "tricks"
+}

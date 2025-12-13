@@ -1,0 +1,35 @@
+{
+  "id": "multiplication",
+  "name": "Multiplication",
+  "latex": "a \\times b = ab = c",
+  "explanation": "Multiplication is repeated addition. When we multiply a by b, we're adding a to itself b times. Multiplication is commutative (a × b = b × a), associative ((a × b) × c = a × (b × c)), and distributive over addition (a × (b + c) = a × b + a × c). The identity element is 1 (any number times 1 equals itself).",
+  "examples": [
+    {
+      "problem": "Multiply 7 by 6",
+      "solution": "42",
+      "steps": [
+        "7 × 6 means adding 7 six times:",
+        "7 + 7 + 7 + 7 + 7 + 7 = 42",
+        "Or using the multiplication table: 7 × 6 = 42"
+      ]
+    },
+    {
+      "problem": "Calculate 23 × 15",
+      "solution": "345",
+      "steps": [
+        "Use the standard algorithm:",
+        "    23",
+        "  × 15",
+        "  ----",
+        "Multiply 23 × 5: 115",
+        "Multiply 23 × 10: 230",
+        "Add: 115 + 230 = 345"
+      ]
+    }
+  ],
+  "prerequisites": ["addition"],
+  "related": ["addition", "division"],
+  "level": "basic-math",
+  "tags": ["arithmetic", "basic", "multiplication"],
+  "topic": "arithmetic"
+}

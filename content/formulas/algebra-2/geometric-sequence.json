@@ -1,0 +1,32 @@
+{
+  "id": "geometric-sequence",
+  "name": "Geometric Sequence",
+  "latex": "a_n = a_1 \\cdot r^{n-1}",
+  "explanation": "A geometric sequence is a sequence where each term after the first is obtained by multiplying by a constant ratio r. The nth term formula uses the first term a₁ and the common ratio r. Geometric sequences model exponential growth or decay, like doubling, halving, or any constant multiplication pattern.",
+  "examples": [
+    {
+      "problem": "Find the 6th term of the sequence 2, 6, 18, 54, ...",
+      "solution": "486",
+      "steps": [
+        "First term: a₁ = 2",
+        "Common ratio: r = 6/2 = 3",
+        "a₆ = 2 × 3^(6-1)",
+        "= 2 × 3⁵ = 2 × 243 = 486"
+      ]
+    },
+    {
+      "problem": "Find the 8th term of 100, 50, 25, 12.5, ...",
+      "solution": "0.78125",
+      "steps": [
+        "a₁ = 100, r = 50/100 = 0.5",
+        "a₈ = 100 × (0.5)^(8-1)",
+        "= 100 × (0.5)⁷ = 100 × 0.0078125 = 0.78125"
+      ]
+    }
+  ],
+  "prerequisites": ["exponent-rules"],
+  "related": ["arithmetic-sequence", "arithmetic-series"],
+  "level": "algebra-2",
+  "tags": ["sequences", "geometric", "exponential"],
+  "topic": "sequences"
+}

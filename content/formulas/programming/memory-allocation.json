@@ -1,0 +1,33 @@
+{
+  "id": "memory-allocation",
+  "name": "Memory Allocation and Pointers",
+  "latex": "\\text{Stack: LIFO, automatic}, \\quad \\text{Heap: dynamic, manual allocation}",
+  "explanation": "Memory management is crucial in programming. Stack memory: automatic, fast, limited size, LIFO order. Heap memory: dynamic allocation, larger size, manual management (malloc/free, new/delete). Stack stores local variables and function calls. Heap stores dynamically allocated data. Understanding memory is essential for efficient programs and avoiding memory leaks. Critical in embedded systems with limited RAM.",
+  "examples": [
+    {
+      "problem": "Why is stack faster than heap?",
+      "solution": "Stack uses simple pointer increment/decrement, heap requires complex allocation algorithms",
+      "steps": [
+        "Stack: just move stack pointer up/down",
+        "Heap: must find free block, manage fragmentation",
+        "Stack: O(1) allocation/deallocation",
+        "Heap: O(log n) or O(n) depending on allocator"
+      ]
+    },
+    {
+      "problem": "When to use stack vs heap?",
+      "solution": "Stack for small, short-lived data. Heap for large or long-lived data.",
+      "steps": [
+        "Stack: local variables, function parameters",
+        "Heap: arrays of unknown size, data structures",
+        "Embedded systems: prefer stack (limited heap)",
+        "Desktop apps: heap for flexibility"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["embedded-systems", "data-structures"],
+  "level": "basic-math",
+  "tags": ["programming", "memory", "embedded-systems", "fundamentals"],
+  "topic": "programming"
+}

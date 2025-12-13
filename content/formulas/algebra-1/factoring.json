@@ -1,0 +1,41 @@
+{
+  "id": "factoring",
+  "name": "Factoring Quadratics",
+  "latex": "x^2 + bx + c = (x + p)(x + q) \\text{ where } p + q = b \\text{ and } pq = c",
+  "explanation": "Factoring is the process of writing a polynomial as a product of simpler polynomials. For quadratics, we look for two numbers that add to the coefficient of x and multiply to the constant term. Factoring is useful for solving equations, as if (x + p)(x + q) = 0, then x = -p or x = -q.",
+  "examples": [
+    {
+      "problem": "Factor x² + 7x + 12",
+      "solution": "(x + 3)(x + 4)",
+      "steps": [
+        "Find two numbers that add to 7 and multiply to 12:",
+        "3 + 4 = 7 and 3 × 4 = 12",
+        "So: x² + 7x + 12 = (x + 3)(x + 4)"
+      ]
+    },
+    {
+      "problem": "Factor x² - 5x + 6",
+      "solution": "(x - 2)(x - 3)",
+      "steps": [
+        "Find two numbers that add to -5 and multiply to 6:",
+        "-2 + (-3) = -5 and (-2)(-3) = 6",
+        "So: x² - 5x + 6 = (x - 2)(x - 3)"
+      ]
+    },
+    {
+      "problem": "Solve x² - 9 = 0 by factoring",
+      "solution": "x = 3 or x = -3",
+      "steps": [
+        "This is a difference of squares: x² - 9 = (x - 3)(x + 3)",
+        "Set equal to zero: (x - 3)(x + 3) = 0",
+        "So x - 3 = 0 or x + 3 = 0",
+        "Therefore: x = 3 or x = -3"
+      ]
+    }
+  ],
+  "prerequisites": ["quadratic-formula"],
+  "related": ["quadratic-formula", "completing-the-square"],
+  "level": "algebra-1",
+  "tags": ["quadratic", "factoring", "polynomials"],
+  "topic": "quadratics"
+}

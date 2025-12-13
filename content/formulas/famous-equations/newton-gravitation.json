@@ -1,0 +1,25 @@
+{
+  "id": "newton-gravitation",
+  "name": "Newton's Law of Universal Gravitation",
+  "latex": "F = G\\frac{m_1 m_2}{r^2}",
+  "explanation": "Isaac Newton's 1687 law describes the gravitational force between two masses. G is the gravitational constant (6.674 × 10⁻¹¹ N⋅m²/kg²), m₁ and m₂ are the masses, and r is the distance between their centers. This equation explained planetary motion, tides, and the behavior of falling objects. It remained the best description of gravity for over 200 years until Einstein's general relativity, though it's still accurate for most practical purposes.",
+  "examples": [
+    {
+      "problem": "Calculate the gravitational force between Earth (5.97 × 10²⁴ kg) and a 70 kg person standing on the surface (Earth radius = 6.37 × 10⁶ m)",
+      "solution": "686 N (approximately 70 kg × 9.8 m/s²)",
+      "steps": [
+        "F = G(m₁m₂)/r²",
+        "F = (6.674 × 10⁻¹¹) × (5.97 × 10²⁴ × 70) / (6.37 × 10⁶)²",
+        "F = (6.674 × 10⁻¹¹) × (4.179 × 10²⁶) / (4.058 × 10¹³)",
+        "F = 2.787 × 10¹⁶ / 4.058 × 10¹³",
+        "F ≈ 686 N"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["einstein-mass-energy"],
+  "level": "algebra-2",
+  "tags": ["famous-equations", "physics", "gravity", "newton"],
+  "topic": "famous-equations",
+  "proof": "Newton derived this by combining his laws of motion with Kepler's laws of planetary motion. He showed that an inverse-square force law would produce elliptical orbits, matching astronomical observations."
+}

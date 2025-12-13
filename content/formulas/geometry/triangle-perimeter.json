@@ -1,0 +1,31 @@
+{
+  "id": "triangle-perimeter",
+  "name": "Perimeter of a Triangle",
+  "latex": "P = a + b + c",
+  "explanation": "The perimeter of a triangle is the sum of the lengths of its three sides. This is a fundamental concept in geometry. For special triangles like equilateral triangles (all sides equal), the perimeter is simply 3 times one side length.",
+  "examples": [
+    {
+      "problem": "Find the perimeter of a triangle with sides 5, 7, and 9",
+      "solution": "21 units",
+      "steps": [
+        "P = a + b + c",
+        "P = 5 + 7 + 9",
+        "P = 21 units"
+      ]
+    },
+    {
+      "problem": "An equilateral triangle has side length 6. Find its perimeter",
+      "solution": "18 units",
+      "steps": [
+        "All sides are equal: a = b = c = 6",
+        "P = 6 + 6 + 6 = 18",
+        "Or: P = 3 × 6 = 18 units"
+      ]
+    }
+  ],
+  "prerequisites": ["addition"],
+  "related": ["triangle-area", "pythagorean-theorem"],
+  "level": "geometry",
+  "tags": ["triangle", "perimeter", "geometry"],
+  "topic": "triangles"
+}

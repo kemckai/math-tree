@@ -1,0 +1,36 @@
+{
+  "id": "point-slope-form",
+  "name": "Point-Slope Form",
+  "latex": "y - y_1 = m(x - x_1)",
+  "explanation": "The point-slope form of a linear equation uses a known point (x₁, y₁) and the slope m to write the equation. This form is particularly useful when you know one point on the line and the slope, but not the y-intercept. It's easy to convert to slope-intercept form by solving for y.",
+  "examples": [
+    {
+      "problem": "Write the equation of a line with slope 3 that passes through point (2, 5)",
+      "solution": "y - 5 = 3(x - 2)",
+      "steps": [
+        "Given: m = 3, point (2, 5)",
+        "Substitute into point-slope form:",
+        "y - 5 = 3(x - 2)",
+        "To convert to slope-intercept:",
+        "y - 5 = 3x - 6",
+        "y = 3x - 1"
+      ]
+    },
+    {
+      "problem": "Find the equation of a line passing through (-1, 4) and (3, 8)",
+      "solution": "y - 4 = 1(x + 1) or y = x + 5",
+      "steps": [
+        "First find slope: m = (8 - 4)/(3 - (-1)) = 4/4 = 1",
+        "Use point-slope with (-1, 4):",
+        "y - 4 = 1(x - (-1))",
+        "y - 4 = 1(x + 1)",
+        "Simplify: y = x + 5"
+      ]
+    }
+  ],
+  "prerequisites": ["slope-intercept-form"],
+  "related": ["slope-intercept-form", "standard-form"],
+  "level": "algebra-1",
+  "tags": ["linear-equations", "slope", "graphing"],
+  "topic": "linear-equations"
+}

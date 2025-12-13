@@ -1,0 +1,40 @@
+{
+  "id": "square-ending-in-5",
+  "name": "Square Numbers Ending in 5",
+  "latex": "(n5)^2 = n(n+1) \\times 100 + 25",
+  "explanation": "To square any number ending in 5, multiply the digit(s) before 5 by the next number, then append 25. For example, 25²: multiply 2 × 3 = 6, append 25 to get 625. This works because (10n + 5)² = 100n² + 100n + 25 = 100n(n+1) + 25.",
+  "examples": [
+    {
+      "problem": "Calculate 15²",
+      "solution": "225",
+      "steps": [
+        "Number before 5 is 1",
+        "Multiply: 1 × (1 + 1) = 1 × 2 = 2",
+        "Append 25: 225"
+      ]
+    },
+    {
+      "problem": "Calculate 35²",
+      "solution": "1225",
+      "steps": [
+        "Number before 5 is 3",
+        "Multiply: 3 × (3 + 1) = 3 × 4 = 12",
+        "Append 25: 1225"
+      ]
+    },
+    {
+      "problem": "Calculate 125²",
+      "solution": "15625",
+      "steps": [
+        "Number before 5 is 12",
+        "Multiply: 12 × (12 + 1) = 12 × 13 = 156",
+        "Append 25: 15625"
+      ]
+    }
+  ],
+  "prerequisites": ["multiplication"],
+  "related": ["multiply-by-11", "multiply-by-9"],
+  "level": "basic-math",
+  "tags": ["tricks", "mental-math", "squaring", "shortcuts"],
+  "topic": "tricks"
+}

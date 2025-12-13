@@ -1,0 +1,30 @@
+{
+  "id": "rc-time-constant",
+  "name": "RC Time Constant",
+  "latex": "\\tau = RC",
+  "explanation": "The RC time constant (τ = RC) determines how quickly a capacitor charges or discharges through a resistor. After one time constant, a capacitor reaches 63.2% of final voltage when charging, or drops to 36.8% when discharging. After 5 time constants (5τ), the capacitor is considered fully charged or discharged (99.3%). This is fundamental for timing circuits, filters, and signal processing.",
+  "examples": [
+    {
+      "problem": "What is the time constant for a 10kΩ resistor and 100μF capacitor?",
+      "solution": "1 second",
+      "steps": [
+        "τ = RC",
+        "τ = 10000 × 100×10⁻⁶",
+        "τ = 1 second"
+      ]
+    },
+    {
+      "problem": "How long does it take a capacitor to fully charge (5 time constants)?",
+      "solution": "5τ",
+      "steps": [
+        "Fully charged ≈ 5 time constants",
+        "Time = 5 × RC"
+      ]
+    }
+  ],
+  "prerequisites": ["capacitor-charging"],
+  "related": ["capacitor-charging", "rl-time-constant"],
+  "level": "algebra-1",
+  "tags": ["electronics", "timing", "rc-circuits", "time-constants"],
+  "topic": "electronics"
+}

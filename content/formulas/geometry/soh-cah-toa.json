@@ -1,0 +1,31 @@
+{
+  "id": "soh-cah-toa",
+  "name": "SOH-CAH-TOA (Trigonometric Ratios)",
+  "latex": "\\sin \\theta = \\frac{\\text{opposite}}{\\text{hypotenuse}}, \\quad \\cos \\theta = \\frac{\\text{adjacent}}{\\text{hypotenuse}}, \\quad \\tan \\theta = \\frac{\\text{opposite}}{\\text{adjacent}}",
+  "explanation": "SOH-CAH-TOA is a mnemonic for remembering the three basic trigonometric ratios in a right triangle. SOH: Sine = Opposite/Hypotenuse. CAH: Cosine = Adjacent/Hypotenuse. TOA: Tangent = Opposite/Adjacent. These ratios relate angles to side lengths in right triangles and are fundamental to trigonometry.",
+  "examples": [
+    {
+      "problem": "In a right triangle, the side opposite angle θ is 3, adjacent is 4, and hypotenuse is 5. Find sin θ, cos θ, and tan θ",
+      "solution": "sin θ = 3/5, cos θ = 4/5, tan θ = 3/4",
+      "steps": [
+        "sin θ = opposite/hypotenuse = 3/5",
+        "cos θ = adjacent/hypotenuse = 4/5",
+        "tan θ = opposite/adjacent = 3/4"
+      ]
+    },
+    {
+      "problem": "If sin θ = 0.6 and the hypotenuse is 10, find the opposite side",
+      "solution": "6",
+      "steps": [
+        "sin θ = opposite/hypotenuse",
+        "0.6 = opposite/10",
+        "opposite = 0.6 × 10 = 6"
+      ]
+    }
+  ],
+  "prerequisites": ["pythagorean-theorem"],
+  "related": ["pythagorean-theorem", "trig-identities"],
+  "level": "geometry",
+  "tags": ["trigonometry", "right-triangle", "ratios"],
+  "topic": "trigonometry"
+}

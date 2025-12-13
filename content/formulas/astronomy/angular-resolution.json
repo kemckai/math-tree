@@ -1,0 +1,32 @@
+{
+  "id": "angular-resolution",
+  "name": "Angular Resolution",
+  "latex": "\\theta = 1.22\\frac{\\lambda}{D}, \\quad \\theta = \\frac{206265}{D} \\text{ arcseconds (for } \\lambda = 550 \\text{ nm)}",
+  "explanation": "Angular resolution is smallest angle telescope can distinguish. Limited by diffraction: θ = 1.22λ/D where λ is wavelength, D is aperture diameter. Larger telescopes have better resolution. Used to determine telescope capabilities and understand why we need large telescopes or interferometry for detailed observations.",
+  "examples": [
+    {
+      "problem": "Hubble Space Telescope has 2.4m aperture. What is angular resolution at visible light (550 nm)?",
+      "solution": "0.057 arcseconds",
+      "steps": [
+        "θ = 1.22λ/D (in radians)",
+        "θ = 1.22 × 550×10⁻⁹ / 2.4 = 2.79×10⁻⁷ rad",
+        "Convert to arcseconds: θ = 2.79×10⁻⁷ × 206265 = 0.057 arcsec"
+      ]
+    },
+    {
+      "problem": "Why do we need very large telescopes?",
+      "solution": "Resolution improves with diameter - need large D to see fine details",
+      "steps": [
+        "θ ∝ 1/D (inverse relationship)",
+        "To see smaller details, need larger aperture",
+        "Event Horizon Telescope: Earth-sized aperture via interferometry",
+        "Imaged black hole shadow (requires microarcsecond resolution)"
+      ]
+    }
+  ],
+  "prerequisites": ["wave-equation"],
+  "related": ["wave-equation", "telescopes"],
+  "level": "algebra-1",
+  "tags": ["astronomy", "telescopes", "resolution", "optics"],
+  "topic": "astronomy"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "pemdas",
+  "name": "Order of Operations (PEMDAS)",
+  "latex": "\\text{Parentheses} \\rightarrow \\text{Exponents} \\rightarrow \\text{Multiply/Divide} \\rightarrow \\text{Add/Subtract}",
+  "explanation": "PEMDAS (Parentheses, Exponents, Multiplication/Division, Addition/Subtraction) is the standard order for evaluating mathematical expressions. Operations inside parentheses are done first, followed by exponents. Multiplication and division are performed from left to right (they have equal precedence), then addition and subtraction from left to right. This ensures everyone evaluates expressions the same way.",
+  "examples": [
+    {
+      "problem": "Evaluate 2 + 3 × 4",
+      "solution": "14",
+      "steps": [
+        "Multiplication comes before addition:",
+        "3 × 4 = 12",
+        "Then: 2 + 12 = 14"
+      ],
+      "explanation": "Not 20! Multiplication is done before addition."
+    },
+    {
+      "problem": "Calculate (2 + 3) × 4",
+      "solution": "20",
+      "steps": [
+        "Parentheses first: (2 + 3) = 5",
+        "Then multiplication: 5 × 4 = 20"
+      ]
+    },
+    {
+      "problem": "Evaluate 8 ÷ 2 × 4",
+      "solution": "16",
+      "steps": [
+        "Multiplication and division have equal precedence, work left to right:",
+        "8 ÷ 2 = 4",
+        "Then: 4 × 4 = 16"
+      ]
+    }
+  ],
+  "prerequisites": ["addition", "subtraction", "multiplication", "division"],
+  "related": ["exponent-rules"],
+  "level": "pre-algebra",
+  "tags": ["order-of-operations", "pemdas", "arithmetic"],
+  "topic": "order-of-operations"
+}

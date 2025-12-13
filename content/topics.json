@@ -1,0 +1,920 @@
+{
+  "id": "root",
+  "name": "Mathematics",
+  "color": "gray",
+  "children": [
+    {
+      "id": "basic-math",
+      "name": "Basic Math",
+      "color": "blue",
+      "description": "Fundamental arithmetic and number operations",
+      "children": [
+        {
+          "id": "arithmetic",
+          "name": "Arithmetic",
+          "color": "blue",
+          "formulas": [
+            "addition",
+            "subtraction",
+            "multiplication",
+            "division"
+          ],
+          "description": "Arithmetic is the foundation of all mathematics, dealing with basic operations: addition, subtraction, multiplication, and division. Used in everyday life for counting, measuring, calculating change, and solving practical problems. Key insight: These four operations form the building blocks for all higher mathematics."
+        },
+        {
+          "id": "fractions",
+          "name": "Fractions",
+          "color": "blue",
+          "formulas": [
+            "fraction-addition",
+            "fraction-multiplication",
+            "fraction-division"
+          ],
+          "description": "Fractions represent parts of a whole, written as a/b where a is the numerator and b is the denominator. Used for measurements, ratios, probabilities, and dividing quantities. Key insight: Fractions allow precise representation of values between integers, essential for accurate calculations."
+        },
+        {
+          "id": "percentages",
+          "name": "Percentages",
+          "color": "blue",
+          "formulas": [
+            "percentage-calculation",
+            "percentage-change"
+          ],
+          "description": "Percentages express parts per hundred, making comparisons and calculations easier. Used in finance (interest rates, discounts), statistics (growth rates), and everyday situations (tips, taxes). Key insight: Percentages normalize different scales, allowing easy comparison of proportions."
+        }
+      ]
+    },
+    {
+      "id": "pre-algebra",
+      "name": "Pre-Algebra",
+      "color": "cyan",
+      "description": "Introduction to algebraic concepts",
+      "children": [
+        {
+          "id": "exponents",
+          "name": "Exponents",
+          "color": "cyan",
+          "formulas": [
+            "exponent-rules",
+            "scientific-notation"
+          ],
+          "description": "Exponents represent repeated multiplication (a\u207f means multiply a by itself n times). Used for scientific notation, compound interest, population growth, and exponential functions. Key insight: Exponents grow extremely fast, making them powerful for modeling growth and decay."
+        },
+        {
+          "id": "order-of-operations",
+          "name": "Order of Operations",
+          "color": "cyan",
+          "formulas": [
+            "pemdas"
+          ],
+          "description": "Order of operations (PEMDAS/BODMAS) determines the sequence for evaluating mathematical expressions. Essential for getting correct answers in multi-step calculations. Key insight: Without agreed-upon order, the same expression could yield different results."
+        }
+      ]
+    },
+    {
+      "id": "algebra-1",
+      "name": "Algebra 1",
+      "color": "green",
+      "description": "Linear equations, quadratics, and functions",
+      "children": [
+        {
+          "id": "linear-equations",
+          "name": "Linear Equations",
+          "color": "green",
+          "formulas": [
+            "slope-intercept-form",
+            "point-slope-form",
+            "standard-form"
+          ],
+          "description": "Linear equations describe relationships with constant rates of change, forming straight lines when graphed. Used in economics (supply/demand), physics (motion), and optimization. Key insight: Linear relationships are the simplest and most predictable mathematical models."
+        },
+        {
+          "id": "quadratics",
+          "name": "Quadratic Equations",
+          "color": "green",
+          "formulas": [
+            "quadratic-formula",
+            "factoring",
+            "completing-the-square"
+          ],
+          "description": "Quadratic equations involve squared terms (ax\u00b2 + bx + c = 0) and form parabolas when graphed. Used in projectile motion, optimization problems, and engineering design. Key insight: Many real-world problems that involve maximums or minimums are quadratic."
+        },
+        {
+          "id": "systems",
+          "name": "Systems of Equations",
+          "color": "green",
+          "formulas": [
+            "system-substitution",
+            "system-elimination"
+          ],
+          "description": "Systems of equations solve multiple equations simultaneously to find common solutions. Used in chemistry (balancing equations), economics (equilibrium), and engineering (circuit analysis). Key insight: Systems allow modeling complex relationships with multiple variables."
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "name": "Geometry",
+      "color": "purple",
+      "description": "Shapes, angles, and spatial relationships",
+      "children": [
+        {
+          "id": "triangles",
+          "name": "Triangles",
+          "color": "purple",
+          "formulas": [
+            "triangle-area",
+            "pythagorean-theorem",
+            "triangle-perimeter"
+          ],
+          "description": "Triangles are three-sided polygons, the simplest closed shapes. Used in construction, navigation, trigonometry, and computer graphics. Key insight: Triangles are rigid structures and form the basis for all polygonal shapes."
+        },
+        {
+          "id": "circles",
+          "name": "Circles",
+          "color": "purple",
+          "formulas": [
+            "circle-area",
+            "circle-circumference"
+          ],
+          "description": "Circles are perfectly round shapes with constant radius from a center point. Used in engineering (wheels, gears), physics (orbital motion), and design. Key insight: The circle maximizes area for a given perimeter, making it nature's most efficient shape."
+        },
+        {
+          "id": "trigonometry",
+          "name": "Trigonometry",
+          "color": "purple",
+          "formulas": [
+            "soh-cah-toa",
+            "unit-circle",
+            "trig-identities"
+          ],
+          "description": "Trigonometry studies relationships between angles and sides of triangles. Used in navigation, engineering, physics (waves, oscillations), and computer graphics. Key insight: Trigonometric functions model periodic phenomena found throughout nature."
+        }
+      ]
+    },
+    {
+      "id": "algebra-2",
+      "name": "Algebra 2 / Precalculus",
+      "color": "yellow",
+      "description": "Advanced algebra, logarithms, and sequences",
+      "children": [
+        {
+          "id": "logarithms",
+          "name": "Logarithms",
+          "color": "yellow",
+          "formulas": [
+            "logarithm-properties",
+            "natural-logarithm",
+            "change-of-base"
+          ],
+          "description": "Logarithms are the inverse of exponents, answering \"what power gives this number?\" Used in measuring earthquakes (Richter scale), sound (decibels), and solving exponential equations. Key insight: Logarithms compress large ranges into manageable scales."
+        },
+        {
+          "id": "sequences",
+          "name": "Sequences & Series",
+          "color": "yellow",
+          "formulas": [
+            "arithmetic-sequence",
+            "geometric-sequence",
+            "arithmetic-series"
+          ],
+          "description": "Sequences are ordered lists of numbers following patterns. Used in computer science (algorithms), finance (compound interest), and modeling growth. Key insight: Many natural phenomena follow predictable sequences that can be described mathematically."
+        },
+        {
+          "id": "polynomials",
+          "name": "Polynomials",
+          "color": "yellow",
+          "formulas": [
+            "polynomial-division",
+            "rational-roots"
+          ],
+          "description": "Polynomials are expressions with multiple terms involving powers of variables. Used in curve fitting, approximation, and solving complex equations. Key insight: Polynomials can approximate almost any smooth function, making them versatile tools."
+        }
+      ]
+    },
+    {
+      "id": "calculus-1",
+      "name": "Calculus 1",
+      "color": "orange",
+      "description": "Limits, derivatives, and basic integration",
+      "children": [
+        {
+          "id": "limits",
+          "name": "Limits",
+          "color": "orange",
+          "formulas": [
+            "limit-definition",
+            "limit-rules",
+            "lhopitals-rule"
+          ],
+          "description": "Limits describe the behavior of functions as they approach specific values. Foundation of calculus, used to define derivatives and integrals. Key insight: Limits allow precise definition of instantaneous rates of change and accumulated quantities."
+        },
+        {
+          "id": "derivatives",
+          "name": "Derivatives",
+          "color": "orange",
+          "formulas": [
+            "derivative-power-rule",
+            "product-rule",
+            "quotient-rule",
+            "chain-rule"
+          ],
+          "description": "Derivatives measure instantaneous rates of change, representing slopes of tangent lines. Used in optimization, physics (velocity, acceleration), and economics (marginal analysis). Key insight: The derivative reveals how a quantity changes moment by moment."
+        },
+        {
+          "id": "integrals",
+          "name": "Integrals",
+          "color": "orange",
+          "formulas": [
+            "fundamental-theorem",
+            "basic-integrals",
+            "u-substitution"
+          ],
+          "description": "Integrals calculate accumulated quantities, representing areas under curves. Used in physics (work, energy), probability, and finding total change. Key insight: Integration is the reverse of differentiation, connecting rates to totals."
+        }
+      ]
+    },
+    {
+      "id": "calculus-2",
+      "name": "Calculus 2",
+      "color": "red",
+      "description": "Advanced integration and series",
+      "children": [
+        {
+          "id": "integration-techniques",
+          "name": "Integration Techniques",
+          "color": "red",
+          "formulas": [
+            "integration-by-parts",
+            "partial-fractions",
+            "trigonometric-substitution"
+          ],
+          "description": "Advanced integration methods solve complex integrals that basic techniques cannot handle. Used in engineering, physics, and solving differential equations. Key insight: Different techniques work for different function types, requiring strategic problem-solving."
+        },
+        {
+          "id": "series",
+          "name": "Series",
+          "color": "red",
+          "formulas": [
+            "taylor-series",
+            "maclaurin-series",
+            "convergence-tests"
+          ],
+          "description": "Series are sums of sequences, used to approximate functions and solve problems. Used in signal processing, numerical methods, and representing functions as infinite sums. Key insight: Many functions can be expressed as infinite series, enabling powerful approximations."
+        }
+      ]
+    },
+    {
+      "id": "calculus-3",
+      "name": "Calculus 3",
+      "color": "pink",
+      "description": "Multivariable calculus and vector calculus",
+      "children": [
+        {
+          "id": "vectors",
+          "name": "Vectors",
+          "color": "pink",
+          "formulas": [
+            "dot-product",
+            "cross-product",
+            "vector-magnitude"
+          ],
+          "description": "Vectors represent quantities with both magnitude and direction. Used in physics (force, velocity), computer graphics, and engineering. Key insight: Vectors allow mathematical description of directional quantities in multiple dimensions."
+        },
+        {
+          "id": "partial-derivatives",
+          "name": "Partial Derivatives",
+          "color": "pink",
+          "formulas": [
+            "partial-derivative",
+            "chain-rule-multivariable",
+            "gradient"
+          ],
+          "description": "Partial derivatives measure how multivariable functions change with respect to one variable while others are held constant. Used in optimization, thermodynamics, and machine learning. Key insight: Partial derivatives reveal how complex systems respond to individual variable changes."
+        },
+        {
+          "id": "multiple-integrals",
+          "name": "Multiple Integrals",
+          "color": "pink",
+          "formulas": [
+            "double-integral",
+            "triple-integral",
+            "change-of-variables"
+          ],
+          "description": "Multiple integrals calculate volumes, masses, and other quantities in higher dimensions. Used in physics (center of mass), probability, and engineering. Key insight: Multiple integration extends single-variable integration to multidimensional spaces."
+        }
+      ]
+    },
+    {
+      "id": "tricks",
+      "name": "Math Tricks & Shortcuts",
+      "color": "emerald",
+      "description": "Time-saving tricks, mental math shortcuts, and pattern recognition techniques",
+      "children": [
+        {
+          "id": "mental-math",
+          "name": "Mental Math",
+          "color": "emerald",
+          "formulas": [
+            "multiply-by-11",
+            "multiply-by-9",
+            "square-ending-in-5",
+            "multiply-close-numbers",
+            "sum-of-consecutive",
+            "mental-division",
+            "percent-of-number",
+            "kfc-fraction-division"
+          ],
+          "description": "Mental math techniques enable quick calculations without calculators, improving number sense and problem-solving speed. Used in everyday situations, competitive mathematics, and developing mathematical intuition. Key insight: Understanding number patterns makes mental calculation faster and more accurate."
+        },
+        {
+          "id": "algebra-tricks",
+          "name": "Algebra Shortcuts",
+          "color": "emerald",
+          "formulas": [
+            "foil-method",
+            "difference-of-squares",
+            "quadratic-discriminant"
+          ],
+          "description": "Algebra shortcuts simplify complex manipulations and reveal patterns in equations. Used to solve problems faster, check work, and develop deeper understanding. Key insight: Recognizing patterns and using clever techniques can dramatically simplify algebraic work."
+        },
+        {
+          "id": "calculus-tricks",
+          "name": "Calculus Shortcuts",
+          "color": "emerald",
+          "formulas": [
+            "derivative-shortcuts",
+            "integral-patterns",
+            "limit-shortcuts"
+          ],
+          "description": "Calculus shortcuts use memorized patterns and recognition to solve problems quickly. Used in exams, real-world applications, and building mathematical fluency. Key insight: Familiarity with common derivatives and integrals enables rapid problem-solving."
+        },
+        {
+          "id": "trig-tricks",
+          "name": "Trigonometry Shortcuts",
+          "color": "emerald",
+          "formulas": [
+            "trig-quick-values"
+          ],
+          "description": "Trigonometric shortcuts use special triangles and memorized values for quick calculations. Used in exams, engineering, and developing number sense. Key insight: Special angles create patterns that make trigonometric calculations much easier."
+        },
+        {
+          "id": "log-tricks",
+          "name": "Logarithm Shortcuts",
+          "color": "emerald",
+          "formulas": [
+            "log-quick-conversions"
+          ],
+          "description": "Logarithm shortcuts use properties and patterns for rapid calculations. Used in solving exponential equations and working with logarithmic scales. Key insight: Understanding log properties and common values speeds up logarithmic work."
+        }
+      ]
+    },
+    {
+      "id": "famous-equations",
+      "name": "Famous Equations",
+      "color": "indigo",
+      "description": "Revolutionary equations from history's greatest scientists and mathematicians",
+      "children": [
+        {
+          "id": "physics-equations",
+          "name": "Physics",
+          "color": "indigo",
+          "formulas": [
+            "einstein-mass-energy",
+            "einstein-field-equations",
+            "schrodinger-equation",
+            "dirac-equation",
+            "maxwell-equations",
+            "newton-gravitation",
+            "newton-laws",
+            "planck-energy",
+            "heisenberg-uncertainty",
+            "boltzmann-entropy",
+            "navier-stokes"
+          ],
+          "description": "Physics equations describe the fundamental laws governing matter, energy, space, and time. Used in engineering, technology development, and understanding the universe. Key insight: These equations represent the mathematical language of physical reality."
+        },
+        {
+          "id": "mathematics-equations",
+          "name": "Mathematics",
+          "color": "indigo",
+          "formulas": [
+            "euler-identity",
+            "fermat-last-theorem"
+          ],
+          "description": "Mathematical equations express profound relationships between abstract concepts. Used in pure mathematics, theoretical physics, and advancing human knowledge. Key insight: Mathematical beauty often reveals deep truths about structure and pattern."
+        },
+        {
+          "id": "finance-equations",
+          "name": "Finance & Economics",
+          "color": "indigo",
+          "formulas": [
+            "black-scholes"
+          ],
+          "description": "Financial equations model economic systems, risk, and value. Used in banking, investment, and economic policy. Key insight: Mathematical models enable quantitative analysis of financial systems and decision-making."
+        }
+      ]
+    },
+    {
+      "id": "unknowns",
+      "name": "Unknowns",
+      "color": "rose",
+      "description": "The greatest unsolved problems in mathematics today",
+      "children": [
+        {
+          "id": "millennium-prize",
+          "name": "Millennium Prize Problems",
+          "color": "rose",
+          "formulas": [
+            "riemann-hypothesis",
+            "p-vs-np",
+            "yang-mills-mass-gap",
+            "navier-stokes-existence",
+            "birch-swinnerton-dyer",
+            "hodge-conjecture",
+            "poincare-conjecture"
+          ],
+          "description": "The Millennium Prize Problems are seven of the most important unsolved problems in mathematics, each worth $1 million. These problems represent the frontiers of mathematical knowledge. Key insight: Solving any of these would advance mathematics significantly and answer fundamental questions."
+        },
+        {
+          "id": "number-theory-problems",
+          "name": "Number Theory",
+          "color": "rose",
+          "formulas": [
+            "goldbach-conjecture",
+            "twin-prime-conjecture",
+            "collatz-conjecture",
+            "abc-conjecture"
+          ],
+          "description": "Number theory problems explore the deep properties and patterns of integers. These unsolved problems connect to cryptography, computer science, and pure mathematics. Key insight: Simple questions about numbers often lead to profound mathematical insights."
+        }
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Electronics",
+      "color": "teal",
+      "description": "Comprehensive guide to electronics from fundamentals to advanced circuits",
+      "children": [
+        {
+          "id": "electronics-fundamentals",
+          "name": "Fundamentals",
+          "color": "teal",
+          "description": "Basic electrical principles: voltage, current, resistance, and power. These are the foundation of all electronics. Used in every circuit design and analysis. Key insight: Understanding these basics enables analysis of any electronic system.",
+          "formulas": [
+            "ohms-law",
+            "power-law",
+            "series-resistance",
+            "parallel-resistance"
+          ]
+        },
+        {
+          "id": "circuit-analysis",
+          "name": "Circuit Analysis",
+          "color": "teal",
+          "description": "Methods for analyzing complex circuits using Kirchhoff's laws and network theorems. Essential for designing and troubleshooting circuits. Used in all branches of electronics. Key insight: Systematic analysis methods make complex circuits manageable.",
+          "formulas": [
+            "kirchhoff-voltage",
+            "kirchhoff-current",
+            "voltage-divider"
+          ]
+        },
+        {
+          "id": "passive-components",
+          "name": "Passive Components",
+          "color": "teal",
+          "description": "Resistors, capacitors, and inductors - components that don't amplify but store or dissipate energy. Used in every electronic circuit for filtering, timing, and energy management. Key insight: These simple components create complex behaviors through their interactions.",
+          "formulas": [
+            "capacitor-charging",
+            "inductor-energy",
+            "rc-time-constant"
+          ]
+        },
+        {
+          "id": "semiconductors",
+          "name": "Semiconductors",
+          "color": "teal",
+          "description": "Diodes and transistors - active components that control and amplify signals. The foundation of modern electronics. Used in amplifiers, switches, and digital logic. Key insight: Semiconductors enable signal control and amplification, making modern electronics possible.",
+          "formulas": [
+            "diode-voltage",
+            "transistor-gain"
+          ]
+        },
+        {
+          "id": "ac-circuits",
+          "name": "AC Circuits",
+          "color": "teal",
+          "description": "Alternating current circuits with frequency-dependent behavior. Used in power systems, radio, audio, and signal processing. Key insight: AC circuits enable power transmission and frequency-selective signal processing.",
+          "formulas": [
+            "impedance-capacitor",
+            "impedance-inductor",
+            "resonant-frequency",
+            "transformer-ratio"
+          ]
+        },
+        {
+          "id": "digital-electronics",
+          "name": "Digital Electronics",
+          "color": "teal",
+          "description": "Binary logic, gates, and digital systems. The foundation of computers and digital devices. Used in microprocessors, memory, and digital signal processing. Key insight: Digital systems use simple on/off states to create complex functionality.",
+          "formulas": [
+            "logic-gates",
+            "binary-arithmetic"
+          ]
+        },
+        {
+          "id": "analog-circuits",
+          "name": "Analog Circuits",
+          "color": "teal",
+          "description": "Operational amplifiers and analog signal processing. Used in audio, instrumentation, and control systems. Key insight: Analog circuits process continuous signals with high precision and flexibility.",
+          "formulas": [
+            "op-amp-gain"
+          ]
+        },
+        {
+          "id": "signal-processing",
+          "name": "Signal Processing",
+          "color": "teal",
+          "description": "Filters, bandwidth, and signal analysis. Used in communications, audio, and measurement systems. Key insight: Signal processing extracts useful information from complex signals.",
+          "formulas": [
+            "decibel",
+            "bandwidth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mechanical-engineering",
+      "name": "Mechanical Engineering",
+      "color": "amber",
+      "description": "Comprehensive guide to mechanical engineering from fundamentals to advanced systems",
+      "children": [
+        {
+          "id": "mechanics-fundamentals",
+          "name": "Mechanics Fundamentals",
+          "color": "amber",
+          "description": "Basic mechanics: forces, motion, energy, and momentum. The foundation of all mechanical engineering. Used in analyzing any mechanical system. Key insight: These principles govern all physical motion and energy transfer.",
+          "formulas": [
+            "newtons-second-law",
+            "work-energy",
+            "momentum",
+            "kinematics-velocity"
+          ]
+        },
+        {
+          "id": "statics-structures",
+          "name": "Statics & Structures",
+          "color": "amber",
+          "description": "Analysis of forces, moments, and structural behavior. Essential for designing buildings, bridges, and mechanical structures. Used in civil and mechanical engineering. Key insight: Understanding static equilibrium enables safe structural design.",
+          "formulas": [
+            "moment-torque",
+            "stress-strain",
+            "beam-bending"
+          ]
+        },
+        {
+          "id": "fluid-mechanics",
+          "name": "Fluid Mechanics",
+          "color": "amber",
+          "description": "Behavior of liquids and gases: flow, pressure, and fluid dynamics. Used in designing pumps, pipes, hydraulic systems, and aerodynamics. Key insight: Fluids follow conservation laws that enable powerful analysis methods.",
+          "formulas": [
+            "pressure-force",
+            "bernoulli-principle",
+            "continuity-equation",
+            "viscosity",
+            "reynolds-number"
+          ]
+        },
+        {
+          "id": "thermodynamics",
+          "name": "Thermodynamics",
+          "color": "amber",
+          "description": "Heat, energy, and thermal systems. Fundamental to engines, power plants, HVAC, and energy systems. Key insight: Energy conservation and entropy govern all thermal processes.",
+          "formulas": [
+            "ideal-gas-law",
+            "thermodynamics-first-law",
+            "carnot-efficiency",
+            "heat-transfer-conduction"
+          ]
+        },
+        {
+          "id": "kinematics-dynamics",
+          "name": "Kinematics & Dynamics",
+          "color": "amber",
+          "description": "Motion analysis: linear and rotational kinematics, dynamics of machines. Used in robotics, vehicle design, and mechanism analysis. Key insight: Motion can be precisely predicted using kinematic and dynamic principles.",
+          "formulas": [
+            "angular-kinematics",
+            "power-mechanical"
+          ]
+        },
+        {
+          "id": "machine-design",
+          "name": "Machine Design",
+          "color": "amber",
+          "description": "Design of mechanical systems: gears, transmissions, and power systems. Essential for creating functional machines and mechanisms. Key insight: Proper design balances forces, motion, and material properties.",
+          "formulas": [
+            "gear-ratio"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "programming",
+      "name": "Programming & Algorithms",
+      "color": "violet",
+      "description": "Comprehensive guide to programming, algorithms, data structures, and embedded systems",
+      "children": [
+        {
+          "id": "algorithms-complexity",
+          "name": "Algorithms & Complexity",
+          "color": "violet",
+          "description": "Algorithm analysis and time complexity. Understanding Big O notation and algorithm efficiency. Used in software development, system design, and optimization. Key insight: Choosing the right algorithm can make the difference between a fast and unusable program.",
+          "formulas": [
+            "big-o-notation",
+            "recursion",
+            "dynamic-programming"
+          ]
+        },
+        {
+          "id": "data-structures",
+          "name": "Data Structures",
+          "color": "violet",
+          "description": "Fundamental data structures: arrays, stacks, queues, trees, and hash tables. The building blocks of efficient programs. Used in all software development. Key insight: The right data structure can dramatically improve algorithm performance.",
+          "formulas": [
+            "stack-queue",
+            "hash-table",
+            "binary-tree-traversal",
+            "memory-allocation"
+          ]
+        },
+        {
+          "id": "sorting-searching",
+          "name": "Sorting & Searching",
+          "color": "violet",
+          "description": "Efficient algorithms for organizing and finding data. Sorting arranges data in order, searching finds specific items. Used in databases, search engines, and data processing. Key insight: Different algorithms excel in different scenarios - choose based on data characteristics.",
+          "formulas": [
+            "binary-search",
+            "quicksort",
+            "merge-sort"
+          ]
+        },
+        {
+          "id": "graph-algorithms",
+          "name": "Graph Algorithms",
+          "color": "violet",
+          "description": "Algorithms for analyzing relationships and networks. Graphs model connections between entities. Used in social networks, routing, and dependency resolution. Key insight: Graph algorithms solve many real-world problems involving relationships and paths.",
+          "formulas": [
+            "graph-algorithms",
+            "dijkstra-algorithm"
+          ]
+        },
+        {
+          "id": "embedded-systems",
+          "name": "Embedded Systems",
+          "color": "violet",
+          "description": "Programming microcontrollers and real-time systems. Timing, interrupts, and hardware control. Used in IoT devices, robotics, and automation. Key insight: Embedded programming requires understanding hardware timing and resource constraints.",
+          "formulas": [
+            "microcontroller-timing",
+            "interrupt-latency",
+            "state-machine",
+            "uart-baud-rate"
+          ]
+        },
+        {
+          "id": "low-level-programming",
+          "name": "Low-Level Programming",
+          "color": "violet",
+          "description": "Bitwise operations and hardware-level programming. Direct manipulation of bits and memory. Used in embedded systems, device drivers, and performance-critical code. Key insight: Low-level operations enable precise control and maximum efficiency.",
+          "formulas": [
+            "bitwise-operations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "control-systems",
+      "name": "Control Engineering",
+      "color": "slate",
+      "description": "Feedback systems, automation, and stability analysis for ensuring reliable system performance",
+      "children": [
+        {
+          "id": "feedback-control",
+          "name": "Feedback Control",
+          "color": "slate",
+          "description": "Basic feedback control principles: PID controllers and closed-loop systems. Foundation of all automatic control. Used in temperature control, motor control, and process automation. Key insight: Feedback enables systems to correct errors and maintain desired outputs despite disturbances.",
+          "formulas": [
+            "pid-controller",
+            "closed-loop-gain",
+            "steady-state-error"
+          ]
+        },
+        {
+          "id": "system-analysis",
+          "name": "System Analysis",
+          "color": "slate",
+          "description": "Mathematical tools for analyzing control systems: transfer functions and frequency response. Enables prediction of system behavior and controller design. Used in all control engineering. Key insight: Frequency domain analysis simplifies complex dynamic systems.",
+          "formulas": [
+            "transfer-function",
+            "bode-plot",
+            "phase-margin"
+          ]
+        },
+        {
+          "id": "stability-analysis",
+          "name": "Stability Analysis",
+          "color": "slate",
+          "description": "Methods for ensuring system stability: Routh-Hurwitz, Nyquist, root locus, and Lyapunov methods. Critical for safe and reliable control systems. Used in all control design. Key insight: Stability analysis prevents systems from becoming unstable and causing failures.",
+          "formulas": [
+            "routh-hurwitz",
+            "nyquist-criterion",
+            "root-locus",
+            "lyapunov-stability"
+          ]
+        },
+        {
+          "id": "controller-design",
+          "name": "Controller Design",
+          "color": "slate",
+          "description": "Advanced controller design: compensators and modern control methods. Improves system performance beyond basic PID. Used when standard controllers aren't sufficient. Key insight: Proper controller design balances performance, stability, and robustness.",
+          "formulas": [
+            "lead-lag-compensator",
+            "state-space"
+          ]
+        },
+        {
+          "id": "automation",
+          "name": "Automation Systems",
+          "color": "slate",
+          "description": "Industrial automation: PLCs, SCADA, and automated processes. Enables efficient, reliable, and safe operation of complex systems. Used in manufacturing, power plants, and process industries. Key insight: Automation combines control theory with practical implementation.",
+          "formulas": [
+            "automation-systems"
+          ]
+        },
+        {
+          "id": "digital-control",
+          "name": "Digital Control",
+          "color": "slate",
+          "description": "Digital and discrete-time control systems. Modern controllers are digital, requiring discrete-time analysis. Used in computer-controlled systems, embedded controllers, and modern automation. Key insight: Digital control enables precise, flexible, and cost-effective automation.",
+          "formulas": [
+            "z-transform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "color": "sky",
+      "description": "Comprehensive guide to physics from classical mechanics to quantum mechanics and relativity",
+      "children": [
+        {
+          "id": "classical-mechanics",
+          "name": "Classical Mechanics",
+          "color": "sky",
+          "description": "Motion, forces, energy, and momentum. The foundation of physics describing how objects move and interact. Used in engineering, astronomy, and understanding everyday motion. Key insight: Conservation laws (energy, momentum) provide powerful tools for analyzing complex systems.",
+          "formulas": [
+            "kinematic-equations",
+            "newtons-second-law-physics",
+            "energy-conservation",
+            "momentum-conservation",
+            "projectile-motion",
+            "simple-harmonic-motion"
+          ]
+        },
+        {
+          "id": "electromagnetism",
+          "name": "Electromagnetism",
+          "color": "sky",
+          "description": "Electric and magnetic fields, forces, and electromagnetic phenomena. Unifies electricity and magnetism. Used in electronics, power systems, and understanding light. Key insight: Electric and magnetic fields are aspects of a single electromagnetic field.",
+          "formulas": [
+            "coulombs-law",
+            "electric-field",
+            "magnetic-force",
+            "capacitance",
+            "faradays-law"
+          ]
+        },
+        {
+          "id": "waves-optics",
+          "name": "Waves & Optics",
+          "color": "sky",
+          "description": "Wave behavior, light, and optical phenomena. Waves transfer energy without transferring matter. Used in communications, imaging, and understanding light. Key insight: Many physical phenomena are wave-like, from sound to light to matter itself.",
+          "formulas": [
+            "wave-equation",
+            "doppler-effect",
+            "snells-law",
+            "lens-equation"
+          ]
+        },
+        {
+          "id": "thermodynamics-physics",
+          "name": "Thermodynamics",
+          "color": "sky",
+          "description": "Heat, energy, entropy, and thermal processes. Governs energy transformations and the direction of processes. Used in engines, power plants, and understanding energy flow. Key insight: Entropy always increases, explaining why processes are irreversible.",
+          "formulas": [
+            "thermodynamics-first-law-physics",
+            "entropy",
+            "blackbody-radiation"
+          ]
+        },
+        {
+          "id": "modern-physics",
+          "name": "Modern Physics",
+          "color": "sky",
+          "description": "Quantum mechanics and relativity - physics at extreme scales. Quantum mechanics describes atomic and subatomic behavior. Relativity describes high speeds and strong gravity. Key insight: At small scales and high speeds, classical physics breaks down, revealing new fundamental principles.",
+          "formulas": [
+            "schrodinger-equation-physics",
+            "relativistic-energy",
+            "time-dilation"
+          ]
+        },
+        {
+          "id": "nuclear-physics",
+          "name": "Nuclear Physics",
+          "color": "sky",
+          "description": "Atomic nuclei, binding energy, and nuclear reactions. Explains nuclear power, radioactivity, and stellar processes. Used in energy production, medical imaging, and understanding the universe. Key insight: Nuclear forces are incredibly strong, releasing enormous energy in reactions.",
+          "formulas": [
+            "nuclear-binding-energy",
+            "radioactive-decay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "astronomy",
+      "name": "Astronomy",
+      "color": "fuchsia",
+      "description": "Comprehensive guide to astronomy from orbital mechanics to cosmology and black holes",
+      "children": [
+        {
+          "id": "orbital-mechanics",
+          "name": "Orbital Mechanics",
+          "color": "fuchsia",
+          "description": "Planetary motion, orbits, and gravitational interactions. Describes how objects move under gravity throughout the universe. Used in space missions, satellite deployment, and understanding planetary systems. Key insight: Kepler's laws and Newton's gravity explain all orbital motion from planets to galaxies.",
+          "formulas": [
+            "keplers-laws",
+            "gravitational-force",
+            "orbital-velocity",
+            "tidal-forces",
+            "roche-limit"
+          ]
+        },
+        {
+          "id": "stellar-physics",
+          "name": "Stellar Physics",
+          "color": "fuchsia",
+          "description": "Star properties, evolution, and formation. Stars are the fundamental building blocks of galaxies. Used to understand stellar evolution, measure distances, and study galaxy composition. Key insight: Stellar mass determines lifetime and fate - massive stars live fast and die young.",
+          "formulas": [
+            "stellar-luminosity",
+            "stellar-magnitude",
+            "main-sequence-lifetime",
+            "eddington-luminosity",
+            "jeans-mass"
+          ]
+        },
+        {
+          "id": "observational-astronomy",
+          "name": "Observational Astronomy",
+          "color": "fuchsia",
+          "description": "Methods for detecting and measuring astronomical objects. Techniques for finding exoplanets, measuring distances, and observing the universe. Used in exoplanet discovery, distance measurements, and understanding cosmic structure. Key insight: Multiple complementary methods build the cosmic distance ladder.",
+          "formulas": [
+            "parallax",
+            "doppler-shift-astronomy",
+            "transit-method",
+            "angular-resolution",
+            "standard-candles"
+          ]
+        },
+        {
+          "id": "cosmology",
+          "name": "Cosmology",
+          "color": "fuchsia",
+          "description": "Large-scale structure and evolution of the universe. Studies the Big Bang, expansion, dark matter, and cosmic history. Used to understand universe's origin, composition, and fate. Key insight: Universe is expanding, mostly dark matter and dark energy, with visible matter being only ~5%.",
+          "formulas": [
+            "hubbles-law",
+            "redshift",
+            "dark-matter",
+            "cosmic-microwave-background"
+          ]
+        },
+        {
+          "id": "planetary-science",
+          "name": "Planetary Science",
+          "color": "fuchsia",
+          "description": "Planets, exoplanets, and planetary systems. Studies planetary formation, atmospheres, and habitability. Used to find exoplanets, understand planet formation, and search for life. Key insight: Planetary properties depend on distance from star, composition, and atmospheric effects.",
+          "formulas": [
+            "planetary-temperature"
+          ]
+        },
+        {
+          "id": "black-holes-relativity",
+          "name": "Black Holes & Relativity",
+          "color": "fuchsia",
+          "description": "Extreme gravity, black holes, and relativistic effects. Black holes are regions where gravity is so strong nothing can escape. Used to understand extreme physics, test general relativity, and study galaxy centers. Key insight: Black holes reveal where general relativity and quantum mechanics meet.",
+          "formulas": [
+            "schwarzschild-radius"
+          ]
+        }
+      ]
+    }
+  ]
+}

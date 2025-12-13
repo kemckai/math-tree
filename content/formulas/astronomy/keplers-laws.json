@@ -1,0 +1,32 @@
+{
+  "id": "keplers-laws",
+  "name": "Kepler's Laws of Planetary Motion",
+  "latex": "T^2 = \\frac{4\\pi^2}{GM}a^3, \\quad \\frac{dA}{dt} = \\text{constant}, \\quad e = \\frac{r_{max} - r_{min}}{r_{max} + r_{min}}",
+  "explanation": "Kepler's three laws describe planetary orbits: (1) Orbits are ellipses with Sun at one focus, (2) Equal areas swept in equal times (angular momentum conservation), (3) T² ∝ a³ where T is period and a is semi-major axis. These laws revolutionized astronomy, showing planets follow elliptical paths. Derived from Newton's laws, they explain orbital mechanics throughout the universe.",
+  "examples": [
+    {
+      "problem": "Earth's orbital period is 1 year, semi-major axis 1 AU. Mars has semi-major axis 1.52 AU. What is Mars' orbital period?",
+      "solution": "1.88 years",
+      "steps": [
+        "T² ∝ a³, so T²/T₁² = (a/a₁)³",
+        "T²/1² = (1.52/1)³ = 3.51",
+        "T = √3.51 = 1.88 years"
+      ]
+    },
+    {
+      "problem": "Why do planets move faster at perihelion?",
+      "solution": "Conservation of angular momentum - closer to Sun means faster orbital speed",
+      "steps": [
+        "Kepler's 2nd law: equal areas in equal times",
+        "At perihelion: smaller distance from Sun",
+        "Must move faster to sweep same area",
+        "Angular momentum L = mvr = constant"
+      ]
+    }
+  ],
+  "prerequisites": ["newtons-second-law-physics"],
+  "related": ["orbital-mechanics", "gravitational-force"],
+  "level": "algebra-2",
+  "tags": ["astronomy", "orbital-mechanics", "kepler", "planets"],
+  "topic": "astronomy"
+}

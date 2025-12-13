@@ -1,0 +1,33 @@
+{
+  "id": "cosmic-microwave-background",
+  "name": "Cosmic Microwave Background",
+  "latex": "T_{CMB} = 2.725 \\text{ K}, \\quad \\lambda_{peak} = \\frac{b}{T} = 1.06 \\text{ mm}",
+  "explanation": "CMB is remnant radiation from Big Bang, now cooled to 2.725 K. Peak wavelength ~1 mm (microwave). Provides snapshot of universe at 380,000 years old. Tiny temperature fluctuations (1 part in 100,000) reveal density variations that grew into galaxies. Strongest evidence for Big Bang theory.",
+  "examples": [
+    {
+      "problem": "Why is CMB so important?",
+      "solution": "Direct evidence of Big Bang and seed of all structure",
+      "steps": [
+        "Oldest light in universe (380,000 years after Big Bang)",
+        "Shows universe was hot, dense, uniform",
+        "Tiny fluctuations = density variations",
+        "These grew via gravity into galaxies and clusters"
+      ]
+    },
+    {
+      "problem": "Why is CMB temperature 2.7 K?",
+      "solution": "Universe expanded and cooled from initial hot state",
+      "steps": [
+        "Big Bang: universe extremely hot",
+        "Expansion: universe cooled",
+        "After 13.8 billion years: T = 2.725 K",
+        "Perfect blackbody spectrum confirms Big Bang"
+      ]
+    }
+  ],
+  "prerequisites": ["blackbody-radiation", "hubbles-law"],
+  "related": ["blackbody-radiation", "big-bang"],
+  "level": "algebra-2",
+  "tags": ["astronomy", "cosmology", "cmb", "big-bang"],
+  "topic": "astronomy"
+}

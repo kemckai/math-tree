@@ -1,0 +1,31 @@
+{
+  "id": "triple-integral",
+  "name": "Triple Integrals",
+  "latex": "\\iiint_V f(x,y,z) dV = \\int \\int \\int f(x,y,z) dx dy dz",
+  "explanation": "A triple integral extends integration to functions of three variables, calculating quantities over 3D regions. Triple integrals are used to find volumes, masses, centers of mass, and other properties of 3D objects. The order of integration can be chosen to simplify calculations, and the limits depend on the region's geometry.",
+  "examples": [
+    {
+      "problem": "Find the volume of the box [0,2] × [0,3] × [0,1]",
+      "solution": "6 cubic units",
+      "steps": [
+        "Volume = ∫₀¹ ∫₀³ ∫₀² dx dy dz",
+        "= ∫₀¹ ∫₀³ 2 dy dz",
+        "= ∫₀¹ 6 dz = 6"
+      ]
+    },
+    {
+      "problem": "Evaluate ∫∫∫ xyz dV over [0,1]³",
+      "solution": "1/8",
+      "steps": [
+        "∫₀¹ ∫₀¹ ∫₀¹ xyz dx dy dz",
+        "= ∫₀¹ ∫₀¹ (1/2)yz dy dz",
+        "= ∫₀¹ (1/4)z dz = 1/8"
+      ]
+    }
+  ],
+  "prerequisites": ["double-integral"],
+  "related": ["double-integral", "change-of-variables"],
+  "level": "calculus-3",
+  "tags": ["multivariable", "integration", "triple-integral"],
+  "topic": "multiple-integrals"
+}

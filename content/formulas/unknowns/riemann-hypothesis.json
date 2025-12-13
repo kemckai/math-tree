@@ -1,0 +1,35 @@
+{
+  "id": "riemann-hypothesis",
+  "name": "Riemann Hypothesis",
+  "latex": "\\zeta(s) = 0 \\text{ for } s = \\frac{1}{2} + it \\text{ (all non-trivial zeros have real part } \\frac{1}{2}\\text{)}",
+  "explanation": "Bernhard Riemann's 1859 hypothesis is one of the most important unsolved problems in mathematics. It concerns the zeros of the Riemann zeta function ζ(s). The hypothesis states that all non-trivial zeros have real part equal to 1/2. This problem is worth $1 million (Millennium Prize Problem) and has profound implications for number theory, particularly the distribution of prime numbers. If proven, it would revolutionize our understanding of primes and cryptography.",
+  "examples": [
+    {
+      "problem": "What would proving the Riemann Hypothesis mean?",
+      "solution": "It would provide precise bounds on the error term in the prime number theorem, improving cryptographic security estimates",
+      "steps": [
+        "The prime number theorem estimates π(x) ≈ x/ln(x)",
+        "The error term depends on zeros of ζ(s)",
+        "Proving RH would give the best possible error bounds",
+        "This affects RSA encryption and other cryptographic systems",
+        "Would also solve hundreds of related problems"
+      ]
+    },
+    {
+      "problem": "What is the current status?",
+      "solution": "Unproven, but verified computationally for the first 10¹³ zeros",
+      "steps": [
+        "Computers have checked billions of zeros",
+        "All found zeros have real part 1/2",
+        "But this doesn't constitute a proof",
+        "Many partial results exist, but the full proof remains elusive"
+      ]
+    }
+  ],
+  "prerequisites": ["logarithm-properties"],
+  "related": ["fermat-last-theorem"],
+  "level": "calculus-3",
+  "tags": ["unknowns", "millennium-prize", "number-theory", "riemann", "primes"],
+  "topic": "unknowns",
+  "proof": "Status: UNSOLVED. This is one of the seven Millennium Prize Problems. Many mathematicians have attempted proofs, but none have been accepted. The problem is considered extremely difficult because it connects analysis, number theory, and geometry in deep ways."
+}

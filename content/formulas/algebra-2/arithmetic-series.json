@@ -1,0 +1,32 @@
+{
+  "id": "arithmetic-series",
+  "name": "Sum of Arithmetic Series",
+  "latex": "S_n = \\frac{n}{2}(a_1 + a_n) = \\frac{n}{2}[2a_1 + (n-1)d]",
+  "explanation": "The sum of an arithmetic series is the sum of the first n terms of an arithmetic sequence. The formula uses either the first and last terms, or the first term and common difference. This is useful for finding totals, like the sum of numbers 1 to 100, or calculating accumulated values in linear growth situations.",
+  "examples": [
+    {
+      "problem": "Find the sum of the first 10 terms of 3, 7, 11, 15, ...",
+      "solution": "210",
+      "steps": [
+        "a₁ = 3, d = 4, n = 10",
+        "First find a₁₀ = 3 + (10-1)(4) = 39",
+        "S₁₀ = (10/2)(3 + 39)",
+        "= 5(42) = 210"
+      ]
+    },
+    {
+      "problem": "Find 1 + 2 + 3 + ... + 100",
+      "solution": "5050",
+      "steps": [
+        "a₁ = 1, a₁₀₀ = 100, n = 100",
+        "S₁₀₀ = (100/2)(1 + 100)",
+        "= 50(101) = 5050"
+      ]
+    }
+  ],
+  "prerequisites": ["arithmetic-sequence"],
+  "related": ["arithmetic-sequence", "geometric-sequence"],
+  "level": "algebra-2",
+  "tags": ["series", "arithmetic", "sum"],
+  "topic": "sequences"
+}

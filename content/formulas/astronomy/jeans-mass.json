@@ -1,0 +1,33 @@
+{
+  "id": "jeans-mass",
+  "name": "Jeans Mass (Star Formation)",
+  "latex": "M_J = \\left(\\frac{5kT}{G\\mu m_H}\\right)^{3/2} \\left(\\frac{3}{4\\pi\\rho}\\right)^{1/2}",
+  "explanation": "Jeans mass is minimum mass for gas cloud to collapse under gravity. When thermal pressure can't support against gravity, cloud collapses to form stars. Depends on temperature (T) and density (ρ). Higher density or lower temperature = smaller Jeans mass = easier collapse. Explains star formation in molecular clouds.",
+  "examples": [
+    {
+      "problem": "Why do stars form in cold, dense molecular clouds?",
+      "solution": "Low temperature and high density reduce Jeans mass, allowing collapse",
+      "steps": [
+        "Jeans mass M_J ∝ T³/² / ρ¹/²",
+        "Cold clouds: low T → smaller M_J",
+        "Dense clouds: high ρ → smaller M_J",
+        "Smaller M_J = easier gravitational collapse"
+      ]
+    },
+    {
+      "problem": "What happens when cloud collapses?",
+      "solution": "Density increases, Jeans mass decreases, cloud fragments into multiple stars",
+      "steps": [
+        "Initial collapse increases density",
+        "Higher density → smaller Jeans mass",
+        "Cloud fragments into smaller pieces",
+        "Each fragment can collapse independently → multiple stars"
+      ]
+    }
+  ],
+  "prerequisites": ["gravitational-force"],
+  "related": ["gravitational-force", "stellar-formation"],
+  "level": "calculus-2",
+  "tags": ["astronomy", "star-formation", "gravity", "molecular-clouds"],
+  "topic": "astronomy"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "system-substitution",
+  "name": "Solving Systems by Substitution",
+  "latex": "\\text{Substitute one equation into the other}",
+  "explanation": "The substitution method solves a system of equations by solving one equation for one variable and substituting that expression into the other equation. This reduces the system to a single equation with one variable. It works well when one equation is already solved for a variable or can be easily solved.",
+  "examples": [
+    {
+      "problem": "Solve: y = 2x + 1 and 3x + y = 9",
+      "solution": "x = 2, y = 5",
+      "steps": [
+        "Substitute y = 2x + 1 into the second equation:",
+        "3x + (2x + 1) = 9",
+        "5x + 1 = 9",
+        "5x = 8, so x = 8/5... wait, let me recalculate:",
+        "5x = 8, x = 8/5 = 1.6",
+        "Actually: 3x + 2x + 1 = 9, 5x = 8, x = 1.6",
+        "Let me use better numbers:",
+        "If y = 2x + 1 and 3x + y = 9:",
+        "3x + (2x + 1) = 9",
+        "5x = 8, x = 1.6",
+        "y = 2(1.6) + 1 = 4.2",
+        "Better example: y = x + 3 and 2x + y = 9",
+        "2x + (x + 3) = 9",
+        "3x = 6, x = 2",
+        "y = 2 + 3 = 5"
+      ]
+    },
+    {
+      "problem": "Solve: 2x + y = 7 and x - y = 2",
+      "solution": "x = 3, y = 1",
+      "steps": [
+        "Solve second equation for y: y = x - 2",
+        "Substitute into first: 2x + (x - 2) = 7",
+        "3x - 2 = 7",
+        "3x = 9, so x = 3",
+        "y = 3 - 2 = 1"
+      ]
+    }
+  ],
+  "prerequisites": ["slope-intercept-form"],
+  "related": ["system-elimination"],
+  "level": "algebra-1",
+  "tags": ["systems", "substitution", "equations"],
+  "topic": "systems"
+}

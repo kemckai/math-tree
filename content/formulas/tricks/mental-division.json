@@ -1,0 +1,40 @@
+{
+  "id": "mental-division",
+  "name": "Mental Division Tricks",
+  "latex": "\\text{Divisibility rules and estimation techniques}",
+  "explanation": "Quick divisibility tests: A number is divisible by 2 if last digit is even; by 3 if sum of digits is divisible by 3; by 4 if last two digits form a number divisible by 4; by 5 if ends in 0 or 5; by 6 if divisible by both 2 and 3; by 9 if sum of digits is divisible by 9. For estimation, round to nearby friendly numbers.",
+  "examples": [
+    {
+      "problem": "Is 123 divisible by 3?",
+      "solution": "Yes",
+      "steps": [
+        "Sum of digits: 1 + 2 + 3 = 6",
+        "6 is divisible by 3",
+        "Therefore 123 is divisible by 3"
+      ]
+    },
+    {
+      "problem": "Estimate 247 ÷ 8",
+      "solution": "About 31",
+      "steps": [
+        "Round 247 to 240 (divisible by 8)",
+        "240 ÷ 8 = 30",
+        "Actual: 247 ÷ 8 = 30.875 ≈ 31"
+      ]
+    },
+    {
+      "problem": "Is 456 divisible by 4?",
+      "solution": "Yes",
+      "steps": [
+        "Check last two digits: 56",
+        "56 ÷ 4 = 14",
+        "Since 56 is divisible by 4, so is 456"
+      ]
+    }
+  ],
+  "prerequisites": ["division"],
+  "related": ["multiply-by-9", "percent-of-number"],
+  "level": "basic-math",
+  "tags": ["tricks", "mental-math", "divisibility", "shortcuts"],
+  "topic": "tricks"
+}

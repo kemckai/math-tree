@@ -1,0 +1,35 @@
+{
+  "id": "p-vs-np",
+  "name": "P vs NP Problem",
+  "latex": "\\text{Is } P = NP \\text{ or } P \\neq NP?",
+  "explanation": "The P vs NP problem asks whether every problem whose solution can be quickly verified (NP) can also be quickly solved (P). P problems can be solved in polynomial time. NP problems can be verified in polynomial time, but we don't know if they can be solved efficiently. If P = NP, many currently intractable problems (like factoring large numbers, solving Sudoku optimally, or protein folding) would become easy. This would break most modern cryptography. Most experts believe P ≠ NP, but no one has proven it. Worth $1 million (Millennium Prize Problem).",
+  "examples": [
+    {
+      "problem": "What would P = NP mean for cryptography?",
+      "solution": "Most encryption methods (RSA, AES, etc.) would become breakable, requiring a complete redesign of internet security",
+      "steps": [
+        "Factoring large numbers is in NP",
+        "If P = NP, factoring becomes easy",
+        "RSA encryption relies on factoring being hard",
+        "All current cryptographic systems would be vulnerable",
+        "Would need quantum-resistant or new encryption methods"
+      ]
+    },
+    {
+      "problem": "Give an example of an NP problem",
+      "solution": "The traveling salesman problem: Given cities and distances, find the shortest route visiting all cities",
+      "steps": [
+        "Easy to verify: Check if a route visits all cities and sum distances",
+        "Hard to solve: Must check exponentially many possible routes",
+        "If P = NP, we could find the optimal route quickly",
+        "This would revolutionize logistics, scheduling, and optimization"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": [],
+  "level": "calculus-3",
+  "tags": ["unknowns", "millennium-prize", "computer-science", "complexity-theory"],
+  "topic": "unknowns",
+  "proof": "Status: UNSOLVED. This is one of the seven Millennium Prize Problems. Despite decades of research, no one has proven whether P = NP or P ≠ NP. The problem is fundamental to computer science and has implications for algorithms, cryptography, and artificial intelligence."
+}

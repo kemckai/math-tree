@@ -1,0 +1,34 @@
+{
+  "id": "dark-matter",
+  "name": "Dark Matter Evidence",
+  "latex": "v_{rot} = \\sqrt{\\frac{GM(r)}{r}}, \\quad M(r) = \\frac{v^2 r}{G}",
+  "explanation": "Dark matter is invisible matter detected only by gravitational effects. Galaxy rotation curves show stars orbit faster than visible mass predicts - indicating 5-10× more mass than visible. Dark matter makes up ~27% of universe. Composition unknown (WIMPs, axions, etc.). Essential for galaxy formation and structure.",
+  "examples": [
+    {
+      "problem": "Why do we know dark matter exists?",
+      "solution": "Galaxy rotation curves - stars move too fast for visible mass",
+      "steps": [
+        "Expected: v ∝ 1/√r (Keplerian, like planets)",
+        "Observed: v ≈ constant (flat rotation curve)",
+        "Implies M(r) ∝ r (mass increases with distance)",
+        "But visible mass concentrated in center",
+        "Conclusion: invisible dark matter halo"
+      ]
+    },
+    {
+      "problem": "What is dark matter?",
+      "solution": "Unknown - doesn't interact with light, only gravity",
+      "steps": [
+        "Not normal matter (baryons)",
+        "Doesn't emit, absorb, or reflect light",
+        "Detected only by gravitational effects",
+        "Candidates: WIMPs, axions, primordial black holes"
+      ]
+    }
+  ],
+  "prerequisites": ["orbital-velocity", "gravitational-force"],
+  "related": ["orbital-velocity", "cosmology"],
+  "level": "calculus-1",
+  "tags": ["astronomy", "cosmology", "dark-matter", "galaxies"],
+  "topic": "astronomy"
+}

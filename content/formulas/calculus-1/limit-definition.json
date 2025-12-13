@@ -1,0 +1,32 @@
+{
+  "id": "limit-definition",
+  "name": "Limit Definition",
+  "latex": "\\lim_{x \\to a} f(x) = L \\text{ means } \\forall \\epsilon > 0, \\exists \\delta > 0 \\text{ such that } |x - a| < \\delta \\implies |f(x) - L| < \\epsilon",
+  "explanation": "A limit describes the behavior of a function as its input approaches a particular value. Informally, lim(x→a) f(x) = L means f(x) gets arbitrarily close to L as x gets close to a. The formal epsilon-delta definition provides a rigorous mathematical foundation. Limits are fundamental to calculus, as derivatives and integrals are defined using limits.",
+  "examples": [
+    {
+      "problem": "Find lim(x→2) (x² - 4)/(x - 2)",
+      "solution": "4",
+      "steps": [
+        "Direct substitution gives 0/0 (indeterminate)",
+        "Factor numerator: (x-2)(x+2)/(x-2)",
+        "Cancel: x + 2",
+        "Take limit: lim(x→2) (x + 2) = 2 + 2 = 4"
+      ]
+    },
+    {
+      "problem": "Find lim(x→0) sin(x)/x",
+      "solution": "1",
+      "steps": [
+        "This is a fundamental limit",
+        "Using L'Hôpital's rule or geometric argument:",
+        "lim(x→0) sin(x)/x = 1"
+      ]
+    }
+  ],
+  "prerequisites": ["pemdas"],
+  "related": ["limit-rules", "lhopitals-rule"],
+  "level": "calculus-1",
+  "tags": ["limits", "calculus", "foundation"],
+  "topic": "limits"
+}

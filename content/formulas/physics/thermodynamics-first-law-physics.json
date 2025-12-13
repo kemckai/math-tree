@@ -1,0 +1,29 @@
+{
+  "id": "thermodynamics-first-law-physics",
+  "name": "First Law of Thermodynamics",
+  "latex": "\\Delta U = Q - W, \\quad Q = \\Delta U + W",
+  "explanation": "The first law states that change in internal energy (ΔU) equals heat added (Q) minus work done by system (W). This is conservation of energy for thermodynamic systems. Heat and work are forms of energy transfer. Used in analyzing engines, heat pumps, and all thermal processes. Sign convention: Q positive = heat in, W positive = work out.",
+  "examples": [
+    {
+      "problem": "Gas receives 500J heat and does 200J work. What is ΔU?",
+      "solution": "300J",
+      "steps": [
+        "ΔU = Q - W",
+        "ΔU = 500 - 200 = 300J"
+      ]
+    },
+    {
+      "problem": "Internal energy increases 400J while 150J work is done. How much heat?",
+      "solution": "550J",
+      "steps": [
+        "Q = ΔU + W",
+        "Q = 400 + 150 = 550J"
+      ]
+    }
+  ],
+  "prerequisites": ["energy-conservation"],
+  "related": ["energy-conservation", "entropy"],
+  "level": "algebra-1",
+  "tags": ["physics", "thermodynamics", "energy", "heat"],
+  "topic": "physics"
+}

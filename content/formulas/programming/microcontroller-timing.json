@@ -1,0 +1,38 @@
+{
+  "id": "microcontroller-timing",
+  "name": "Microcontroller Timing Calculations",
+  "latex": "\\text{Delay} = \\frac{\\text{Clock Cycles}}{\\text{Clock Frequency}}, \\quad \\text{PWM Duty Cycle} = \\frac{\\text{ON Time}}{\\text{Period}} \\times 100\\%",
+  "explanation": "Microcontrollers execute instructions at a fixed clock frequency. Timing calculations are essential for delays, PWM (Pulse Width Modulation), and real-time systems. Delay time = clock cycles / frequency. PWM duty cycle = (ON time / total period) × 100%. Used in embedded systems for motor control, LED dimming, and precise timing. Understanding timing is critical for real-time applications.",
+  "examples": [
+    {
+      "problem": "Microcontroller runs at 16 MHz. How long is one clock cycle?",
+      "solution": "62.5 nanoseconds",
+      "steps": [
+        "Period = 1 / frequency",
+        "T = 1 / 16,000,000 = 6.25 × 10⁻⁸ s",
+        "T = 62.5 ns"
+      ]
+    },
+    {
+      "problem": "PWM: ON for 2ms, period 10ms. What is duty cycle?",
+      "solution": "20%",
+      "steps": [
+        "Duty cycle = (ON time / Period) × 100%",
+        "Duty cycle = (2 / 10) × 100% = 20%"
+      ]
+    },
+    {
+      "problem": "Need 1ms delay with 8MHz clock. How many cycles?",
+      "solution": "8,000 cycles",
+      "steps": [
+        "Cycles = delay × frequency",
+        "Cycles = 0.001 × 8,000,000 = 8,000 cycles"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["embedded-systems", "real-time-systems"],
+  "level": "algebra-1",
+  "tags": ["programming", "embedded-systems", "microcontrollers", "timing"],
+  "topic": "programming"
+}

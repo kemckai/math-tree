@@ -1,0 +1,31 @@
+{
+  "id": "integral-patterns",
+  "name": "Common Integral Patterns",
+  "latex": "\\int e^x dx = e^x, \\quad \\int \\frac{1}{x} dx = \\ln|x|, \\quad \\int \\sin x dx = -\\cos x",
+  "explanation": "Memorizing common integral patterns speeds up calculations: ∫e^x = e^x, ∫1/x = ln|x|, ∫sin x = -cos x, ∫cos x = sin x, ∫sec² x = tan x. For polynomials, reverse the power rule: add 1 to exponent, divide by new exponent. Recognizing these patterns eliminates the need to derive each time.",
+  "examples": [
+    {
+      "problem": "Quick integral: ∫(3x² + 2x) dx",
+      "solution": "x³ + x² + C",
+      "steps": [
+        "∫3x²: add 1 to exponent (2→3), divide by 3: 3x³/3 = x³",
+        "∫2x: add 1 (1→2), divide by 2: 2x²/2 = x²",
+        "Result: x³ + x² + C"
+      ]
+    },
+    {
+      "problem": "Quick integral: ∫(e^x + cos x) dx",
+      "solution": "e^x + sin x + C",
+      "steps": [
+        "∫e^x = e^x",
+        "∫cos x = sin x",
+        "Sum: e^x + sin x + C"
+      ]
+    }
+  ],
+  "prerequisites": ["basic-integrals"],
+  "related": ["basic-integrals", "derivative-shortcuts"],
+  "level": "calculus-1",
+  "tags": ["tricks", "integration", "patterns", "shortcuts"],
+  "topic": "tricks"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "einstein-mass-energy",
+  "name": "Einstein's Mass-Energy Equivalence",
+  "latex": "E = mc^2",
+  "explanation": "Albert Einstein's most famous equation, published in 1905, states that energy (E) equals mass (m) times the speed of light (c) squared. This revolutionary equation revealed that mass and energy are equivalent and can be converted into each other. It's the foundation of nuclear energy and explains how the Sun produces energy through nuclear fusion. The equation shows that even a small amount of mass contains an enormous amount of energy, as c² is approximately 9 × 10¹⁶ m²/s².",
+  "examples": [
+    {
+      "problem": "How much energy is contained in 1 gram of matter?",
+      "solution": "9 × 10¹³ joules",
+      "steps": [
+        "E = mc²",
+        "m = 0.001 kg (1 gram)",
+        "c = 3 × 10⁸ m/s",
+        "E = (0.001) × (3 × 10⁸)²",
+        "E = 0.001 × 9 × 10¹⁶",
+        "E = 9 × 10¹³ joules",
+        "This is equivalent to about 21 kilotons of TNT!"
+      ]
+    },
+    {
+      "problem": "In nuclear fusion, 0.7% of the Sun's hydrogen mass is converted to energy. How much energy is produced from 1 kg of hydrogen?",
+      "solution": "6.3 × 10¹⁴ joules",
+      "steps": [
+        "Mass converted: 0.007 × 1 kg = 0.007 kg",
+        "E = mc² = 0.007 × (3 × 10⁸)²",
+        "E = 0.007 × 9 × 10¹⁶",
+        "E = 6.3 × 10¹⁴ joules"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["planck-energy", "schrodinger-equation"],
+  "level": "calculus-3",
+  "tags": ["famous-equations", "physics", "relativity", "einstein", "energy"],
+  "topic": "famous-equations",
+  "proof": "Derived from Einstein's special theory of relativity, combining the relativistic momentum and energy equations. The full relativistic energy equation is E² = (pc)² + (mc²)², where p is momentum. For a particle at rest (p=0), this simplifies to E = mc²."
+}

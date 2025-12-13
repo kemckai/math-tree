@@ -1,0 +1,37 @@
+{
+  "id": "scientific-notation",
+  "name": "Scientific Notation",
+  "latex": "a \\times 10^n \\text{ where } 1 \\leq |a| < 10",
+  "explanation": "Scientific notation expresses numbers as a product of a number between 1 and 10 (the coefficient) and a power of 10. This is useful for very large or very small numbers. The exponent indicates how many places to move the decimal point: positive for large numbers (move right), negative for small numbers (move left).",
+  "examples": [
+    {
+      "problem": "Write 3,450,000 in scientific notation",
+      "solution": "3.45 × 10^6",
+      "steps": [
+        "Move decimal point 6 places to the left:",
+        "3,450,000 = 3.45 × 10^6"
+      ]
+    },
+    {
+      "problem": "Write 0.000042 in scientific notation",
+      "solution": "4.2 × 10^-5",
+      "steps": [
+        "Move decimal point 5 places to the right:",
+        "0.000042 = 4.2 × 10^-5"
+      ]
+    },
+    {
+      "problem": "Convert 2.3 × 10^4 to standard form",
+      "solution": "23,000",
+      "steps": [
+        "Move decimal point 4 places to the right:",
+        "2.3 × 10^4 = 23,000"
+      ]
+    }
+  ],
+  "prerequisites": ["exponent-rules"],
+  "related": ["exponent-rules"],
+  "level": "pre-algebra",
+  "tags": ["scientific-notation", "exponents", "numbers"],
+  "topic": "exponents"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "merge-sort",
+  "name": "Merge Sort Algorithm",
+  "latex": "\\text{Time: } O(n \\log n), \\quad \\text{Space: } O(n)",
+  "explanation": "Merge sort is a stable, divide-and-conquer sorting algorithm. Divide array in half, recursively sort halves, then merge sorted halves. Always O(n log n) time complexity - predictable performance. Requires O(n) extra space. Used when stability and guaranteed performance matter. Preferred over quicksort when worst-case performance is critical.",
+  "examples": [
+    {
+      "problem": "Sort [3, 1, 4, 2] using merge sort",
+      "solution": "[1, 2, 3, 4]",
+      "steps": [
+        "Divide: [3, 1] and [4, 2]",
+        "Recursively sort: [1, 3] and [2, 4]",
+        "Merge: compare 1 and 2 → [1], compare 3 and 2 → [1, 2], compare 3 and 4 → [1, 2, 3, 4]"
+      ]
+    },
+    {
+      "problem": "Why is merge sort O(n log n)?",
+      "solution": "log n levels of recursion, O(n) work per level",
+      "steps": [
+        "Divide array in half log₂(n) times",
+        "Each level processes all n elements",
+        "Total: log₂(n) × n = O(n log n)"
+      ]
+    }
+  ],
+  "prerequisites": ["big-o-notation"],
+  "related": ["quicksort", "big-o-notation"],
+  "level": "algebra-2",
+  "tags": ["programming", "algorithms", "sorting", "merge-sort"],
+  "topic": "programming"
+}

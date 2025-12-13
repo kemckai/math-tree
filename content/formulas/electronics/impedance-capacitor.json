@@ -1,0 +1,32 @@
+{
+  "id": "impedance-capacitor",
+  "name": "Capacitive Reactance",
+  "latex": "X_C = \\frac{1}{2\\pi fC}",
+  "explanation": "In AC circuits, capacitors oppose current flow with reactance (X_C), which decreases as frequency increases. Unlike resistance, reactance depends on frequency - capacitors block DC but pass AC, with better conduction at higher frequencies. This makes capacitors useful for filtering, coupling, and frequency-dependent circuits. The unit is ohms (Ω), just like resistance.",
+  "examples": [
+    {
+      "problem": "What is the reactance of a 10μF capacitor at 1kHz?",
+      "solution": "15.9Ω",
+      "steps": [
+        "X_C = 1/(2πfC)",
+        "X_C = 1/(2π × 1000 × 10×10⁻⁶)",
+        "X_C = 1/(0.0628) ≈ 15.9Ω"
+      ]
+    },
+    {
+      "problem": "At what frequency does a 1μF capacitor have 100Ω reactance?",
+      "solution": "1.59kHz",
+      "steps": [
+        "X_C = 1/(2πfC)",
+        "100 = 1/(2π × f × 10⁻⁶)",
+        "f = 1/(2π × 100 × 10⁻⁶)",
+        "f ≈ 1590Hz = 1.59kHz"
+      ]
+    }
+  ],
+  "prerequisites": ["capacitor-charging"],
+  "related": ["impedance-inductor", "ac-circuits"],
+  "level": "algebra-2",
+  "tags": ["electronics", "ac-circuits", "impedance", "capacitors"],
+  "topic": "electronics"
+}

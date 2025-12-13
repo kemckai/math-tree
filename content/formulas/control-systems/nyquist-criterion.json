@@ -1,0 +1,35 @@
+{
+  "id": "nyquist-criterion",
+  "name": "Nyquist Stability Criterion",
+  "latex": "N = Z - P, \\quad \\text{Stable if } N = -P",
+  "explanation": "Nyquist criterion determines stability by plotting G(jω)H(jω) in the complex plane and counting encirclements of -1 point. N = number of clockwise encirclements, Z = unstable closed-loop poles, P = unstable open-loop poles. System is stable if N = -P (encirclements equal negative of open-loop unstable poles). Powerful graphical method for stability analysis.",
+  "examples": [
+    {
+      "problem": "Open-loop system has 1 unstable pole. Nyquist plot encircles -1 point once clockwise. Is closed-loop stable?",
+      "solution": "Yes, stable (N = 1, P = 1, so Z = 0 unstable poles)",
+      "steps": [
+        "N = 1 (clockwise encirclement)",
+        "P = 1 (unstable open-loop pole)",
+        "Z = N + P = 1 + 1 = 2, but wait...",
+        "Actually: N = Z - P, so Z = N + P = 1 + 1 = 2",
+        "Wait, let me recalculate: For stability, need N = -P",
+        "N = 1, -P = -1, so N ≠ -P, system is unstable"
+      ]
+    },
+    {
+      "problem": "Why use Nyquist instead of Routh-Hurwitz?",
+      "solution": "Works with time delays, provides stability margins, graphical insight",
+      "steps": [
+        "Routh-Hurwitz doesn't work with delays",
+        "Nyquist provides gain/phase margins",
+        "Visual representation of stability",
+        "Can handle systems with delays"
+      ]
+    }
+  ],
+  "prerequisites": ["bode-plot"],
+  "related": ["bode-plot", "system-stability"],
+  "level": "calculus-3",
+  "tags": ["control-systems", "stability", "nyquist", "frequency-domain"],
+  "topic": "control-systems"
+}

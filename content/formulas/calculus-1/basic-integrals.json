@@ -1,0 +1,41 @@
+{
+  "id": "basic-integrals",
+  "name": "Basic Integration Formulas",
+  "latex": "\\int x^n dx = \\frac{x^{n+1}}{n+1} + C, \\quad \\int e^x dx = e^x + C, \\quad \\int \\frac{1}{x} dx = \\ln|x| + C",
+  "explanation": "Basic integration formulas are the reverse of derivative rules. The power rule for integrals adds 1 to the exponent and divides by the new exponent. The integral of e^x is e^x. The integral of 1/x is the natural logarithm. These fundamental integrals form the foundation for more complex integration techniques.",
+  "examples": [
+    {
+      "problem": "Find ∫ x³ dx",
+      "solution": "x⁴/4 + C",
+      "steps": [
+        "Power rule: add 1 to exponent, divide by new exponent",
+        "∫ x³ dx = x^(3+1)/(3+1) + C",
+        "= x⁴/4 + C"
+      ]
+    },
+    {
+      "problem": "Find ∫ (2x² + 3x - 1) dx",
+      "solution": "2x³/3 + 3x²/2 - x + C",
+      "steps": [
+        "Integrate each term:",
+        "∫ 2x² dx = 2x³/3",
+        "∫ 3x dx = 3x²/2",
+        "∫ -1 dx = -x",
+        "Sum: 2x³/3 + 3x²/2 - x + C"
+      ]
+    },
+    {
+      "problem": "Find ∫ e^x dx",
+      "solution": "e^x + C",
+      "steps": [
+        "The derivative of e^x is e^x,",
+        "so the integral is also e^x + C"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": ["fundamental-theorem", "u-substitution"],
+  "level": "calculus-1",
+  "tags": ["integration", "integrals", "antiderivatives"],
+  "topic": "integrals"
+}

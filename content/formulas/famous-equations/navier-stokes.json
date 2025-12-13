@@ -1,0 +1,25 @@
+{
+  "id": "navier-stokes",
+  "name": "Navier-Stokes Equations",
+  "latex": "\\rho\\left(\\frac{\\partial \\mathbf{v}}{\\partial t} + \\mathbf{v} \\cdot \\nabla \\mathbf{v}\\right) = -\\nabla p + \\mu\\nabla^2\\mathbf{v} + \\mathbf{f}",
+  "explanation": "Claude-Louis Navier and George Gabriel Stokes's equations (1822-1845) describe the motion of fluid substances (liquids and gases). They are fundamental to fluid dynamics and are used in weather prediction, aircraft design, oceanography, and blood flow modeling. These nonlinear partial differential equations are so complex that finding general solutions is one of the seven Millennium Prize Problems, with a $1 million prize for a solution.",
+  "examples": [
+    {
+      "problem": "What fields use the Navier-Stokes equations?",
+      "solution": "Weather forecasting, aerodynamics, oceanography, medical imaging (blood flow), engineering",
+      "steps": [
+        "Weather models use these equations to predict atmospheric flow",
+        "Aircraft designers use them to optimize wing shapes",
+        "Oceanographers model ocean currents",
+        "Doctors use them to understand blood flow in arteries",
+        "Engineers design pumps, turbines, and pipelines"
+      ]
+    }
+  ],
+  "prerequisites": ["derivative-power-rule"],
+  "related": [],
+  "level": "calculus-3",
+  "tags": ["famous-equations", "physics", "fluid-dynamics", "navier-stokes"],
+  "topic": "famous-equations",
+  "proof": "Derived from Newton's second law (F = ma) applied to fluid elements, incorporating conservation of mass and momentum, plus the stress-strain relationship for viscous fluids."
+}

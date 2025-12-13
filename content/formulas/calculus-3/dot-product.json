@@ -1,0 +1,31 @@
+{
+  "id": "dot-product",
+  "name": "Dot Product (Scalar Product)",
+  "latex": "\\vec{a} \\cdot \\vec{b} = |\\vec{a}||\\vec{b}|\\cos\\theta = a_x b_x + a_y b_y + a_z b_z",
+  "explanation": "The dot product of two vectors is a scalar (number) that measures how much the vectors point in the same direction. It equals the product of their magnitudes times the cosine of the angle between them, or the sum of products of corresponding components. The dot product is zero when vectors are perpendicular.",
+  "examples": [
+    {
+      "problem": "Find the dot product of a = (3, 4) and b = (1, 2)",
+      "solution": "11",
+      "steps": [
+        "a · b = a_x b_x + a_y b_y",
+        "= 3(1) + 4(2)",
+        "= 3 + 8 = 11"
+      ]
+    },
+    {
+      "problem": "Find the angle between vectors (1, 0) and (0, 1)",
+      "solution": "90°",
+      "steps": [
+        "Dot product: (1, 0) · (0, 1) = 1(0) + 0(1) = 0",
+        "Since dot product = 0, vectors are perpendicular",
+        "Angle = 90°"
+      ]
+    }
+  ],
+  "prerequisites": ["soh-cah-toa"],
+  "related": ["cross-product", "vector-magnitude"],
+  "level": "calculus-3",
+  "tags": ["vectors", "dot-product", "multivariable"],
+  "topic": "vectors"
+}

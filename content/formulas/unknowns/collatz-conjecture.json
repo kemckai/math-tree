@@ -1,0 +1,37 @@
+{
+  "id": "collatz-conjecture",
+  "name": "Collatz Conjecture (3n+1 Problem)",
+  "latex": "\\text{For any positive integer } n: \\text{ if } n \\text{ is even, divide by 2; if odd, multiply by 3 and add 1. Repeat. Always reaches 1.}",
+  "explanation": "Lothar Collatz's 1937 conjecture is deceptively simple: Start with any positive integer. If it's even, divide by 2; if odd, multiply by 3 and add 1. Repeat. The conjecture states you'll always eventually reach 1. Despite being checked for numbers up to 2⁶⁸, no counterexample has been found, but no proof exists. Mathematician Paul Erdős said 'Mathematics may not be ready for such problems.' It's been called the simplest unsolved problem in mathematics.",
+  "examples": [
+    {
+      "problem": "Trace the Collatz sequence starting from 7",
+      "solution": "7 → 22 → 11 → 34 → 17 → 52 → 26 → 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1",
+      "steps": [
+        "Start: 7 (odd) → 3×7+1 = 22",
+        "22 (even) → 22/2 = 11",
+        "11 (odd) → 3×11+1 = 34",
+        "34 (even) → 34/2 = 17",
+        "Continue... eventually reaches 1",
+        "Once at 1, it cycles: 1 → 4 → 2 → 1 → ..."
+      ]
+    },
+    {
+      "problem": "Why is this problem so difficult?",
+      "solution": "The sequence behavior is chaotic and unpredictable, making it hard to prove all numbers eventually reach 1",
+      "steps": [
+        "Some numbers take many steps (27 takes 111 steps)",
+        "The sequence can grow very large before decreasing",
+        "No pattern has been found to predict behavior",
+        "It connects to deep questions in number theory",
+        "Erdős offered $500 for a solution (still unclaimed)"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["goldbach-conjecture"],
+  "level": "basic-math",
+  "tags": ["unknowns", "number-theory", "collatz", "sequences"],
+  "topic": "unknowns",
+  "proof": "Status: UNSOLVED. Verified computationally for numbers up to 2⁶⁸, but no general proof exists. The problem is considered extremely difficult despite its simple statement. Many mathematicians have attempted proofs, but none have been accepted."
+}

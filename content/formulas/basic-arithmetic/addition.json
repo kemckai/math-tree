@@ -1,0 +1,39 @@
+{
+  "id": "addition",
+  "name": "Addition",
+  "latex": "a + b = c",
+  "explanation": "Addition is one of the four basic arithmetic operations. It represents combining two or more numbers to get a total or sum. The numbers being added are called addends, and the result is called the sum. Addition is commutative (a + b = b + a) and associative ((a + b) + c = a + (b + c)).",
+  "examples": [
+    {
+      "problem": "Find the sum of 15 and 27",
+      "solution": "42",
+      "steps": [
+        "Align the numbers vertically:",
+        "  15",
+        "+ 27",
+        "---",
+        "Add the ones place: 5 + 7 = 12. Write 2, carry 1.",
+        "Add the tens place: 1 + 2 + 1 (carried) = 4.",
+        "The sum is 42."
+      ]
+    },
+    {
+      "problem": "Add 3.5 and 2.7",
+      "solution": "6.2",
+      "steps": [
+        "Align decimal points:",
+        "  3.5",
+        "+ 2.7",
+        "-----",
+        "Add: 5 + 7 = 12. Write 2, carry 1.",
+        "Add: 3 + 2 + 1 = 6.",
+        "The sum is 6.2."
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "related": ["subtraction", "multiplication"],
+  "level": "basic-math",
+  "tags": ["arithmetic", "basic", "addition"],
+  "topic": "arithmetic"
+}

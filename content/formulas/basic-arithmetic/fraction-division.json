@@ -1,0 +1,31 @@
+{
+  "id": "fraction-division",
+  "name": "Dividing Fractions",
+  "latex": "\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c} = \\frac{ad}{bc}",
+  "explanation": "To divide fractions, multiply the first fraction by the reciprocal (flipped version) of the second fraction. The reciprocal of a/b is b/a. This is often remembered as 'keep, change, flip': keep the first fraction, change division to multiplication, and flip the second fraction.",
+  "examples": [
+    {
+      "problem": "Divide 2/3 ÷ 1/4",
+      "solution": "8/3 or 2 2/3",
+      "steps": [
+        "Keep 2/3, change ÷ to ×, flip 1/4 to 4/1",
+        "2/3 × 4/1 = (2 × 4)/(3 × 1) = 8/3",
+        "As mixed number: 8/3 = 2 2/3"
+      ]
+    },
+    {
+      "problem": "Calculate 5/6 ÷ 2/3",
+      "solution": "5/4 or 1 1/4",
+      "steps": [
+        "5/6 ÷ 2/3 = 5/6 × 3/2",
+        "= (5 × 3)/(6 × 2) = 15/12",
+        "Simplify: 15/12 = 5/4 = 1 1/4"
+      ]
+    }
+  ],
+  "prerequisites": ["multiplication", "fraction-multiplication"],
+  "related": ["fraction-multiplication", "fraction-addition"],
+  "level": "basic-math",
+  "tags": ["fractions", "arithmetic", "division"],
+  "topic": "fractions"
+}

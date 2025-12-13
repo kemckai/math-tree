@@ -1,0 +1,33 @@
+{
+  "id": "binary-tree-traversal",
+  "name": "Binary Tree Traversal",
+  "latex": "\\text{In-order: } LNR, \\quad \\text{Pre-order: } NLR, \\quad \\text{Post-order: } LRN",
+  "explanation": "Tree traversal visits all nodes in a specific order. In-order (Left-Node-Right) visits nodes in sorted order for BSTs. Pre-order (Node-Left-Right) visits root first, useful for copying trees. Post-order (Left-Right-Node) visits root last, useful for deletion. All have O(n) time complexity. Trees are fundamental data structures for hierarchical data, file systems, and expression parsing.",
+  "examples": [
+    {
+      "problem": "Traverse tree with root=5, left=3, right=7. What is in-order traversal?",
+      "solution": "[3, 5, 7]",
+      "steps": [
+        "In-order: Left → Node → Right",
+        "Visit left subtree (3): [3]",
+        "Visit node (5): [3, 5]",
+        "Visit right subtree (7): [3, 5, 7]"
+      ]
+    },
+    {
+      "problem": "What is pre-order traversal?",
+      "solution": "[5, 3, 7]",
+      "steps": [
+        "Pre-order: Node → Left → Right",
+        "Visit node (5): [5]",
+        "Visit left (3): [5, 3]",
+        "Visit right (7): [5, 3, 7]"
+      ]
+    }
+  ],
+  "prerequisites": ["logarithm-properties"],
+  "related": ["data-structures", "binary-search"],
+  "level": "algebra-1",
+  "tags": ["programming", "data-structures", "trees", "algorithms"],
+  "topic": "programming"
+}

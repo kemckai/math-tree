@@ -1,0 +1,30 @@
+{
+  "id": "transformer-ratio",
+  "name": "Transformer Turns Ratio",
+  "latex": "\\frac{V_2}{V_1} = \\frac{N_2}{N_1} = \\frac{I_1}{I_2}",
+  "explanation": "Transformers transfer electrical energy between circuits through magnetic coupling, changing voltage and current while maintaining power (ideally). The voltage ratio equals the turns ratio (N₂/N₁). Current ratio is inverse - if voltage increases, current decreases. Transformers are essential for power distribution (stepping up for transmission, stepping down for use), isolation, and impedance matching. They only work with AC.",
+  "examples": [
+    {
+      "problem": "A transformer has 100 turns primary and 500 turns secondary. If input is 120V, what is output?",
+      "solution": "600V",
+      "steps": [
+        "V₂/V₁ = N₂/N₁",
+        "V₂/120 = 500/100 = 5",
+        "V₂ = 120 × 5 = 600V"
+      ]
+    },
+    {
+      "problem": "A step-down transformer has 10:1 ratio. If secondary current is 5A, what is primary current?",
+      "solution": "0.5A",
+      "steps": [
+        "I₁/I₂ = N₂/N₁ = 1/10",
+        "I₁ = 5 × 0.1 = 0.5A"
+      ]
+    }
+  ],
+  "prerequisites": ["inductor-energy"],
+  "related": ["power-distribution", "impedance-matching"],
+  "level": "algebra-1",
+  "tags": ["electronics", "transformers", "ac-circuits", "power"],
+  "topic": "electronics"
+}
