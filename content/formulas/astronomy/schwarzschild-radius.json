@@ -2,15 +2,15 @@
   "id": "schwarzschild-radius",
   "name": "Schwarzschild Radius (Event Horizon)",
   "latex": "R_s = \\frac{2GM}{c^2}",
-  "explanation": "Schwarzschild radius is distance from black hole center where escape velocity equals light speed. Inside this radius (event horizon), nothing can escape, not even light. R_s = 2GM/c². Determines black hole size. Used to understand black holes, gravitational collapse, and extreme gravity. Fundamental to general relativity.",
+  "explanation": "Schwarzschild radius is distance from black hole center where escape velocity equals light speed. Inside this radius (event horizon), nothing can escape, not even light. R_s = 2GM/c\u00b2. Determines black hole size. Used to understand black holes, gravitational collapse, and extreme gravity. Fundamental to general relativity.",
   "examples": [
     {
-      "problem": "What is Schwarzschild radius for Sun? (M = 2×10³⁰ kg)",
+      "problem": "What is Schwarzschild radius for Sun? (M = 2\u00d710\u00b3\u2070 kg)",
       "solution": "2.95 km",
       "steps": [
-        "R_s = 2GM/c²",
-        "R_s = 2 × (6.674×10⁻¹¹) × (2×10³⁰) / (3×10⁸)²",
-        "R_s = 2.67×10²⁰ / 9×10¹⁶ = 2.95×10³ m = 2.95 km"
+        "R_s = 2GM/c\u00b2",
+        "R_s = 2 \u00d7 (6.674\u00d710\u207b\u00b9\u00b9) \u00d7 (2\u00d710\u00b3\u2070) / (3\u00d710\u2078)\u00b2",
+        "R_s = 2.67\u00d710\u00b2\u2070 / 9\u00d710\u00b9\u2076 = 2.95\u00d710\u00b3 m = 2.95 km"
       ]
     },
     {
@@ -24,9 +24,21 @@
       ]
     }
   ],
-  "prerequisites": ["orbital-velocity", "relativistic-energy"],
-  "related": ["orbital-velocity", "black-holes"],
+  "prerequisites": [
+    "orbital-velocity",
+    "relativistic-energy"
+  ],
+  "related": [
+    "orbital-velocity",
+    "black-holes"
+  ],
   "level": "calculus-2",
-  "tags": ["astronomy", "black-holes", "relativity", "event-horizon"],
-  "topic": "astronomy"
+  "tags": [
+    "astronomy",
+    "black-holes",
+    "relativity",
+    "event-horizon"
+  ],
+  "topic": "astronomy",
+  "proof": "R_s = 2GM/c\u00b2. Derived from escape velocity: set v_escape = c. From v = \u221a(2GM/r), setting v = c gives: c = \u221a(2GM/R_s), so c\u00b2 = 2GM/R_s, therefore R_s = 2GM/c\u00b2. Inside this radius, escape velocity exceeds light speed."
 }

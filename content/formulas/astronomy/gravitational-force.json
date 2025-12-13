@@ -1,16 +1,16 @@
 {
   "id": "gravitational-force",
   "name": "Newton's Law of Universal Gravitation",
-  "latex": "F = G\\frac{m_1 m_2}{r^2}, \\quad G = 6.674 \\times 10^{-11} \\text{ N⋅m²/kg²}",
+  "latex": "F = G\\frac{m_1 m_2}{r^2}, \\quad G = 6.674 \\times 10^{-11} \\text{ N\u22c5m\u00b2/kg\u00b2}",
   "explanation": "Every mass attracts every other mass with force proportional to product of masses and inversely proportional to square of distance. This universal law explains orbits, tides, and gravitational interactions throughout the universe. Gravity is the weakest fundamental force but dominates on large scales. Used to calculate orbital velocities, escape velocities, and gravitational fields.",
   "examples": [
     {
-      "problem": "Earth (5.97×10²⁴ kg) and Moon (7.35×10²² kg) are 3.84×10⁸ m apart. What is gravitational force?",
-      "solution": "1.98 × 10²⁰ N",
+      "problem": "Earth (5.97\u00d710\u00b2\u2074 kg) and Moon (7.35\u00d710\u00b2\u00b2 kg) are 3.84\u00d710\u2078 m apart. What is gravitational force?",
+      "solution": "1.98 \u00d7 10\u00b2\u2070 N",
       "steps": [
-        "F = Gm₁m₂/r²",
-        "F = (6.674×10⁻¹¹) × (5.97×10²⁴) × (7.35×10²²) / (3.84×10⁸)²",
-        "F = 2.93×10³⁶ / 1.47×10¹⁷ = 1.98×10²⁰ N"
+        "F = Gm\u2081m\u2082/r\u00b2",
+        "F = (6.674\u00d710\u207b\u00b9\u00b9) \u00d7 (5.97\u00d710\u00b2\u2074) \u00d7 (7.35\u00d710\u00b2\u00b2) / (3.84\u00d710\u2078)\u00b2",
+        "F = 2.93\u00d710\u00b3\u2076 / 1.47\u00d710\u00b9\u2077 = 1.98\u00d710\u00b2\u2070 N"
       ]
     },
     {
@@ -24,9 +24,20 @@
       ]
     }
   ],
-  "prerequisites": ["newtons-second-law-physics"],
-  "related": ["keplers-laws", "orbital-velocity"],
+  "prerequisites": [
+    "newtons-second-law-physics"
+  ],
+  "related": [
+    "keplers-laws",
+    "orbital-velocity"
+  ],
   "level": "algebra-1",
-  "tags": ["astronomy", "gravity", "newton", "forces"],
-  "topic": "astronomy"
+  "tags": [
+    "astronomy",
+    "gravity",
+    "newton",
+    "forces"
+  ],
+  "topic": "astronomy",
+  "proof": "F = Gm\u2081m\u2082/r\u00b2. Newton derived from Kepler's laws and his laws of motion. For circular orbit: F = mv\u00b2/r. Using Kepler's 3rd law: T\u00b2 = (4\u03c0\u00b2/GM)r\u00b3, and v = 2\u03c0r/T, substitution gives F = GMm/r\u00b2. Universal constant G determined experimentally."
 }

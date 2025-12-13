@@ -5,27 +5,37 @@
   "explanation": "SOH-CAH-TOA is a mnemonic for remembering the three basic trigonometric ratios in a right triangle. SOH: Sine = Opposite/Hypotenuse. CAH: Cosine = Adjacent/Hypotenuse. TOA: Tangent = Opposite/Adjacent. These ratios relate angles to side lengths in right triangles and are fundamental to trigonometry.",
   "examples": [
     {
-      "problem": "In a right triangle, the side opposite angle θ is 3, adjacent is 4, and hypotenuse is 5. Find sin θ, cos θ, and tan θ",
-      "solution": "sin θ = 3/5, cos θ = 4/5, tan θ = 3/4",
+      "problem": "In a right triangle, the side opposite angle \u03b8 is 3, adjacent is 4, and hypotenuse is 5. Find sin \u03b8, cos \u03b8, and tan \u03b8",
+      "solution": "sin \u03b8 = 3/5, cos \u03b8 = 4/5, tan \u03b8 = 3/4",
       "steps": [
-        "sin θ = opposite/hypotenuse = 3/5",
-        "cos θ = adjacent/hypotenuse = 4/5",
-        "tan θ = opposite/adjacent = 3/4"
+        "sin \u03b8 = opposite/hypotenuse = 3/5",
+        "cos \u03b8 = adjacent/hypotenuse = 4/5",
+        "tan \u03b8 = opposite/adjacent = 3/4"
       ]
     },
     {
-      "problem": "If sin θ = 0.6 and the hypotenuse is 10, find the opposite side",
+      "problem": "If sin \u03b8 = 0.6 and the hypotenuse is 10, find the opposite side",
       "solution": "6",
       "steps": [
-        "sin θ = opposite/hypotenuse",
+        "sin \u03b8 = opposite/hypotenuse",
         "0.6 = opposite/10",
-        "opposite = 0.6 × 10 = 6"
+        "opposite = 0.6 \u00d7 10 = 6"
       ]
     }
   ],
-  "prerequisites": ["pythagorean-theorem"],
-  "related": ["pythagorean-theorem", "trig-identities"],
+  "prerequisites": [
+    "pythagorean-theorem"
+  ],
+  "related": [
+    "pythagorean-theorem",
+    "trig-identities"
+  ],
   "level": "geometry",
-  "tags": ["trigonometry", "right-triangle", "ratios"],
-  "topic": "trigonometry"
+  "tags": [
+    "trigonometry",
+    "right-triangle",
+    "ratios"
+  ],
+  "topic": "trigonometry",
+  "proof": "In right triangle, sin(\u03b8) = opposite/hypotenuse, cos(\u03b8) = adjacent/hypotenuse, tan(\u03b8) = opposite/adjacent. Proof: By definition, in unit circle, point on circle at angle \u03b8 has coordinates (cos(\u03b8), sin(\u03b8)). In right triangle with angle \u03b8, similar triangles show these ratios equal the coordinate ratios, establishing the definitions."
 }

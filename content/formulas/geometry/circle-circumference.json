@@ -2,30 +2,39 @@
   "id": "circle-circumference",
   "name": "Circumference of a Circle",
   "latex": "C = 2\\pi r = \\pi d",
-  "explanation": "The circumference (perimeter) of a circle is 2π times the radius, or π times the diameter. This formula shows that circumference is directly proportional to radius—doubling the radius doubles the circumference. The constant π (pi) is approximately 3.14159 and represents the ratio of circumference to diameter for any circle.",
+  "explanation": "The circumference (perimeter) of a circle is 2\u03c0 times the radius, or \u03c0 times the diameter. This formula shows that circumference is directly proportional to radius\u2014doubling the radius doubles the circumference. The constant \u03c0 (pi) is approximately 3.14159 and represents the ratio of circumference to diameter for any circle.",
   "examples": [
     {
       "problem": "Find the circumference of a circle with radius 7 cm",
-      "solution": "14π cm or approximately 43.98 cm",
+      "solution": "14\u03c0 cm or approximately 43.98 cm",
       "steps": [
-        "C = 2πr",
-        "C = 2π(7) = 14π cm",
-        "Using π ≈ 3.14159: C ≈ 43.98 cm"
+        "C = 2\u03c0r",
+        "C = 2\u03c0(7) = 14\u03c0 cm",
+        "Using \u03c0 \u2248 3.14159: C \u2248 43.98 cm"
       ]
     },
     {
       "problem": "A circle has diameter 10. Find its circumference",
-      "solution": "10π units or approximately 31.42 units",
+      "solution": "10\u03c0 units or approximately 31.42 units",
       "steps": [
-        "C = πd",
-        "C = π(10) = 10π",
-        "C ≈ 31.42 units"
+        "C = \u03c0d",
+        "C = \u03c0(10) = 10\u03c0",
+        "C \u2248 31.42 units"
       ]
     }
   ],
-  "prerequisites": ["multiplication"],
-  "related": ["circle-area"],
+  "prerequisites": [
+    "multiplication"
+  ],
+  "related": [
+    "circle-area"
+  ],
   "level": "geometry",
-  "tags": ["circle", "circumference", "geometry"],
-  "topic": "circles"
+  "tags": [
+    "circle",
+    "circumference",
+    "geometry"
+  ],
+  "topic": "circles",
+  "proof": "C = 2\u03c0r. This is definition of \u03c0: \u03c0 = C/(2r) = C/d where d is diameter. Archimedes showed \u03c0 \u2248 3.14 by inscribing and circumscribing polygons."
 }

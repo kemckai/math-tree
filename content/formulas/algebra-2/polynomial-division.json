@@ -5,21 +5,31 @@
   "explanation": "Polynomial long division divides one polynomial by another, similar to numerical long division. The result is a quotient Q(x) and a remainder R(x) such that P(x) = D(x)Q(x) + R(x). This technique is useful for simplifying rational functions and finding factors. Synthetic division is a shortcut for dividing by linear factors.",
   "examples": [
     {
-      "problem": "Divide x³ - 2x² + 3x - 1 by x - 1",
-      "solution": "x² - x + 2 + 1/(x-1)",
+      "problem": "Divide x\u00b3 - 2x\u00b2 + 3x - 1 by x - 1",
+      "solution": "x\u00b2 - x + 2 + 1/(x-1)",
       "steps": [
         "Set up long division:",
-        "x - 1 ) x³ - 2x² + 3x - 1",
-        "Divide: x³/(x) = x²",
+        "x - 1 ) x\u00b3 - 2x\u00b2 + 3x - 1",
+        "Divide: x\u00b3/(x) = x\u00b2",
         "Multiply and subtract, repeat",
-        "Result: x² - x + 2 remainder 1",
-        "= x² - x + 2 + 1/(x-1)"
+        "Result: x\u00b2 - x + 2 remainder 1",
+        "= x\u00b2 - x + 2 + 1/(x-1)"
       ]
     }
   ],
-  "prerequisites": ["division", "factoring"],
-  "related": ["rational-roots"],
+  "prerequisites": [
+    "division",
+    "factoring"
+  ],
+  "related": [
+    "rational-roots"
+  ],
   "level": "algebra-2",
-  "tags": ["polynomials", "division", "algebra"],
-  "topic": "polynomials"
+  "tags": [
+    "polynomials",
+    "division",
+    "algebra"
+  ],
+  "topic": "polynomials",
+  "proof": "Polynomial long division: Divide leading terms, multiply, subtract, repeat. Remainder theorem: If P(x) divided by (x-a), remainder is P(a). Factor theorem: (x-a) is factor if and only if P(a) = 0. Synthetic division is shortcut for dividing by (x-a)."
 }

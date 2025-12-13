@@ -2,14 +2,14 @@
   "id": "hubbles-law",
   "name": "Hubble's Law",
   "latex": "v = H_0 d, \\quad H_0 \\approx 70 \\text{ km/s/Mpc}",
-  "explanation": "Hubble's law: galaxies recede with velocity proportional to distance. v = H₀d where H₀ is Hubble constant (~70 km/s/Mpc). This reveals universe is expanding. Used to measure distances to galaxies and determine universe's age. Fundamental to cosmology - shows universe had beginning (Big Bang) and is expanding uniformly.",
+  "explanation": "Hubble's law: galaxies recede with velocity proportional to distance. v = H\u2080d where H\u2080 is Hubble constant (~70 km/s/Mpc). This reveals universe is expanding. Used to measure distances to galaxies and determine universe's age. Fundamental to cosmology - shows universe had beginning (Big Bang) and is expanding uniformly.",
   "examples": [
     {
       "problem": "Galaxy is 100 Mpc away. What is recession velocity?",
       "solution": "7000 km/s",
       "steps": [
-        "v = H₀d",
-        "v = 70 × 100 = 7000 km/s"
+        "v = H\u2080d",
+        "v = 70 \u00d7 100 = 7000 km/s"
       ]
     },
     {
@@ -23,9 +23,20 @@
       ]
     }
   ],
-  "prerequisites": ["doppler-effect"],
-  "related": ["doppler-effect", "cosmic-expansion"],
+  "prerequisites": [
+    "doppler-effect"
+  ],
+  "related": [
+    "doppler-effect",
+    "cosmic-expansion"
+  ],
   "level": "algebra-1",
-  "tags": ["astronomy", "cosmology", "hubble", "expansion"],
-  "topic": "astronomy"
+  "tags": [
+    "astronomy",
+    "cosmology",
+    "hubble",
+    "expansion"
+  ],
+  "topic": "astronomy",
+  "proof": "v = H\u2080d. Discovered observationally by Hubble. Galaxies recede with velocity proportional to distance. This indicates universe expansion. H\u2080 \u2248 70 km/s/Mpc is Hubble constant. Age of universe \u2248 1/H\u2080 \u2248 13.8 billion years."
 }

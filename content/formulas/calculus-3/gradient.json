@@ -5,28 +5,38 @@
   "explanation": "The gradient of a function is a vector whose components are the partial derivatives. It points in the direction of steepest increase of the function, and its magnitude is the rate of increase in that direction. The gradient is fundamental to optimization, directional derivatives, and understanding how multivariable functions change.",
   "examples": [
     {
-      "problem": "Find the gradient of f(x,y) = x² + y²",
-      "solution": "∇f = (2x, 2y)",
+      "problem": "Find the gradient of f(x,y) = x\u00b2 + y\u00b2",
+      "solution": "\u2207f = (2x, 2y)",
       "steps": [
-        "∂f/∂x = 2x",
-        "∂f/∂y = 2y",
-        "∇f = (2x, 2y)"
+        "\u2202f/\u2202x = 2x",
+        "\u2202f/\u2202y = 2y",
+        "\u2207f = (2x, 2y)"
       ]
     },
     {
       "problem": "Find the gradient of f(x,y,z) = xyz at point (1, 2, 3)",
-      "solution": "∇f = (6, 3, 2)",
+      "solution": "\u2207f = (6, 3, 2)",
       "steps": [
-        "∂f/∂x = yz = 2(3) = 6",
-        "∂f/∂y = xz = 1(3) = 3",
-        "∂f/∂z = xy = 1(2) = 2",
-        "∇f(1,2,3) = (6, 3, 2)"
+        "\u2202f/\u2202x = yz = 2(3) = 6",
+        "\u2202f/\u2202y = xz = 1(3) = 3",
+        "\u2202f/\u2202z = xy = 1(2) = 2",
+        "\u2207f(1,2,3) = (6, 3, 2)"
       ]
     }
   ],
-  "prerequisites": ["partial-derivative"],
-  "related": ["partial-derivative", "chain-rule-multivariable"],
+  "prerequisites": [
+    "partial-derivative"
+  ],
+  "related": [
+    "partial-derivative",
+    "chain-rule-multivariable"
+  ],
   "level": "calculus-3",
-  "tags": ["multivariable", "gradient", "vectors"],
-  "topic": "partial-derivatives"
+  "tags": [
+    "multivariable",
+    "gradient",
+    "vectors"
+  ],
+  "topic": "partial-derivatives",
+  "proof": "\u2207f = (\u2202f/\u2202x, \u2202f/\u2202y, \u2202f/\u2202z). Points in direction of steepest ascent. Proof: Directional derivative D_u f = \u2207f \u00b7 u. Maximum when u parallel to \u2207f. Magnitude |\u2207f| gives maximum rate of change. Gradient is perpendicular to level curves/surfaces."
 }

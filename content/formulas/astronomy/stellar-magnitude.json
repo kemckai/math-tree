@@ -2,11 +2,11 @@
   "id": "stellar-magnitude",
   "name": "Stellar Magnitude Scale",
   "latex": "m_1 - m_2 = -2.5\\log_{10}\\left(\\frac{F_1}{F_2}\\right), \\quad M = m - 5\\log_{10}(d) + 5",
-  "explanation": "Magnitude measures stellar brightness on logarithmic scale. Apparent magnitude (m) is observed brightness. Absolute magnitude (M) is brightness at 10 parsecs distance. Lower magnitude = brighter star. Each magnitude step is 2.512× brightness difference. Used to compare star brightnesses and calculate distances. Historical scale (Hipparchus) now quantified mathematically.",
+  "explanation": "Magnitude measures stellar brightness on logarithmic scale. Apparent magnitude (m) is observed brightness. Absolute magnitude (M) is brightness at 10 parsecs distance. Lower magnitude = brighter star. Each magnitude step is 2.512\u00d7 brightness difference. Used to compare star brightnesses and calculate distances. Historical scale (Hipparchus) now quantified mathematically.",
   "examples": [
     {
       "problem": "Star A is magnitude 2, Star B is magnitude 7. How much brighter is A?",
-      "solution": "100× brighter",
+      "solution": "100\u00d7 brighter",
       "steps": [
         "m_A - m_B = -2.5 log(F_A/F_B)",
         "2 - 7 = -2.5 log(F_A/F_B)",
@@ -26,8 +26,17 @@
     }
   ],
   "prerequisites": [],
-  "related": ["stellar-luminosity", "distance-measurements"],
+  "related": [
+    "stellar-luminosity",
+    "distance-measurements"
+  ],
   "level": "algebra-2",
-  "tags": ["astronomy", "stars", "magnitude", "brightness"],
-  "topic": "astronomy"
+  "tags": [
+    "astronomy",
+    "stars",
+    "magnitude",
+    "brightness"
+  ],
+  "topic": "astronomy",
+  "proof": "m\u2081 - m\u2082 = -2.5 log\u2081\u2080(F\u2081/F\u2082). Logarithmic scale: each magnitude step is 2.512\u00d7 brightness (5 magnitudes = 100\u00d7). Historical: Hipparchus classified stars 1-6. Pogson quantified: 5 magnitudes = 100\u00d7 brightness, so each magnitude = 100^(1/5) = 2.512\u00d7."
 }

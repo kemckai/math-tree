@@ -5,29 +5,41 @@
   "explanation": "A voltage divider uses two resistors in series to produce a fraction of the input voltage. This is one of the most common and useful circuits in electronics, used for level shifting, sensor interfacing, and creating reference voltages. The output voltage is proportional to the ratio of the bottom resistor to the total resistance. Voltage dividers are simple but essential building blocks.",
   "examples": [
     {
-      "problem": "A voltage divider uses R₁ = 3kΩ and R₂ = 2kΩ with 10V input. What is V_out?",
+      "problem": "A voltage divider uses R\u2081 = 3k\u03a9 and R\u2082 = 2k\u03a9 with 10V input. What is V_out?",
       "solution": "4V",
       "steps": [
-        "V_out = V_in × R₂/(R₁ + R₂)",
-        "V_out = 10 × 2000/(3000 + 2000)",
-        "V_out = 10 × 2000/5000 = 10 × 0.4 = 4V"
+        "V_out = V_in \u00d7 R\u2082/(R\u2081 + R\u2082)",
+        "V_out = 10 \u00d7 2000/(3000 + 2000)",
+        "V_out = 10 \u00d7 2000/5000 = 10 \u00d7 0.4 = 4V"
       ]
     },
     {
-      "problem": "You need 3V from a 9V battery. If R₁ = 4kΩ, what should R₂ be?",
-      "solution": "2kΩ",
+      "problem": "You need 3V from a 9V battery. If R\u2081 = 4k\u03a9, what should R\u2082 be?",
+      "solution": "2k\u03a9",
       "steps": [
-        "3 = 9 × R₂/(4000 + R₂)",
-        "3(4000 + R₂) = 9R₂",
-        "12000 + 3R₂ = 9R₂",
-        "12000 = 6R₂",
-        "R₂ = 2000Ω = 2kΩ"
+        "3 = 9 \u00d7 R\u2082/(4000 + R\u2082)",
+        "3(4000 + R\u2082) = 9R\u2082",
+        "12000 + 3R\u2082 = 9R\u2082",
+        "12000 = 6R\u2082",
+        "R\u2082 = 2000\u03a9 = 2k\u03a9"
       ]
     }
   ],
-  "prerequisites": ["series-resistance", "ohms-law"],
-  "related": ["series-resistance", "current-divider"],
+  "prerequisites": [
+    "series-resistance",
+    "ohms-law"
+  ],
+  "related": [
+    "series-resistance",
+    "current-divider"
+  ],
   "level": "algebra-1",
-  "tags": ["electronics", "circuits", "voltage", "dividers"],
-  "topic": "electronics"
+  "tags": [
+    "electronics",
+    "circuits",
+    "voltage",
+    "dividers"
+  ],
+  "topic": "electronics",
+  "proof": "V_out = V_in \u00d7 R\u2082/(R\u2081+R\u2082). For series resistors, current I = V_in/(R\u2081+R\u2082). Voltage across R\u2082: V_out = IR\u2082 = V_inR\u2082/(R\u2081+R\u2082). Ratio of resistances determines output voltage. Common circuit for reference voltages."
 }

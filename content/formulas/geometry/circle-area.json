@@ -2,30 +2,39 @@
   "id": "circle-area",
   "name": "Area of a Circle",
   "latex": "A = \\pi r^2",
-  "explanation": "The area of a circle is π (pi, approximately 3.14159) times the square of the radius. The radius is the distance from the center to any point on the circle. This formula shows that area grows quadratically with radius—doubling the radius quadruples the area. π is an irrational number representing the ratio of a circle's circumference to its diameter.",
+  "explanation": "The area of a circle is \u03c0 (pi, approximately 3.14159) times the square of the radius. The radius is the distance from the center to any point on the circle. This formula shows that area grows quadratically with radius\u2014doubling the radius quadruples the area. \u03c0 is an irrational number representing the ratio of a circle's circumference to its diameter.",
   "examples": [
     {
       "problem": "Find the area of a circle with radius 5 cm",
-      "solution": "25π cm² or approximately 78.54 cm²",
+      "solution": "25\u03c0 cm\u00b2 or approximately 78.54 cm\u00b2",
       "steps": [
-        "A = πr²",
-        "A = π(5)² = π(25) = 25π cm²",
-        "Using π ≈ 3.14159: A ≈ 78.54 cm²"
+        "A = \u03c0r\u00b2",
+        "A = \u03c0(5)\u00b2 = \u03c0(25) = 25\u03c0 cm\u00b2",
+        "Using \u03c0 \u2248 3.14159: A \u2248 78.54 cm\u00b2"
       ]
     },
     {
       "problem": "A circle has diameter 12. Find its area",
-      "solution": "36π square units or approximately 113.10 square units",
+      "solution": "36\u03c0 square units or approximately 113.10 square units",
       "steps": [
         "First find radius: r = diameter/2 = 12/2 = 6",
-        "A = π(6)² = 36π",
-        "A ≈ 113.10 square units"
+        "A = \u03c0(6)\u00b2 = 36\u03c0",
+        "A \u2248 113.10 square units"
       ]
     }
   ],
-  "prerequisites": ["exponent-rules"],
-  "related": ["circle-circumference"],
+  "prerequisites": [
+    "exponent-rules"
+  ],
+  "related": [
+    "circle-circumference"
+  ],
   "level": "geometry",
-  "tags": ["circle", "area", "geometry"],
-  "topic": "circles"
+  "tags": [
+    "circle",
+    "area",
+    "geometry"
+  ],
+  "topic": "circles",
+  "proof": "A = \u03c0r\u00b2. Proof: Divide circle into many thin rings. Ring at radius r has width dr, area \u2248 2\u03c0r dr. Total area = \u222b[0 to R] 2\u03c0r dr = \u03c0r\u00b2|\u2080\u1d3f = \u03c0R\u00b2. Alternatively, unroll circle into triangle with base 2\u03c0r and height r, area = \u00bd(2\u03c0r)(r) = \u03c0r\u00b2."
 }

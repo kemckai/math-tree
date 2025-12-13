@@ -2,29 +2,38 @@
   "id": "newtons-second-law-physics",
   "name": "Newton's Second Law",
   "latex": "\\mathbf{F} = m\\mathbf{a}, \\quad F_{net} = ma",
-  "explanation": "Newton's Second Law states that the net force on an object equals its mass times acceleration. This fundamental law governs all motion. Force is measured in newtons (N), mass in kilograms (kg), acceleration in m/s². This law explains how forces cause motion and is the foundation of classical mechanics. Used to analyze motion, calculate forces, and understand dynamics.",
+  "explanation": "Newton's Second Law states that the net force on an object equals its mass times acceleration. This fundamental law governs all motion. Force is measured in newtons (N), mass in kilograms (kg), acceleration in m/s\u00b2. This law explains how forces cause motion and is the foundation of classical mechanics. Used to analyze motion, calculate forces, and understand dynamics.",
   "examples": [
     {
-      "problem": "A 5kg object accelerates at 4 m/s². What is the net force?",
+      "problem": "A 5kg object accelerates at 4 m/s\u00b2. What is the net force?",
       "solution": "20 N",
       "steps": [
         "F = ma",
-        "F = 5 × 4 = 20 N"
+        "F = 5 \u00d7 4 = 20 N"
       ]
     },
     {
       "problem": "A 100N force acts on a 25kg mass. What is acceleration?",
-      "solution": "4 m/s²",
+      "solution": "4 m/s\u00b2",
       "steps": [
         "F = ma",
-        "100 = 25 × a",
-        "a = 4 m/s²"
+        "100 = 25 \u00d7 a",
+        "a = 4 m/s\u00b2"
       ]
     }
   ],
   "prerequisites": [],
-  "related": ["kinematic-equations", "friction"],
+  "related": [
+    "kinematic-equations",
+    "friction"
+  ],
   "level": "algebra-1",
-  "tags": ["physics", "mechanics", "forces", "dynamics"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "mechanics",
+    "forces",
+    "dynamics"
+  ],
+  "topic": "physics",
+  "proof": "F = ma. This is an empirical law based on observation. For constant mass, acceleration is proportional to force: a \u221d F. Also, for constant force, acceleration is inversely proportional to mass: a \u221d 1/m. Combining: a \u221d F/m, so F \u221d ma. The constant of proportionality is 1 in SI units, giving F = ma."
 }

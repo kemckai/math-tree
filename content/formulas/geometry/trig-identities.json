@@ -2,33 +2,44 @@
   "id": "trig-identities",
   "name": "Fundamental Trigonometric Identities",
   "latex": "\\sin^2 \\theta + \\cos^2 \\theta = 1, \\quad \\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}, \\quad 1 + \\tan^2 \\theta = \\sec^2 \\theta",
-  "explanation": "Trigonometric identities are equations that are true for all values of the variable. The most fundamental is the Pythagorean identity: sin²θ + cos²θ = 1, which comes from the unit circle. Other important identities relate the six trigonometric functions and are essential for simplifying expressions and solving equations.",
+  "explanation": "Trigonometric identities are equations that are true for all values of the variable. The most fundamental is the Pythagorean identity: sin\u00b2\u03b8 + cos\u00b2\u03b8 = 1, which comes from the unit circle. Other important identities relate the six trigonometric functions and are essential for simplifying expressions and solving equations.",
   "examples": [
     {
-      "problem": "If sin θ = 3/5, find cos θ",
-      "solution": "cos θ = 4/5 or -4/5",
+      "problem": "If sin \u03b8 = 3/5, find cos \u03b8",
+      "solution": "cos \u03b8 = 4/5 or -4/5",
       "steps": [
-        "Use identity: sin²θ + cos²θ = 1",
-        "(3/5)² + cos²θ = 1",
-        "9/25 + cos²θ = 1",
-        "cos²θ = 1 - 9/25 = 16/25",
-        "cos θ = ±4/5",
-        "If θ is in first quadrant: cos θ = 4/5"
+        "Use identity: sin\u00b2\u03b8 + cos\u00b2\u03b8 = 1",
+        "(3/5)\u00b2 + cos\u00b2\u03b8 = 1",
+        "9/25 + cos\u00b2\u03b8 = 1",
+        "cos\u00b2\u03b8 = 1 - 9/25 = 16/25",
+        "cos \u03b8 = \u00b14/5",
+        "If \u03b8 is in first quadrant: cos \u03b8 = 4/5"
       ]
     },
     {
-      "problem": "Simplify: sin²θ + cos²θ + tan²θ",
-      "solution": "1 + tan²θ = sec²θ",
+      "problem": "Simplify: sin\u00b2\u03b8 + cos\u00b2\u03b8 + tan\u00b2\u03b8",
+      "solution": "1 + tan\u00b2\u03b8 = sec\u00b2\u03b8",
       "steps": [
-        "sin²θ + cos²θ = 1 (Pythagorean identity)",
-        "So: 1 + tan²θ",
-        "Using identity: 1 + tan²θ = sec²θ"
+        "sin\u00b2\u03b8 + cos\u00b2\u03b8 = 1 (Pythagorean identity)",
+        "So: 1 + tan\u00b2\u03b8",
+        "Using identity: 1 + tan\u00b2\u03b8 = sec\u00b2\u03b8"
       ]
     }
   ],
-  "prerequisites": ["soh-cah-toa", "unit-circle"],
-  "related": ["soh-cah-toa", "unit-circle"],
+  "prerequisites": [
+    "soh-cah-toa",
+    "unit-circle"
+  ],
+  "related": [
+    "soh-cah-toa",
+    "unit-circle"
+  ],
   "level": "geometry",
-  "tags": ["trigonometry", "identities", "pythagorean"],
-  "topic": "trigonometry"
+  "tags": [
+    "trigonometry",
+    "identities",
+    "pythagorean"
+  ],
+  "topic": "trigonometry",
+  "proof": "sin\u00b2\u03b8 + cos\u00b2\u03b8 = 1. Proof: In unit circle, point (cos(\u03b8), sin(\u03b8)) lies on circle x\u00b2 + y\u00b2 = 1. Substituting: cos\u00b2(\u03b8) + sin\u00b2(\u03b8) = 1. Other identities follow from this and angle addition formulas."
 }

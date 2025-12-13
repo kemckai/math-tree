@@ -5,26 +5,37 @@
   "explanation": "Orbital velocity is speed needed for circular orbit at distance r from center mass M. Escape velocity is speed needed to escape gravitational field. These velocities determine satellite orbits, planetary motion, and whether objects are gravitationally bound. Used in space missions, satellite deployment, and understanding stellar systems.",
   "examples": [
     {
-      "problem": "What is orbital velocity at Earth's surface? (M = 5.97×10²⁴ kg, r = 6.37×10⁶ m)",
+      "problem": "What is orbital velocity at Earth's surface? (M = 5.97\u00d710\u00b2\u2074 kg, r = 6.37\u00d710\u2076 m)",
       "solution": "7.91 km/s",
       "steps": [
-        "v = √(GM/r)",
-        "v = √((6.674×10⁻¹¹ × 5.97×10²⁴) / 6.37×10⁶)",
-        "v = √(6.26×10⁷) = 7.91×10³ m/s = 7.91 km/s"
+        "v = \u221a(GM/r)",
+        "v = \u221a((6.674\u00d710\u207b\u00b9\u00b9 \u00d7 5.97\u00d710\u00b2\u2074) / 6.37\u00d710\u2076)",
+        "v = \u221a(6.26\u00d710\u2077) = 7.91\u00d710\u00b3 m/s = 7.91 km/s"
       ]
     },
     {
       "problem": "What is escape velocity?",
       "solution": "11.2 km/s",
       "steps": [
-        "v_escape = √(2GM/r) = √2 × v_orbital",
-        "v_escape = 1.414 × 7.91 = 11.2 km/s"
+        "v_escape = \u221a(2GM/r) = \u221a2 \u00d7 v_orbital",
+        "v_escape = 1.414 \u00d7 7.91 = 11.2 km/s"
       ]
     }
   ],
-  "prerequisites": ["gravitational-force"],
-  "related": ["gravitational-force", "keplers-laws"],
+  "prerequisites": [
+    "gravitational-force"
+  ],
+  "related": [
+    "gravitational-force",
+    "keplers-laws"
+  ],
   "level": "algebra-1",
-  "tags": ["astronomy", "orbital-mechanics", "velocity", "gravity"],
-  "topic": "astronomy"
+  "tags": [
+    "astronomy",
+    "orbital-mechanics",
+    "velocity",
+    "gravity"
+  ],
+  "topic": "astronomy",
+  "proof": "v = \u221a(GM/r). For circular orbit, centripetal force equals gravitational force: mv\u00b2/r = GMm/r\u00b2. Solving: v\u00b2 = GM/r, so v = \u221a(GM/r). Escape velocity: set kinetic energy equal to gravitational potential: \u00bdmv\u00b2 = GMm/r, giving v = \u221a(2GM/r)."
 }

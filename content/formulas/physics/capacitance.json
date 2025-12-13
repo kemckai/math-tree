@@ -2,28 +2,39 @@
   "id": "capacitance",
   "name": "Capacitance",
   "latex": "C = \\frac{Q}{V}, \\quad C = \\frac{\\epsilon_0 A}{d} \\text{ (parallel plate)}, \\quad U = \\frac{1}{2}CV^2",
-  "explanation": "Capacitance (C) measures ability to store charge. C = Q/V (charge per voltage). For parallel plates: C = ε₀A/d (area A, separation d). Energy stored: U = ½CV². Capacitors store electrical energy, filter signals, and are essential in circuits. Used in timing circuits, power supplies, and signal processing.",
+  "explanation": "Capacitance (C) measures ability to store charge. C = Q/V (charge per voltage). For parallel plates: C = \u03b5\u2080A/d (area A, separation d). Energy stored: U = \u00bdCV\u00b2. Capacitors store electrical energy, filter signals, and are essential in circuits. Used in timing circuits, power supplies, and signal processing.",
   "examples": [
     {
-      "problem": "Capacitor stores 10μC at 5V. What is capacitance?",
-      "solution": "2 μF",
+      "problem": "Capacitor stores 10\u03bcC at 5V. What is capacitance?",
+      "solution": "2 \u03bcF",
       "steps": [
         "C = Q/V",
-        "C = 10×10⁻⁶ / 5 = 2×10⁻⁶ F = 2 μF"
+        "C = 10\u00d710\u207b\u2076 / 5 = 2\u00d710\u207b\u2076 F = 2 \u03bcF"
       ]
     },
     {
       "problem": "What energy is stored?",
-      "solution": "25 μJ",
+      "solution": "25 \u03bcJ",
       "steps": [
-        "U = ½CV²",
-        "U = ½ × 2×10⁻⁶ × 5² = 25×10⁻⁶ J = 25 μJ"
+        "U = \u00bdCV\u00b2",
+        "U = \u00bd \u00d7 2\u00d710\u207b\u2076 \u00d7 5\u00b2 = 25\u00d710\u207b\u2076 J = 25 \u03bcJ"
       ]
     }
   ],
-  "prerequisites": ["electric-field"],
-  "related": ["electric-field", "rc-circuits"],
+  "prerequisites": [
+    "electric-field"
+  ],
+  "related": [
+    "electric-field",
+    "rc-circuits"
+  ],
   "level": "algebra-1",
-  "tags": ["physics", "electromagnetism", "capacitance", "electricity"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "electromagnetism",
+    "capacitance",
+    "electricity"
+  ],
+  "topic": "physics",
+  "proof": "C = Q/V. For parallel plates: C = \u03b5\u2080A/d. Proof: Electric field between plates E = \u03c3/\u03b5\u2080 = Q/(\u03b5\u2080A). Voltage V = Ed = Qd/(\u03b5\u2080A). Therefore C = Q/V = \u03b5\u2080A/d. Energy stored: U = \u00bdCV\u00b2 = \u00bdQV, from work done charging capacitor."
 }

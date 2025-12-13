@@ -2,16 +2,16 @@
   "id": "snells-law",
   "name": "Snell's Law (Refraction)",
   "latex": "n_1\\sin\\theta_1 = n_2\\sin\\theta_2",
-  "explanation": "Snell's law describes how light bends (refracts) when passing between media with different indices of refraction. n₁sin θ₁ = n₂sin θ₂, where n is refractive index and θ is angle from normal. Light bends toward normal when entering denser medium (higher n). Explains lenses, prisms, mirages, and optical phenomena. Essential for optics and understanding how light behaves.",
+  "explanation": "Snell's law describes how light bends (refracts) when passing between media with different indices of refraction. n\u2081sin \u03b8\u2081 = n\u2082sin \u03b8\u2082, where n is refractive index and \u03b8 is angle from normal. Light bends toward normal when entering denser medium (higher n). Explains lenses, prisms, mirages, and optical phenomena. Essential for optics and understanding how light behaves.",
   "examples": [
     {
-      "problem": "Light enters water (n = 1.33) from air (n = 1) at 30° angle. What is refracted angle?",
-      "solution": "22.1°",
+      "problem": "Light enters water (n = 1.33) from air (n = 1) at 30\u00b0 angle. What is refracted angle?",
+      "solution": "22.1\u00b0",
       "steps": [
-        "n₁sin θ₁ = n₂sin θ₂",
-        "1 × sin 30° = 1.33 × sin θ₂",
-        "0.5 = 1.33 sin θ₂",
-        "sin θ₂ = 0.376, θ₂ = 22.1°"
+        "n\u2081sin \u03b8\u2081 = n\u2082sin \u03b8\u2082",
+        "1 \u00d7 sin 30\u00b0 = 1.33 \u00d7 sin \u03b8\u2082",
+        "0.5 = 1.33 sin \u03b8\u2082",
+        "sin \u03b8\u2082 = 0.376, \u03b8\u2082 = 22.1\u00b0"
       ]
     },
     {
@@ -25,9 +25,20 @@
       ]
     }
   ],
-  "prerequisites": ["wave-equation"],
-  "related": ["wave-equation", "lens-equation"],
+  "prerequisites": [
+    "wave-equation"
+  ],
+  "related": [
+    "wave-equation",
+    "lens-equation"
+  ],
   "level": "algebra-1",
-  "tags": ["physics", "optics", "refraction", "light"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "optics",
+    "refraction",
+    "light"
+  ],
+  "topic": "physics",
+  "proof": "Snell's law follows from Fermat's principle (light takes path of least time) or Huygens' principle (wavefronts). At interface, wave speed changes, causing wavefront to bend. n\u2081sin(\u03b8\u2081) = n\u2082sin(\u03b8\u2082) ensures path minimizes time, where n = c/v is refractive index."
 }

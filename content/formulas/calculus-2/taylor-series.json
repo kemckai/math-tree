@@ -6,28 +6,39 @@
   "examples": [
     {
       "problem": "Find the Taylor series for e^x centered at 0",
-      "solution": "e^x = 1 + x + x²/2! + x³/3! + ...",
+      "solution": "e^x = 1 + x + x\u00b2/2! + x\u00b3/3! + ...",
       "steps": [
         "All derivatives of e^x are e^x",
         "At x = 0: f(0) = f'(0) = f''(0) = ... = 1",
         "Taylor series:",
-        "e^x = 1 + x/1! + x²/2! + x³/3! + ...",
-        "= Σ(n=0 to ∞) xⁿ/n!"
+        "e^x = 1 + x/1! + x\u00b2/2! + x\u00b3/3! + ...",
+        "= \u03a3(n=0 to \u221e) x\u207f/n!"
       ]
     },
     {
       "problem": "Find the Taylor series for sin(x) at 0",
-      "solution": "sin(x) = x - x³/3! + x⁵/5! - x⁷/7! + ...",
+      "solution": "sin(x) = x - x\u00b3/3! + x\u2075/5! - x\u2077/7! + ...",
       "steps": [
         "Derivatives cycle: sin, cos, -sin, -cos, ...",
         "At 0: sin(0)=0, cos(0)=1, -sin(0)=0, -cos(0)=-1, ...",
-        "sin(x) = x - x³/3! + x⁵/5! - x⁷/7! + ..."
+        "sin(x) = x - x\u00b3/3! + x\u2075/5! - x\u2077/7! + ..."
       ]
     }
   ],
-  "prerequisites": ["derivative-power-rule", "arithmetic-series"],
-  "related": ["maclaurin-series", "convergence-tests"],
+  "prerequisites": [
+    "derivative-power-rule",
+    "arithmetic-series"
+  ],
+  "related": [
+    "maclaurin-series",
+    "convergence-tests"
+  ],
   "level": "calculus-2",
-  "tags": ["series", "taylor", "approximation"],
-  "topic": "series"
+  "tags": [
+    "series",
+    "taylor",
+    "approximation"
+  ],
+  "topic": "series",
+  "proof": "Taylor series: f(x) = \u03a3[n=0 to \u221e] f^(n)(a)/n! (x-a)^n. Proof: Assume f(x) = \u03a3 c_n (x-a)^n. Differentiate term by term: f'(x) = \u03a3 n c_n (x-a)^(n-1). At x=a: f(a) = c\u2080, f'(a) = c\u2081, f''(a) = 2c\u2082, ..., f^(n)(a) = n! c_n. Therefore c_n = f^(n)(a)/n!."
 }

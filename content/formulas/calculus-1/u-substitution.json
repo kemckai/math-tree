@@ -5,28 +5,39 @@
   "explanation": "U-substitution is the integration counterpart to the chain rule. It simplifies integrals by substituting u for part of the integrand, making the integral easier to evaluate. The key is recognizing when the integrand contains a function and its derivative. After integrating with respect to u, substitute back to x.",
   "examples": [
     {
-      "problem": "Find ∫ 2x(x² + 1)³ dx",
-      "solution": "(x² + 1)⁴/4 + C",
+      "problem": "Find \u222b 2x(x\u00b2 + 1)\u00b3 dx",
+      "solution": "(x\u00b2 + 1)\u2074/4 + C",
       "steps": [
-        "Let u = x² + 1, then du = 2x dx",
-        "Substitute: ∫ u³ du",
-        "Integrate: u⁴/4 + C",
-        "Substitute back: (x² + 1)⁴/4 + C"
+        "Let u = x\u00b2 + 1, then du = 2x dx",
+        "Substitute: \u222b u\u00b3 du",
+        "Integrate: u\u2074/4 + C",
+        "Substitute back: (x\u00b2 + 1)\u2074/4 + C"
       ]
     },
     {
-      "problem": "Find ∫ cos(x) sin²(x) dx",
-      "solution": "sin³(x)/3 + C",
+      "problem": "Find \u222b cos(x) sin\u00b2(x) dx",
+      "solution": "sin\u00b3(x)/3 + C",
       "steps": [
         "Let u = sin(x), then du = cos(x) dx",
-        "∫ u² du = u³/3 + C",
-        "= sin³(x)/3 + C"
+        "\u222b u\u00b2 du = u\u00b3/3 + C",
+        "= sin\u00b3(x)/3 + C"
       ]
     }
   ],
-  "prerequisites": ["basic-integrals", "chain-rule"],
-  "related": ["basic-integrals", "fundamental-theorem"],
+  "prerequisites": [
+    "basic-integrals",
+    "chain-rule"
+  ],
+  "related": [
+    "basic-integrals",
+    "fundamental-theorem"
+  ],
   "level": "calculus-1",
-  "tags": ["integration", "substitution", "u-sub"],
-  "topic": "integrals"
+  "tags": [
+    "integration",
+    "substitution",
+    "u-sub"
+  ],
+  "topic": "integrals",
+  "proof": "If u = g(x), then du = g'(x)dx. For \u222bf(g(x))g'(x)dx, substitute: = \u222bf(u)du. After integrating, substitute back u = g(x). This works because the chain rule in reverse: d/dx[F(g(x))] = F'(g(x))g'(x) = f(g(x))g'(x), so F(g(x)) is antiderivative of f(g(x))g'(x)."
 }

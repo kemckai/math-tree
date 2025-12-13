@@ -2,13 +2,13 @@
   "id": "redshift",
   "name": "Cosmological Redshift",
   "latex": "z = \\frac{\\lambda_{obs} - \\lambda_{emit}}{\\lambda_{emit}} = \\frac{\\Delta\\lambda}{\\lambda_{emit}}, \\quad z = \\frac{v}{c} \\text{ (non-relativistic)}",
-  "explanation": "Redshift (z) measures how much light wavelengths stretch due to universe expansion. z = Δλ/λ_emit. For nearby objects: z ≈ v/c. For distant objects, cosmological redshift reveals expansion history. Used to measure distances, velocities, and study early universe. High redshift objects are very distant and old.",
+  "explanation": "Redshift (z) measures how much light wavelengths stretch due to universe expansion. z = \u0394\u03bb/\u03bb_emit. For nearby objects: z \u2248 v/c. For distant objects, cosmological redshift reveals expansion history. Used to measure distances, velocities, and study early universe. High redshift objects are very distant and old.",
   "examples": [
     {
       "problem": "Hydrogen line (656 nm) observed at 1312 nm. What is redshift?",
       "solution": "z = 1",
       "steps": [
-        "z = (λ_obs - λ_emit) / λ_emit",
+        "z = (\u03bb_obs - \u03bb_emit) / \u03bb_emit",
         "z = (1312 - 656) / 656 = 1"
       ]
     },
@@ -23,9 +23,21 @@
       ]
     }
   ],
-  "prerequisites": ["doppler-effect", "hubbles-law"],
-  "related": ["doppler-effect", "hubbles-law"],
+  "prerequisites": [
+    "doppler-effect",
+    "hubbles-law"
+  ],
+  "related": [
+    "doppler-effect",
+    "hubbles-law"
+  ],
   "level": "algebra-1",
-  "tags": ["astronomy", "cosmology", "redshift", "expansion"],
-  "topic": "astronomy"
+  "tags": [
+    "astronomy",
+    "cosmology",
+    "redshift",
+    "expansion"
+  ],
+  "topic": "astronomy",
+  "proof": "z = (\u03bb_obs - \u03bb_emit)/\u03bb_emit. For cosmological redshift, z = (1+z) - 1 where (1+z) is expansion factor. If universe expanded by factor (1+z), wavelengths stretch by same factor. For small z: z \u2248 v/c (Doppler shift). For large z: cosmological expansion dominates."
 }

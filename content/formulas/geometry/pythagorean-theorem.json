@@ -9,8 +9,8 @@
       "solution": "5",
       "steps": [
         "a = 3, b = 4, find c",
-        "c² = a² + b² = 3² + 4² = 9 + 16 = 25",
-        "c = √25 = 5"
+        "c\u00b2 = a\u00b2 + b\u00b2 = 3\u00b2 + 4\u00b2 = 9 + 16 = 25",
+        "c = \u221a25 = 5"
       ]
     },
     {
@@ -18,14 +18,24 @@
       "solution": "12",
       "steps": [
         "c = 13, a = 5, find b",
-        "b² = c² - a² = 13² - 5² = 169 - 25 = 144",
-        "b = √144 = 12"
+        "b\u00b2 = c\u00b2 - a\u00b2 = 13\u00b2 - 5\u00b2 = 169 - 25 = 144",
+        "b = \u221a144 = 12"
       ]
     }
   ],
-  "prerequisites": ["exponent-rules"],
-  "related": ["triangle-area", "soh-cah-toa"],
+  "prerequisites": [
+    "exponent-rules"
+  ],
+  "related": [
+    "triangle-area",
+    "soh-cah-toa"
+  ],
   "level": "geometry",
-  "tags": ["right-triangle", "geometry", "theorem"],
-  "topic": "triangles"
+  "tags": [
+    "right-triangle",
+    "geometry",
+    "theorem"
+  ],
+  "topic": "triangles",
+  "proof": "Geometric proof: Construct a square with side length (a+b). Inside, place four right triangles with legs a and b, arranged so their hypotenuses form a smaller square with side c. The area of the large square is (a+b)\u00b2 = a\u00b2 + 2ab + b\u00b2. The area is also equal to the four triangles (4 \u00d7 \u00bdab = 2ab) plus the inner square (c\u00b2). Therefore: a\u00b2 + 2ab + b\u00b2 = 2ab + c\u00b2. Subtracting 2ab from both sides: a\u00b2 + b\u00b2 = c\u00b2."
 }

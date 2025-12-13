@@ -8,24 +8,34 @@
       "problem": "Find the dot product of a = (3, 4) and b = (1, 2)",
       "solution": "11",
       "steps": [
-        "a · b = a_x b_x + a_y b_y",
+        "a \u00b7 b = a_x b_x + a_y b_y",
         "= 3(1) + 4(2)",
         "= 3 + 8 = 11"
       ]
     },
     {
       "problem": "Find the angle between vectors (1, 0) and (0, 1)",
-      "solution": "90°",
+      "solution": "90\u00b0",
       "steps": [
-        "Dot product: (1, 0) · (0, 1) = 1(0) + 0(1) = 0",
+        "Dot product: (1, 0) \u00b7 (0, 1) = 1(0) + 0(1) = 0",
         "Since dot product = 0, vectors are perpendicular",
-        "Angle = 90°"
+        "Angle = 90\u00b0"
       ]
     }
   ],
-  "prerequisites": ["soh-cah-toa"],
-  "related": ["cross-product", "vector-magnitude"],
+  "prerequisites": [
+    "soh-cah-toa"
+  ],
+  "related": [
+    "cross-product",
+    "vector-magnitude"
+  ],
   "level": "calculus-3",
-  "tags": ["vectors", "dot-product", "multivariable"],
-  "topic": "vectors"
+  "tags": [
+    "vectors",
+    "dot-product",
+    "multivariable"
+  ],
+  "topic": "vectors",
+  "proof": "a\u00b7b = |a||b|cos(\u03b8). Geometric definition: projection of one vector onto another. Algebraic: a\u00b7b = a_xb_x + a_yb_y + a_zb_z. Equivalence proven using law of cosines: |a-b|\u00b2 = |a|\u00b2 + |b|\u00b2 - 2|a||b|cos(\u03b8) = (a-b)\u00b7(a-b) = |a|\u00b2 + |b|\u00b2 - 2a\u00b7b, so a\u00b7b = |a||b|cos(\u03b8)."
 }

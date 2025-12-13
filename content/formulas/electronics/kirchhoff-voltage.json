@@ -15,9 +15,20 @@
       ]
     }
   ],
-  "prerequisites": ["ohms-law"],
-  "related": ["kirchhoff-current", "mesh-analysis"],
+  "prerequisites": [
+    "ohms-law"
+  ],
+  "related": [
+    "kirchhoff-current",
+    "mesh-analysis"
+  ],
   "level": "algebra-1",
-  "tags": ["electronics", "circuit-analysis", "kirchhoff", "laws"],
-  "topic": "electronics"
+  "tags": [
+    "electronics",
+    "circuit-analysis",
+    "kirchhoff",
+    "laws"
+  ],
+  "topic": "electronics",
+  "proof": "\u03a3V = 0 around any closed loop. Conservation of energy: sum of voltage drops equals sum of voltage rises. Proof: Electric potential is conservative field, so work done around closed path is zero. This is Kirchhoff's voltage law (KVL)."
 }

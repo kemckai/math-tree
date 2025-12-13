@@ -2,33 +2,44 @@
   "id": "chain-rule",
   "name": "Chain Rule for Derivatives",
   "latex": "\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)",
-  "explanation": "The chain rule finds the derivative of composite functions (functions within functions). If y = f(g(x)), then dy/dx = f'(g(x)) · g'(x). In words: derivative of the outer function (evaluated at the inner function) times the derivative of the inner function. This is essential for differentiating functions like sin(x²) or (x² + 1)³.",
+  "explanation": "The chain rule finds the derivative of composite functions (functions within functions). If y = f(g(x)), then dy/dx = f'(g(x)) \u00b7 g'(x). In words: derivative of the outer function (evaluated at the inner function) times the derivative of the inner function. This is essential for differentiating functions like sin(x\u00b2) or (x\u00b2 + 1)\u00b3.",
   "examples": [
     {
-      "problem": "Find the derivative of f(x) = (x² + 1)³",
-      "solution": "f'(x) = 6x(x² + 1)²",
+      "problem": "Find the derivative of f(x) = (x\u00b2 + 1)\u00b3",
+      "solution": "f'(x) = 6x(x\u00b2 + 1)\u00b2",
       "steps": [
-        "Outer function: u³, Inner function: u = x² + 1",
-        "Derivative of outer: 3u²",
+        "Outer function: u\u00b3, Inner function: u = x\u00b2 + 1",
+        "Derivative of outer: 3u\u00b2",
         "Derivative of inner: 2x",
-        "Chain rule: f'(x) = 3(x² + 1)² · 2x",
-        "= 6x(x² + 1)²"
+        "Chain rule: f'(x) = 3(x\u00b2 + 1)\u00b2 \u00b7 2x",
+        "= 6x(x\u00b2 + 1)\u00b2"
       ]
     },
     {
-      "problem": "Differentiate g(x) = sin(x²)",
-      "solution": "g'(x) = 2x cos(x²)",
+      "problem": "Differentiate g(x) = sin(x\u00b2)",
+      "solution": "g'(x) = 2x cos(x\u00b2)",
       "steps": [
-        "Outer: sin(u), Inner: u = x²",
+        "Outer: sin(u), Inner: u = x\u00b2",
         "Derivative of outer: cos(u)",
         "Derivative of inner: 2x",
-        "g'(x) = cos(x²) · 2x = 2x cos(x²)"
+        "g'(x) = cos(x\u00b2) \u00b7 2x = 2x cos(x\u00b2)"
       ]
     }
   ],
-  "prerequisites": ["derivative-power-rule"],
-  "related": ["derivative-power-rule", "product-rule", "quotient-rule"],
+  "prerequisites": [
+    "derivative-power-rule"
+  ],
+  "related": [
+    "derivative-power-rule",
+    "product-rule",
+    "quotient-rule"
+  ],
   "level": "calculus-1",
-  "tags": ["derivatives", "chain-rule", "composite"],
-  "topic": "derivatives"
+  "tags": [
+    "derivatives",
+    "chain-rule",
+    "composite"
+  ],
+  "topic": "derivatives",
+  "proof": "Let y = f(u) and u = g(x), so y = f(g(x)). By definition: dy/dx = lim(h\u21920) [f(g(x+h)) - f(g(x))]/h. Multiply by [g(x+h) - g(x)]/[g(x+h) - g(x)]: = lim(h\u21920) {[f(g(x+h)) - f(g(x))]/[g(x+h) - g(x)]} \u00d7 {[g(x+h) - g(x)]/h}. As h\u21920, g(x+h) - g(x) \u2192 0, so first factor \u2192 f'(g(x)) = f'(u), second factor \u2192 g'(x). Therefore: dy/dx = f'(u) \u00d7 g'(x) = f'(g(x)) \u00d7 g'(x)."
 }

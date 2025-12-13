@@ -2,14 +2,14 @@
   "id": "entropy",
   "name": "Entropy and Second Law",
   "latex": "\\Delta S = \\frac{Q}{T}, \\quad S = k_B \\ln W",
-  "explanation": "Entropy (S) measures disorder or randomness. Second law: entropy of isolated system always increases. ΔS = Q/T for reversible processes. Boltzmann: S = k_B ln W (W = number of microstates). Entropy explains why processes are irreversible, why heat flows from hot to cold, and the arrow of time. Fundamental to understanding thermodynamics and statistical mechanics.",
+  "explanation": "Entropy (S) measures disorder or randomness. Second law: entropy of isolated system always increases. \u0394S = Q/T for reversible processes. Boltzmann: S = k_B ln W (W = number of microstates). Entropy explains why processes are irreversible, why heat flows from hot to cold, and the arrow of time. Fundamental to understanding thermodynamics and statistical mechanics.",
   "examples": [
     {
       "problem": "1000J heat flows into system at 300K. What is entropy change?",
       "solution": "3.33 J/K",
       "steps": [
-        "ΔS = Q/T",
-        "ΔS = 1000 / 300 = 3.33 J/K"
+        "\u0394S = Q/T",
+        "\u0394S = 1000 / 300 = 3.33 J/K"
       ]
     },
     {
@@ -23,9 +23,20 @@
       ]
     }
   ],
-  "prerequisites": ["thermodynamics-first-law-physics"],
-  "related": ["thermodynamics-first-law-physics", "heat-engines"],
+  "prerequisites": [
+    "thermodynamics-first-law-physics"
+  ],
+  "related": [
+    "thermodynamics-first-law-physics",
+    "heat-engines"
+  ],
   "level": "calculus-2",
-  "tags": ["physics", "thermodynamics", "entropy", "second-law"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "thermodynamics",
+    "entropy",
+    "second-law"
+  ],
+  "topic": "physics",
+  "proof": "\u0394S = Q/T for reversible processes. Statistical definition: S = k_B ln(W) where W is number of microstates. Second law: \u0394S \u2265 0 for isolated systems. Proof: More microstates = higher probability. Systems evolve toward maximum entropy (most probable state)."
 }

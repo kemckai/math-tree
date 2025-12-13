@@ -15,17 +15,28 @@
     },
     {
       "problem": "How many comparisons needed to find element in 1000-element array?",
-      "solution": "At most 10 comparisons (log₂(1000) ≈ 10)",
+      "solution": "At most 10 comparisons (log\u2082(1000) \u2248 10)",
       "steps": [
         "Binary search halves search space each step",
-        "1000 → 500 → 250 → 125 → 62 → 31 → 15 → 7 → 3 → 1 → found",
-        "Maximum log₂(1000) ≈ 10 comparisons"
+        "1000 \u2192 500 \u2192 250 \u2192 125 \u2192 62 \u2192 31 \u2192 15 \u2192 7 \u2192 3 \u2192 1 \u2192 found",
+        "Maximum log\u2082(1000) \u2248 10 comparisons"
       ]
     }
   ],
-  "prerequisites": ["logarithm-properties"],
-  "related": ["big-o-notation", "sorting-algorithms"],
+  "prerequisites": [
+    "logarithm-properties"
+  ],
+  "related": [
+    "big-o-notation",
+    "sorting-algorithms"
+  ],
   "level": "algebra-1",
-  "tags": ["programming", "algorithms", "searching", "binary-search"],
-  "topic": "programming"
+  "tags": [
+    "programming",
+    "algorithms",
+    "searching",
+    "binary-search"
+  ],
+  "topic": "programming",
+  "proof": "O(log n) search in sorted array. Compare target to middle element. If equal, found. If target < middle, search left half. If target > middle, search right half. Repeat. Each step eliminates half of remaining elements. Maximum comparisons = \u2308log\u2082(n)\u2309."
 }

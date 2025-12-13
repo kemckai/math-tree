@@ -5,13 +5,13 @@
   "explanation": "Energy is conserved in isolated systems - it can change form but total energy remains constant. Kinetic energy (KE) is energy of motion, proportional to mass and velocity squared. Potential energy (PE) is stored energy due to position. This principle is fundamental to physics, explaining motion, transformations, and system behavior. Used in analyzing collisions, oscillations, and energy transformations.",
   "examples": [
     {
-      "problem": "A 2kg object falls from 10m height. What is its speed at ground? (g = 9.8 m/s²)",
+      "problem": "A 2kg object falls from 10m height. What is its speed at ground? (g = 9.8 m/s\u00b2)",
       "solution": "14 m/s",
       "steps": [
-        "Initial: PE = mgh = 2 × 9.8 × 10 = 196 J, KE = 0",
+        "Initial: PE = mgh = 2 \u00d7 9.8 \u00d7 10 = 196 J, KE = 0",
         "Final: PE = 0, KE = 196 J",
-        "KE = ½mv², so 196 = ½ × 2 × v²",
-        "v² = 196, v = 14 m/s"
+        "KE = \u00bdmv\u00b2, so 196 = \u00bd \u00d7 2 \u00d7 v\u00b2",
+        "v\u00b2 = 196, v = 14 m/s"
       ]
     },
     {
@@ -25,9 +25,20 @@
       ]
     }
   ],
-  "prerequisites": ["newtons-second-law-physics"],
-  "related": ["work-energy-theorem", "momentum-conservation"],
+  "prerequisites": [
+    "newtons-second-law-physics"
+  ],
+  "related": [
+    "work-energy-theorem",
+    "momentum-conservation"
+  ],
   "level": "algebra-1",
-  "tags": ["physics", "mechanics", "energy", "conservation"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "mechanics",
+    "energy",
+    "conservation"
+  ],
+  "topic": "physics",
+  "proof": "Energy conservation follows from time-translation symmetry (Noether's theorem). If physics laws don't change with time, energy is conserved. For mechanical systems: Work-Energy Theorem shows W = \u0394KE. If only conservative forces, W = -\u0394PE, so \u0394KE = -\u0394PE, or \u0394(KE + PE) = 0, meaning total energy is constant."
 }

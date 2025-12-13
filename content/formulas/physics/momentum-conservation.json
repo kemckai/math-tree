@@ -8,9 +8,9 @@
       "problem": "2kg object at 5 m/s collides with 3kg object at rest. They stick together. What is final velocity?",
       "solution": "2 m/s",
       "steps": [
-        "Initial momentum: p₁ = 2 × 5 = 10 kg⋅m/s, p₂ = 0",
-        "Total: 10 kg⋅m/s",
-        "Final: (2 + 3) × v = 10",
+        "Initial momentum: p\u2081 = 2 \u00d7 5 = 10 kg\u22c5m/s, p\u2082 = 0",
+        "Total: 10 kg\u22c5m/s",
+        "Final: (2 + 3) \u00d7 v = 10",
         "v = 10/5 = 2 m/s"
       ]
     },
@@ -25,9 +25,20 @@
       ]
     }
   ],
-  "prerequisites": ["newtons-second-law-physics"],
-  "related": ["energy-conservation", "collisions"],
+  "prerequisites": [
+    "newtons-second-law-physics"
+  ],
+  "related": [
+    "energy-conservation",
+    "collisions"
+  ],
   "level": "algebra-1",
-  "tags": ["physics", "mechanics", "momentum", "collisions"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "mechanics",
+    "momentum",
+    "collisions"
+  ],
+  "topic": "physics",
+  "proof": "Momentum conservation follows from Newton's third law: F\u2081\u2082 = -F\u2082\u2081. For two particles: dp\u2081/dt = F\u2081\u2082, dp\u2082/dt = F\u2082\u2081. Adding: d(p\u2081 + p\u2082)/dt = F\u2081\u2082 + F\u2082\u2081 = 0. Therefore p\u2081 + p\u2082 = constant. This extends to systems with no external forces."
 }

@@ -1,16 +1,16 @@
 {
   "id": "schrodinger-equation-physics",
-  "name": "Schrödinger Equation",
+  "name": "Schr\u00f6dinger Equation",
   "latex": "i\\hbar\\frac{\\partial\\psi}{\\partial t} = \\hat{H}\\psi",
-  "explanation": "Schrödinger's equation is the fundamental equation of quantum mechanics, describing how quantum states evolve. The wavefunction ψ contains all information about a quantum system. Ĥ is the Hamiltonian operator (total energy). This equation revolutionized physics, explaining atomic structure, chemical bonding, and quantum phenomena. Predicts probabilities, not certainties - fundamental to quantum mechanics.",
+  "explanation": "Schr\u00f6dinger's equation is the fundamental equation of quantum mechanics, describing how quantum states evolve. The wavefunction \u03c8 contains all information about a quantum system. \u0124 is the Hamiltonian operator (total energy). This equation revolutionized physics, explaining atomic structure, chemical bonding, and quantum phenomena. Predicts probabilities, not certainties - fundamental to quantum mechanics.",
   "examples": [
     {
       "problem": "What does the wavefunction represent?",
-      "solution": "Probability amplitude - |ψ|² gives probability of finding particle",
+      "solution": "Probability amplitude - |\u03c8|\u00b2 gives probability of finding particle",
       "steps": [
-        "Wavefunction ψ is complex-valued",
-        "|ψ|² = probability density",
-        "Integral of |ψ|² over space = 1 (normalization)",
+        "Wavefunction \u03c8 is complex-valued",
+        "|\u03c8|\u00b2 = probability density",
+        "Integral of |\u03c8|\u00b2 over space = 1 (normalization)",
         "Quantum mechanics is probabilistic, not deterministic"
       ]
     },
@@ -18,16 +18,27 @@
       "problem": "Why is quantum mechanics probabilistic?",
       "solution": "Heisenberg uncertainty principle - can't know position and momentum exactly",
       "steps": [
-        "Uncertainty: Δx Δp ≥ ℏ/2",
+        "Uncertainty: \u0394x \u0394p \u2265 \u210f/2",
         "Particles don't have definite positions until measured",
         "Wavefunction describes probability distribution",
         "Measurement collapses wavefunction to specific state"
       ]
     }
   ],
-  "prerequisites": ["derivative-power-rule"],
-  "related": ["heisenberg-uncertainty", "quantum-mechanics"],
+  "prerequisites": [
+    "derivative-power-rule"
+  ],
+  "related": [
+    "heisenberg-uncertainty",
+    "quantum-mechanics"
+  ],
   "level": "calculus-3",
-  "tags": ["physics", "quantum-mechanics", "schrodinger", "wavefunction"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "quantum-mechanics",
+    "schrodinger",
+    "wavefunction"
+  ],
+  "topic": "physics",
+  "proof": "Schr\u00f6dinger equation: i\u210f\u2202\u03c8/\u2202t = \u0124\u03c8. Derived from energy conservation: E = KE + PE. In quantum mechanics, E \u2192 i\u210f\u2202/\u2202t, p \u2192 -i\u210f\u2207, so \u0124 = -\u210f\u00b2/(2m)\u2207\u00b2 + V. This gives time-dependent Schr\u00f6dinger equation. For stationary states: \u0124\u03c8 = E\u03c8 (time-independent form)."
 }

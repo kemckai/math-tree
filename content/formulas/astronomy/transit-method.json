@@ -2,16 +2,16 @@
   "id": "transit-method",
   "name": "Exoplanet Transit Method",
   "latex": "\\frac{\\Delta F}{F} = \\left(\\frac{R_p}{R_\\star}\\right)^2, \\quad R_p = R_\\star\\sqrt{\\frac{\\Delta F}{F}}",
-  "explanation": "Transit method detects exoplanets when they pass in front of star, causing small brightness dip. Fractional brightness decrease equals (R_p/R_⋆)². Used by Kepler and TESS missions to find thousands of exoplanets. Provides planet radius and orbital period. Combined with Doppler shift, gives planet mass and density.",
+  "explanation": "Transit method detects exoplanets when they pass in front of star, causing small brightness dip. Fractional brightness decrease equals (R_p/R_\u22c6)\u00b2. Used by Kepler and TESS missions to find thousands of exoplanets. Provides planet radius and orbital period. Combined with Doppler shift, gives planet mass and density.",
   "examples": [
     {
       "problem": "Star dims by 1% during transit. Star radius is 1 solar radius. What is planet radius?",
       "solution": "0.1 solar radii (Jupiter-sized)",
       "steps": [
-        "ΔF/F = (R_p/R_⋆)²",
-        "0.01 = (R_p/R_⋆)²",
-        "R_p/R_⋆ = √0.01 = 0.1",
-        "R_p = 0.1 R_⋆ ≈ Jupiter size"
+        "\u0394F/F = (R_p/R_\u22c6)\u00b2",
+        "0.01 = (R_p/R_\u22c6)\u00b2",
+        "R_p/R_\u22c6 = \u221a0.01 = 0.1",
+        "R_p = 0.1 R_\u22c6 \u2248 Jupiter size"
       ]
     },
     {
@@ -25,9 +25,20 @@
       ]
     }
   ],
-  "prerequisites": ["stellar-magnitude"],
-  "related": ["doppler-shift-astronomy", "exoplanets"],
+  "prerequisites": [
+    "stellar-magnitude"
+  ],
+  "related": [
+    "doppler-shift-astronomy",
+    "exoplanets"
+  ],
   "level": "algebra-1",
-  "tags": ["astronomy", "exoplanets", "transit", "detection"],
-  "topic": "astronomy"
+  "tags": [
+    "astronomy",
+    "exoplanets",
+    "transit",
+    "detection"
+  ],
+  "topic": "astronomy",
+  "proof": "\u0394F/F = (R_p/R_\u22c6)\u00b2. When planet transits, blocks area \u03c0R_p\u00b2 of star with area \u03c0R_\u22c6\u00b2. Fractional decrease in flux equals fractional decrease in area: \u0394F/F = (\u03c0R_p\u00b2)/(\u03c0R_\u22c6\u00b2) = (R_p/R_\u22c6)\u00b2. Larger planets cause bigger dips."
 }

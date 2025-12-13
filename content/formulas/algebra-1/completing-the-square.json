@@ -2,35 +2,46 @@
   "id": "completing-the-square",
   "name": "Completing the Square",
   "latex": "x^2 + bx + c = (x + \\frac{b}{2})^2 - (\\frac{b}{2})^2 + c",
-  "explanation": "Completing the square is a method for solving quadratic equations by rewriting them in the form (x + h)² = k. This technique is useful for deriving the quadratic formula and for solving equations that don't factor easily. The key is to add and subtract (b/2)² to create a perfect square trinomial.",
+  "explanation": "Completing the square is a method for solving quadratic equations by rewriting them in the form (x + h)\u00b2 = k. This technique is useful for deriving the quadratic formula and for solving equations that don't factor easily. The key is to add and subtract (b/2)\u00b2 to create a perfect square trinomial.",
   "examples": [
     {
-      "problem": "Solve x² + 6x + 5 = 0 by completing the square",
+      "problem": "Solve x\u00b2 + 6x + 5 = 0 by completing the square",
       "solution": "x = -1 or x = -5",
       "steps": [
-        "Start: x² + 6x + 5 = 0",
-        "Move constant: x² + 6x = -5",
-        "Add (6/2)² = 9 to both sides: x² + 6x + 9 = -5 + 9",
-        "Factor left side: (x + 3)² = 4",
-        "Take square root: x + 3 = ±2",
+        "Start: x\u00b2 + 6x + 5 = 0",
+        "Move constant: x\u00b2 + 6x = -5",
+        "Add (6/2)\u00b2 = 9 to both sides: x\u00b2 + 6x + 9 = -5 + 9",
+        "Factor left side: (x + 3)\u00b2 = 4",
+        "Take square root: x + 3 = \u00b12",
         "Solve: x = -3 + 2 = -1 or x = -3 - 2 = -5"
       ]
     },
     {
-      "problem": "Complete the square for x² - 4x + 1",
-      "solution": "(x - 2)² - 3",
+      "problem": "Complete the square for x\u00b2 - 4x + 1",
+      "solution": "(x - 2)\u00b2 - 3",
       "steps": [
-        "x² - 4x + 1",
+        "x\u00b2 - 4x + 1",
         "Take half of -4: -4/2 = -2",
-        "Add and subtract (-2)² = 4:",
-        "x² - 4x + 4 - 4 + 1",
-        "Factor: (x - 2)² - 3"
+        "Add and subtract (-2)\u00b2 = 4:",
+        "x\u00b2 - 4x + 4 - 4 + 1",
+        "Factor: (x - 2)\u00b2 - 3"
       ]
     }
   ],
-  "prerequisites": ["quadratic-formula", "exponent-rules"],
-  "related": ["quadratic-formula", "factoring"],
+  "prerequisites": [
+    "quadratic-formula",
+    "exponent-rules"
+  ],
+  "related": [
+    "quadratic-formula",
+    "factoring"
+  ],
   "level": "algebra-1",
-  "tags": ["quadratic", "completing-square", "solving"],
-  "topic": "quadratics"
+  "tags": [
+    "quadratic",
+    "completing-square",
+    "solving"
+  ],
+  "topic": "quadratics",
+  "proof": "To solve ax\u00b2 + bx + c = 0, complete square: ax\u00b2 + bx = -c, divide by a: x\u00b2 + (b/a)x = -c/a. Add (b/2a)\u00b2: x\u00b2 + (b/a)x + (b/2a)\u00b2 = -c/a + (b/2a)\u00b2. Left side is perfect square: (x + b/2a)\u00b2 = (b\u00b2 - 4ac)/4a\u00b2. Take square root and solve for x."
 }

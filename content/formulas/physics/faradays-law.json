@@ -2,14 +2,14 @@
   "id": "faradays-law",
   "name": "Faraday's Law of Induction",
   "latex": "\\mathcal{E} = -\\frac{d\\Phi_B}{dt}, \\quad \\Phi_B = BA\\cos\\theta",
-  "explanation": "Faraday's law: changing magnetic flux induces electromotive force (EMF). EMF = -dΦ_B/dt where Φ_B is magnetic flux. Flux Φ_B = BA cos θ (B = field, A = area, θ = angle). Negative sign (Lenz's law) means induced current opposes change. This explains generators, transformers, and electromagnetic induction. Fundamental to electricity generation.",
+  "explanation": "Faraday's law: changing magnetic flux induces electromotive force (EMF). EMF = -d\u03a6_B/dt where \u03a6_B is magnetic flux. Flux \u03a6_B = BA cos \u03b8 (B = field, A = area, \u03b8 = angle). Negative sign (Lenz's law) means induced current opposes change. This explains generators, transformers, and electromagnetic induction. Fundamental to electricity generation.",
   "examples": [
     {
-      "problem": "Magnetic field changes from 0.5T to 1.5T in 0.1s through 0.02 m² loop. What is induced EMF?",
+      "problem": "Magnetic field changes from 0.5T to 1.5T in 0.1s through 0.02 m\u00b2 loop. What is induced EMF?",
       "solution": "0.2 V",
       "steps": [
-        "ΔΦ = B₂A - B₁A = (1.5 - 0.5) × 0.02 = 0.02 Wb",
-        "EMF = -ΔΦ/Δt = -0.02/0.1 = -0.2 V",
+        "\u0394\u03a6 = B\u2082A - B\u2081A = (1.5 - 0.5) \u00d7 0.02 = 0.02 Wb",
+        "EMF = -\u0394\u03a6/\u0394t = -0.02/0.1 = -0.2 V",
         "Magnitude: 0.2 V"
       ]
     },
@@ -18,15 +18,26 @@
       "solution": "Changing magnetic flux induces EMF (Faraday's law)",
       "steps": [
         "Moving magnet changes B field through coil",
-        "Changing flux: dΦ/dt ≠ 0",
-        "Faraday's law: EMF = -dΦ/dt",
+        "Changing flux: d\u03a6/dt \u2260 0",
+        "Faraday's law: EMF = -d\u03a6/dt",
         "Induced EMF drives current"
       ]
     }
   ],
-  "prerequisites": ["magnetic-force"],
-  "related": ["magnetic-force", "electromagnetic-induction"],
+  "prerequisites": [
+    "magnetic-force"
+  ],
+  "related": [
+    "magnetic-force",
+    "electromagnetic-induction"
+  ],
   "level": "calculus-1",
-  "tags": ["physics", "electromagnetism", "induction", "faraday"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "electromagnetism",
+    "induction",
+    "faraday"
+  ],
+  "topic": "physics",
+  "proof": "Faraday's law: EMF = -d\u03a6/dt. Proof: Moving conductor in magnetic field experiences force F = q(v \u00d7 B) on charges. Work done moving charge: W = F\u00b7d = q(v \u00d7 B)\u00b7d. EMF = W/q = (v \u00d7 B)\u00b7d. For changing flux: EMF = -d(BA)/dt = -d\u03a6/dt. Negative sign from Lenz's law (induced current opposes change)."
 }

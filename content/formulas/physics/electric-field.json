@@ -2,29 +2,40 @@
   "id": "electric-field",
   "name": "Electric Field",
   "latex": "E = \\frac{F}{q}, \\quad E = k\\frac{Q}{r^2} \\text{ (point charge)}",
-  "explanation": "Electric field (E) is force per unit charge, measured in N/C or V/m. Represents the force a charge would experience at a point. For a point charge Q: E = kQ/r². Electric fields explain how charges interact at a distance. Used in understanding capacitors, circuits, and electromagnetic phenomena. Field lines show direction and strength of electric field.",
+  "explanation": "Electric field (E) is force per unit charge, measured in N/C or V/m. Represents the force a charge would experience at a point. For a point charge Q: E = kQ/r\u00b2. Electric fields explain how charges interact at a distance. Used in understanding capacitors, circuits, and electromagnetic phenomena. Field lines show direction and strength of electric field.",
   "examples": [
     {
-      "problem": "A 5μC charge creates an electric field. What is field strength 0.2m away?",
-      "solution": "1.12 × 10⁶ N/C",
+      "problem": "A 5\u03bcC charge creates an electric field. What is field strength 0.2m away?",
+      "solution": "1.12 \u00d7 10\u2076 N/C",
       "steps": [
-        "E = kQ/r²",
-        "E = (8.99×10⁹) × (5×10⁻⁶) / (0.2)²",
-        "E = 4.495×10⁴ / 0.04 = 1.12×10⁶ N/C"
+        "E = kQ/r\u00b2",
+        "E = (8.99\u00d710\u2079) \u00d7 (5\u00d710\u207b\u2076) / (0.2)\u00b2",
+        "E = 4.495\u00d710\u2074 / 0.04 = 1.12\u00d710\u2076 N/C"
       ]
     },
     {
       "problem": "A 2nC charge experiences 0.5N force. What is electric field?",
-      "solution": "2.5 × 10⁸ N/C",
+      "solution": "2.5 \u00d7 10\u2078 N/C",
       "steps": [
         "E = F/q",
-        "E = 0.5 / (2×10⁻⁹) = 2.5×10⁸ N/C"
+        "E = 0.5 / (2\u00d710\u207b\u2079) = 2.5\u00d710\u2078 N/C"
       ]
     }
   ],
-  "prerequisites": ["coulombs-law"],
-  "related": ["coulombs-law", "electric-potential"],
+  "prerequisites": [
+    "coulombs-law"
+  ],
+  "related": [
+    "coulombs-law",
+    "electric-potential"
+  ],
   "level": "algebra-1",
-  "tags": ["physics", "electromagnetism", "electric-field", "electricity"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "electromagnetism",
+    "electric-field",
+    "electricity"
+  ],
+  "topic": "physics",
+  "proof": "E = F/q = kQ/r\u00b2. Defined as force per unit charge. For point charge Q, field strength E = kQ/r\u00b2 follows from Coulomb's law F = kQq/r\u00b2 divided by test charge q. Field lines show direction and strength. Superposition: Total field is vector sum of individual fields."
 }

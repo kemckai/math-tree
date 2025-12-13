@@ -2,38 +2,47 @@
   "id": "ohms-law",
   "name": "Ohm's Law",
   "latex": "V = IR",
-  "explanation": "Ohm's Law is the fundamental relationship in electronics, stating that voltage (V) equals current (I) times resistance (R). This simple equation governs how electrical circuits behave. Voltage is the electrical pressure that pushes current through a circuit, measured in volts (V). Current is the flow of electric charge, measured in amperes (A). Resistance opposes current flow, measured in ohms (Ω). Understanding this relationship is essential for analyzing any electrical circuit.",
+  "explanation": "Ohm's Law is the fundamental relationship in electronics, stating that voltage (V) equals current (I) times resistance (R). This simple equation governs how electrical circuits behave. Voltage is the electrical pressure that pushes current through a circuit, measured in volts (V). Current is the flow of electric charge, measured in amperes (A). Resistance opposes current flow, measured in ohms (\u03a9). Understanding this relationship is essential for analyzing any electrical circuit.",
   "examples": [
     {
-      "problem": "A circuit has a 12V battery and a 4Ω resistor. What current flows?",
+      "problem": "A circuit has a 12V battery and a 4\u03a9 resistor. What current flows?",
       "solution": "3A",
       "steps": [
         "V = IR",
-        "12 = I × 4",
+        "12 = I \u00d7 4",
         "I = 12/4 = 3A"
       ]
     },
     {
-      "problem": "A 2A current flows through a 10Ω resistor. What is the voltage?",
+      "problem": "A 2A current flows through a 10\u03a9 resistor. What is the voltage?",
       "solution": "20V",
       "steps": [
         "V = IR",
-        "V = 2 × 10 = 20V"
+        "V = 2 \u00d7 10 = 20V"
       ]
     },
     {
       "problem": "A 9V battery produces 0.5A current. What is the resistance?",
-      "solution": "18Ω",
+      "solution": "18\u03a9",
       "steps": [
         "V = IR",
-        "9 = 0.5 × R",
-        "R = 9/0.5 = 18Ω"
+        "9 = 0.5 \u00d7 R",
+        "R = 9/0.5 = 18\u03a9"
       ]
     }
   ],
   "prerequisites": [],
-  "related": ["power-law", "kirchhoff-voltage"],
+  "related": [
+    "power-law",
+    "kirchhoff-voltage"
+  ],
   "level": "basic-math",
-  "tags": ["electronics", "fundamentals", "ohms-law", "circuits"],
-  "topic": "electronics"
+  "tags": [
+    "electronics",
+    "fundamentals",
+    "ohms-law",
+    "circuits"
+  ],
+  "topic": "electronics",
+  "proof": "V = IR. Empirical law: voltage proportional to current, resistance is constant of proportionality. For ohmic materials, resistance R = \u03c1L/A where \u03c1 is resistivity, L is length, A is cross-sectional area. Power: P = IV = I\u00b2R = V\u00b2/R."
 }

@@ -2,15 +2,15 @@
   "id": "doppler-shift-astronomy",
   "name": "Doppler Shift in Astronomy",
   "latex": "\\frac{\\Delta\\lambda}{\\lambda} = \\frac{v}{c}, \\quad v_{radial} = c\\frac{\\lambda_{obs} - \\lambda_{rest}}{\\lambda_{rest}}",
-  "explanation": "Doppler shift measures radial velocity of astronomical objects. Wavelength shift Δλ/λ = v/c for non-relativistic speeds. Blue shift (shorter wavelength) = approaching. Red shift (longer wavelength) = receding. Used to detect exoplanets (star wobble), measure stellar rotation, and study binary systems. Essential tool for observational astronomy.",
+  "explanation": "Doppler shift measures radial velocity of astronomical objects. Wavelength shift \u0394\u03bb/\u03bb = v/c for non-relativistic speeds. Blue shift (shorter wavelength) = approaching. Red shift (longer wavelength) = receding. Used to detect exoplanets (star wobble), measure stellar rotation, and study binary systems. Essential tool for observational astronomy.",
   "examples": [
     {
       "problem": "Hydrogen line (656.3 nm) observed at 656.5 nm. What is radial velocity?",
       "solution": "91.4 km/s (receding)",
       "steps": [
-        "v = c × (λ_obs - λ_rest) / λ_rest",
-        "v = 3×10⁸ × (656.5 - 656.3) / 656.3",
-        "v = 3×10⁸ × 0.000305 = 9.14×10⁴ m/s = 91.4 km/s"
+        "v = c \u00d7 (\u03bb_obs - \u03bb_rest) / \u03bb_rest",
+        "v = 3\u00d710\u2078 \u00d7 (656.5 - 656.3) / 656.3",
+        "v = 3\u00d710\u2078 \u00d7 0.000305 = 9.14\u00d710\u2074 m/s = 91.4 km/s"
       ]
     },
     {
@@ -24,9 +24,20 @@
       ]
     }
   ],
-  "prerequisites": ["doppler-effect"],
-  "related": ["doppler-effect", "redshift"],
+  "prerequisites": [
+    "doppler-effect"
+  ],
+  "related": [
+    "doppler-effect",
+    "redshift"
+  ],
   "level": "algebra-1",
-  "tags": ["astronomy", "doppler", "spectroscopy", "exoplanets"],
-  "topic": "astronomy"
+  "tags": [
+    "astronomy",
+    "doppler",
+    "spectroscopy",
+    "exoplanets"
+  ],
+  "topic": "astronomy",
+  "proof": "\u0394\u03bb/\u03bb = v/c for non-relativistic speeds. Proof: Source moving toward observer: wavefronts compressed, \u03bb shorter (blue shift). Moving away: wavefronts stretched, \u03bb longer (red shift). For relativistic speeds: z = \u221a[(1+v/c)/(1-v/c)] - 1."
 }

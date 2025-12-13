@@ -2,29 +2,40 @@
   "id": "rc-time-constant",
   "name": "RC Time Constant",
   "latex": "\\tau = RC",
-  "explanation": "The RC time constant (τ = RC) determines how quickly a capacitor charges or discharges through a resistor. After one time constant, a capacitor reaches 63.2% of final voltage when charging, or drops to 36.8% when discharging. After 5 time constants (5τ), the capacitor is considered fully charged or discharged (99.3%). This is fundamental for timing circuits, filters, and signal processing.",
+  "explanation": "The RC time constant (\u03c4 = RC) determines how quickly a capacitor charges or discharges through a resistor. After one time constant, a capacitor reaches 63.2% of final voltage when charging, or drops to 36.8% when discharging. After 5 time constants (5\u03c4), the capacitor is considered fully charged or discharged (99.3%). This is fundamental for timing circuits, filters, and signal processing.",
   "examples": [
     {
-      "problem": "What is the time constant for a 10kΩ resistor and 100μF capacitor?",
+      "problem": "What is the time constant for a 10k\u03a9 resistor and 100\u03bcF capacitor?",
       "solution": "1 second",
       "steps": [
-        "τ = RC",
-        "τ = 10000 × 100×10⁻⁶",
-        "τ = 1 second"
+        "\u03c4 = RC",
+        "\u03c4 = 10000 \u00d7 100\u00d710\u207b\u2076",
+        "\u03c4 = 1 second"
       ]
     },
     {
       "problem": "How long does it take a capacitor to fully charge (5 time constants)?",
-      "solution": "5τ",
+      "solution": "5\u03c4",
       "steps": [
-        "Fully charged ≈ 5 time constants",
-        "Time = 5 × RC"
+        "Fully charged \u2248 5 time constants",
+        "Time = 5 \u00d7 RC"
       ]
     }
   ],
-  "prerequisites": ["capacitor-charging"],
-  "related": ["capacitor-charging", "rl-time-constant"],
+  "prerequisites": [
+    "capacitor-charging"
+  ],
+  "related": [
+    "capacitor-charging",
+    "rl-time-constant"
+  ],
   "level": "algebra-1",
-  "tags": ["electronics", "timing", "rc-circuits", "time-constants"],
-  "topic": "electronics"
+  "tags": [
+    "electronics",
+    "timing",
+    "rc-circuits",
+    "time-constants"
+  ],
+  "topic": "electronics",
+  "proof": "\u03c4 = RC. Time for capacitor to charge to 63.2% (1 - 1/e) of final voltage. From differential equation: dV/dt = (V_s - V)/(RC). Solution: V(t) = V_s(1 - e^(-t/RC)). At t = \u03c4 = RC, V = V_s(1 - 1/e) \u2248 0.632V_s."
 }

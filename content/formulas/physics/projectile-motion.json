@@ -2,30 +2,41 @@
   "id": "projectile-motion",
   "name": "Projectile Motion",
   "latex": "x = v_0\\cos\\theta \\cdot t, \\quad y = v_0\\sin\\theta \\cdot t - \\frac{1}{2}gt^2, \\quad R = \\frac{v_0^2\\sin(2\\theta)}{g}",
-  "explanation": "Projectile motion combines horizontal (constant velocity) and vertical (constant acceleration) motion. Horizontal: x = v₀cos θ × t. Vertical: y = v₀sin θ × t - ½gt². Range (maximum horizontal distance): R = v₀²sin(2θ)/g. Maximum range at 45° angle. Used in ballistics, sports, and understanding two-dimensional motion.",
+  "explanation": "Projectile motion combines horizontal (constant velocity) and vertical (constant acceleration) motion. Horizontal: x = v\u2080cos \u03b8 \u00d7 t. Vertical: y = v\u2080sin \u03b8 \u00d7 t - \u00bdgt\u00b2. Range (maximum horizontal distance): R = v\u2080\u00b2sin(2\u03b8)/g. Maximum range at 45\u00b0 angle. Used in ballistics, sports, and understanding two-dimensional motion.",
   "examples": [
     {
-      "problem": "Projectile launched at 30 m/s, 45° angle. What is range? (g = 9.8 m/s²)",
+      "problem": "Projectile launched at 30 m/s, 45\u00b0 angle. What is range? (g = 9.8 m/s\u00b2)",
       "solution": "91.8 m",
       "steps": [
-        "R = v₀²sin(2θ)/g",
-        "R = 30² × sin(90°)/9.8",
-        "R = 900 × 1 / 9.8 = 91.8 m"
+        "R = v\u2080\u00b2sin(2\u03b8)/g",
+        "R = 30\u00b2 \u00d7 sin(90\u00b0)/9.8",
+        "R = 900 \u00d7 1 / 9.8 = 91.8 m"
       ]
     },
     {
       "problem": "What angle gives maximum range?",
-      "solution": "45°",
+      "solution": "45\u00b0",
       "steps": [
-        "R = v₀²sin(2θ)/g",
-        "Maximum when sin(2θ) = 1",
-        "2θ = 90°, so θ = 45°"
+        "R = v\u2080\u00b2sin(2\u03b8)/g",
+        "Maximum when sin(2\u03b8) = 1",
+        "2\u03b8 = 90\u00b0, so \u03b8 = 45\u00b0"
       ]
     }
   ],
-  "prerequisites": ["kinematic-equations"],
-  "related": ["kinematic-equations", "two-dimensional-motion"],
+  "prerequisites": [
+    "kinematic-equations"
+  ],
+  "related": [
+    "kinematic-equations",
+    "two-dimensional-motion"
+  ],
   "level": "algebra-1",
-  "tags": ["physics", "mechanics", "projectiles", "motion"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "mechanics",
+    "projectiles",
+    "motion"
+  ],
+  "topic": "physics",
+  "proof": "Projectile motion combines horizontal (constant velocity) and vertical (constant acceleration) motion. Horizontal: x = v\u2080cos(\u03b8)t (no acceleration). Vertical: y = v\u2080sin(\u03b8)t - \u00bdgt\u00b2 (gravity acceleration). Range: R = v\u2080\u00b2sin(2\u03b8)/g found by setting y=0 and solving for t, then substituting into x."
 }

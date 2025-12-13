@@ -8,7 +8,7 @@
       "problem": "Simplify: log(2) + log(3)",
       "solution": "log(6)",
       "steps": [
-        "Using product rule: log(2) + log(3) = log(2 × 3)",
+        "Using product rule: log(2) + log(3) = log(2 \u00d7 3)",
         "= log(6)"
       ]
     },
@@ -24,14 +24,24 @@
       "problem": "Simplify: 3 log(5)",
       "solution": "log(125)",
       "steps": [
-        "Using power rule: 3 log(5) = log(5³)",
+        "Using power rule: 3 log(5) = log(5\u00b3)",
         "= log(125)"
       ]
     }
   ],
-  "prerequisites": ["exponent-rules"],
-  "related": ["natural-logarithm", "change-of-base"],
+  "prerequisites": [
+    "exponent-rules"
+  ],
+  "related": [
+    "natural-logarithm",
+    "change-of-base"
+  ],
   "level": "algebra-2",
-  "tags": ["logarithms", "properties", "algebra"],
-  "topic": "logarithms"
+  "tags": [
+    "logarithms",
+    "properties",
+    "algebra"
+  ],
+  "topic": "logarithms",
+  "proof": "Product rule: log(ab) = log(a) + log(b). Proof: Let x = log(a), y = log(b), so a = 10^x, b = 10^y. Then ab = 10^x \u00d7 10^y = 10^(x+y). Taking log: log(ab) = x + y = log(a) + log(b). Quotient rule: log(a/b) = log(a) - log(b). Power rule: log(a^n) = n log(a). Both follow from product rule."
 }

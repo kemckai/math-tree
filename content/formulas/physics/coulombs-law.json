@@ -1,31 +1,40 @@
 {
   "id": "coulombs-law",
   "name": "Coulomb's Law",
-  "latex": "F = k\\frac{q_1 q_2}{r^2}, \\quad k = 8.99 \\times 10^9 \\text{ N⋅m²/C²}",
+  "latex": "F = k\\frac{q_1 q_2}{r^2}, \\quad k = 8.99 \\times 10^9 \\text{ N\u22c5m\u00b2/C\u00b2}",
   "explanation": "Coulomb's law describes the electrostatic force between two point charges. Force is proportional to product of charges and inversely proportional to square of distance. Like charges repel, opposite charges attract. This is the electric equivalent of Newton's law of gravitation. Fundamental to understanding electricity, electric fields, and electromagnetic interactions.",
   "examples": [
     {
-      "problem": "Two 1μC charges are 0.1m apart. What is the force?",
+      "problem": "Two 1\u03bcC charges are 0.1m apart. What is the force?",
       "solution": "0.9 N (repulsive)",
       "steps": [
-        "F = kq₁q₂/r²",
-        "F = (8.99×10⁹) × (10⁻⁶) × (10⁻⁶) / (0.1)²",
-        "F = 8.99×10⁻³ / 0.01 = 0.899 N ≈ 0.9 N"
+        "F = kq\u2081q\u2082/r\u00b2",
+        "F = (8.99\u00d710\u2079) \u00d7 (10\u207b\u2076) \u00d7 (10\u207b\u2076) / (0.1)\u00b2",
+        "F = 8.99\u00d710\u207b\u00b3 / 0.01 = 0.899 N \u2248 0.9 N"
       ]
     },
     {
       "problem": "How does force change if distance doubles?",
       "solution": "Force becomes 1/4 (inverse square law)",
       "steps": [
-        "F ∝ 1/r²",
-        "If r → 2r, then F → F/4",
+        "F \u221d 1/r\u00b2",
+        "If r \u2192 2r, then F \u2192 F/4",
         "Force decreases by factor of 4"
       ]
     }
   ],
   "prerequisites": [],
-  "related": ["electric-field", "gauss-law"],
+  "related": [
+    "electric-field",
+    "gauss-law"
+  ],
   "level": "algebra-1",
-  "tags": ["physics", "electromagnetism", "electricity", "coulomb"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "electromagnetism",
+    "electricity",
+    "coulomb"
+  ],
+  "topic": "physics",
+  "proof": "F = kq\u2081q\u2082/r\u00b2. This is an empirical law discovered by Coulomb. The inverse square law follows from Gauss's law and symmetry: electric field from point charge spreads uniformly in 3D space, so field strength decreases as 1/r\u00b2. Force is proportional to field, so F \u221d 1/r\u00b2."
 }

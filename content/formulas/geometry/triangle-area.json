@@ -6,11 +6,11 @@
   "examples": [
     {
       "problem": "Find the area of a triangle with base 8 cm and height 5 cm",
-      "solution": "20 cm²",
+      "solution": "20 cm\u00b2",
       "steps": [
-        "A = (1/2) × base × height",
-        "A = (1/2) × 8 × 5",
-        "A = (1/2) × 40 = 20 cm²"
+        "A = (1/2) \u00d7 base \u00d7 height",
+        "A = (1/2) \u00d7 8 \u00d7 5",
+        "A = (1/2) \u00d7 40 = 20 cm\u00b2"
       ]
     },
     {
@@ -18,14 +18,25 @@
       "solution": "24 square units",
       "steps": [
         "In a right triangle, the legs are perpendicular:",
-        "A = (1/2) × 6 × 8",
-        "A = (1/2) × 48 = 24 square units"
+        "A = (1/2) \u00d7 6 \u00d7 8",
+        "A = (1/2) \u00d7 48 = 24 square units"
       ]
     }
   ],
-  "prerequisites": ["multiplication", "division"],
-  "related": ["pythagorean-theorem", "triangle-perimeter"],
+  "prerequisites": [
+    "multiplication",
+    "division"
+  ],
+  "related": [
+    "pythagorean-theorem",
+    "triangle-perimeter"
+  ],
   "level": "geometry",
-  "tags": ["triangle", "area", "geometry"],
-  "topic": "triangles"
+  "tags": [
+    "triangle",
+    "area",
+    "geometry"
+  ],
+  "topic": "triangles",
+  "proof": "A = \u00bdbh. Proof: Rectangle with same base and height has area bh. Triangle is half of rectangle (cut rectangle diagonally), so A = \u00bdbh. Heron's formula: A = \u221a[s(s-a)(s-b)(s-c)] where s = (a+b+c)/2, derived from cosine law and area formula."
 }

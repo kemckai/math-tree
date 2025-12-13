@@ -2,31 +2,42 @@
   "id": "partial-derivative",
   "name": "Partial Derivatives",
   "latex": "\\frac{\\partial f}{\\partial x} = \\lim_{h \\to 0} \\frac{f(x+h,y) - f(x,y)}{h}",
-  "explanation": "A partial derivative measures how a multivariable function changes with respect to one variable while holding others constant. The notation ∂f/∂x means 'partial derivative of f with respect to x'. To compute it, treat all other variables as constants and differentiate normally. Partial derivatives are fundamental to multivariable calculus.",
+  "explanation": "A partial derivative measures how a multivariable function changes with respect to one variable while holding others constant. The notation \u2202f/\u2202x means 'partial derivative of f with respect to x'. To compute it, treat all other variables as constants and differentiate normally. Partial derivatives are fundamental to multivariable calculus.",
   "examples": [
     {
-      "problem": "Find ∂f/∂x and ∂f/∂y for f(x,y) = x²y + 3xy²",
-      "solution": "∂f/∂x = 2xy + 3y², ∂f/∂y = x² + 6xy",
+      "problem": "Find \u2202f/\u2202x and \u2202f/\u2202y for f(x,y) = x\u00b2y + 3xy\u00b2",
+      "solution": "\u2202f/\u2202x = 2xy + 3y\u00b2, \u2202f/\u2202y = x\u00b2 + 6xy",
       "steps": [
-        "For ∂f/∂x, treat y as constant:",
-        "∂f/∂x = 2xy + 3y²",
-        "For ∂f/∂y, treat x as constant:",
-        "∂f/∂y = x² + 6xy"
+        "For \u2202f/\u2202x, treat y as constant:",
+        "\u2202f/\u2202x = 2xy + 3y\u00b2",
+        "For \u2202f/\u2202y, treat x as constant:",
+        "\u2202f/\u2202y = x\u00b2 + 6xy"
       ]
     },
     {
-      "problem": "Find ∂z/∂x for z = sin(xy)",
+      "problem": "Find \u2202z/\u2202x for z = sin(xy)",
       "solution": "y cos(xy)",
       "steps": [
         "Treat y as constant, use chain rule:",
-        "∂z/∂x = cos(xy) · y",
+        "\u2202z/\u2202x = cos(xy) \u00b7 y",
         "= y cos(xy)"
       ]
     }
   ],
-  "prerequisites": ["derivative-power-rule", "chain-rule"],
-  "related": ["chain-rule-multivariable", "gradient"],
+  "prerequisites": [
+    "derivative-power-rule",
+    "chain-rule"
+  ],
+  "related": [
+    "chain-rule-multivariable",
+    "gradient"
+  ],
   "level": "calculus-3",
-  "tags": ["multivariable", "partial-derivatives", "calculus"],
-  "topic": "partial-derivatives"
+  "tags": [
+    "multivariable",
+    "partial-derivatives",
+    "calculus"
+  ],
+  "topic": "partial-derivatives",
+  "proof": "\u2202f/\u2202x = lim(h\u21920) [f(x+h,y) - f(x,y)]/h, treating y as constant. Measures rate of change in x-direction. Similarly, \u2202f/\u2202y treats x as constant. Partial derivatives exist if these limits exist. Used in multivariable calculus to find extrema and gradients."
 }

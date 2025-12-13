@@ -2,31 +2,42 @@
   "id": "stellar-luminosity",
   "name": "Stellar Luminosity",
   "latex": "L = 4\\pi R^2 \\sigma T^4, \\quad L = 4\\pi d^2 F",
-  "explanation": "Luminosity (L) is total power radiated by a star. Stefan-Boltzmann law: L = 4πR²σT⁴ where R is radius, T is surface temperature, σ is Stefan-Boltzmann constant. Also: L = 4πd²F where d is distance and F is flux (observed brightness). Luminosity determines stellar classification and evolution. Used to understand stellar structure and measure distances.",
+  "explanation": "Luminosity (L) is total power radiated by a star. Stefan-Boltzmann law: L = 4\u03c0R\u00b2\u03c3T\u2074 where R is radius, T is surface temperature, \u03c3 is Stefan-Boltzmann constant. Also: L = 4\u03c0d\u00b2F where d is distance and F is flux (observed brightness). Luminosity determines stellar classification and evolution. Used to understand stellar structure and measure distances.",
   "examples": [
     {
-      "problem": "Star has radius 2× Sun's radius and temperature 1.5× Sun's temperature. What is luminosity relative to Sun?",
-      "solution": "20.25× solar luminosity",
+      "problem": "Star has radius 2\u00d7 Sun's radius and temperature 1.5\u00d7 Sun's temperature. What is luminosity relative to Sun?",
+      "solution": "20.25\u00d7 solar luminosity",
       "steps": [
-        "L ∝ R²T⁴",
-        "L/L_sun = (R/R_sun)² × (T/T_sun)⁴",
-        "L/L_sun = 2² × 1.5⁴ = 4 × 5.0625 = 20.25"
+        "L \u221d R\u00b2T\u2074",
+        "L/L_sun = (R/R_sun)\u00b2 \u00d7 (T/T_sun)\u2074",
+        "L/L_sun = 2\u00b2 \u00d7 1.5\u2074 = 4 \u00d7 5.0625 = 20.25"
       ]
     },
     {
       "problem": "Why are large, hot stars so luminous?",
-      "solution": "Luminosity depends on both size (R²) and temperature (T⁴), so both factors multiply",
+      "solution": "Luminosity depends on both size (R\u00b2) and temperature (T\u2074), so both factors multiply",
       "steps": [
-        "L = 4πR²σT⁴",
-        "Larger radius: more surface area (R²)",
-        "Hotter: much more power per area (T⁴)",
+        "L = 4\u03c0R\u00b2\u03c3T\u2074",
+        "Larger radius: more surface area (R\u00b2)",
+        "Hotter: much more power per area (T\u2074)",
         "Combined effect is dramatic"
       ]
     }
   ],
-  "prerequisites": ["blackbody-radiation"],
-  "related": ["blackbody-radiation", "stellar-magnitude"],
+  "prerequisites": [
+    "blackbody-radiation"
+  ],
+  "related": [
+    "blackbody-radiation",
+    "stellar-magnitude"
+  ],
   "level": "algebra-2",
-  "tags": ["astronomy", "stars", "luminosity", "stellar-physics"],
-  "topic": "astronomy"
+  "tags": [
+    "astronomy",
+    "stars",
+    "luminosity",
+    "stellar-physics"
+  ],
+  "topic": "astronomy",
+  "proof": "L = 4\u03c0R\u00b2\u03c3T\u2074 (Stefan-Boltzmann law). Total power radiated proportional to surface area (4\u03c0R\u00b2) and fourth power of temperature. Derived from Planck's law and integrating over all wavelengths. Hotter, larger stars are much more luminous."
 }

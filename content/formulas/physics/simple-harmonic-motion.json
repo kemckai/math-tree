@@ -2,14 +2,14 @@
   "id": "simple-harmonic-motion",
   "name": "Simple Harmonic Motion",
   "latex": "x(t) = A\\cos(\\omega t + \\phi), \\quad \\omega = \\sqrt{\\frac{k}{m}}, \\quad T = \\frac{2\\pi}{\\omega}",
-  "explanation": "Simple harmonic motion is periodic oscillation (like mass-spring or pendulum). Position: x(t) = A cos(ωt + φ) where A is amplitude, ω is angular frequency, φ is phase. Angular frequency ω = √(k/m) for spring. Period T = 2π/ω. Used in understanding oscillations, waves, and periodic phenomena. Many systems approximate SHM for small displacements.",
+  "explanation": "Simple harmonic motion is periodic oscillation (like mass-spring or pendulum). Position: x(t) = A cos(\u03c9t + \u03c6) where A is amplitude, \u03c9 is angular frequency, \u03c6 is phase. Angular frequency \u03c9 = \u221a(k/m) for spring. Period T = 2\u03c0/\u03c9. Used in understanding oscillations, waves, and periodic phenomena. Many systems approximate SHM for small displacements.",
   "examples": [
     {
       "problem": "Mass-spring: k = 100 N/m, m = 1 kg. What is period?",
       "solution": "0.628 s",
       "steps": [
-        "ω = √(k/m) = √(100/1) = 10 rad/s",
-        "T = 2π/ω = 2π/10 = 0.628 s"
+        "\u03c9 = \u221a(k/m) = \u221a(100/1) = 10 rad/s",
+        "T = 2\u03c0/\u03c9 = 2\u03c0/10 = 0.628 s"
       ]
     },
     {
@@ -20,9 +20,20 @@
       ]
     }
   ],
-  "prerequisites": ["kinematic-equations"],
-  "related": ["wave-equation", "oscillations"],
+  "prerequisites": [
+    "kinematic-equations"
+  ],
+  "related": [
+    "wave-equation",
+    "oscillations"
+  ],
   "level": "calculus-1",
-  "tags": ["physics", "mechanics", "oscillations", "shm"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "mechanics",
+    "oscillations",
+    "shm"
+  ],
+  "topic": "physics",
+  "proof": "x(t) = A cos(\u03c9t + \u03c6). Solution to differential equation m(d\u00b2x/dt\u00b2) = -kx. Characteristic equation: m\u03bb\u00b2 + k = 0, so \u03bb = \u00b1i\u221a(k/m) = \u00b1i\u03c9. Solution: x = A cos(\u03c9t + \u03c6) where \u03c9 = \u221a(k/m). Period T = 2\u03c0/\u03c9 = 2\u03c0\u221a(m/k)."
 }

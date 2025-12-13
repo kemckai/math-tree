@@ -15,9 +15,20 @@
       ]
     }
   ],
-  "prerequisites": ["ohms-law"],
-  "related": ["kirchhoff-voltage", "nodal-analysis"],
+  "prerequisites": [
+    "ohms-law"
+  ],
+  "related": [
+    "kirchhoff-voltage",
+    "nodal-analysis"
+  ],
   "level": "algebra-1",
-  "tags": ["electronics", "circuit-analysis", "kirchhoff", "laws"],
-  "topic": "electronics"
+  "tags": [
+    "electronics",
+    "circuit-analysis",
+    "kirchhoff",
+    "laws"
+  ],
+  "topic": "electronics",
+  "proof": "\u03a3I_in = \u03a3I_out at any node. Conservation of charge: charge cannot accumulate at node. Current in equals current out. This is Kirchhoff's current law (KCL). Fundamental for circuit analysis."
 }

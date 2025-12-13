@@ -2,37 +2,46 @@
   "id": "stress-strain",
   "name": "Stress and Strain",
   "latex": "\\sigma = \\frac{F}{A}, \\quad \\epsilon = \\frac{\\Delta L}{L_0}, \\quad E = \\frac{\\sigma}{\\epsilon}",
-  "explanation": "Stress (σ) is force per unit area, measuring internal forces in materials. Strain (ε) is the ratio of deformation to original length. Young's modulus (E) is the ratio of stress to strain, measuring material stiffness. These concepts are fundamental to mechanics of materials, used in designing structures, analyzing failures, and selecting appropriate materials.",
+  "explanation": "Stress (\u03c3) is force per unit area, measuring internal forces in materials. Strain (\u03b5) is the ratio of deformation to original length. Young's modulus (E) is the ratio of stress to strain, measuring material stiffness. These concepts are fundamental to mechanics of materials, used in designing structures, analyzing failures, and selecting appropriate materials.",
   "examples": [
     {
-      "problem": "A 10,000N force acts on a 0.01m² cross-section. What is the stress?",
+      "problem": "A 10,000N force acts on a 0.01m\u00b2 cross-section. What is the stress?",
       "solution": "1,000,000 Pa = 1 MPa",
       "steps": [
-        "σ = F/A",
-        "σ = 10,000 / 0.01 = 1,000,000 Pa = 1 MPa"
+        "\u03c3 = F/A",
+        "\u03c3 = 10,000 / 0.01 = 1,000,000 Pa = 1 MPa"
       ]
     },
     {
       "problem": "A 2m rod stretches 0.001m. What is the strain?",
       "solution": "0.0005 or 0.05%",
       "steps": [
-        "ε = ΔL/L₀",
-        "ε = 0.001 / 2 = 0.0005"
+        "\u03b5 = \u0394L/L\u2080",
+        "\u03b5 = 0.001 / 2 = 0.0005"
       ]
     },
     {
       "problem": "Steel has E = 200 GPa. If stress is 100 MPa, what is strain?",
       "solution": "0.0005",
       "steps": [
-        "E = σ/ε",
-        "200×10⁹ = 100×10⁶ / ε",
-        "ε = 100×10⁶ / 200×10⁹ = 0.0005"
+        "E = \u03c3/\u03b5",
+        "200\u00d710\u2079 = 100\u00d710\u2076 / \u03b5",
+        "\u03b5 = 100\u00d710\u2076 / 200\u00d710\u2079 = 0.0005"
       ]
     }
   ],
   "prerequisites": [],
-  "related": ["beam-bending", "material-properties"],
+  "related": [
+    "beam-bending",
+    "material-properties"
+  ],
   "level": "algebra-1",
-  "tags": ["mechanical-engineering", "mechanics-of-materials", "stress", "strain"],
-  "topic": "mechanical-engineering"
+  "tags": [
+    "mechanical-engineering",
+    "mechanics-of-materials",
+    "stress",
+    "strain"
+  ],
+  "topic": "mechanical-engineering",
+  "proof": "\u03c3 = E\u03b5 (Hooke's law). Stress \u03c3 = F/A, strain \u03b5 = \u0394L/L. Young's modulus E = \u03c3/\u03b5. Linear relationship for small deformations. Beyond yield point, material deforms plastically. Derived from atomic bond stretching."
 }

@@ -2,29 +2,38 @@
   "id": "wave-equation",
   "name": "Wave Equation",
   "latex": "v = f\\lambda, \\quad v = \\frac{\\lambda}{T}",
-  "explanation": "Wave speed equals frequency times wavelength (v = fλ). Frequency (f) is cycles per second (Hz), wavelength (λ) is distance between peaks, period (T) is time for one cycle. This fundamental relationship applies to all waves: sound, light, water waves, and electromagnetic waves. Essential for understanding wave behavior, interference, and resonance.",
+  "explanation": "Wave speed equals frequency times wavelength (v = f\u03bb). Frequency (f) is cycles per second (Hz), wavelength (\u03bb) is distance between peaks, period (T) is time for one cycle. This fundamental relationship applies to all waves: sound, light, water waves, and electromagnetic waves. Essential for understanding wave behavior, interference, and resonance.",
   "examples": [
     {
       "problem": "Sound wave has frequency 440 Hz and wavelength 0.78 m. What is speed?",
       "solution": "343 m/s",
       "steps": [
-        "v = fλ",
-        "v = 440 × 0.78 = 343.2 m/s ≈ 343 m/s"
+        "v = f\u03bb",
+        "v = 440 \u00d7 0.78 = 343.2 m/s \u2248 343 m/s"
       ]
     },
     {
-      "problem": "Light has wavelength 500 nm. What is frequency? (c = 3×10⁸ m/s)",
-      "solution": "6 × 10¹⁴ Hz",
+      "problem": "Light has wavelength 500 nm. What is frequency? (c = 3\u00d710\u2078 m/s)",
+      "solution": "6 \u00d7 10\u00b9\u2074 Hz",
       "steps": [
-        "v = fλ, so f = v/λ",
-        "f = (3×10⁸) / (500×10⁻⁹)",
-        "f = 3×10⁸ / 5×10⁻⁷ = 6×10¹⁴ Hz"
+        "v = f\u03bb, so f = v/\u03bb",
+        "f = (3\u00d710\u2078) / (500\u00d710\u207b\u2079)",
+        "f = 3\u00d710\u2078 / 5\u00d710\u207b\u2077 = 6\u00d710\u00b9\u2074 Hz"
       ]
     }
   ],
   "prerequisites": [],
-  "related": ["doppler-effect", "wave-interference"],
+  "related": [
+    "doppler-effect",
+    "wave-interference"
+  ],
   "level": "algebra-1",
-  "tags": ["physics", "waves", "optics", "sound"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "waves",
+    "optics",
+    "sound"
+  ],
+  "topic": "physics",
+  "proof": "v = f\u03bb. Proof: In one period T, wave travels distance \u03bb (one wavelength). Speed = distance/time = \u03bb/T. Since f = 1/T, we get v = \u03bbf = f\u03bb."
 }

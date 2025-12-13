@@ -2,14 +2,14 @@
   "id": "time-dilation",
   "name": "Time Dilation",
   "latex": "\\Delta t = \\gamma\\Delta t_0, \\quad \\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}",
-  "explanation": "Time dilation: moving clocks run slower. Time interval in moving frame (Δt) equals proper time (Δt₀) times Lorentz factor γ. This is a real effect, not an illusion - confirmed by experiments with atomic clocks and particle accelerators. Explains why muons reach Earth's surface (they live longer in our frame). Fundamental to special relativity.",
+  "explanation": "Time dilation: moving clocks run slower. Time interval in moving frame (\u0394t) equals proper time (\u0394t\u2080) times Lorentz factor \u03b3. This is a real effect, not an illusion - confirmed by experiments with atomic clocks and particle accelerators. Explains why muons reach Earth's surface (they live longer in our frame). Fundamental to special relativity.",
   "examples": [
     {
-      "problem": "Muon lifetime is 2.2μs in rest frame. If moving at 0.99c, what is lifetime in lab frame?",
-      "solution": "15.6 μs",
+      "problem": "Muon lifetime is 2.2\u03bcs in rest frame. If moving at 0.99c, what is lifetime in lab frame?",
+      "solution": "15.6 \u03bcs",
       "steps": [
-        "γ = 1/√(1 - 0.99²) = 1/√(1 - 0.9801) = 1/√0.0199 = 7.09",
-        "Δt = γΔt₀ = 7.09 × 2.2 = 15.6 μs"
+        "\u03b3 = 1/\u221a(1 - 0.99\u00b2) = 1/\u221a(1 - 0.9801) = 1/\u221a0.0199 = 7.09",
+        "\u0394t = \u03b3\u0394t\u2080 = 7.09 \u00d7 2.2 = 15.6 \u03bcs"
       ]
     },
     {
@@ -23,9 +23,20 @@
       ]
     }
   ],
-  "prerequisites": ["relativistic-energy"],
-  "related": ["relativistic-energy", "length-contraction"],
+  "prerequisites": [
+    "relativistic-energy"
+  ],
+  "related": [
+    "relativistic-energy",
+    "length-contraction"
+  ],
   "level": "calculus-2",
-  "tags": ["physics", "relativity", "time-dilation", "special-relativity"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "relativity",
+    "time-dilation",
+    "special-relativity"
+  ],
+  "topic": "physics",
+  "proof": "\u0394t = \u03b3\u0394t\u2080 where \u03b3 = 1/\u221a(1-v\u00b2/c\u00b2). Derived from Lorentz transformations. Light clock: photon bouncing between mirrors. In moving frame, path is longer (hypotenuse), so time runs slower. Confirmed by experiments with atomic clocks and muons."
 }

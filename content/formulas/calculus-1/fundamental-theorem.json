@@ -5,25 +5,36 @@
   "explanation": "The Fundamental Theorem of Calculus connects differentiation and integration. Part 1 states that if F is an antiderivative of f, then the definite integral from a to b equals F(b) - F(a). This allows us to evaluate definite integrals without using Riemann sums. It's called 'fundamental' because it establishes the deep relationship between these two main operations of calculus.",
   "examples": [
     {
-      "problem": "Evaluate ∫₀² (3x²) dx",
+      "problem": "Evaluate \u222b\u2080\u00b2 (3x\u00b2) dx",
       "solution": "8",
       "steps": [
-        "Find antiderivative: F(x) = x³ (since d/dx(x³) = 3x²)",
-        "Apply FTC: F(2) - F(0) = 2³ - 0³ = 8 - 0 = 8"
+        "Find antiderivative: F(x) = x\u00b3 (since d/dx(x\u00b3) = 3x\u00b2)",
+        "Apply FTC: F(2) - F(0) = 2\u00b3 - 0\u00b3 = 8 - 0 = 8"
       ]
     },
     {
-      "problem": "Evaluate ∫₁⁴ (2x + 1) dx",
+      "problem": "Evaluate \u222b\u2081\u2074 (2x + 1) dx",
       "solution": "18",
       "steps": [
-        "Antiderivative: F(x) = x² + x",
+        "Antiderivative: F(x) = x\u00b2 + x",
         "F(4) - F(1) = (16 + 4) - (1 + 1) = 20 - 2 = 18"
       ]
     }
   ],
-  "prerequisites": ["basic-integrals", "derivative-power-rule"],
-  "related": ["basic-integrals", "u-substitution"],
+  "prerequisites": [
+    "basic-integrals",
+    "derivative-power-rule"
+  ],
+  "related": [
+    "basic-integrals",
+    "u-substitution"
+  ],
   "level": "calculus-1",
-  "tags": ["calculus", "integration", "theorem"],
-  "topic": "integrals"
+  "tags": [
+    "calculus",
+    "integration",
+    "theorem"
+  ],
+  "topic": "integrals",
+  "proof": "Part 1: If F(x) = \u222b[a to x] f(t)dt, then F'(x) = f(x). Proof: F'(x) = lim(h\u21920) [F(x+h) - F(x)]/h = lim(h\u21920) [\u222b[a to x+h] f(t)dt - \u222b[a to x] f(t)dt]/h = lim(h\u21920) [\u222b[x to x+h] f(t)dt]/h. By Mean Value Theorem, there exists c in [x, x+h] such that \u222b[x to x+h] f(t)dt = f(c)h. As h\u21920, c\u2192x, so F'(x) = lim(h\u21920) f(c) = f(x). Part 2: If F'(x) = f(x), then \u222b[a to b] f(x)dx = F(b) - F(a). This follows from Part 1 and the definition of antiderivative."
 }

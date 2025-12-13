@@ -8,9 +8,9 @@
       "problem": "Find the sum of the first 10 terms of 3, 7, 11, 15, ...",
       "solution": "210",
       "steps": [
-        "a₁ = 3, d = 4, n = 10",
-        "First find a₁₀ = 3 + (10-1)(4) = 39",
-        "S₁₀ = (10/2)(3 + 39)",
+        "a\u2081 = 3, d = 4, n = 10",
+        "First find a\u2081\u2080 = 3 + (10-1)(4) = 39",
+        "S\u2081\u2080 = (10/2)(3 + 39)",
         "= 5(42) = 210"
       ]
     },
@@ -18,15 +18,25 @@
       "problem": "Find 1 + 2 + 3 + ... + 100",
       "solution": "5050",
       "steps": [
-        "a₁ = 1, a₁₀₀ = 100, n = 100",
-        "S₁₀₀ = (100/2)(1 + 100)",
+        "a\u2081 = 1, a\u2081\u2080\u2080 = 100, n = 100",
+        "S\u2081\u2080\u2080 = (100/2)(1 + 100)",
         "= 50(101) = 5050"
       ]
     }
   ],
-  "prerequisites": ["arithmetic-sequence"],
-  "related": ["arithmetic-sequence", "geometric-sequence"],
+  "prerequisites": [
+    "arithmetic-sequence"
+  ],
+  "related": [
+    "arithmetic-sequence",
+    "geometric-sequence"
+  ],
   "level": "algebra-2",
-  "tags": ["series", "arithmetic", "sum"],
-  "topic": "sequences"
+  "tags": [
+    "series",
+    "arithmetic",
+    "sum"
+  ],
+  "topic": "sequences",
+  "proof": "Sum S_n = n/2(a\u2081 + a_n). Proof: Write series twice, once forward and once backward: S_n = a\u2081 + a\u2082 + ... + a_n, S_n = a_n + a_(n-1) + ... + a\u2081. Add: 2S_n = (a\u2081 + a_n) + (a\u2082 + a_(n-1)) + ... + (a_n + a\u2081). Each pair equals (a\u2081 + a_n) since terms are equidistant from ends. There are n pairs, so 2S_n = n(a\u2081 + a_n), therefore S_n = n/2(a\u2081 + a_n)."
 }

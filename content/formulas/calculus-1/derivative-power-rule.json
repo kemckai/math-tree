@@ -35,9 +35,20 @@
       ]
     }
   ],
-  "prerequisites": ["limit-definition"],
-  "related": ["product-rule", "quotient-rule", "chain-rule"],
+  "prerequisites": [
+    "limit-definition"
+  ],
+  "related": [
+    "product-rule",
+    "quotient-rule",
+    "chain-rule"
+  ],
   "level": "calculus-1",
-  "tags": ["derivatives", "calculus", "power-rule"],
-  "topic": "derivatives"
+  "tags": [
+    "derivatives",
+    "calculus",
+    "power-rule"
+  ],
+  "topic": "derivatives",
+  "proof": "Using the limit definition of derivative: f'(x) = lim(h\u21920) [(x+h)^n - x^n]/h. Apply binomial theorem: (x+h)^n = x^n + nx^(n-1)h + ... + h^n. Subtract x^n: (x+h)^n - x^n = nx^(n-1)h + terms with h\u00b2 or higher. Divide by h: [(x+h)^n - x^n]/h = nx^(n-1) + terms with h. As h\u21920, all terms with h vanish, leaving nx^(n-1). Therefore, d/dx(x^n) = nx^(n-1)."
 }

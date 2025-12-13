@@ -1,31 +1,42 @@
 {
   "id": "lhopitals-rule",
-  "name": "L'Hôpital's Rule",
+  "name": "L'H\u00f4pital's Rule",
   "latex": "\\lim_{x \\to a} \\frac{f(x)}{g(x)} = \\lim_{x \\to a} \\frac{f'(x)}{g'(x)} \\text{ if } \\lim f = \\lim g = 0 \\text{ or } \\pm\\infty",
-  "explanation": "L'Hôpital's rule evaluates limits of indeterminate forms (0/0 or ∞/∞) by taking derivatives of the numerator and denominator. If the limit of f/g is indeterminate, and the limit of f'/g' exists, then they are equal. This powerful technique simplifies many limit calculations that would otherwise be difficult.",
+  "explanation": "L'H\u00f4pital's rule evaluates limits of indeterminate forms (0/0 or \u221e/\u221e) by taking derivatives of the numerator and denominator. If the limit of f/g is indeterminate, and the limit of f'/g' exists, then they are equal. This powerful technique simplifies many limit calculations that would otherwise be difficult.",
   "examples": [
     {
-      "problem": "Find lim(x→0) sin(x)/x",
+      "problem": "Find lim(x\u21920) sin(x)/x",
       "solution": "1",
       "steps": [
         "Form: 0/0 (indeterminate)",
-        "Apply L'Hôpital's: lim(x→0) cos(x)/1",
+        "Apply L'H\u00f4pital's: lim(x\u21920) cos(x)/1",
         "= cos(0) = 1"
       ]
     },
     {
-      "problem": "Find lim(x→∞) x/e^x",
+      "problem": "Find lim(x\u2192\u221e) x/e^x",
       "solution": "0",
       "steps": [
-        "Form: ∞/∞",
-        "Apply L'Hôpital's: lim(x→∞) 1/e^x",
+        "Form: \u221e/\u221e",
+        "Apply L'H\u00f4pital's: lim(x\u2192\u221e) 1/e^x",
         "= 0"
       ]
     }
   ],
-  "prerequisites": ["limit-definition", "derivative-power-rule"],
-  "related": ["limit-definition", "limit-rules"],
+  "prerequisites": [
+    "limit-definition",
+    "derivative-power-rule"
+  ],
+  "related": [
+    "limit-definition",
+    "limit-rules"
+  ],
   "level": "calculus-1",
-  "tags": ["limits", "lhopital", "indeterminate"],
-  "topic": "limits"
+  "tags": [
+    "limits",
+    "lhopital",
+    "indeterminate"
+  ],
+  "topic": "limits",
+  "proof": "If lim f(x)/g(x) gives 0/0 or \u221e/\u221e, and f'(x)/g'(x) exists, then lim f(x)/g(x) = lim f'(x)/g'(x). Proof uses Mean Value Theorem: f(x)/g(x) = [f(x) - f(a)]/[g(x) - g(a)] = f'(c)/g'(c) for some c between a and x. As x \u2192 a, c \u2192 a, so limit equals f'(a)/g'(a) if derivatives exist."
 }

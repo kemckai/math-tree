@@ -9,7 +9,7 @@
       "solution": "(0, 0, 1)",
       "steps": [
         "Using determinant method:",
-        "i(0·0 - 0·1) - j(1·0 - 0·0) + k(1·1 - 0·0)",
+        "i(0\u00b70 - 0\u00b71) - j(1\u00b70 - 0\u00b70) + k(1\u00b71 - 0\u00b70)",
         "= 0i - 0j + 1k",
         "= (0, 0, 1)"
       ]
@@ -20,13 +20,23 @@
       "steps": [
         "In 3D: a = (3, 1, 0), b = (1, 2, 0)",
         "Cross product magnitude = area",
-        "|a × b| = |(0, 0, 3·2 - 1·1)| = |(0, 0, 5)| = 5"
+        "|a \u00d7 b| = |(0, 0, 3\u00b72 - 1\u00b71)| = |(0, 0, 5)| = 5"
       ]
     }
   ],
-  "prerequisites": ["dot-product"],
-  "related": ["dot-product", "vector-magnitude"],
+  "prerequisites": [
+    "dot-product"
+  ],
+  "related": [
+    "dot-product",
+    "vector-magnitude"
+  ],
   "level": "calculus-3",
-  "tags": ["vectors", "cross-product", "multivariable"],
-  "topic": "vectors"
+  "tags": [
+    "vectors",
+    "cross-product",
+    "multivariable"
+  ],
+  "topic": "vectors",
+  "proof": "a \u00d7 b = |a||b|sin(\u03b8)n\u0302 where n\u0302 is unit vector perpendicular to both. Magnitude equals area of parallelogram formed by vectors. Direction given by right-hand rule. Component form: (a_yb_z - a_zb_y, a_zb_x - a_xb_z, a_xb_y - a_yb_x)."
 }

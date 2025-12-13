@@ -5,12 +5,12 @@
   "explanation": "PID (Proportional-Integral-Derivative) controllers are the most common feedback controllers. P term responds to current error (proportional to error). I term eliminates steady-state error (integrates past errors). D term reduces overshoot and oscillations (responds to error rate). Used in temperature control, motor speed control, robotics, and automation. Tuning the three gains (K_p, K_i, K_d) determines system performance.",
   "examples": [
     {
-      "problem": "Temperature controller: error = 5°C, K_p = 2, K_i = 0.5, K_d = 1, error rate = -1°C/s. What is control output?",
+      "problem": "Temperature controller: error = 5\u00b0C, K_p = 2, K_i = 0.5, K_d = 1, error rate = -1\u00b0C/s. What is control output?",
       "solution": "u = 10 + 2.5t - 1 = 9 + 2.5t (simplified, assuming integral term)",
       "steps": [
-        "P term: K_p × e = 2 × 5 = 10",
-        "I term: K_i × ∫e dt (accumulates over time)",
-        "D term: K_d × de/dt = 1 × (-1) = -1",
+        "P term: K_p \u00d7 e = 2 \u00d7 5 = 10",
+        "I term: K_i \u00d7 \u222be dt (accumulates over time)",
+        "D term: K_d \u00d7 de/dt = 1 \u00d7 (-1) = -1",
         "u = 10 + I_term - 1"
       ]
     },
@@ -24,9 +24,20 @@
       ]
     }
   ],
-  "prerequisites": ["derivative-power-rule"],
-  "related": ["feedback-control", "system-stability"],
+  "prerequisites": [
+    "derivative-power-rule"
+  ],
+  "related": [
+    "feedback-control",
+    "system-stability"
+  ],
   "level": "calculus-1",
-  "tags": ["control-systems", "pid", "feedback", "automation"],
-  "topic": "control-systems"
+  "tags": [
+    "control-systems",
+    "pid",
+    "feedback",
+    "automation"
+  ],
+  "topic": "control-systems",
+  "proof": "u(t) = K_p e(t) + K_i \u222be(t)dt + K_d de/dt. Proportional term responds to current error. Integral term eliminates steady-state error (accumulates past errors). Derivative term reduces overshoot (predicts future error). Tuning K_p, K_i, K_d optimizes response."
 }

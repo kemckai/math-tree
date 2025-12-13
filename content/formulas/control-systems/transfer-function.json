@@ -6,11 +6,11 @@
   "examples": [
     {
       "problem": "System: 2y'' + 3y' + y = x. What is transfer function?",
-      "solution": "G(s) = 1/(2s² + 3s + 1)",
+      "solution": "G(s) = 1/(2s\u00b2 + 3s + 1)",
       "steps": [
-        "Take Laplace transform: 2s²Y + 3sY + Y = X",
-        "Factor: Y(2s² + 3s + 1) = X",
-        "G(s) = Y/X = 1/(2s² + 3s + 1)"
+        "Take Laplace transform: 2s\u00b2Y + 3sY + Y = X",
+        "Factor: Y(2s\u00b2 + 3s + 1) = X",
+        "G(s) = Y/X = 1/(2s\u00b2 + 3s + 1)"
       ]
     },
     {
@@ -24,9 +24,20 @@
       ]
     }
   ],
-  "prerequisites": ["derivative-power-rule"],
-  "related": ["system-stability", "bode-plot"],
+  "prerequisites": [
+    "derivative-power-rule"
+  ],
+  "related": [
+    "system-stability",
+    "bode-plot"
+  ],
   "level": "calculus-2",
-  "tags": ["control-systems", "transfer-functions", "frequency-domain", "analysis"],
-  "topic": "control-systems"
+  "tags": [
+    "control-systems",
+    "transfer-functions",
+    "frequency-domain",
+    "analysis"
+  ],
+  "topic": "control-systems",
+  "proof": "G(s) = Y(s)/U(s). Output/input in Laplace domain. For system dx/dt = Ax + Bu, y = Cx, transfer function G(s) = C(sI - A)^(-1)B. Describes system dynamics. Poles determine stability. Used in frequency response analysis."
 }

@@ -5,33 +5,44 @@
   "explanation": "Integration by parts is the integration counterpart to the product rule. It's useful for integrals of products where u-substitution doesn't work. The formula comes from the product rule: d(uv) = u dv + v du, rearranged. Choose u and dv strategically - typically, let u be the part that simplifies when differentiated (like ln x or polynomials).",
   "examples": [
     {
-      "problem": "Find ∫ x e^x dx",
+      "problem": "Find \u222b x e^x dx",
       "solution": "e^x(x - 1) + C",
       "steps": [
         "Let u = x, dv = e^x dx",
         "Then du = dx, v = e^x",
-        "∫ u dv = uv - ∫ v du",
-        "= x e^x - ∫ e^x dx",
+        "\u222b u dv = uv - \u222b v du",
+        "= x e^x - \u222b e^x dx",
         "= x e^x - e^x + C",
         "= e^x(x - 1) + C"
       ]
     },
     {
-      "problem": "Find ∫ x ln(x) dx",
-      "solution": "x²(2 ln(x) - 1)/4 + C",
+      "problem": "Find \u222b x ln(x) dx",
+      "solution": "x\u00b2(2 ln(x) - 1)/4 + C",
       "steps": [
         "Let u = ln(x), dv = x dx",
-        "du = 1/x dx, v = x²/2",
-        "∫ x ln(x) dx = (x²/2)ln(x) - ∫ (x²/2)(1/x) dx",
-        "= (x²/2)ln(x) - (1/2)∫ x dx",
-        "= (x²/2)ln(x) - x²/4 + C",
-        "= x²(2 ln(x) - 1)/4 + C"
+        "du = 1/x dx, v = x\u00b2/2",
+        "\u222b x ln(x) dx = (x\u00b2/2)ln(x) - \u222b (x\u00b2/2)(1/x) dx",
+        "= (x\u00b2/2)ln(x) - (1/2)\u222b x dx",
+        "= (x\u00b2/2)ln(x) - x\u00b2/4 + C",
+        "= x\u00b2(2 ln(x) - 1)/4 + C"
       ]
     }
   ],
-  "prerequisites": ["basic-integrals", "product-rule"],
-  "related": ["partial-fractions", "trigonometric-substitution"],
+  "prerequisites": [
+    "basic-integrals",
+    "product-rule"
+  ],
+  "related": [
+    "partial-fractions",
+    "trigonometric-substitution"
+  ],
   "level": "calculus-2",
-  "tags": ["integration", "by-parts", "advanced"],
-  "topic": "integration-techniques"
+  "tags": [
+    "integration",
+    "by-parts",
+    "advanced"
+  ],
+  "topic": "integration-techniques",
+  "proof": "Derived from product rule: d(uv)/dx = u dv/dx + v du/dx. Rearranging: u dv/dx = d(uv)/dx - v du/dx. Integrating: \u222bu dv = uv - \u222bv du. This is integration by parts formula."
 }

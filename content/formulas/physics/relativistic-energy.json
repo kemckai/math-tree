@@ -2,38 +2,49 @@
   "id": "relativistic-energy",
   "name": "Relativistic Energy",
   "latex": "E = \\gamma mc^2, \\quad \\gamma = \\frac{1}{\\sqrt{1 - v^2/c^2}}, \\quad E^2 = (pc)^2 + (mc^2)^2",
-  "explanation": "Relativistic energy accounts for effects at high speeds. Total energy E = γmc² where γ is Lorentz factor. At rest: E = mc² (Einstein's famous equation). Full equation: E² = (pc)² + (mc²)². As speed approaches light speed, energy approaches infinity. Explains why nothing can exceed light speed and how mass and energy are equivalent.",
+  "explanation": "Relativistic energy accounts for effects at high speeds. Total energy E = \u03b3mc\u00b2 where \u03b3 is Lorentz factor. At rest: E = mc\u00b2 (Einstein's famous equation). Full equation: E\u00b2 = (pc)\u00b2 + (mc\u00b2)\u00b2. As speed approaches light speed, energy approaches infinity. Explains why nothing can exceed light speed and how mass and energy are equivalent.",
   "examples": [
     {
-      "problem": "Particle moves at 0.8c. What is γ?",
+      "problem": "Particle moves at 0.8c. What is \u03b3?",
       "solution": "1.67",
       "steps": [
-        "γ = 1/√(1 - v²/c²)",
-        "γ = 1/√(1 - 0.64) = 1/√0.36 = 1/0.6 = 1.67"
+        "\u03b3 = 1/\u221a(1 - v\u00b2/c\u00b2)",
+        "\u03b3 = 1/\u221a(1 - 0.64) = 1/\u221a0.36 = 1/0.6 = 1.67"
       ]
     },
     {
       "problem": "What is total energy if rest mass energy is 1 MeV?",
       "solution": "1.67 MeV",
       "steps": [
-        "E = γmc²",
-        "E = 1.67 × 1 = 1.67 MeV"
+        "E = \u03b3mc\u00b2",
+        "E = 1.67 \u00d7 1 = 1.67 MeV"
       ]
     },
     {
       "problem": "Why can't anything exceed light speed?",
-      "solution": "Energy required approaches infinity as v → c",
+      "solution": "Energy required approaches infinity as v \u2192 c",
       "steps": [
-        "As v → c, γ → ∞",
-        "E = γmc² → ∞",
+        "As v \u2192 c, \u03b3 \u2192 \u221e",
+        "E = \u03b3mc\u00b2 \u2192 \u221e",
         "Infinite energy required",
         "Impossible to achieve"
       ]
     }
   ],
-  "prerequisites": ["einstein-mass-energy"],
-  "related": ["einstein-mass-energy", "special-relativity"],
+  "prerequisites": [
+    "einstein-mass-energy"
+  ],
+  "related": [
+    "einstein-mass-energy",
+    "special-relativity"
+  ],
   "level": "calculus-2",
-  "tags": ["physics", "relativity", "energy", "einstein"],
-  "topic": "physics"
+  "tags": [
+    "physics",
+    "relativity",
+    "energy",
+    "einstein"
+  ],
+  "topic": "physics",
+  "proof": "E = \u03b3mc\u00b2 derived from Lorentz transformations. In moving frame, momentum p = \u03b3mv. Energy-momentum relation: E\u00b2 = (pc)\u00b2 + (mc\u00b2)\u00b2. At rest (p=0): E = mc\u00b2. For moving particle: E = \u03b3mc\u00b2 where \u03b3 = 1/\u221a(1-v\u00b2/c\u00b2)."
 }

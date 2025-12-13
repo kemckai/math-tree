@@ -5,12 +5,12 @@
   "explanation": "Recursion solves problems by calling the function on smaller instances. Requires: base case (stopping condition) and recursive case (calls itself with smaller input). Used for tree traversal, divide-and-conquer algorithms, and problems with recursive structure. Can be elegant but may be inefficient without memoization. Understanding recursion is essential for advanced algorithms.",
   "examples": [
     {
-      "problem": "Write recursive function to calculate factorial: n! = n × (n-1)!",
-      "solution": "factorial(n) = n == 0 ? 1 : n × factorial(n-1)",
+      "problem": "Write recursive function to calculate factorial: n! = n \u00d7 (n-1)!",
+      "solution": "factorial(n) = n == 0 ? 1 : n \u00d7 factorial(n-1)",
       "steps": [
         "Base case: factorial(0) = 1",
-        "Recursive case: factorial(n) = n × factorial(n-1)",
-        "factorial(5) = 5 × factorial(4) = 5 × 4 × factorial(3) = ... = 120"
+        "Recursive case: factorial(n) = n \u00d7 factorial(n-1)",
+        "factorial(5) = 5 \u00d7 factorial(4) = 5 \u00d7 4 \u00d7 factorial(3) = ... = 120"
       ]
     },
     {
@@ -25,8 +25,17 @@
     }
   ],
   "prerequisites": [],
-  "related": ["dynamic-programming", "binary-tree-traversal"],
+  "related": [
+    "dynamic-programming",
+    "binary-tree-traversal"
+  ],
   "level": "algebra-1",
-  "tags": ["programming", "algorithms", "recursion", "fundamentals"],
-  "topic": "programming"
+  "tags": [
+    "programming",
+    "algorithms",
+    "recursion",
+    "fundamentals"
+  ],
+  "topic": "programming",
+  "proof": "Function calls itself with smaller input. Base case stops recursion. Example: factorial n! = n \u00d7 (n-1)!, with 0! = 1. Fibonacci: F(n) = F(n-1) + F(n-2), with F(0)=0, F(1)=1. Recursion tree shows all calls. Can be optimized with memoization."
 }
