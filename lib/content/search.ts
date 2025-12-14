@@ -1,4 +1,4 @@
-import Fuse from 'fuse.js';
+import Fuse, { type IFuseOptions } from 'fuse.js';
 import { Formula } from '@/types/formula';
 import { getAllFormulas } from './formulas';
 
@@ -14,7 +14,7 @@ export function buildSearchIndex(): Fuse<Formula> {
     formulasCache = getAllFormulas();
   }
   
-  const options: Fuse.IFuseOptions<Formula> = {
+  const options: IFuseOptions<Formula> = {
     keys: [
       { name: 'name', weight: 0.7 },
       { name: 'explanation', weight: 0.3 },
